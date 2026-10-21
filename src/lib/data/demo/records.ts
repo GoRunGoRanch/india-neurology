@@ -88,11 +88,11 @@ function provider(
 const STROKE = ["stroke", "neurorehabilitation"];
 
 export const DEMO_FACILITIES: Facility[] = [
-  facility(1, "DL", "new-delhi", "stroke_centre", ["thrombolysis", "thrombectomy", "ct", "mri", "neuro_icu"], STROKE, ["hi", "en"], "pending"),
+  facility(1, "DL", "new-delhi", "stroke_centre", ["thrombolysis", "thrombectomy", "cerebral_angiography", "aneurysm_treatment", "carotid_stenting", "ct", "mri", "neuro_icu"], STROKE, ["hi", "en"], "pending"),
   facility(2, "MH", "mumbai", "hospital", ["thrombolysis", "ct", "mri", "eeg", "neuro_icu"], ["stroke", "epilepsy", "headache-migraine"], ["mr", "hi", "en"]),
   facility(3, "MH", "pune", "rehab_centre", ["physiotherapy", "speech_therapy"], ["neurorehabilitation", "stroke", "parkinsons"], ["mr", "en"]),
   facility(4, "KA", "bengaluru", "hospital", ["thrombolysis", "ct", "mri", "eeg", "emg_ncs"], ["stroke", "epilepsy", "multiple-sclerosis", "neuropathy"], ["kn", "en", "hi"]),
-  facility(5, "TN", "chennai", "stroke_centre", ["thrombolysis", "thrombectomy", "ct", "mri"], STROKE, ["ta", "en"]),
+  facility(5, "TN", "chennai", "stroke_centre", ["thrombolysis", "thrombectomy", "cerebral_angiography", "aneurysm_treatment", "ct", "mri"], STROKE, ["ta", "en"]),
   facility(6, "KL", "kochi", "hospital", ["ct", "mri", "eeg", "telemedicine"], ["epilepsy", "pediatric-neurology", "dementia"], ["ml", "en"]),
   facility(7, "WB", "kolkata", "clinic", ["eeg", "emg_ncs", "telemedicine"], ["headache-migraine", "neuropathy", "neuromuscular"], ["bn", "hi", "en"]),
   facility(8, "TG", "hyderabad", "hospital", ["thrombolysis", "ct", "mri", "neuro_icu"], ["stroke", "parkinsons", "dementia"], ["te", "hi", "en"]),

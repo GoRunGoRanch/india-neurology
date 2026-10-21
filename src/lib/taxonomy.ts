@@ -25,6 +25,9 @@ export const CONDITIONS: ConditionDef[] = [
 export const SERVICES: { code: string; name: Label }[] = [
   { code: "thrombolysis", name: { en: "Clot-busting treatment (thrombolysis)", hi: "थ्रोम्बोलिसिस (थक्का घोलने का इलाज)" } },
   { code: "thrombectomy", name: { en: "Clot removal (thrombectomy)", hi: "थ्रोम्बेक्टॉमी" } },
+  { code: "cerebral_angiography", name: { en: "Cerebral angiography", hi: "सेरेब्रल एंजियोग्राफ़ी" } },
+  { code: "aneurysm_treatment", name: { en: "Aneurysm coiling / flow diversion", hi: "एन्यूरिज़्म कॉइलिंग / फ़्लो डायवर्शन" } },
+  { code: "carotid_stenting", name: { en: "Carotid / intracranial stenting", hi: "कैरोटिड / इंट्राक्रेनियल स्टेंटिंग" } },
   { code: "ct", name: { en: "CT scan", hi: "सीटी स्कैन" } },
   { code: "mri", name: { en: "MRI", hi: "एमआरआई" } },
   { code: "eeg", name: { en: "EEG", hi: "ईईजी" } },

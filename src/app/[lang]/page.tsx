@@ -62,6 +62,18 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
         <YouTubeFeature t={t} lang={lang} />
       </section>
 
+      {/* Specialist care */}
+      <section className="container-page pb-12 sm:pb-16">
+        <Link href={`/${lang}/care`} className="group grid gap-4 rounded-3xl border border-go-100 bg-go-50 p-6 sm:grid-cols-[auto_1fr_auto] sm:items-center sm:p-8">
+          <span className="grid h-12 w-12 place-items-center rounded-2xl bg-go-600 text-white"><Icon name="brain" className="h-6 w-6" /></span>
+          <span>
+            <span className="block text-xl font-bold sm:text-2xl">{t.care.homeTitle}</span>
+            <span className="mt-1 block text-ink-soft">{t.care.homeBody}</span>
+          </span>
+          <span className="btn-secondary group-hover:bg-white">{t.care.homeCta} →</span>
+        </Link>
+      </section>
+
       {/* Directory preview */}
       <section className="container-page">
         <div className="flex flex-wrap items-end justify-between gap-4">

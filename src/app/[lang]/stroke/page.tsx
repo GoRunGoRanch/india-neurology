@@ -62,7 +62,10 @@ export default function StrokePage({ params }: { params: { lang: Locale } }) {
           <span className="grid h-12 w-12 place-items-center rounded-2xl bg-alert-100 text-alert-600"><Icon name="pin" className="h-6 w-6" /></span>
           <h2 className="mt-4 text-2xl">{s.finderTitle}</h2>
           <p className="mt-2 text-ink-soft">{s.finderBody}</p>
-          <Link href={`/${lang}/find?type=hospital&service=thrombolysis`} className="btn-primary mt-6 self-start">{s.finderCta} →</Link>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link href={`/${lang}/find?type=hospital&service=thrombolysis`} className="btn-primary">{s.finderCta} →</Link>
+            <Link href={`/${lang}/care#thrombectomy`} className="btn-secondary">{t.care.strokeLink}</Link>
+          </div>
         </div>
       </section>
 

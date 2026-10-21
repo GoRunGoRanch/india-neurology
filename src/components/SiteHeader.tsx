@@ -57,6 +57,9 @@ export function SiteHeader({ t, lang }: { t: Dictionary; lang: Locale }) {
                   {i.label}
                 </Link>
               ))}
+              <Link href={`/${lang}/care`} className="rounded-lg px-3 py-3 text-base font-medium hover:bg-slate-100">
+                {t.nav.care}
+              </Link>
               <Link href={`/${lang}/emergency`} className="mt-1 rounded-lg bg-alert-50 px-3 py-3 font-semibold text-alert-700">
                 {t.emergencyBar.whatToDo} — 112
               </Link>

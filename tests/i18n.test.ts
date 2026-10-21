@@ -53,3 +53,17 @@ describe("condition content", () => {
     for (const c of CONDITION_CONTENT) expect(c.redFlags.length).toBeGreaterThan(0);
   });
 });
+
+describe("care page content", async () => {
+  const { CARE_CONTENT } = await import("@/lib/content/care");
+  it("links procedures only to known services", () => {
+    const codes = new Set(SERVICES.map((s) => s.code));
+    for (const p of CARE_CONTENT.procedures) if (p.service) expect(codes.has(p.service)).toBe(true);
+  });
+  it("never claims review without a reviewer and date", () => {
+    if (CARE_CONTENT.reviewStatus === "reviewed") {
+      expect(CARE_CONTENT.reviewer).toBeTruthy();
+      expect(CARE_CONTENT.reviewedAt).toBeTruthy();
+    }
+  });
+});
