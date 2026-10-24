@@ -37,6 +37,7 @@ export function YouTubeFeature({ t, lang }: { t: Dictionary; lang: Locale }) {
             <Icon name="play" className="h-4 w-4" />
             {t.home.featuredCta}
           </a>
+          <a href={site.youtubeShortsUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary">{t.learn.allShorts}</a>
           <Link href={`/${lang}/stroke`} className="btn-secondary">{t.home.featuredSecondary}</Link>
         </div>
       </div>

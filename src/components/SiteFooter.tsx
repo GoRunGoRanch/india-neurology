@@ -19,6 +19,7 @@ export function SiteFooter({ t, lang }: { t: Dictionary; lang: Locale }) {
               <li key={i.href}><Link href={i.href} className="hover:text-ink">{i.label}</Link></li>
             ))}
             <li><Link href={`/${lang}/care`} className="hover:text-ink">{t.nav.care}</Link></li>
+            <li><Link href={`/${lang}/stroke-tool`} className="hover:text-ink">{t.nav.strokeTool}</Link></li>
             <li><Link href={`/${lang}/emergency`} className="hover:text-ink">{t.emergency.title}</Link></li>
           </ul>
         </div>

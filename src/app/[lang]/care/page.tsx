@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Icon } from "@/components/Icon";
+import { StrokeToolCard } from "@/components/StrokeToolCard";
 import { CARE_CONTENT as c } from "@/lib/content/care";
 import { formatDate, getDictionary, type Locale } from "@/lib/i18n";
 import { site } from "@/lib/site";
@@ -93,6 +94,8 @@ export default function CarePage({ params }: { params: { lang: Locale } }) {
             ))}
           </div>
         </section>
+
+        <StrokeToolCard t={t} lang={lang} />
 
         <div className="grid gap-4 md:grid-cols-2" lang="en">
           <section className="card border-alert-100 bg-alert-50">

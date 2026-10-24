@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Icon } from "@/components/Icon";
+import { ShortsGrid } from "@/components/ShortsGrid";
+import { BRAIN_HEALTH_SHORTS, STROKE_SHORTS } from "@/lib/content/shorts";
 import { YouTubeFeature } from "@/components/YouTubeFeature";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { site } from "@/lib/site";
@@ -28,6 +30,22 @@ export default function LearnPage({ params }: { params: { lang: Locale } }) {
       </header>
 
       <YouTubeFeature t={t} lang={lang} />
+
+      <section>
+        <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <h2 className="text-2xl">{t.learn.shortsTitle}</h2>
+            <p className="mt-1 max-w-2xl text-ink-soft">{t.learn.shortsBody}</p>
+          </div>
+          <a href={site.youtubeShortsUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary">{t.learn.allShorts} <Icon name="external" className="h-4 w-4" /></a>
+        </div>
+        <ShortsGrid shorts={STROKE_SHORTS} playLabel={t.learn.play} />
+      </section>
+
+      <section>
+        <h2 className="mb-6 text-2xl">{t.learn.brainHealthTitle}</h2>
+        <ShortsGrid shorts={BRAIN_HEALTH_SHORTS} playLabel={t.learn.play} />
+      </section>
 
       <section>
         <h2 className="text-2xl">{t.learn.journeysTitle}</h2>

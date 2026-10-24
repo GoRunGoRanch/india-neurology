@@ -7,9 +7,17 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   educationPartner: "KneeTie GoRunGo",
   youtubeChannelUrl: "https://www.youtube.com/c/kneetiegorungo",
+  youtubeShortsUrl: "https://www.youtube.com/c/kneetiegorungo/shorts",
+  founder: {
+    name: "Dr. Viveck Baluja",
+    linkedinUrl: "https://www.linkedin.com/in/viveckbaluja",
+  },
   // Optional: set a YouTube video ID to embed a featured lesson on Home and Learn.
   featuredVideoId: "" as string,
   kneetieSiteUrl: "https://kneetie.in",
+  // StrokeGuide: clinician decision-support tool for the 2026 AHA/ASA AIS guideline
+  // (separate project, ~/strokeguide). Embedded on /[lang]/stroke-tool.
+  strokeToolUrl: "https://kneetie.mobi",
   // Paste the published Roblox experience URL here; the button hides while this is empty.
   robloxGameUrl: "" as string,
   contactEmail: "" as string,

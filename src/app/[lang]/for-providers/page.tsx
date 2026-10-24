@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Icon } from "@/components/Icon";
+import { StrokeToolCard } from "@/components/StrokeToolCard";
 import { getDictionary, type Locale } from "@/lib/i18n";
 
 export function generateMetadata({ params }: { params: { lang: Locale } }): Metadata {
@@ -9,7 +10,8 @@ export function generateMetadata({ params }: { params: { lang: Locale } }): Meta
 
 export default function ForProvidersPage({ params }: { params: { lang: Locale } }) {
   const lang = params.lang;
-  const p = getDictionary(lang).providers;
+  const t = getDictionary(lang);
+  const p = t.providers;
   return (
     <div className="container-page section max-w-3xl space-y-6">
       <h1 className="text-3xl sm:text-4xl">{p.title}</h1>
@@ -28,6 +30,7 @@ export default function ForProvidersPage({ params }: { params: { lang: Locale } 
         <Link href={`/${lang}/report?kind=claim_profile`} className="btn-primary">{p.claimCta}</Link>
         <Link href={`/${lang}/report?kind=new_listing`} className="btn-secondary">{p.newCta}</Link>
       </div>
+      <StrokeToolCard t={t} lang={lang} />
     </div>
   );
 }

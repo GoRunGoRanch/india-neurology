@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FastSteps } from "@/components/FastSteps";
 import { Icon } from "@/components/Icon";
+import { ShortsGrid } from "@/components/ShortsGrid";
+import { StrokeToolCard } from "@/components/StrokeToolCard";
+import { STROKE_SHORTS } from "@/lib/content/shorts";
 import { YouTubeFeature } from "@/components/YouTubeFeature";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { site } from "@/lib/site";
@@ -69,7 +72,22 @@ export default function StrokePage({ params }: { params: { lang: Locale } }) {
         </div>
       </section>
 
+      <section className="container-page pt-6">
+        <StrokeToolCard t={t} lang={lang} />
+      </section>
+
       <section className="container-page section">
+        <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <h2 className="text-2xl sm:text-3xl">{t.learn.shortsTitle}</h2>
+            <p className="mt-1 max-w-2xl text-ink-soft">{t.learn.shortsBody}</p>
+          </div>
+          <a href={site.youtubeShortsUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary">{t.learn.allShorts} <Icon name="external" className="h-4 w-4" /></a>
+        </div>
+        <ShortsGrid shorts={STROKE_SHORTS.slice(0, 5)} playLabel={t.learn.play} />
+      </section>
+
+      <section className="container-page pb-12 sm:pb-16">
         <YouTubeFeature t={t} lang={lang} />
       </section>
     </>

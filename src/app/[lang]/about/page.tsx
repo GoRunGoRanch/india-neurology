@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getDictionary, type Locale } from "@/lib/i18n";
+import { site } from "@/lib/site";
 
 export function generateMetadata({ params }: { params: { lang: Locale } }): Metadata {
   return { title: getDictionary(params.lang).about.title };
@@ -24,6 +25,11 @@ export default function AboutPage({ params }: { params: { lang: Locale } }) {
           <p className="mt-2 text-ink-soft">{b.body}</p>
         </section>
       ))}
+      <section id="founder" className="card scroll-mt-28">
+        <h2 className="text-xl">{a.founderTitle}</h2>
+        <p className="mt-2 text-ink-soft">{a.founderBody}</p>
+        <a href={site.founder.linkedinUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary mt-4">{a.linkedin}</a>
+      </section>
       <p className="text-sm text-ink-muted">{a.educationBy} {t.common.notMedicalAdvice}</p>
     </div>
   );
