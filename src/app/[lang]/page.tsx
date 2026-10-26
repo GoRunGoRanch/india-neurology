@@ -3,6 +3,7 @@ import { ConditionChips } from "@/components/ConditionChips";
 import { Icon } from "@/components/Icon";
 import { LocationSearch } from "@/components/LocationSearch";
 import { ResultCard } from "@/components/ResultCard";
+import { StrokeAppCard } from "@/components/StrokeAppCard";
 import { DemoNotice } from "@/components/Trust";
 import { YouTubeFeature } from "@/components/YouTubeFeature";
 import { repository } from "@/lib/data/repository";
@@ -60,6 +61,11 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
       {/* Featured learning — YouTube channel */}
       <section className="container-page section">
         <YouTubeFeature t={t} lang={lang} />
+      </section>
+
+      {/* KneeTie.in stroke app */}
+      <section className="container-page pb-6">
+        <StrokeAppCard t={t} />
       </section>
 
       {/* Specialist care */}

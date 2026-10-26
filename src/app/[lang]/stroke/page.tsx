@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FastSteps } from "@/components/FastSteps";
 import { Icon } from "@/components/Icon";
 import { ShortsGrid } from "@/components/ShortsGrid";
+import { StrokeAppCard } from "@/components/StrokeAppCard";
 import { StrokeToolCard } from "@/components/StrokeToolCard";
 import { STROKE_SHORTS } from "@/lib/content/shorts";
 import { YouTubeFeature } from "@/components/YouTubeFeature";
@@ -35,6 +36,10 @@ export default function StrokePage({ params }: { params: { lang: Locale } }) {
             <a href={`tel:${site.emergency.national}`} className="btn-alert shrink-0"><Icon name="phone" className="h-4 w-4" />{s.callNow}</a>
           </div>
         </div>
+      </section>
+
+      <section className="container-page pt-6">
+        <StrokeAppCard t={t} />
       </section>
 
       <section className="container-page section">

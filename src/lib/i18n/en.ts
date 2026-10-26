@@ -191,6 +191,15 @@ const en = {
     strokeLink: "How thrombectomy and stroke teams work",
     findThrombectomy: "Find centres listing thrombectomy",
   },
+  strokeApp: {
+    eyebrow: "The stroke app for India",
+    title: "KneeTie GoRunGo stroke app",
+    body: "Practise the KneeTie… Go Run Go test, raise a Stroke Alert, and get directions to the nearest stroke centre. Made for Indian families and children, in Hindi and English.",
+    beta: "Beta",
+    cta: "Open the app at KneeTie.in",
+    soon: "Coming soon at KneeTie.in",
+    emergencyNote: "In an emergency, call 112 first — don't wait for any app.",
+  },
   strokeTool: {
     eyebrow: "For healthcare professionals",
     title: "StrokeGuide — acute stroke decision support",
@@ -242,7 +251,6 @@ const en = {
       { title: "Brain health basics", body: "Guides to common brain and nerve conditions." },
     ],
     start: "Start",
-    kneetieSite: "Visit kneetie.in",
     shortsTitle: "Stroke in 60 seconds",
     shortsBody: "Short videos from the KneeTie GoRunGo channel. Watch them in order, from what a stroke is to recovery.",
     brainHealthTitle: "More brain health Shorts",

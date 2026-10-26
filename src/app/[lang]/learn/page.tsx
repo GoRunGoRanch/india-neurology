@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Icon } from "@/components/Icon";
 import { ShortsGrid } from "@/components/ShortsGrid";
+import { StrokeAppCard } from "@/components/StrokeAppCard";
 import { BRAIN_HEALTH_SHORTS, STROKE_SHORTS } from "@/lib/content/shorts";
 import { YouTubeFeature } from "@/components/YouTubeFeature";
 import { getDictionary, type Locale } from "@/lib/i18n";
@@ -25,11 +26,12 @@ export default function LearnPage({ params }: { params: { lang: Locale } }) {
         <div className="mt-6 flex flex-wrap gap-3">
           <a href={site.youtubeChannelUrl} target="_blank" rel="noopener noreferrer" className="btn-alert"><Icon name="play" className="h-4 w-4" />{t.learn.channelCta}</a>
           <a href={`${site.youtubeChannelUrl}?sub_confirmation=1`} target="_blank" rel="noopener noreferrer" className="btn-secondary">{t.learn.subscribe}</a>
-          <a href={site.kneetieSiteUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary">{t.learn.kneetieSite} <Icon name="external" className="h-4 w-4" /></a>
         </div>
       </header>
 
       <YouTubeFeature t={t} lang={lang} />
+
+      <StrokeAppCard t={t} />
 
       <section>
         <div className="mb-6 flex flex-wrap items-end justify-between gap-4">

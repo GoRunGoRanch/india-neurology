@@ -14,7 +14,10 @@ export const site = {
   },
   // Optional: set a YouTube video ID to embed a featured lesson on Home and Learn.
   featuredVideoId: "" as string,
-  kneetieSiteUrl: "https://kneetie.in",
+  // KneeTie GoRunGo stroke app for India (families and children).
+  // On 2026-10-26 kneetie.in showed the app builder's "Upgrade Required" page instead of the
+  // app, so links stay off. Set live: true once the domain serves the app again.
+  strokeApp: { url: "https://kneetie.in", live: false },
   // StrokeGuide: clinician decision-support tool for the 2026 AHA/ASA AIS guideline
   // (separate project, ~/strokeguide). Embedded on /[lang]/stroke-tool.
   strokeToolUrl: "https://kneetie.mobi",

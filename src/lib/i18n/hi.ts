@@ -192,6 +192,15 @@ const hi: Dictionary = {
     strokeLink: "थ्रोम्बेक्टॉमी और स्ट्रोक टीमें कैसे काम करती हैं",
     findThrombectomy: "थ्रोम्बेक्टॉमी बताने वाले केंद्र खोजें",
   },
+  strokeApp: {
+    eyebrow: "भारत के लिए स्ट्रोक ऐप",
+    title: "KneeTie GoRunGo स्ट्रोक ऐप",
+    body: "KneeTie… Go Run Go टेस्ट का अभ्यास करें, स्ट्रोक अलर्ट दें, और पास के स्ट्रोक सेंटर का रास्ता पाएँ। भारतीय परिवारों और बच्चों के लिए, हिंदी और अंग्रेज़ी में।",
+    beta: "बीटा",
+    cta: "KneeTie.in पर ऐप खोलें",
+    soon: "जल्द ही KneeTie.in पर",
+    emergencyNote: "इमरजेंसी में पहले 112 पर कॉल करें — किसी ऐप का इंतज़ार न करें।",
+  },
   strokeTool: {
     eyebrow: "स्वास्थ्य पेशेवरों के लिए",
     title: "StrokeGuide — एक्यूट स्ट्रोक निर्णय सहायता",
@@ -243,7 +252,6 @@ const hi: Dictionary = {
       { title: "दिमाग़ की सेहत की बुनियाद", body: "दिमाग़ और नसों की आम बीमारियों की जानकारी।" },
     ],
     start: "शुरू करें",
-    kneetieSite: "kneetie.in देखें",
     shortsTitle: "60 सेकंड में स्ट्रोक",
     shortsBody: "KneeTie GoRunGo चैनल के छोटे वीडियो। स्ट्रोक क्या है से लेकर रिकवरी तक, क्रम से देखें।",
     brainHealthTitle: "दिमाग़ की सेहत पर और Shorts",
