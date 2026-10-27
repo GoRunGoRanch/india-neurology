@@ -1,12 +1,13 @@
 import { DEMO_FACILITIES, DEMO_PROVIDERS } from "./demo/records";
-import { showCandidates } from "./mode";
-import { PILOT_FACILITIES, PILOT_PROVIDERS } from "./pilot";
+import { directoryMode, reviewMaxAgeDays } from "./mode";
+import { pilotListings } from "./pilot";
+import { fetchDecisions } from "./reviews";
 import { searchListings } from "./search";
 import type { Facility, Listing, Provider, SearchQuery, SearchResult } from "./types";
 
 /**
- * The only data entry point for pages. The MVP uses the demo implementation; a Supabase
- * implementation of this same interface replaces it once verified data exists.
+ * The only data entry point for pages. Listings come from a loader so reviewer decisions
+ * (Supabase) can be applied on each request without a site rebuild.
  */
 export interface DirectoryRepository {
   search(query: SearchQuery): Promise<SearchResult[]>;
@@ -18,32 +19,38 @@ export interface DirectoryRepository {
   usingCandidateData: boolean;
 }
 
-function inMemoryRepository(providers: Provider[], facilities: Facility[], flags: { demo: boolean; candidate: boolean }): DirectoryRepository {
-  const listings: Listing[] = [...providers, ...facilities];
+type Loader = () => Promise<{ providers: Provider[]; facilities: Facility[] }>;
+
+function loaderRepository(load: Loader, flags: { demo: boolean; candidate: boolean }): DirectoryRepository {
   return {
     usingDemoData: flags.demo,
     usingCandidateData: flags.candidate,
     async search(query) {
-      return searchListings(listings, query);
+      const { providers, facilities } = await load();
+      return searchListings([...providers, ...facilities] as Listing[], query);
     },
     async provider(id) {
-      return providers.find((p) => p.id === id) ?? null;
+      return (await load()).providers.find((p) => p.id === id) ?? null;
     },
     async facility(id) {
-      return facilities.find((f) => f.id === id) ?? null;
+      return (await load()).facilities.find((f) => f.id === id) ?? null;
     },
     async facilitiesByIds(ids) {
-      return facilities.filter((f) => ids.includes(f.id));
+      return (await load()).facilities.filter((f) => ids.includes(f.id));
     },
     async providersAtFacility(id) {
-      return providers.filter((p) => p.facilityIds.includes(id));
+      return (await load()).providers.filter((p) => p.facilityIds.includes(id));
     },
   };
 }
 
-export const demoRepository = inMemoryRepository(DEMO_PROVIDERS, DEMO_FACILITIES, { demo: true, candidate: false });
+export const demoRepository = loaderRepository(async () => ({ providers: DEMO_PROVIDERS, facilities: DEMO_FACILITIES }), { demo: true, candidate: false });
 
-/** Real, source-linked pilot records awaiting review. Private builds only (see ./mode). */
-export const pilotRepository = inMemoryRepository(PILOT_PROVIDERS, PILOT_FACILITIES, { demo: false, candidate: true });
+/** Every real candidate with decisions applied. Private builds only (see ./mode). */
+export const pilotRepository = loaderRepository(async () => pilotListings(await fetchDecisions(), "all", reviewMaxAgeDays), { demo: false, candidate: true });
 
-export const repository: DirectoryRepository = showCandidates ? pilotRepository : demoRepository;
+/** Only reviewer-approved claims. */
+export const publishedRepository = loaderRepository(async () => pilotListings(await fetchDecisions(), "verified", reviewMaxAgeDays), { demo: false, candidate: false });
+
+export const repository: DirectoryRepository =
+  directoryMode === "pilot" ? pilotRepository : directoryMode === "published" ? publishedRepository : demoRepository;

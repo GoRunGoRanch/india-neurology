@@ -25,6 +25,9 @@ export interface ClaimView {
   reviewedAt: string | null;
   evidence: Evidence[];
   flags?: string[];
+  reviewer?: string | null;
+  /** What the research said, when a reviewer corrected the value. */
+  originalValue?: string | null;
 }
 
 export interface GeoPoint {

@@ -34,10 +34,14 @@ export function EvidenceList({ claims, t, lang, names }: { claims: ClaimView[]; 
               <span className="font-medium">{claimLabel(c, t, lang, names)}</span>
               {c.value && !["available", "explicit_claim"].includes(c.value) && <span className="text-ink-soft">— {c.value}</span>}
               <ClaimStatusBadge status={c.status} t={t} />
+              {c.reviewer && c.reviewedAt && (
+                <span className="text-xs text-ink-muted">{t.pilot.reviewedBy} {c.reviewer}, {formatDate(c.reviewedAt, lang)}</span>
+              )}
               {c.flags?.map((f) => (
                 <span key={f} className="rounded-full bg-kneetie-50 px-2 py-0.5 text-xs text-kneetie-700">{t.pilot.flag}: {f.replace(/_/g, " ")}</span>
               ))}
             </div>
+            {c.originalValue && <p className="text-xs text-ink-muted">({t.pilot.correctedFrom}: {c.originalValue})</p>}
             {c.evidence.length === 0 ? (
               <p className="text-xs italic text-ink-muted">{t.pilot.noEvidence}</p>
             ) : (

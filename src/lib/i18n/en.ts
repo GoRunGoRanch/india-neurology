@@ -348,6 +348,8 @@ const en = {
       "Unknown. There is no explicit source for this individual. A hospital offering thrombectomy does not mean every doctor there performs it.",
     operatorClaim: "A public source says this doctor performs it. Not yet verified.",
     chain: "Hospital group",
+    reviewedBy: "Reviewed by",
+    correctedFrom: "corrected by the reviewer; the source said",
   },
   review: {
     title: "Reviewer queue",

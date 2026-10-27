@@ -44,17 +44,55 @@ claim means **unknown**, never "not available".
   source failures, not worked around. The merge script drops disallowed hosts.
 - **Stored:** professional information only. No personal phones, emails, photos or ages.
 
-## Reviewer guide (until the dashboard exists)
+## Reviewer dashboard
 
-1. Open the preview's `/en/review` for counts, flagged items, thrombectomy-operator claims and source failures.
-2. Open each profile; check every claim against its linked source.
-3. A thrombectomy claim for a **doctor** needs explicit evidence or direct confirmation from the doctor or
-   hospital. The hospital offering thrombectomy, or a neurointerventional title, is not enough.
-4. Send decisions (approve / reject / correct, with your name and date) to the project owner. They are
-   recorded in `delhi.json` as `status`, `reviewer`, `reviewedAt`; the merge script never overwrites them.
+`/en/review` — works on previews and on kneetie.in once Supabase is connected. Sign-in is by emailed
+one-time link (no passwords), and only accounts the owner invites **and** grants the `verifier` role can
+act. Without Supabase it shows a read-only queue.
 
-The Sprint 3 Supabase reviewer dashboard (secure sign-in, approve/reject buttons, audit log, agent
-submission API) replaces step 4. The schema is already in `supabase/migrations/0001_init.sql`.
+- **Queues:** To review (draft, pending, needs re-check) · Flagged · Thrombectomy · Approved · Rejected · All,
+  plus a hospital filter that also pulls in that hospital's doctors.
+- **Per claim:** Approve, Reject / withdraw, or Needs more checking; an internal note; and a corrected value
+  (saved with Approve; the researched value stays visible in history).
+- **Thrombectomy operator claims** cannot be approved without a note recording the explicit evidence or
+  direct confirmation (who, how, when). Approving a hospital's thrombectomy service never marks its doctors.
+- **Stale:** an approval only holds for the evidence it was made on. If a re-research run changes that
+  evidence, or the approval is older than `REVIEW_MAX_AGE_DAYS` (default 180), the claim drops to
+  "Needs re-check" automatically.
+- **Audit:** every decision is appended to `claim_review_events` by a database trigger; rows in
+  `claim_reviews` cannot be deleted (withdraw = reject). Recent decisions show at the bottom of the page.
+- **Linking:** an approved doctor–hospital affiliation appears on both pages on the next request (cache is
+  revalidated when you act); no site edit or redeploy.
+
+Where decisions show: previews show every candidate with its current status. Production stays on demo data
+until the owner sets `DIRECTORY_MODE=published` on Vercel; then kneetie.in shows **only approved claims** —
+a hospital or doctor appears once its name is approved, a link once the affiliation is approved.
+
+## Supabase setup (owner, ~15 minutes)
+
+1. supabase.com → New project. Region **Mumbai (ap-south-1)**. Keep the database password in your
+   password manager.
+2. SQL Editor → run `supabase/migrations/0001_init.sql`, then `0002_claim_reviews.sql`.
+3. Authentication → Sign In / Providers → Email: keep enabled, **turn off "Allow new users to sign up"**.
+4. Authentication → URL Configuration: Site URL `https://www.kneetie.in`; Redirect URLs:
+   `https://www.kneetie.in/auth/callback`, `https://kneetie.in/auth/callback`,
+   `https://*-knee-tie-go-run-go.vercel.app/auth/callback`, `http://localhost:3000/auth/callback`.
+5. Authentication → Users → **Invite user** with the reviewer's email. Then in SQL Editor (the name you set
+   is shown publicly next to approved claims):
+
+   ```sql
+   insert into users (id, display_name)
+     select id, 'Dr. Viveck Baluja' from auth.users where email = 'REVIEWER_EMAIL'
+     on conflict (id) do update set display_name = excluded.display_name;
+   insert into user_roles (user_id, role_code)
+     select id, 'verifier' from auth.users where email = 'REVIEWER_EMAIL';
+   ```
+6. Project Settings → API: copy the **Project URL** and the **anon public** key into Vercel → india-neurology →
+   Settings → Environment Variables as `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   (all environments), then redeploy. The app never needs the `service_role` key — don't add it anywhere.
+
+Backups: Supabase Pro takes daily backups (restore from Database → Backups). On the free tier, export
+`claim_reviews` and `claim_review_events` (Table editor → Export CSV) after review sessions.
 
 ## Re-running research
 
@@ -71,7 +109,8 @@ too long, a claim is "verified" without a reviewer, or a doctor's thrombectomy s
 - Pilot city (Delhi chosen by default) and any must-have hospitals.
 - Who reviews, and what evidence qualifies as verified.
 - Re-verification interval (suggest 6 months → claims go `stale`).
-- Supabase project + reviewer accounts for the dashboard; budget for scheduled re-checks.
+- Supabase project + reviewer accounts (setup above); budget for scheduled re-checks.
+- When to switch production to `DIRECTORY_MODE=published`.
 - Whether the GitHub repo should be private (it is public now, so candidate data in it is public too).
 
 ## Estimated running costs
