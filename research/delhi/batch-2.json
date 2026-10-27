@@ -1,0 +1,815 @@
+{
+  "agent": "batch-2",
+  "hospitals": [
+    {
+      "key": "max-saket",
+      "name": "Max Super Speciality Hospital, Saket",
+      "chain": "Max Healthcare",
+      "campus": "Saket",
+      "address": null,
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": null,
+      "evidence": [],
+      "services": [],
+      "notes": "Official site returned HTTP 403 to WebFetch; not bypassed. No facts verified from official source. East & West blocks treated as one campus. Lead only (not acceptable evidence): Angels Initiative stroke-network listing (angels-initiative.com/content/max-hospital-saket) describes it as a comprehensive centre performing thrombectomy, address Press Enclave Road, Saket, New Delhi 110017. Needs official confirmation."
+    },
+    {
+      "key": "max-patparganj",
+      "name": "Max Super Speciality Hospital, Patparganj",
+      "chain": "Max Healthcare",
+      "campus": "Patparganj",
+      "address": null,
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": null,
+      "evidence": [],
+      "services": [],
+      "notes": "Official site returned HTTP 403 to WebFetch; not bypassed. No facts verified from official source. Lead only: Angels Initiative listing and Feb-2023 Angels story on door-to-needle times at this campus (angels-initiative.com/angels-community/stories/30-rocks-reducing-dtn-times-max-super-speciality-hospital-patparganj) suggest thrombolysis/thrombectomy capability. Not used as evidence."
+    },
+    {
+      "key": "max-shalimar-bagh",
+      "name": "Max Super Speciality Hospital, Shalimar Bagh",
+      "chain": "Max Healthcare",
+      "campus": "Shalimar Bagh",
+      "address": null,
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": null,
+      "evidence": [],
+      "services": [],
+      "notes": "Official site returned HTTP 403 to WebFetch; not bypassed. No facts verified from official source. Lead only: Angels Initiative listing (angels-initiative.com/content/max-super-speciality-hospital-shalimarbaug) lists it as comprehensive centre (performs thrombectomy). Not used as evidence."
+    },
+    {
+      "key": "blk-max-pusa-road",
+      "name": "BLK-Max Super Speciality Hospital",
+      "chain": "Max Healthcare",
+      "campus": "Pusa Road / Rajinder Nagar",
+      "address": null,
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": null,
+      "evidence": [],
+      "services": [],
+      "notes": "Official site returned HTTP 403 to WebFetch; not bypassed. No facts verified from official source. blkmaxhospital.com also 403. Search snippets of BLK-Max testimonial pages (not fetched) name Dr. Vinit Banga (Associate Director, Neurology & Head of Neurovascular Intervention) in a thrombectomy patient story and Dr. Man Mohan Mehndiratta (Principal Director, Neurology). Not recorded as physicians because no page was actually fetched; reviewer should verify manually."
+    },
+    {
+      "key": "sgrh-rajinder-nagar",
+      "name": "Sir Ganga Ram Hospital",
+      "chain": null,
+      "campus": "Rajinder Nagar",
+      "address": "Sir Ganga Ram Hospital Marg, Rajinder Nagar, New Delhi, Delhi - 110060",
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": "110060",
+      "officialWebsite": "https://sgrh.com/",
+      "officialPhone": "+91-11-4225 4000",
+      "ownership": null,
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://sgrh.com/",
+          "excerpt": "Sir Ganga Ram Hospital Marg, Rajinder Nagar, New Delhi, Delhi - 110060",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "phone",
+          "url": "https://sgrh.com/",
+          "excerpt": "24/7 Helpline: +91-11-4225 4000",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "website",
+          "url": "https://sgrh.com/",
+          "excerpt": "Official homepage of Sir Ganga Ram Hospital.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "ownership",
+          "url": "https://sgrh.com/about-us",
+          "excerpt": "Our unique charitable model, where the Board of Management, comprising eminent doctors, guides the hospital's operations",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://sgrh.com/departments/neurology",
+              "excerpt": "The blockage can be overcome by a medicine called TPA. This process is called as THROMBOLYSIS.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://sgrh.com/departments/interventional_neuroradiology",
+              "excerpt": "Acute stroke interventions (mechanical thrombectormy and intra-arterial thrombolysis)",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "neurointerventional",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://sgrh.com/departments/interventional_neuroradiology",
+              "excerpt": "Department of Interventional Neuroradiology lists acute stroke interventions, aneurysm and transvenous interventions among services.",
+              "kind": "summary",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "stroke_unit",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://sgrh.com/departments/neurology",
+              "excerpt": "It basically serves to shorten the time in which the stroke care is delivered to the victim.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "24x7_stroke",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://sgrh.com/departments/neurology",
+              "excerpt": "The emergency services are available 24/07/365 where all kinds of Neuro emergencies",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "ct",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://sgrh.com/departments/radiology",
+              "excerpt": "CT & MRI division is equipped with 3 Tesla MRI Machine and class of art slice CT scanner.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "mri",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://sgrh.com/departments/radiology",
+              "excerpt": "CT & MRI division is equipped with 3 Tesla MRI Machine and class of art slice CT scanner.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        }
+      ],
+      "notes": "Ownership left null: site mentions a Board of Trustees and a 'charitable model' but does not state legal status (likely trust/society; reviewer to confirm). Stroke-unit excerpt is descriptive text on Neurology page; confirm a dedicated unit exists. Neurology page mentions 'very strong and state of the art Intensive Care Unit' (not neuro-specific, so neuro_icu omitted). Other official numbers: +91 11-351-256-00, +91 11-422-540-00; casualty +91-11-4225 1097/1098/1099."
+    }
+  ],
+  "physicians": [
+    {
+      "key": "manish-chugh-sgrh-rajinder-nagar",
+      "name": "Dr. Manish Chugh",
+      "titles": "MD, MBBS (no institutions listed)",
+      "designation": "Senior Consultant; Chairperson - Department of Interventional Neuro Radiology",
+      "specialty": "interventional_neuroradiology",
+      "subspecialty": null,
+      "profileUrl": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+          "excerpt": "Dr. Manish Chugh",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+          "excerpt": "Senior Consultant; Chairperson - Department of Interventional Neuro Radiology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+          "excerpt": "Department: Interventional Neuroradiology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "titles",
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+          "excerpt": "MD, MBBS (no institutions listed)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "vinay-goel-sgrh-rajinder-nagar",
+      "name": "Dr. Vinay Goel",
+      "titles": "MBBS - (2019) | MD - (2021) | DM - (2023)",
+      "designation": "Associate Consultant",
+      "specialty": "interventional_neuroradiology",
+      "subspecialty": null,
+      "profileUrl": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+          "excerpt": "Dr. Vinay Goel",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+          "excerpt": "Associate Consultant",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+          "excerpt": "Department: Interventional Neuroradiology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "titles",
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+          "excerpt": "MBBS - (2019) | MD - (2021) | DM - (2023)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "ish-anand-sgrh-rajinder-nagar",
+      "name": "Dr. Ish Anand",
+      "titles": "MBBS, DTCD, MD (Medicine), DM (Neurology), FCNE (Cleveland Clinic Foundation)",
+      "designation": "Co-Chairperson",
+      "specialty": "neurology",
+      "subspecialty": "Interests include Stroke",
+      "profileUrl": "https://sgrh.com/doctor-details/neurology/ish-anand",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+          "excerpt": "Dr. Ish Anand",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+          "excerpt": "Co-Chairperson",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+          "excerpt": "Department: Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "titles",
+          "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+          "excerpt": "MBBS, DTCD, MD (Medicine), DM (Neurology), FCNE (Cleveland Clinic Foundation)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "anshu-rohatgi-sgrh-rajinder-nagar",
+      "name": "Dr. Anshu Rohatgi",
+      "titles": "MD, DNB, DM (Neurology)",
+      "designation": "Senior consultant and Co-Chairperson - Department of Neurology",
+      "specialty": "neurology",
+      "subspecialty": "Movement Disorders",
+      "profileUrl": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+          "excerpt": "Dr. Anshu Rohatgi",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+          "excerpt": "Senior consultant and Co-Chairperson - Department of Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+          "excerpt": "Department: Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "titles",
+          "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+          "excerpt": "MD, DNB, DM (Neurology)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "anuradha-batra-sgrh-rajinder-nagar",
+      "name": "Dr. Anuradha Batra(Prof.)",
+      "titles": "M.B.B.S, Md (Medicine), Dnb (Neurology)",
+      "designation": "Senior Consultant And Professor",
+      "specialty": "neurology",
+      "subspecialty": "Stroke, Epilepsy, Parkinson's, Neuromuscular and Gait Disorders",
+      "profileUrl": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+          "excerpt": "Dr. Anuradha Batra(Prof.)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+          "excerpt": "Senior Consultant And Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+          "excerpt": "Department: Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "titles",
+          "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+          "excerpt": "M.B.B.S, Md (Medicine), Dnb (Neurology)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "rajeev-ranjan-sgrh-rajinder-nagar",
+      "name": "Dr. Rajeev Ranjan",
+      "titles": "MBBS, MD, DNB (Neurology)",
+      "designation": "Senior Consultant",
+      "specialty": "neurology",
+      "subspecialty": "Stroke and Nerve Diseases",
+      "profileUrl": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+          "excerpt": "Dr. Rajeev Ranjan",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+          "excerpt": "Senior Consultant",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+          "excerpt": "Department: Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "titles",
+          "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+          "excerpt": "MBBS, MD, DNB (Neurology)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "laxmikant-r-tomar-sgrh-rajinder-nagar",
+      "name": "Dr. Laxmikant R. Tomar",
+      "titles": "MBBS, MD (Medicine), DM (Neurology)",
+      "designation": "Consultant",
+      "specialty": "neurology",
+      "subspecialty": "Stroke",
+      "profileUrl": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+          "excerpt": "Dr. Laxmikant R. Tomar",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+          "excerpt": "Consultant",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+          "excerpt": "Department: Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "titles",
+          "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+          "excerpt": "MBBS, MD (Medicine), DM (Neurology)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "cs-agarwal-sgrh-rajinder-nagar",
+      "name": "Dr. C.S. Agarwal",
+      "titles": "MBBS, MD, DM (AIIMS New Delhi)",
+      "designation": "Emeritus Consultant",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+          "excerpt": "Dr. C.S. Agarwal",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+          "excerpt": "Emeritus Consultant",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+          "excerpt": "Department: Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "titles",
+          "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+          "excerpt": "MBBS, MD, DM (AIIMS New Delhi)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "bharat-rastogi-sgrh-rajinder-nagar",
+      "name": "Dr. Bharat Rastogi",
+      "titles": null,
+      "designation": "Associate Consultant",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+          "excerpt": "Dr. Bharat Rastogi",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+          "excerpt": "Associate Consultant",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+          "excerpt": "Department: Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "affiliations": [
+    {
+      "physicianKey": "manish-chugh-sgrh-rajinder-nagar",
+      "hospitalKey": "sgrh-rajinder-nagar",
+      "role": "Chairperson, Interventional Neuroradiology",
+      "evidence": [
+        {
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+          "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Manish Chugh as Senior Consultant; Chairperson - Department of Interventional Neuro Radiology, Interventional Neuroradiology.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "vinay-goel-sgrh-rajinder-nagar",
+      "hospitalKey": "sgrh-rajinder-nagar",
+      "role": "Associate Consultant, Interventional Neuroradiology",
+      "evidence": [
+        {
+          "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+          "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Vinay Goel as Associate Consultant, Interventional Neuroradiology.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "ish-anand-sgrh-rajinder-nagar",
+      "hospitalKey": "sgrh-rajinder-nagar",
+      "role": "Co-Chairperson, Neurology",
+      "evidence": [
+        {
+          "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+          "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Ish Anand as Co-Chairperson, Neurology.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "anshu-rohatgi-sgrh-rajinder-nagar",
+      "hospitalKey": "sgrh-rajinder-nagar",
+      "role": "Senior Consultant & Co-Chairperson, Neurology",
+      "evidence": [
+        {
+          "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+          "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Anshu Rohatgi as Senior consultant and Co-Chairperson - Department of Neurology, Neurology.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "anuradha-batra-sgrh-rajinder-nagar",
+      "hospitalKey": "sgrh-rajinder-nagar",
+      "role": "Senior Consultant & Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+          "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Anuradha Batra(Prof.) as Senior Consultant And Professor, Neurology.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "rajeev-ranjan-sgrh-rajinder-nagar",
+      "hospitalKey": "sgrh-rajinder-nagar",
+      "role": "Senior Consultant, Neurology",
+      "evidence": [
+        {
+          "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+          "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Rajeev Ranjan as Senior Consultant, Neurology.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "laxmikant-r-tomar-sgrh-rajinder-nagar",
+      "hospitalKey": "sgrh-rajinder-nagar",
+      "role": "Consultant, Neurology",
+      "evidence": [
+        {
+          "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+          "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Laxmikant R. Tomar as Consultant, Neurology.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "cs-agarwal-sgrh-rajinder-nagar",
+      "hospitalKey": "sgrh-rajinder-nagar",
+      "role": "Emeritus Consultant, Neurology",
+      "evidence": [
+        {
+          "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+          "excerpt": "Sir Ganga Ram Hospital profile lists Dr. C.S. Agarwal as Emeritus Consultant, Neurology.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "bharat-rastogi-sgrh-rajinder-nagar",
+      "hospitalKey": "sgrh-rajinder-nagar",
+      "role": "Associate Consultant, Neurology",
+      "evidence": [
+        {
+          "url": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+          "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Bharat Rastogi as Associate Consultant, Neurology.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "procedures": [],
+  "sourceFailures": [
+    {
+      "url": "https://www.maxhealthcare.in/hospital-network/max-super-speciality-hospital-saket",
+      "reason": "HTTP 403 Forbidden (bot block); not bypassed"
+    },
+    {
+      "url": "https://www.maxhealthcare.in/doctor/dr-vipin-walia",
+      "reason": "HTTP 403 Forbidden; all maxhealthcare.in pages appear blocked, so Patparganj/Shalimar Bagh pages and doctor profiles were not attempted further"
+    },
+    {
+      "url": "https://www.blkmaxhospital.com/",
+      "reason": "HTTP 403 Forbidden"
+    },
+    {
+      "url": "https://blkmaxhospital.com/testimonial/thrombectomy-for-brain-stroke-treatment-patient-success-story",
+      "reason": "HTTP 403 Forbidden"
+    },
+    {
+      "url": "news search (timesofindia, hindustantimes, indianexpress, thehindu, ndtv, indiatoday)",
+      "reason": "Domains not accessible to search tool; medicaldialogues/business-standard searches found no campus-specific Max/BLK stroke coverage"
+    }
+  ]
+}

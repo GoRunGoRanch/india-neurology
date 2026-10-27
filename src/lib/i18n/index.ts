@@ -16,5 +16,7 @@ export function formatDate(iso: string, locale: Locale) {
     day: "numeric",
     month: "short",
     year: "numeric",
+    // ISO dates ("2026-10-26") parse as UTC midnight; format in UTC so they don't shift a day.
+    timeZone: "UTC",
   });
 }

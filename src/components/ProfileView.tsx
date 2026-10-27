@@ -3,7 +3,8 @@ import type { ReactNode } from "react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import type { Provenance } from "@/lib/data/types";
 import { Icon } from "./Icon";
-import { DemoBadge, DemoNotice, ReviewedDate, VerificationBadge } from "./Trust";
+import { EvidenceList } from "./EvidenceList";
+import { CandidateBadge, CandidateNotice, DemoBadge, DemoNotice, ReviewedDate, VerificationBadge } from "./Trust";
 
 export function Field({ label, children }: { label: string; children: ReactNode }) {
   return (
@@ -23,20 +24,24 @@ interface Props {
   place: string;
   provenance: Provenance;
   children: ReactNode;
+  /** Facility/provider names for affiliation claims. */
+  names?: Record<string, string>;
 }
 
 // Shared shell for neurologist and hospital profiles: identity, provenance, report/claim.
-export function ProfileView({ t, lang, id, name, kindLabel, place, provenance, children }: Props) {
+export function ProfileView({ t, lang, id, name, kindLabel, place, provenance, children, names }: Props) {
   const reportHref = `/${lang}/report?ref=${encodeURIComponent(id)}`;
   return (
     <article className="container-page section max-w-4xl space-y-6">
       {provenance.isDemo && <DemoNotice t={t} />}
+      {provenance.isCandidate && <CandidateNotice t={t} />}
       <header className="space-y-2">
         <p className="text-sm font-medium text-kneetie-600">{kindLabel}</p>
         <h1 className="text-3xl sm:text-4xl">{name}</h1>
         <p className="flex items-center gap-1.5 text-ink-soft"><Icon name="pin" className="h-4 w-4 text-kneetie-500" />{place}</p>
         <div className="flex flex-wrap items-center gap-2">
           {provenance.isDemo && <DemoBadge t={t} />}
+          {provenance.isCandidate && <CandidateBadge t={t} />}
           <VerificationBadge status={provenance.verificationStatus} t={t} />
           <ReviewedDate iso={provenance.lastVerifiedAt} lang={lang} t={t} />
         </div>
@@ -46,6 +51,8 @@ export function ProfileView({ t, lang, id, name, kindLabel, place, provenance, c
         {children}
         <Field label={t.profile.source}>{provenance.sourceTitle ?? <span className="italic text-ink-muted">{t.common.notVerified}</span>}</Field>
       </dl>
+
+      {provenance.claims && provenance.claims.length > 0 && <EvidenceList claims={provenance.claims} t={t} lang={lang} names={names} />}
 
       <section className="card flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>

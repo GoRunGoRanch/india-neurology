@@ -1,0 +1,5224 @@
+{
+ "pilot": "delhi",
+ "generatedAt": "2026-10-26",
+ "hospitals": [
+  {
+   "key": "aiims-new-delhi",
+   "name": "All India Institute of Medical Sciences, New Delhi",
+   "chain": null,
+   "campus": "Ansari Nagar",
+   "address": "Ansari Nagar, New Delhi",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110029",
+   "officialWebsite": null,
+   "officialPhone": "+91-11-26588500 / 26588700",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.aiims.edu/index.php/en/contact-us-suggestions",
+     "excerpt": "All India Institute of Medical Sciences, Ansari Nagar, New Delhi - 110029",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.aiims.edu/index.php/en/contact-us-suggestions",
+     "excerpt": "Board Number: +91-11-26588500 / 26588700",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://aiims.edu/index.php/en/neurology_intro",
+       "excerpt": "now there are 75 beds including neurointensive care",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.aiims.edu/index.php/en/neurology_radiology_intro",
+       "excerpt": "Neuroimaging & Interventional Neuroradiology department lists a 128-slice CT scanner among its equipment.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.aiims.edu/index.php/en/neurology_radiology_intro",
+       "excerpt": "One 1.5T MR system (GE 450w)",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.aiims.edu/index.php/en/neurology_radiology_intro",
+       "excerpt": "Department has two DSA systems with facilities for rotational angiography & 3-D reconstruction, and trains residents in invasive/neuro-interventional procedures.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty/199-neuro_radiology/12327-dr-s-b-gaikwad,-neuro-_radiology",
+       "excerpt": "Intra-arterial thrombolysis/mechanical thrombectomy for acute ischaemic stroke.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": "2022-01-07",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Ownership left null (no fetched page states it; AIIMS is a central autonomous institute - reviewer to confirm). Thrombectomy evidence is from Dr. Gaikwad's CV page (listed under 'Services started at AIIMS'), last updated 07 Jan 2022 - may be stale; Angels Initiative lists AIIMS as a thrombectomy-performing comprehensive centre (not used as evidence). Neurology intro page says Prof. MV Padma Srivastava took over leadership 1 Feb 2019, but the current faculty list shows Dr Manjari Tripathi as Professor & Head and does not list Padma Srivastava - she was therefore not included. Neuroradiology faculty page may be outdated (Dr. Gaikwad's status should be re-verified). AIIMS Neurosurgery endovascular faculty not researched within time budget.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "safdarjung-vmmc",
+   "name": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+   "chain": null,
+   "campus": null,
+   "address": "NH 48, near AIIMS Hospital, Ansari Nagar West, New Delhi, Delhi",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110029",
+   "officialWebsite": null,
+   "officialPhone": "+91- 011 2616 5060",
+   "ownership": "government",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://vmmc-sjh.mohfw.gov.in/",
+     "excerpt": "H693+H6W, NH 48, near AIIMS Hospital, Ansari Nagar West, New Delhi, Delhi 110029.",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://vmmc-sjh.mohfw.gov.in/",
+     "excerpt": "+91- 011 2616 5060",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "ownership",
+     "url": "https://vmmc-sjh.mohfw.gov.in/",
+     "excerpt": "Official website is hosted on the Ministry of Health & Family Welfare (mohfw.gov.in) domain.",
+     "kind": "summary",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "stroke_unit",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://vmmc-sjh.mohfw.gov.in/neurology",
+       "excerpt": "Neurology department bed list includes 6 Stroke HDU and 2 Stroke ICU beds (47 beds total).",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Neurology dept: Super-Specialty Block, Eighth Floor. No official evidence found for thrombolysis/thrombectomy/DSA; Angels Initiative lists it as a primary stroke centre (not used). Neuroradiology/neurosurgery endovascular faculty not researched. Neurology page says 6 faculty; the 21.07.2025 PDF lists 7.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "gipmer-gb-pant",
+   "name": "Govind Ballabh Pant Institute of Postgraduate Medical Education & Research (GIPMER), erstwhile GB Pant Hospital",
+   "chain": null,
+   "campus": null,
+   "address": null,
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": "government",
+   "evidence": [
+    {
+     "field": "ownership",
+     "url": "https://www.amarujala.com/video/delhi/video-neuro-intervention-cath-lab-inaugurated-at-gb-pant-hospital-2026-02-09",
+     "excerpt": "Amar Ujala (Hindi) describes GB Pant Hospital as run by the Delhi government.",
+     "kind": "summary",
+     "sourceType": "news",
+     "sourceDate": "2026-02-09",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.amarujala.com/video/delhi/video-neuro-intervention-cath-lab-inaugurated-at-gb-pant-hospital-2026-02-09",
+       "excerpt": "Report (Hindi) of inauguration of a neuro intervention cath lab at GB Pant Hospital for conditions including stroke, aneurysms and tumours.",
+       "kind": "summary",
+       "sourceType": "news",
+       "sourceDate": "2026-02-09",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.amarujala.com/video/delhi/video-neuro-intervention-cath-lab-inaugurated-at-gb-pant-hospital-2026-02-09",
+       "excerpt": "Report (Hindi) that a 256-slice CT scanner was started alongside the neuro intervention cath lab.",
+       "kind": "summary",
+       "sourceType": "news",
+       "sourceDate": "2026-02-09",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Official site gbpant.delhi.gov.in unreachable (connection refused/timeout) so address, phone and faculty list not verified from official source. Feb 2026 news also mentions a neuro-surgical ICU (not coded as neuro_icu - reviewer may decide). No source found for thrombectomy being performed. Physicians sourced from ICMR collaborator page (government, undated, (c)2024). Historically MAMC's DM Neurology is housed at GB Pant - not confirmed by a fetched source.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "rml-abvims",
+   "name": "Atal Bihari Vajpayee Institute of Medical Sciences & Dr. Ram Manohar Lohia Hospital",
+   "chain": null,
+   "campus": null,
+   "address": "Baba Kharak Singh Marg, Near Gurudwara Bangla Sahib, Connaught Place, New Delhi",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110001",
+   "officialWebsite": null,
+   "officialPhone": "91-11-23365525",
+   "ownership": "government",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://rmlh.nic.in/Index1.aspx?lsid=1231&lev=1&lid=236&langid=1",
+     "excerpt": "Baba Kharak Singh Marg, Near Gurudwara Bangla Sahib, Connaught Place, New Delhi, Delhi 110001",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://rmlh.nic.in/Index1.aspx?lsid=1231&lev=1&lid=236&langid=1",
+     "excerpt": "EPBAX(telephone exchange) 91-11-23365525 Telephone operator 91-11-23404040",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "ownership",
+     "url": "https://rmlh.nic.in/Index1.aspx?lsid=1231&lev=1&lid=236&langid=1",
+     "excerpt": "(Formerly Willington Hospital) A Central Government Hospital",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://imsrn.icmr.org.in/dr-jyoti-garg/",
+       "excerpt": "ICMR collaborator profile credits Dr. Jyoti Garg with initiating free thrombolytic therapy for stroke patients at RML Hospital ('last four years'; undated).",
+       "kind": "summary",
+       "sourceType": "government",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Emergency lines on official contact page: 91-11-23404902/ 23404903. Neurology scope page (updated 18/12/2024) lists a weekly Stroke Clinic for follow-up - not a stroke unit. Thrombolysis evidence is undated and from ICMR page, not the hospital site - reviewer should confirm. ICMR page for ABVIMS names Dr. K S Anand as Professor of Neurology but he is absent from the current official panel (updated 16/10/2025), so not included. Neurosurgery/radiology endovascular not researched.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "lok-nayak-mamc",
+   "name": "Lok Nayak Hospital (Maulana Azad Medical College)",
+   "chain": null,
+   "campus": null,
+   "address": null,
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [],
+   "services": [],
+   "notes": "No usable official or news evidence obtained. Delhi government sites (mamc.delhi.gov.in, lnjp.delhi.gov.in, lnh.delhi.gov.in, health.delhi.gov.in) were unreachable from this environment. No neurology faculty list found. Reviewer should check whether MAMC neurology services are delivered at GB Pant/GIPMER rather than Lok Nayak.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "max-saket",
+   "name": "Max Super Speciality Hospital, Saket",
+   "chain": "Max Healthcare",
+   "campus": "Saket",
+   "address": null,
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [],
+   "services": [],
+   "notes": "Official site returned HTTP 403 to WebFetch; not bypassed. No facts verified from official source. East & West blocks treated as one campus. Lead only (not acceptable evidence): Angels Initiative stroke-network listing (angels-initiative.com/content/max-hospital-saket) describes it as a comprehensive centre performing thrombectomy, address Press Enclave Road, Saket, New Delhi 110017. Needs official confirmation.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "max-patparganj",
+   "name": "Max Super Speciality Hospital, Patparganj",
+   "chain": "Max Healthcare",
+   "campus": "Patparganj",
+   "address": null,
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [],
+   "services": [],
+   "notes": "Official site returned HTTP 403 to WebFetch; not bypassed. No facts verified from official source. Lead only: Angels Initiative listing and Feb-2023 Angels story on door-to-needle times at this campus (angels-initiative.com/angels-community/stories/30-rocks-reducing-dtn-times-max-super-speciality-hospital-patparganj) suggest thrombolysis/thrombectomy capability. Not used as evidence.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "max-shalimar-bagh",
+   "name": "Max Super Speciality Hospital, Shalimar Bagh",
+   "chain": "Max Healthcare",
+   "campus": "Shalimar Bagh",
+   "address": null,
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [],
+   "services": [],
+   "notes": "Official site returned HTTP 403 to WebFetch; not bypassed. No facts verified from official source. Lead only: Angels Initiative listing (angels-initiative.com/content/max-super-speciality-hospital-shalimarbaug) lists it as comprehensive centre (performs thrombectomy). Not used as evidence.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "blk-max-pusa-road",
+   "name": "BLK-Max Super Speciality Hospital",
+   "chain": "Max Healthcare",
+   "campus": "Pusa Road / Rajinder Nagar",
+   "address": null,
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [],
+   "services": [],
+   "notes": "Official site returned HTTP 403 to WebFetch; not bypassed. No facts verified from official source. blkmaxhospital.com also 403. Search snippets of BLK-Max testimonial pages (not fetched) name Dr. Vinit Banga (Associate Director, Neurology & Head of Neurovascular Intervention) in a thrombectomy patient story and Dr. Man Mohan Mehndiratta (Principal Director, Neurology). Not recorded as physicians because no page was actually fetched; reviewer should verify manually.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "sgrh-rajinder-nagar",
+   "name": "Sir Ganga Ram Hospital",
+   "chain": null,
+   "campus": "Rajinder Nagar",
+   "address": "Sir Ganga Ram Hospital Marg, Rajinder Nagar, New Delhi, Delhi - 110060",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110060",
+   "officialWebsite": "https://sgrh.com/",
+   "officialPhone": "+91-11-4225 4000",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://sgrh.com/",
+     "excerpt": "Sir Ganga Ram Hospital Marg, Rajinder Nagar, New Delhi, Delhi - 110060",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://sgrh.com/",
+     "excerpt": "24/7 Helpline: +91-11-4225 4000",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "website",
+     "url": "https://sgrh.com/",
+     "excerpt": "Official homepage of Sir Ganga Ram Hospital.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "ownership",
+     "url": "https://sgrh.com/about-us",
+     "excerpt": "Our unique charitable model, where the Board of Management, comprising eminent doctors, guides the hospital's operations",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://sgrh.com/departments/neurology",
+       "excerpt": "The blockage can be overcome by a medicine called TPA. This process is called as THROMBOLYSIS.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://sgrh.com/departments/interventional_neuroradiology",
+       "excerpt": "Acute stroke interventions (mechanical thrombectormy and intra-arterial thrombolysis)",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://sgrh.com/departments/interventional_neuroradiology",
+       "excerpt": "Department of Interventional Neuroradiology lists acute stroke interventions, aneurysm and transvenous interventions among services.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_unit",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://sgrh.com/departments/neurology",
+       "excerpt": "It basically serves to shorten the time in which the stroke care is delivered to the victim.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://sgrh.com/departments/neurology",
+       "excerpt": "The emergency services are available 24/07/365 where all kinds of Neuro emergencies",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://sgrh.com/departments/radiology",
+       "excerpt": "CT & MRI division is equipped with 3 Tesla MRI Machine and class of art slice CT scanner.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://sgrh.com/departments/radiology",
+       "excerpt": "CT & MRI division is equipped with 3 Tesla MRI Machine and class of art slice CT scanner.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Ownership left null: site mentions a Board of Trustees and a 'charitable model' but does not state legal status (likely trust/society; reviewer to confirm). Stroke-unit excerpt is descriptive text on Neurology page; confirm a dedicated unit exists. Neurology page mentions 'very strong and state of the art Intensive Care Unit' (not neuro-specific, so neuro_icu omitted). Other official numbers: +91 11-351-256-00, +91 11-422-540-00; casualty +91-11-4225 1097/1098/1099.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "apollo-sarita-vihar",
+   "name": "Indraprastha Apollo Hospitals",
+   "chain": "Apollo Hospitals",
+   "campus": "Sarita Vihar",
+   "address": null,
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap",
+     "excerpt": "Experts at Indraprastha Apollo Hospitals Highlight Urgent Need for Stroke Recognition and Timely Care During Apollo Stroke Awareness Programme (ASAP)",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-24",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "stroke_rehab",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap",
+       "excerpt": "Robotic Neuro-Rehabilitation Unit, designed to accelerate motor recovery",
+       "kind": "verbatim",
+       "sourceType": "news",
+       "sourceDate": "2025-10-24",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap",
+       "excerpt": "64 slice CT and 3 Tesla MRI",
+       "kind": "verbatim",
+       "sourceType": "news",
+       "sourceDate": "2025-10-24",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap",
+       "excerpt": "64 slice CT and 3 Tesla MRI",
+       "kind": "verbatim",
+       "sourceType": "news",
+       "sourceDate": "2025-10-24",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Official apollohospitals.com (all subdomains incl. delhi.apollohospitals.com, mediacdn) returned HTTP 403 (Azure gateway) for every page, so no official evidence could be captured. Only evidence is a NewsVoir press release carried by The Tribune with an 'Advertorial Disclaimer' tag (hospital-supplied content). Search snippets (not fetched/verified) indicated: an Apollo Delhi thrombectomy procedure page exists; Angels Initiative lists the hospital as a comprehensive (thrombectomy-performing) centre with 2024 awards; address in snippets 'Mathura Rd, Sarita Vihar, New Delhi 110076'. Reviewer should confirm address/phone/thrombectomy/stroke unit from the official site manually. Unfetched candidate names seen in search snippets of official profiles: Dr Anoop Kohli (founder co-ordinator, cerebrovascular diseases & stroke unit per snippet), Dr Rakesh Agarwal - not recorded as physicians because pages could not be fetched.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "fortis-shalimar-bagh",
+   "name": "Fortis Hospital, Shalimar Bagh",
+   "chain": "Fortis Healthcare",
+   "campus": "Shalimar Bagh",
+   "address": null,
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://health.medicaldialogues.in/health/94-year-old-man-walks-again-after-complex-stroke-and-thigh-fracture-surgery-at-fortis-shalimar-bagh-153077",
+     "excerpt": "94-Year-Old Man Walks Again After Complex Stroke and Thigh Fracture Surgery at Fortis Shalimar Bagh",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-08-07",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://health.medicaldialogues.in/health/94-year-old-man-walks-again-after-complex-stroke-and-thigh-fracture-surgery-at-fortis-shalimar-bagh-153077",
+       "excerpt": "a CT scan done immediately could not explain the left side weakness of limbs, so an MRI scan was performed",
+       "kind": "verbatim",
+       "sourceType": "news",
+       "sourceDate": "2025-08-07",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://health.medicaldialogues.in/health/94-year-old-man-walks-again-after-complex-stroke-and-thigh-fracture-surgery-at-fortis-shalimar-bagh-153077",
+       "excerpt": "a CT scan done immediately could not explain the left side weakness of limbs, so an MRI scan was performed",
+       "kind": "verbatim",
+       "sourceType": "news",
+       "sourceDate": "2025-08-07",
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "fortishealthcare.com (and workbench.fortishealthcare.com) is behind a Cloudflare bot challenge - every page returned 403; not bypassed. Ownership 'private' is general knowledge of Fortis Healthcare (listed company), not from a fetched source - reviewer to confirm. CT/MRI evidence is from a single patient-case news story. Unfetched search snippets suggested: Dr Jaideep Bansal listed on Fortis site as Principal Director & HOD Neurology at this campus; Fortis site has an 'interventional neurology' doctor listing for this campus; Angels Initiative lists it as a comprehensive (thrombectomy) centre. None recorded as claims because pages could not be fetched. Dr Sonal Gupta (HOD Neuro and Spine Surgery) appears in news but is a neurosurgeon - excluded per brief.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "fortis-vasant-kunj",
+   "name": "Fortis Flt. Lt. Rajan Dhall Hospital, Vasant Kunj",
+   "chain": "Fortis Healthcare",
+   "campus": "Vasant Kunj",
+   "address": null,
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [],
+   "services": [],
+   "notes": "No fetchable evidence: all fortishealthcare.com pages (doctor profiles, news-and-events, specialty listings) returned 403 behind a Cloudflare bot challenge; Angels Initiative page returned empty content. Ownership 'private' is not from a fetched source. Unfetched search snippets (reviewer to verify on official site): Dr Kameshwar Prasad - Principal Director, Neurology; Dr Renu Achtani - Additional Director Neurology (profile reportedly says she offers thrombolysis to eligible stroke patients at this hospital); Dr Dhruv Vikram Zutshi - Additional Director/Senior Consultant Neurology (title inconsistent); Dr Lovelina Singh - Additional Director Neurology (Fortis news item dated 2026-06-27); Dr Madhuri Behari - Neurology (movement disorders). Angels snippet described it as a primary (not comprehensive) stroke centre. Note possible overlap: Dr Dhruv Zutshi also appears in aggregator listings for Fortis Escorts Okhla.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "manipal-dwarka",
+   "name": "Manipal Hospitals Dwarka",
+   "chain": "Manipal Hospitals",
+   "campus": "Dwarka",
+   "address": "Palam Vihar, Sector 6, Dwarka, New Delhi, Delhi 110075",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110075",
+   "officialWebsite": "https://www.manipalhospitals.com/delhi/",
+   "officialPhone": "0114 967 4967",
+   "ownership": "trust",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.manipalhospitals.com/delhi/specialities/neurology/",
+     "excerpt": "Human Care Medical Charitable Trust, Manipal Hospitals, Palam Vihar, Sector 6, Dwarka, New Delhi, Delhi 110075",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "ownership",
+     "url": "https://www.manipalhospitals.com/delhi/specialities/neurology/",
+     "excerpt": "Human Care Medical Charitable Trust, Manipal Hospitals",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.manipalhospitals.com/delhi/",
+     "excerpt": "Appointment Helpline: 0114 967 4967",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "website",
+     "url": "https://www.manipalhospitals.com/delhi/",
+     "excerpt": "Delhi campus homepage labelled 'Dwarka - Delhi NCR' on the official Manipal Hospitals site.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/delhi/specialities/neurology/",
+       "excerpt": "The 3-Tesla MRI is a type of Magnetic Resonance Imaging (MRI).",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/delhi/specialities/neurology/",
+       "excerpt": "CT Scan diagnoses and treats various diseases and conditions, including Traumatic Brain Injury and Stroke.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/delhi/specialities/neurology/",
+       "excerpt": "Neuro Intensive Care is listed as a facility, for patients with brain trauma or disease requiring round-the-clock monitoring.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Phone: hospital homepage also shows 'Dwarka - Delhi NCR: 011-4040 7070'; neurology list page writes helpline as '011 4967 4967' (same number, different formatting). The neurology page lists 'Acute Management of Stroke' and 'Stroke Management' as facilities but gives no detail on thrombolysis/thrombectomy/stroke unit, so those services are not claimed. Neuro-interventional work appears to sit in the Neurosurgery & Neuro-interventional Surgery department (per search snippet, not verified). Angels Initiative listing (comprehensive/thrombectomy centre per search snippet) could not be fetched. Equipment facility pages on the Delhi site may be shared across Manipal Delhi-NCR content; the footer address is Dwarka.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "venkateshwar-dwarka",
+   "name": "Venkateshwar Hospital",
+   "chain": null,
+   "campus": "Dwarka",
+   "address": "Sector 18, Dwarka, New Delhi",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": null,
+   "officialWebsite": "https://www.venkateshwarhospitals.com/",
+   "officialPhone": "+91-11-48-555-555",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.venkateshwarhospitals.com/",
+     "excerpt": "Sector 18, Dwarka, New Delhi, India",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.venkateshwarhospitals.com/",
+     "excerpt": "+91-11-48-555-555; Emergency (24x7): +91-11-48-555-666",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "website",
+     "url": "https://www.venkateshwarhospitals.com/",
+     "excerpt": "Official hospital website homepage.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.venkateshwarhospitals.com/neurology.php",
+       "excerpt": "Strokes (CVA) with TPA Therapy/FCH",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.venkateshwarhospitals.com/neurology.php",
+       "excerpt": "Latest 256 SLICE CT (Computed Axial Tomography) Scan",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.venkateshwarhospitals.com/neurology.php",
+       "excerpt": "3TESLA MRI (Magnetic Resonance Imaging)",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.venkateshwarhospitals.com/neurosurgery.php",
+       "excerpt": "a team of skilled neurointerventionists using state-of-the-art imaging and navigation technologies",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_rehab",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.venkateshwarhospitals.com/neurology.php",
+       "excerpt": "neurorehabilitation techniques for optimal outcomes",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Thrombectomy NOT confirmed on official pages (Dr. Peeyush Tomar's profile lists Mechanical Thrombectomy among neuroendovascular procedures in areas of expertise; Angels Initiative registry lists the hospital as a thrombectomy-performing comprehensive centre, but that is a third-party registry, not used as evidence). Doctor directory PDF is image-only and could not be read. Pincode not shown on homepage. Dr. Debasish Hota (now Batra) previously worked here per his Batra profile.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "holy-family-okhla",
+   "name": "Holy Family Hospital",
+   "chain": null,
+   "campus": "Okhla",
+   "address": "Okhla Road, New Delhi-110025",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110025",
+   "officialWebsite": null,
+   "officialPhone": "011-44020000",
+   "ownership": "trust",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.hfhdelhi.org/",
+     "excerpt": "Okhla Road, New Delhi-110025",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.hfhdelhi.org/",
+     "excerpt": "Enquiry: 011-44020000, 011-35034000; Emergency: 011-44020009, 011-35034009",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "ownership",
+     "url": "https://www.hfhdelhi.org/",
+     "excerpt": "Run by the New Delhi Holy Family Hospital Society, managed by the Delhi Catholic Archdiocese; registered charitable non-profit under Societies Registration Act 1860.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://hfhdelhi.org/specialities/neurology",
+       "excerpt": "including thrombolysis and mechanical thrombectomy for acute stroke management",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://hfhdelhi.org/specialities/neurology",
+       "excerpt": "including thrombolysis and mechanical thrombectomy for acute stroke management",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://hfhdelhi.org/specialities/neurology",
+       "excerpt": "provides 24x7 emergency services",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_rehab",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://hfhdelhi.org/specialities/neurology",
+       "excerpt": "comprehensive rehabilitation programs for patients recovering from strokes",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Ownership is a registered charitable society (not a trust) — mapped to 'trust' as nearest category; reviewer to confirm. 24x7 evidence is department-level emergency services, not stroke-specific. No neurointerventionist identified on the neurology page, so who performs thrombectomy is unknown. Three of four neurologists are listed as Visiting Consultants. | Dr. Kadam Nagpal: A PSRI Hospital URL psrihospital.com/dr-kadam-nagpal/ appears in search results, but the fetched page showed no profile content; PSRI affiliation not recorded.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "batra-tughlakabad",
+   "name": "Batra Hospital & Medical Research Centre",
+   "chain": null,
+   "campus": "Tughlakabad",
+   "address": "1, Tughlakabad Institutional Area, M.B. Road, New Delhi-110062",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110062",
+   "officialWebsite": null,
+   "officialPhone": "011-433-337-37",
+   "ownership": "trust",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.batrahospitaldelhi.org/",
+     "excerpt": "1, Tughlakabad Institutional Area, M.B. Road, New Delhi-110062",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.batrahospitaldelhi.org/",
+     "excerpt": "Phone 75-2013-2013 and 011-433-337-37; Emergency +91-7520132013",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "ownership",
+     "url": "https://www.batrahospitaldelhi.org/",
+     "excerpt": "Established in 1987 by the Ch. Aishi Ram Batra Public Charitable Trust.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.batrahospitaldelhi.org/speciality/batra-neurosciences-centre",
+       "excerpt": "Radiology and minimally invasive techniques are used in neuro-interventional surgery",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.batrahospitaldelhi.org/",
+       "excerpt": "Cardiac Magnetic Resonance Imaging (MRI)",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "MRI evidence is only 'Cardiac MRI' on homepage — reviewer may wish to drop. Hospital-level thrombectomy not stated on official hospital pages; however neurology faculty profiles (Das, Hota, Gupta, Kumar) list mechanical thrombectomy as a special interest/procedure. Homepage states '80 ICU beds, 24x7 Emergency facilities' (general, not stroke-specific). Dr. Rajesh Garg profile says he designed the Neuro ICU (not added as service; reviewer may add). Angels registry lists Batra as thrombectomy-capable (third-party, not used). | Dr. Biplab Das: Profile lists 'Brain Clot Removal (Thrombectomy)' under an endovascular procedure list and 'Comprehensive Stroke Care (Brain clot thrombolysis & clot removal)' under specialization, plus thrombectomy research titles — no sentence stating he performs it. Reviewer may judge this sufficient for an explicit_claim; not created per brief. | Dr. Rajesh Garg: Non-official search snippet suggests he also practises at a private neuro centre in Punjabi Bagh; Batra official site still lists him. | Dr. Nikhil A. Kumar: Profile header says Associate Consultant; body text says 'Consultant – Neurology'.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "psri-saket",
+   "name": "PSRI Hospital (Pushpawati Singhania Research Institute)",
+   "chain": null,
+   "campus": "Saket / Sheikh Sarai",
+   "address": "Press Enclave Marg, Sheikh Sarai II, Near Saket Court, New Delhi - 110017",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110017",
+   "officialWebsite": null,
+   "officialPhone": "91-011-61426142",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://psrihospital.com/",
+     "excerpt": "Press Enclave Marg, Sheikh Sarai II, Near Saket Court, New Delhi - 110017",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://psrihospital.com/",
+     "excerpt": "Landline: 91-011-61426142; Emergency/24-hour helpline: +91 84 84 84 84 17",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://psrihospital.com/specialities/neurology-neurosurgery/",
+       "excerpt": "Dedicated Neuro ICU & Recovery Rooms",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://psrihospital.com/specialities/neurology-neurosurgery/",
+       "excerpt": "1.5 Tesla MRI Machine",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_rehab",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://psrihospital.com/specialities/neurology-neurosurgery/",
+       "excerpt": "Neuro Rehabilitation",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Thrombolysis/thrombectomy not stated at hospital level. Neurology page lists 'Endo Vascular Procedures' as a treatment but no neurointerventionist identified — not added as neurointerventional service. Search results show PSRI profile URLs for Dr. Kadam Nagpal, Dr. Bhargavi Ramanujam, Dr. Rahul Chawla and a Dr. Amit Srivastava (DM Neurology), but fetched pages showed no profile content — possibly former staff; not recorded. Exact official hospital legal name not verified. | Dr. Bhaskar Shukla: Some PSRI pages (international doctor list) show conflicting designations for him. | Dr. Amitabh Gupta: Primarily a general neurosurgeon; included only because profile lists 'Endovascular Interventions' (unspecified). Reviewer may exclude.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "aakash-dwarka",
+   "name": "Aakash Healthcare Super Speciality Hospital",
+   "chain": null,
+   "campus": "Dwarka Sector 3",
+   "address": "Hospital Plot, Road No. 201, Dwarka Sector-3, Dwarka, New Delhi - 110075",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110075",
+   "officialWebsite": null,
+   "officialPhone": "011 4338 8888",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://aakashhealthcare.com/",
+     "excerpt": "Hospital Plot, Road No. 201, Dwarka Sector-3, Dwarka, New Delhi - 110075",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://aakashhealthcare.com/",
+     "excerpt": "011 4338 8888",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://aakashhealthcare.com/neurology-neurosurgery",
+       "excerpt": "Stroke care includes  IV thrombolysis, mechanical thrombectomy",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://aakashhealthcare.com/neurology-neurosurgery",
+       "excerpt": "Stroke care includes  IV thrombolysis, mechanical thrombectomy",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://aakashhealthcare.com/neurology-neurosurgery",
+       "excerpt": "Endovascular Neurosurgery/Interventional Neuroradiology in Cath Lab",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://aakashhealthcare.com/neurology-neurosurgery",
+       "excerpt": "Neurocritical Services in Neuro ICU",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_rehab",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://aakashhealthcare.com/neurology-neurosurgery",
+       "excerpt": "Neuro Rehabilitation through physiotherapy and occupational therapy",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://aakashhealthcare.com/neurology-neurosurgery",
+       "excerpt": "Official neurology page says emergency services are round the clock and names stroke among the neurological crises covered.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-10-26"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Only one neurologist identified on official site (Dr. Madhukar Bhardwaj); team section otherwise neurosurgeons. No named neurointerventionist found; profile page for Dr. Nagesh Chandra (named in testimonials; snippets suggest endovascular aneurysm work) returned blank. Angels registry entry 'Aakaash Hospital, Sector 13 Dwarka' may be a DIFFERENT hospital (Aakash Healthcare is in Sector 3) — do not conflate.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "sbami-paschim-vihar",
+   "name": "Sri Balaji Action Medical Institute",
+   "chain": null,
+   "campus": "Paschim Vihar",
+   "address": "A-4, Paschim Vihar, New Delhi - 110063",
+   "city": "New Delhi",
+   "state": "DL",
+   "pincode": "110063",
+   "officialWebsite": null,
+   "officialPhone": "011-42-888-888",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.actionhospital.in/",
+     "excerpt": "A-4, Paschim Vihar, New Delhi - 110063",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.actionhospital.in/",
+     "excerpt": "Helpline 011-42-888-888; Emergency 011-42-888-999; Ambulance 011-42-888-777",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "services": [],
+   "notes": "Official stroke page (actionhospital.in/speciality/stroke) is generic educational text describing tPA and thrombectomy without stating availability at SBAMI — not used as service evidence. Dr. Balbir Singh Sodhi's official profile states 'Performed 100+ stroke thrombolysis cases' (location not specified) — reviewer may accept as thrombolysis evidence. Neurocritical Care listed as a sub-speciality under critical care. Angels registry lists SBAMI as thrombectomy-performing (third-party, not used). No neurointerventionist identified; advanced aneurysm page has empty doctor list. | Dr. Rajul Aggarwal: Biography spells name 'Dr. Raju Agarwal' and describes him as 'Unit Head & Sr. Consultant in Neurology'. | Dr. Balbir Singh Sodhi: No DM/DNB in Neurology shown; DNB subject not specified. Specialty set to stroke_neurology based on profile focus; reviewer to confirm.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  }
+ ],
+ "physicians": [
+  {
+   "key": "manjari-tripathi-aiims-new-delhi",
+   "name": "Dr Manjari Tripathi",
+   "titles": null,
+   "designation": "Professor & Head, Department of Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Dr Manjari Tripathi - Professor & Head",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "rohit-bhatia-aiims-new-delhi",
+   "name": "Prof Rohit Bhatia",
+   "titles": null,
+   "designation": "Professor, Department of Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Prof Rohit Bhatia - Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "deepti-vibha-aiims-new-delhi",
+   "name": "Dr Deepti Vibha",
+   "titles": null,
+   "designation": "Professor, Department of Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Dr Deepti Vibha - Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "vishnu-vy-aiims-new-delhi",
+   "name": "Dr. Vishnu V.Y",
+   "titles": null,
+   "designation": "Additional Professor, Department of Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Dr. Vishnu V.Y - Additional Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "awadh-kishor-pandit-aiims-new-delhi",
+   "name": "Dr. Awadh Kishor Pandit",
+   "titles": "MBBS, MD, DM; DBT-INCRE-Fellow, Fellowship Neuroendovascular therapy (Japan)",
+   "designation": "Additional Professor, Department of Neurology",
+   "specialty": "stroke_neurology",
+   "subspecialty": "Stroke; interest in interventional neurology",
+   "profileUrl": "https://www.aiims.edu/images/pdf/Departments_Centers/Neurology/Dr%20Awadh.pdf",
+   "evidence": [
+    {
+     "field": "titles",
+     "url": "https://www.aiims.edu/images/pdf/Departments_Centers/Neurology/Dr%20Awadh.pdf",
+     "excerpt": "MBBS, MD, DM DBT-INCRE-Fellow, Fellowship Neuroendovascular therapy (Japan)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Dr. Awadh Kishor Pandit - Additional Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.aiims.edu/images/pdf/Departments_Centers/Neurology/Dr%20Awadh.pdf",
+     "excerpt": "His areas of research are stroke and specially interested in Interventional Neurology.",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "designation_conflict"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "s-b-gaikwad-aiims-new-delhi",
+   "name": "Dr. Shailesh B Gaikwad",
+   "titles": "MD, FNAMS, CCST",
+   "designation": "Professor & Head, Department of Neuroimaging & Interventional Neuroradiology",
+   "specialty": "interventional_neuroradiology",
+   "subspecialty": null,
+   "profileUrl": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty/199-neuro_radiology/12327-dr-s-b-gaikwad,-neuro-_radiology",
+   "evidence": [
+    {
+     "field": "titles",
+     "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty/199-neuro_radiology/12327-dr-s-b-gaikwad,-neuro-_radiology",
+     "excerpt": "Dr. Shailesh B Gaikwad, MD, FNAMS, CCST",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2022-01-07",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+     "excerpt": "Dr. S. B. Gaikwad, Professor & Head",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "possibly_stale"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "ajay-garg-aiims-new-delhi",
+   "name": "Dr. Ajay Garg",
+   "titles": null,
+   "designation": "Professor, Department of Neuroimaging & Interventional Neuroradiology",
+   "specialty": "interventional_neuroradiology",
+   "subspecialty": null,
+   "profileUrl": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+     "excerpt": "Dr. Ajay Garg, Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "leve-joseph-devarajan-aiims-new-delhi",
+   "name": "Dr. Leve Joseph Devarajan S.",
+   "titles": null,
+   "designation": "Additional Professor, Department of Neuroimaging & Interventional Neuroradiology",
+   "specialty": "interventional_neuroradiology",
+   "subspecialty": null,
+   "profileUrl": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+     "excerpt": "Dr. Leve Joseph Devarajan S., Additional Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "bk-bajaj-safdarjung-vmmc",
+   "name": "Dr. B.K Bajaj",
+   "titles": "DM(Neurology)",
+   "designation": "Dir. Prof & HoD, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Dr. B.K Bajaj DM(Neurology) Neurology Dir. Prof & HoD",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "sanghamitra-laskar-safdarjung-vmmc",
+   "name": "Dr. Sanghamitra Laskar",
+   "titles": "DM(Neurology)",
+   "designation": "Associate Professor, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Dr. Sanghamitra Laskar DM(Neurology) Neurology Associate Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "shishir-kumar-chandan-safdarjung-vmmc",
+   "name": "Dr. Shishir Kumar Chandan",
+   "titles": "DM(Neurology)",
+   "designation": "CMO (SAG) & Associate Professor, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Dr. Shishir Kumar Chandan DM(Neurology) Neurology CMO (SAG) & Associate Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "atri-chatterjee-safdarjung-vmmc",
+   "name": "Dr. Atri Chatterjee",
+   "titles": "DM(Neurology)",
+   "designation": "Assistant Professor, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Dr. Atri Chatterjee DM(Neurology) Neurology Assistant Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "deepika-saroha-safdarjung-vmmc",
+   "name": "Dr. Deepika Saroha",
+   "titles": "DM(Neurology)",
+   "designation": "Assistant Professor, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Dr. Deepika Saroha DM(Neurology) Neurology Assistant Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "sumirini-puppala-safdarjung-vmmc",
+   "name": "Dr. Sumirini Puppala",
+   "titles": "DM(Neurology)",
+   "designation": "Assistant Professor, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Dr. Sumirini Puppala DM(Neurology) Neurology Assistant Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "amrita-jagdish-gotur-safdarjung-vmmc",
+   "name": "Dr. Amrita Jagdish Gotur",
+   "titles": "DM(Neurology)",
+   "designation": "Assistant Professor, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Dr. Amrita Jagdish Gotur DM(Neurology) Neurology Assistant Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "jyoti-garg-rml-abvims",
+   "name": "Dr. Jyoti Garg",
+   "titles": "MD DM DNB",
+   "designation": "Professor & HOD, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Interests include stroke (per ICMR profile)",
+   "profileUrl": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+     "excerpt": "Name of Faculty: Dr. Jyoti Garg Designation: Professor & HOD",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-10-16",
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://imsrn.icmr.org.in/dr-jyoti-garg/",
+     "excerpt": "MD DM DNB",
+     "kind": "verbatim",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://imsrn.icmr.org.in/dr-jyoti-garg/",
+     "excerpt": "Her area of interest is vast which includes stroke",
+     "kind": "verbatim",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "ashish-kumar-duggal-rml-abvims",
+   "name": "Dr. Ashish Kumar Duggal",
+   "titles": null,
+   "designation": "Professor (Unit Head), Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+     "excerpt": "Name of Unit Head: Dr. Ashish Kumar Duggal Designation: Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-10-16",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "prashant-kumar-thakur-rml-abvims",
+   "name": "Dr Prashant Kumar Thakur",
+   "titles": null,
+   "designation": "Assistant Professor, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+     "excerpt": "Name of Faculty: Dr Prashant Kumar Thakur Designation: Assistant Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-10-16",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "debashish-chowdhury-gipmer-gb-pant",
+   "name": "Dr. Debashish Chowdhury",
+   "titles": "MD, DM",
+   "designation": "Professor and Head",
+   "specialty": "neurology",
+   "subspecialty": "Headaches and neuroimmunology (per ICMR page)",
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+     "excerpt": "Dr. Debashish Chowdhury, MD, DM ... Professor and Head at GIPMER, Delhi; interests headaches and neuroimmunology.",
+     "kind": "summary",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "not_official_hospital_source"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "arun-kaul-gipmer-gb-pant",
+   "name": "Dr. Arun Kaul",
+   "titles": "MD, DM",
+   "designation": "Professor",
+   "specialty": "stroke_neurology",
+   "subspecialty": "Stroke and neuroimmunology (per ICMR page)",
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "specialty",
+     "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+     "excerpt": "He has a special interest in Stroke and Neuroimmunology.",
+     "kind": "verbatim",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+     "excerpt": "Dr. Arun Kaul, MD, DM, Professor at GIPMER (erstwhile GB Pant Hospital), Delhi.",
+     "kind": "summary",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "not_official_hospital_source"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "manish-chugh-sgrh-rajinder-nagar",
+   "name": "Dr. Manish Chugh",
+   "titles": "MD, MBBS (no institutions listed)",
+   "designation": "Senior Consultant; Chairperson - Department of Interventional Neuro Radiology",
+   "specialty": "interventional_neuroradiology",
+   "subspecialty": null,
+   "profileUrl": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+     "excerpt": "Dr. Manish Chugh",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+     "excerpt": "Senior Consultant; Chairperson - Department of Interventional Neuro Radiology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+     "excerpt": "Department: Interventional Neuroradiology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+     "excerpt": "MD, MBBS (no institutions listed)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "vinay-goel-sgrh-rajinder-nagar",
+   "name": "Dr. Vinay Goel",
+   "titles": "MBBS - (2019) | MD - (2021) | DM - (2023)",
+   "designation": "Associate Consultant",
+   "specialty": "interventional_neuroradiology",
+   "subspecialty": null,
+   "profileUrl": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+     "excerpt": "Dr. Vinay Goel",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+     "excerpt": "Associate Consultant",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+     "excerpt": "Department: Interventional Neuroradiology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+     "excerpt": "MBBS - (2019) | MD - (2021) | DM - (2023)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "ish-anand-sgrh-rajinder-nagar",
+   "name": "Dr. Ish Anand",
+   "titles": "MBBS, DTCD, MD (Medicine), DM (Neurology), FCNE (Cleveland Clinic Foundation)",
+   "designation": "Co-Chairperson",
+   "specialty": "neurology",
+   "subspecialty": "Interests include Stroke",
+   "profileUrl": "https://sgrh.com/doctor-details/neurology/ish-anand",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+     "excerpt": "Dr. Ish Anand",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+     "excerpt": "Co-Chairperson",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+     "excerpt": "Department: Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+     "excerpt": "MBBS, DTCD, MD (Medicine), DM (Neurology), FCNE (Cleveland Clinic Foundation)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "anshu-rohatgi-sgrh-rajinder-nagar",
+   "name": "Dr. Anshu Rohatgi",
+   "titles": "MD, DNB, DM (Neurology)",
+   "designation": "Senior consultant and Co-Chairperson - Department of Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Movement Disorders",
+   "profileUrl": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+     "excerpt": "Dr. Anshu Rohatgi",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+     "excerpt": "Senior consultant and Co-Chairperson - Department of Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+     "excerpt": "Department: Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+     "excerpt": "MD, DNB, DM (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "anuradha-batra-sgrh-rajinder-nagar",
+   "name": "Dr. Anuradha Batra(Prof.)",
+   "titles": "M.B.B.S, Md (Medicine), Dnb (Neurology)",
+   "designation": "Senior Consultant And Professor",
+   "specialty": "neurology",
+   "subspecialty": "Stroke, Epilepsy, Parkinson's, Neuromuscular and Gait Disorders",
+   "profileUrl": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+     "excerpt": "Dr. Anuradha Batra(Prof.)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+     "excerpt": "Senior Consultant And Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+     "excerpt": "Department: Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+     "excerpt": "M.B.B.S, Md (Medicine), Dnb (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "rajeev-ranjan-sgrh-rajinder-nagar",
+   "name": "Dr. Rajeev Ranjan",
+   "titles": "MBBS, MD, DNB (Neurology)",
+   "designation": "Senior Consultant",
+   "specialty": "neurology",
+   "subspecialty": "Stroke and Nerve Diseases",
+   "profileUrl": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+     "excerpt": "Dr. Rajeev Ranjan",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+     "excerpt": "Senior Consultant",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+     "excerpt": "Department: Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+     "excerpt": "MBBS, MD, DNB (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "laxmikant-r-tomar-sgrh-rajinder-nagar",
+   "name": "Dr. Laxmikant R. Tomar",
+   "titles": "MBBS, MD (Medicine), DM (Neurology)",
+   "designation": "Consultant",
+   "specialty": "neurology",
+   "subspecialty": "Stroke",
+   "profileUrl": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+     "excerpt": "Dr. Laxmikant R. Tomar",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+     "excerpt": "Consultant",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+     "excerpt": "Department: Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+     "excerpt": "MBBS, MD (Medicine), DM (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "cs-agarwal-sgrh-rajinder-nagar",
+   "name": "Dr. C.S. Agarwal",
+   "titles": "MBBS, MD, DM (AIIMS New Delhi)",
+   "designation": "Emeritus Consultant",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+     "excerpt": "Dr. C.S. Agarwal",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+     "excerpt": "Emeritus Consultant",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+     "excerpt": "Department: Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+     "excerpt": "MBBS, MD, DM (AIIMS New Delhi)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "bharat-rastogi-sgrh-rajinder-nagar",
+   "name": "Dr. Bharat Rastogi",
+   "titles": null,
+   "designation": "Associate Consultant",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+     "excerpt": "Dr. Bharat Rastogi",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+     "excerpt": "Associate Consultant",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+     "excerpt": "Department: Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "khushbu-goel-manipal-dwarka",
+   "name": "Dr. Khushbu Goel",
+   "titles": "MBBS | MD (Internal Medicine) | DM (Neurology)",
+   "designation": "Consultant and Head - Stroke Care Program & Neurology",
+   "specialty": "stroke_neurology",
+   "subspecialty": "Stroke management and rehabilitation, including transcranial doppler",
+   "profileUrl": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/",
+   "evidence": [
+    {
+     "field": "titles",
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/",
+     "excerpt": "MBBS | MD (Internal Medicine) | DM (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/",
+     "excerpt": "Consultant and Head - Stroke Care Program & Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/",
+     "excerpt": "Stroke management and rehabilitation, including transcranial doppler",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "cs-narayanan-manipal-dwarka",
+   "name": "(Lt Gen) Dr. CS Narayanan, VSM",
+   "titles": "MBBS, MD (Medicine), DM (Neurology)",
+   "designation": "Chairman, Manipal Institute of Neuro Sciences",
+   "specialty": "neurology",
+   "subspecialty": "Stroke (including thrombolysis and mechanical thrombectomy); video EEG",
+   "profileUrl": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/",
+   "evidence": [
+    {
+     "field": "titles",
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/",
+     "excerpt": "DM (Neurology) from All India Institute of Medical Sciences (1998)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/",
+     "excerpt": "Chairman, Manipal Institute of Neuro Sciences",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/",
+     "excerpt": "Stroke (including thrombolysis and mechanical thrombectomy)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "sweta-singla-manipal-dwarka",
+   "name": "Dr. Sweta Singla",
+   "titles": "MBBS (UCMS) | MD (PGIMER/ Dr RMLH) | DM (Neurology) (AIIMS)",
+   "designation": "Consultant and Head - Movement Disorder & Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Movement disorders, epilepsy, stroke, electrophysiology",
+   "profileUrl": "https://www.manipalhospitals.com/delhi/doctors/dr-sweta-singla-neurologist/",
+   "evidence": [
+    {
+     "field": "titles",
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-sweta-singla-neurologist/",
+     "excerpt": "MBBS (UCMS) | MD (PGIMER/ Dr RMLH) | DM (Neurology) (AIIMS)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-sweta-singla-neurologist/",
+     "excerpt": "Consultant and Head - Movement Disorder & Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "vinit-suri-apollo-sarita-vihar",
+   "name": "Dr Vinit Suri",
+   "titles": null,
+   "designation": "Senior Consultant, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.etvbharat.com/en/bharat/veteran-bjp-leader-lk-advani-discharged-from-indraprastha-apollo-hospital-after-health-improvement-enn26101905752",
+     "excerpt": "led by Dr Vinit Suri, senior consultant in neurology",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2026-10-19",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "news_source_only",
+    "needs_official_verification"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mukul-verma-apollo-sarita-vihar",
+   "name": "Dr. Mukul Verma",
+   "titles": null,
+   "designation": "Senior Consultant, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.tribuneindia.com/news/advanced-technology/apollo-advances-research-into-non-invasive-treatment-approaches-for-severe-essential-tremor",
+     "excerpt": "Dr. Mukul Verma, Senior Consultant, Neurology, Indraprastha Apollo Hospitals, Delhi",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2026-09-18",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "news_source_only",
+    "needs_official_verification"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "pushpendra-nath-renjen-apollo-sarita-vihar",
+   "name": "Dr. Pushpendra Nath Renjen",
+   "titles": null,
+   "designation": "Senior Consultant - Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap",
+     "excerpt": "Dr. Pushpendra Nath Renjen, Senior Consultant - Neurology",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-24",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "news_source_only",
+    "needs_official_verification"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "avinash-goswami-apollo-sarita-vihar",
+   "name": "Dr. Avinash Goswami",
+   "titles": null,
+   "designation": "Attending Consultant - Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap",
+     "excerpt": "Dr. Avinash Goswami, Attending Consultant - Neurology",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-24",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "news_source_only",
+    "needs_official_verification"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "ks-rana-venkateshwar-dwarka",
+   "name": "Dr. (Brig) K. S. Rana",
+   "titles": "MBBS, MD",
+   "designation": "Principal Director, Paediatric Neurology",
+   "specialty": "paediatric_neurology",
+   "subspecialty": null,
+   "profileUrl": "https://www.venkateshwarhospitals.com/doctor-profile/dr-brig-k-s-rana",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-brig-k-s-rana",
+     "excerpt": "Dr. (Brig) K. S. Rana; MBBS, MD",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-brig-k-s-rana",
+     "excerpt": "MBBS, MD",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-brig-k-s-rana",
+     "excerpt": "Principal Director, Paediatric Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "dinesh-sareen-venkateshwar-dwarka",
+   "name": "Dr. Dinesh Sareen",
+   "titles": "MBBS, MD, DM",
+   "designation": "Director, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Special interest in strokes and headaches",
+   "profileUrl": "https://www.venkateshwarhospitals.com/doctor-profile/dr-dinesh-sareen",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-dinesh-sareen",
+     "excerpt": "Dr. Dinesh Sareen; MBBS, MD, DM",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-dinesh-sareen",
+     "excerpt": "MBBS, MD, DM",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-dinesh-sareen",
+     "excerpt": "Director, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-dinesh-sareen",
+     "excerpt": "special interest in treating Strokes & Headaches",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "harsh-bhardwaj-venkateshwar-dwarka",
+   "name": "Dr. Harsh Bhardwaj",
+   "titles": "MBBS, MD (Internal Medicine), DNB (Internal Medicine), DNB (Neurology), MRCP-SCE (Neurology)",
+   "designation": "Associate Director & Unit Head, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Stroke care / acute stroke management",
+   "profileUrl": "https://www.venkateshwarhospitals.com/doctor-profile/dr-harsh-bhardwaj",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-harsh-bhardwaj",
+     "excerpt": "Dr. Harsh Bhardwaj; MBBS, MD (Internal Medicine), DNB (Internal Medicine), DNB (Neurology), MRCP-SCE (Neurology)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-harsh-bhardwaj",
+     "excerpt": "MBBS, MD (Internal Medicine), DNB (Internal Medicine), DNB (Neurology), MRCP-SCE (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-harsh-bhardwaj",
+     "excerpt": "Associate Director & Unit Head, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-harsh-bhardwaj",
+     "excerpt": "acute stroke management",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "nirja-pandey-venkateshwar-dwarka",
+   "name": "Dr. Nirja Pandey",
+   "titles": "MBBS, MD (General Medicine), DrNB (Neurology)",
+   "designation": "Consultant, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Stroke & neurological emergencies",
+   "profileUrl": "https://www.venkateshwarhospitals.com/doctor-profile/dr-nirja-pandey",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-nirja-pandey",
+     "excerpt": "Dr. Nirja Pandey; MBBS, MD (General Medicine), DrNB (Neurology)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-nirja-pandey",
+     "excerpt": "MBBS, MD (General Medicine), DrNB (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-nirja-pandey",
+     "excerpt": "Consultant, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-nirja-pandey",
+     "excerpt": "She specializes in the treatment of stroke",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "saurabh-nandwani-venkateshwar-dwarka",
+   "name": "Dr. Saurabh Nandwani",
+   "titles": "MBBS, MD (Internal Medicine), DM (Neurology), DNB (Neurology)",
+   "designation": "Consultant, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Stroke care & acute neurological emergencies",
+   "profileUrl": "https://www.venkateshwarhospitals.com/doctor-profile/dr-saurabh-nandwani",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-saurabh-nandwani",
+     "excerpt": "Dr. Saurabh Nandwani; MBBS, MD (Internal Medicine), DM (Neurology), DNB (Neurology)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-saurabh-nandwani",
+     "excerpt": "MBBS, MD (Internal Medicine), DM (Neurology), DNB (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-saurabh-nandwani",
+     "excerpt": "Consultant, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-saurabh-nandwani",
+     "excerpt": "Stroke Care & Acute Neurological Emergencies",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "peeyush-tomar-venkateshwar-dwarka",
+   "name": "Dr. Peeyush Tomar",
+   "titles": "MBBS, DrNB (Neurosurgery), Fellowship in Stroke and Neuroendovascular Intervention",
+   "designation": "Consultant, Neurosurgery & Neurointervention",
+   "specialty": "endovascular_neurosurgery",
+   "subspecialty": "Stroke and neuroendovascular intervention",
+   "profileUrl": "https://www.venkateshwarhospitals.com/doctor-profile/dr-peeyush-tomar",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-peeyush-tomar",
+     "excerpt": "Dr. Peeyush Tomar; MBBS, DrNB (Neurosurgery), Fellowship in Stroke and Neuroendovascular Intervention",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-peeyush-tomar",
+     "excerpt": "MBBS, DrNB (Neurosurgery), Fellowship in Stroke and Neuroendovascular Intervention",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-peeyush-tomar",
+     "excerpt": "Consultant, Neurosurgery & Neurointervention",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-peeyush-tomar",
+     "excerpt": "stroke management, and neuroendovascular interventions",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "thrombectomy_listed_in_expertise_not_explicit"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "monica-thomas-holy-family-okhla",
+   "name": "Dr. Monica Thomas",
+   "titles": "MD, DM",
+   "designation": "Senior Consultant, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://www.hfhdelhi.org/profile/26/Dr.+Monica+Thomas",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.hfhdelhi.org/profile/26/Dr.+Monica+Thomas",
+     "excerpt": "Dr. Monica Thomas; MD, DM",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.hfhdelhi.org/profile/26/Dr.+Monica+Thomas",
+     "excerpt": "MD, DM",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.hfhdelhi.org/profile/26/Dr.+Monica+Thomas",
+     "excerpt": "Senior Consultant, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "rr-pandey-holy-family-okhla",
+   "name": "Dr. R. R. Pandey",
+   "titles": "MBBS, MD, Ph.D.",
+   "designation": "Senior Consultant, Neurology (Visiting Consultant)",
+   "specialty": "neurology",
+   "subspecialty": "MD Pediatrics, Ph.D. Neurology; paediatric neurology experience",
+   "profileUrl": "https://www.hfhdelhi.org/profile/24/Dr.+R.+R.+Pandey",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.hfhdelhi.org/profile/24/Dr.+R.+R.+Pandey",
+     "excerpt": "Dr. R. R. Pandey; MBBS, MD, Ph.D.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.hfhdelhi.org/profile/24/Dr.+R.+R.+Pandey",
+     "excerpt": "MBBS, MD, Ph.D.",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.hfhdelhi.org/profile/24/Dr.+R.+R.+Pandey",
+     "excerpt": "Senior Consultant, Neurology (Visiting Consultant)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.hfhdelhi.org/profile/24/Dr.+R.+R.+Pandey",
+     "excerpt": "expertise in treating headache, stroke",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "dhruv-zutshi-holy-family-okhla",
+   "name": "Dr. Dhruv Zutshi",
+   "titles": "MBBS, MD (General Medicine), DM (Neurology)",
+   "designation": "Senior Consultant, Neurology (Visiting Consultant)",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://www.hfhdelhi.org/profile/27/Dr.+Dhruv+Zutshi",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.hfhdelhi.org/profile/27/Dr.+Dhruv+Zutshi",
+     "excerpt": "Dr. Dhruv Zutshi; MBBS, MD (General Medicine), DM (Neurology)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.hfhdelhi.org/profile/27/Dr.+Dhruv+Zutshi",
+     "excerpt": "MBBS, MD (General Medicine), DM (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.hfhdelhi.org/profile/27/Dr.+Dhruv+Zutshi",
+     "excerpt": "Senior Consultant, Neurology (Visiting Consultant)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.hfhdelhi.org/profile/27/Dr.+Dhruv+Zutshi",
+     "excerpt": "has expertise in stroke, epilepsy, parkinson's disease, dementia, and spinal disorders",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kadam-nagpal-holy-family-okhla",
+   "name": "Dr. Kadam Nagpal",
+   "titles": "MBBS, MD, DM, FEBN, FRCP (Edin), FRCP (London)",
+   "designation": "Sr. Consultant – Neurology & Neuroimmunology (Visiting Consultant)",
+   "specialty": "neurology",
+   "subspecialty": "Neuroimmunology",
+   "profileUrl": "https://www.hfhdelhi.org/profile/212/Dr.+Kadam+Nagpal",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.hfhdelhi.org/profile/212/Dr.+Kadam+Nagpal",
+     "excerpt": "Dr. Kadam Nagpal; MBBS, MD, DM, FEBN, FRCP (Edin), FRCP (London)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.hfhdelhi.org/profile/212/Dr.+Kadam+Nagpal",
+     "excerpt": "MBBS, MD, DM, FEBN, FRCP (Edin), FRCP (London)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.hfhdelhi.org/profile/212/Dr.+Kadam+Nagpal",
+     "excerpt": "Sr. Consultant – Neurology & Neuroimmunology (Visiting Consultant)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "possible_duplicate"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "biplab-das-batra-tughlakabad",
+   "name": "Dr. Biplab Das",
+   "titles": "MBBS, MD, PGIMER Chandigarh, DM, PGIMER Chandigarh, FINR (Neurointervention)",
+   "designation": "Director Neurology & Interventional Neuroradiology",
+   "specialty": "neurointervention",
+   "subspecialty": "Stroke care and neurointervention; stroke telecare program",
+   "profileUrl": "https://www.batrahospitaldelhi.org/doctor/dr-biplab-das",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-biplab-das",
+     "excerpt": "Dr. Biplab Das; MBBS, MD, PGIMER Chandigarh, DM, PGIMER Chandigarh, FINR (Neurointervention)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-biplab-das",
+     "excerpt": "MBBS, MD, PGIMER Chandigarh, DM, PGIMER Chandigarh, FINR (Neurointervention)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-biplab-das",
+     "excerpt": "Director Neurology & Interventional Neuroradiology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-biplab-das",
+     "excerpt": "Dr Das has a special interest in Stroke care and Neurointervention.",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "thrombectomy_listed_in_profile_not_explicit"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "rajesh-garg-batra-tughlakabad",
+   "name": "Dr. Rajesh Garg",
+   "titles": "MBBS, MD (Medicine) and DM (Neurology)",
+   "designation": "Senior Director, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Neurocritical care and stroke",
+   "profileUrl": "https://www.batrahospitaldelhi.org/doctor/dr-rajesh-garg",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-rajesh-garg",
+     "excerpt": "Dr. Rajesh Garg; MBBS, MD (Medicine) and DM (Neurology)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-rajesh-garg",
+     "excerpt": "MBBS, MD (Medicine) and DM (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-rajesh-garg",
+     "excerpt": "Senior Director, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-rajesh-garg",
+     "excerpt": "has also designed Neuro ICU to establish the subspecialty of neurocritical care and stroke",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "debasish-hota-batra-tughlakabad",
+   "name": "Dr. Debasish Hota",
+   "titles": "MBBS, MD, DM",
+   "designation": "Consultant, Neurology & Interventional Neurology",
+   "specialty": "neurointervention",
+   "subspecialty": "Fellowship in Stroke, Neuro-Interventional & Vascular Neurology (Zydus Hospital, 2023)",
+   "profileUrl": "https://www.batrahospitaldelhi.org/doctor/dr-debasish-hota",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-debasish-hota",
+     "excerpt": "Dr. Debasish Hota; MBBS, MD, DM",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-debasish-hota",
+     "excerpt": "MBBS, MD, DM",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-debasish-hota",
+     "excerpt": "Consultant, Neurology & Interventional Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-debasish-hota",
+     "excerpt": "Acute Stroke Management (Intravenous Thrombolysis and Intra-arterial Thrombosis)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "thrombectomy_listed_in_expertise_not_explicit"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "ankit-gupta-batra-tughlakabad",
+   "name": "Dr. Ankit Gupta",
+   "titles": "MBBS, MD (Medicine), DM (Neurology)",
+   "designation": "Consultant – Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Acute stroke management",
+   "profileUrl": "https://www.batrahospitaldelhi.org/doctor/dr-ankit-gupta",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-ankit-gupta",
+     "excerpt": "Dr. Ankit Gupta; MBBS, MD (Medicine), DM (Neurology)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-ankit-gupta",
+     "excerpt": "MBBS, MD (Medicine), DM (Neurology)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-ankit-gupta",
+     "excerpt": "Consultant – Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-ankit-gupta",
+     "excerpt": "Acute Stroke Management (Intravenous Thrombolysis & Endovascular Therapy)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "thrombectomy_listed_in_expertise_not_explicit"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "nikhil-a-kumar-batra-tughlakabad",
+   "name": "Dr. Nikhil A. Kumar",
+   "titles": "MBBS, MD (General Medicine), DM (Neurology), Fellowship in Interventional Neurology & Stroke",
+   "designation": "Associate Consultant, Neurology & Stroke Neurointervention",
+   "specialty": "neurointervention",
+   "subspecialty": "Fellowship in Interventional Neurology & Stroke, Rajagiri Hospital, 2025",
+   "profileUrl": "https://www.batrahospitaldelhi.org/doctor/dr-nikhil-a-kumar",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-nikhil-a-kumar",
+     "excerpt": "Dr. Nikhil A. Kumar; MBBS, MD (General Medicine), DM (Neurology), Fellowship in Interventional Neurology & Stroke",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-nikhil-a-kumar",
+     "excerpt": "MBBS, MD (General Medicine), DM (Neurology), Fellowship in Interventional Neurology & Stroke",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-nikhil-a-kumar",
+     "excerpt": "Associate Consultant, Neurology & Stroke Neurointervention",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-nikhil-a-kumar",
+     "excerpt": "a special interest in acute stroke care, endovascular interventions",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "thrombectomy_listed_in_expertise_not_explicit"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "nitin-kumar-sethi-psri-saket",
+   "name": "Dr. Nitin Kumar Sethi",
+   "titles": "MBBS, DNB, FAAN",
+   "designation": "Chairman - PSRI Institute of Neurosciences",
+   "specialty": "neurology",
+   "subspecialty": "Neurology & clinical neurophysiology",
+   "profileUrl": "https://psrihospital.com/nitin-kumar-sethi/",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://psrihospital.com/nitin-kumar-sethi/",
+     "excerpt": "Dr. Nitin Kumar Sethi; MBBS, DNB, FAAN",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://psrihospital.com/nitin-kumar-sethi/",
+     "excerpt": "MBBS, DNB, FAAN",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://psrihospital.com/nitin-kumar-sethi/",
+     "excerpt": "Chairman - PSRI Institute of Neurosciences",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "bhaskar-shukla-psri-saket",
+   "name": "Dr. Bhaskar Shukla",
+   "titles": "MBBS, MD Pathology, MD Pediatrics, DM Neurology",
+   "designation": "Senior Consultant, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Movement disorders, stroke, epilepsy; runs stroke clinic",
+   "profileUrl": "https://psrihospital.com/dr-bhaskar-shukla/",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://psrihospital.com/dr-bhaskar-shukla/",
+     "excerpt": "Dr. Bhaskar Shukla; MBBS, MD Pathology, MD Pediatrics, DM Neurology",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://psrihospital.com/dr-bhaskar-shukla/",
+     "excerpt": "MBBS, MD Pathology, MD Pediatrics, DM Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://psrihospital.com/dr-bhaskar-shukla/",
+     "excerpt": "Senior Consultant, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://psrihospital.com/dr-bhaskar-shukla/",
+     "excerpt": "IV thrombolysis of acute ischemic stroke patients within the window period",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "amitabh-gupta-psri-saket",
+   "name": "Dr. Amitabh Gupta",
+   "titles": "MBBS, MS (General Surgery), MCh (Neuro Surgery), fellowships in endoskull base, trauma, neuro-oncology & stereotactic radiosurgery, functional neurosurgery",
+   "designation": "Director (Neurosurgery)",
+   "specialty": "endovascular_neurosurgery",
+   "subspecialty": "Lists 'Endovascular Interventions' among areas of expertise",
+   "profileUrl": "https://psrihospital.com/dr-amitabh-gupta/",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://psrihospital.com/dr-amitabh-gupta/",
+     "excerpt": "Dr. Amitabh Gupta; MBBS, MS (General Surgery), MCh (Neuro Surgery), fellowships in endoskull base, trauma, neuro-oncology & stereotactic radiosurgery, functional neurosurgery",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://psrihospital.com/dr-amitabh-gupta/",
+     "excerpt": "MBBS, MS (General Surgery), MCh (Neuro Surgery), fellowships in endoskull base, trauma, neuro-oncology & stereotactic radiosurgery, functional neurosurgery",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://psrihospital.com/dr-amitabh-gupta/",
+     "excerpt": "Director (Neurosurgery)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://psrihospital.com/dr-amitabh-gupta/",
+     "excerpt": "Endovascular Interventions",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "endovascular_scope_unclear"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "madhukar-bhardwaj-aakash-dwarka",
+   "name": "Dr. Madhukar Bhardwaj",
+   "titles": "MBBS, D.N.B. (Internal Medicine), D.N.B. (Neurology), MNAMS",
+   "designation": "Director & HOD, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Acute stroke management",
+   "profileUrl": "https://aakashhealthcare.com/dr-madhukar-bhardwaj",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://aakashhealthcare.com/dr-madhukar-bhardwaj",
+     "excerpt": "Dr. Madhukar Bhardwaj; MBBS, D.N.B. (Internal Medicine), D.N.B. (Neurology), MNAMS",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://aakashhealthcare.com/dr-madhukar-bhardwaj",
+     "excerpt": "MBBS, D.N.B. (Internal Medicine), D.N.B. (Neurology), MNAMS",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://aakashhealthcare.com/dr-madhukar-bhardwaj",
+     "excerpt": "Director & HOD, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://aakashhealthcare.com/dr-madhukar-bhardwaj",
+     "excerpt": "special interest in managing acute strokes",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "rajul-aggarwal-sbami-paschim-vihar",
+   "name": "Dr. Rajul Aggarwal",
+   "titles": "MBBS, MD, DM",
+   "designation": "Director, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Stroke listed under expertise",
+   "profileUrl": "https://www.actionhospital.in/doctor/dr-rajul-aggarwal",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.actionhospital.in/doctor/dr-rajul-aggarwal",
+     "excerpt": "Dr. Rajul Aggarwal; MBBS, MD, DM",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.actionhospital.in/doctor/dr-rajul-aggarwal",
+     "excerpt": "MBBS, MD, DM",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.actionhospital.in/doctor/dr-rajul-aggarwal",
+     "excerpt": "Director, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "sandhya-koche-sbami-paschim-vihar",
+   "name": "Dr. Sandhya Koche",
+   "titles": "MBBS, MD, DM",
+   "designation": "Principal Consultant, Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Stroke listed among interests",
+   "profileUrl": "https://www.actionhospital.in/doctor/dr-sandhya-koche",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.actionhospital.in/doctor/dr-sandhya-koche",
+     "excerpt": "Dr. Sandhya Koche; MBBS, MD, DM",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.actionhospital.in/doctor/dr-sandhya-koche",
+     "excerpt": "MBBS, MD, DM",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.actionhospital.in/doctor/dr-sandhya-koche",
+     "excerpt": "Principal Consultant, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "balbir-singh-sodhi-sbami-paschim-vihar",
+   "name": "Dr. Balbir Singh Sodhi",
+   "titles": "DNB; MD General Medicine; Fellowship in Neurology (U.K.)",
+   "designation": "Consultant, Neurology",
+   "specialty": "stroke_neurology",
+   "subspecialty": "Acute stroke care / thrombolysis",
+   "profileUrl": "https://www.actionhospital.in/doctor/dr-balbir-singh-sodhi-2",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.actionhospital.in/doctor/dr-balbir-singh-sodhi-2",
+     "excerpt": "Dr. Balbir Singh Sodhi; DNB; MD General Medicine; Fellowship in Neurology (U.K.)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "titles",
+     "url": "https://www.actionhospital.in/doctor/dr-balbir-singh-sodhi-2",
+     "excerpt": "DNB; MD General Medicine; Fellowship in Neurology (U.K.)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "designation",
+     "url": "https://www.actionhospital.in/doctor/dr-balbir-singh-sodhi-2",
+     "excerpt": "Consultant, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    },
+    {
+     "field": "specialty",
+     "url": "https://www.actionhospital.in/doctor/dr-balbir-singh-sodhi-2",
+     "excerpt": "Performed 100+ stroke thrombolysis cases with high success outcomes.",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  }
+ ],
+ "affiliations": [
+  {
+   "physicianKey": "manjari-tripathi-aiims-new-delhi",
+   "hospitalKey": "aiims-new-delhi",
+   "role": "Professor & Head, Neurology",
+   "evidence": [
+    {
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Listed on AIIMS Department of Neurology faculty page as Professor & Head.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "rohit-bhatia-aiims-new-delhi",
+   "hospitalKey": "aiims-new-delhi",
+   "role": "Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Listed on AIIMS Department of Neurology faculty page as Professor.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "deepti-vibha-aiims-new-delhi",
+   "hospitalKey": "aiims-new-delhi",
+   "role": "Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Listed on AIIMS Department of Neurology faculty page as Professor.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "vishnu-vy-aiims-new-delhi",
+   "hospitalKey": "aiims-new-delhi",
+   "role": "Additional Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Listed on AIIMS Department of Neurology faculty page as Additional Professor.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "awadh-kishor-pandit-aiims-new-delhi",
+   "hospitalKey": "aiims-new-delhi",
+   "role": "Additional Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+     "excerpt": "Listed on AIIMS Department of Neurology faculty page as Additional Professor.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "s-b-gaikwad-aiims-new-delhi",
+   "hospitalKey": "aiims-new-delhi",
+   "role": "Professor & Head, Neuroimaging & Interventional Neuroradiology",
+   "evidence": [
+    {
+     "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+     "excerpt": "Dr. S. B. Gaikwad, Professor & Head, Room no.11, 6th floor CNC",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "ajay-garg-aiims-new-delhi",
+   "hospitalKey": "aiims-new-delhi",
+   "role": "Professor, Neuroimaging & Interventional Neuroradiology",
+   "evidence": [
+    {
+     "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+     "excerpt": "Dr. Ajay Garg listed as Professor on Neuroimaging & Interventional Neuroradiology faculty page.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "leve-joseph-devarajan-aiims-new-delhi",
+   "hospitalKey": "aiims-new-delhi",
+   "role": "Additional Professor, Neuroimaging & Interventional Neuroradiology",
+   "evidence": [
+    {
+     "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+     "excerpt": "Dr. Leve Joseph Devarajan S. listed as Additional Professor on Neuroimaging & Interventional Neuroradiology faculty page.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "bk-bajaj-safdarjung-vmmc",
+   "hospitalKey": "safdarjung-vmmc",
+   "role": "Dir. Prof & HoD, Neurology",
+   "evidence": [
+    {
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Dir. Prof & HoD, permanent.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "sanghamitra-laskar-safdarjung-vmmc",
+   "hospitalKey": "safdarjung-vmmc",
+   "role": "Associate Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Associate Professor, permanent.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "shishir-kumar-chandan-safdarjung-vmmc",
+   "hospitalKey": "safdarjung-vmmc",
+   "role": "CMO (SAG) & Associate Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as CMO (SAG) & Associate Professor, permanent.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "atri-chatterjee-safdarjung-vmmc",
+   "hospitalKey": "safdarjung-vmmc",
+   "role": "Assistant Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Assistant Professor, permanent.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "deepika-saroha-safdarjung-vmmc",
+   "hospitalKey": "safdarjung-vmmc",
+   "role": "Assistant Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Assistant Professor, permanent.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "sumirini-puppala-safdarjung-vmmc",
+   "hospitalKey": "safdarjung-vmmc",
+   "role": "Assistant Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Assistant Professor, permanent.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "amrita-jagdish-gotur-safdarjung-vmmc",
+   "hospitalKey": "safdarjung-vmmc",
+   "role": "Assistant Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+     "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Assistant Professor, permanent.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": "2025-07-21",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "jyoti-garg-rml-abvims",
+   "hospitalKey": "rml-abvims",
+   "role": "Professor & HOD, Neurology",
+   "evidence": [
+    {
+     "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+     "excerpt": "Name of Faculty: Dr. Jyoti Garg Designation: Professor & HOD",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-10-16",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "ashish-kumar-duggal-rml-abvims",
+   "hospitalKey": "rml-abvims",
+   "role": "Professor & Unit Head, Neurology",
+   "evidence": [
+    {
+     "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+     "excerpt": "Name of Unit Head: Dr. Ashish Kumar Duggal Designation: Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-10-16",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "prashant-kumar-thakur-rml-abvims",
+   "hospitalKey": "rml-abvims",
+   "role": "Assistant Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+     "excerpt": "Name of Faculty: Dr Prashant Kumar Thakur Designation: Assistant Professor",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2025-10-16",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "debashish-chowdhury-gipmer-gb-pant",
+   "hospitalKey": "gipmer-gb-pant",
+   "role": "Professor and Head (department not stated on source)",
+   "evidence": [
+    {
+     "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+     "excerpt": "ICMR collaborator page lists him as Professor and Head at GIPMER (erstwhile GB Pant Hospital), Delhi.",
+     "kind": "summary",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "not_official_hospital_source"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "arun-kaul-gipmer-gb-pant",
+   "hospitalKey": "gipmer-gb-pant",
+   "role": "Professor (department not stated on source)",
+   "evidence": [
+    {
+     "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+     "excerpt": "Dr. Arun Kaul is a Professor of Govind Ballabh Pant Institute of Post Graduate Institute of Medical Education and Research",
+     "kind": "verbatim",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "not_official_hospital_source"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "manish-chugh-sgrh-rajinder-nagar",
+   "hospitalKey": "sgrh-rajinder-nagar",
+   "role": "Chairperson, Interventional Neuroradiology",
+   "evidence": [
+    {
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/manish-chugh",
+     "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Manish Chugh as Senior Consultant; Chairperson - Department of Interventional Neuro Radiology, Interventional Neuroradiology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "vinay-goel-sgrh-rajinder-nagar",
+   "hospitalKey": "sgrh-rajinder-nagar",
+   "role": "Associate Consultant, Interventional Neuroradiology",
+   "evidence": [
+    {
+     "url": "https://sgrh.com/doctor-details/interventional_neuroradiology/vinay-goel",
+     "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Vinay Goel as Associate Consultant, Interventional Neuroradiology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "ish-anand-sgrh-rajinder-nagar",
+   "hospitalKey": "sgrh-rajinder-nagar",
+   "role": "Co-Chairperson, Neurology",
+   "evidence": [
+    {
+     "url": "https://sgrh.com/doctor-details/neurology/ish-anand",
+     "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Ish Anand as Co-Chairperson, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "anshu-rohatgi-sgrh-rajinder-nagar",
+   "hospitalKey": "sgrh-rajinder-nagar",
+   "role": "Senior Consultant & Co-Chairperson, Neurology",
+   "evidence": [
+    {
+     "url": "https://sgrh.com/doctor-details/neurology/anshu-rohatgi",
+     "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Anshu Rohatgi as Senior consultant and Co-Chairperson - Department of Neurology, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "anuradha-batra-sgrh-rajinder-nagar",
+   "hospitalKey": "sgrh-rajinder-nagar",
+   "role": "Senior Consultant & Professor, Neurology",
+   "evidence": [
+    {
+     "url": "https://sgrh.com/doctor-details/neurology/anuradha-batra",
+     "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Anuradha Batra(Prof.) as Senior Consultant And Professor, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "rajeev-ranjan-sgrh-rajinder-nagar",
+   "hospitalKey": "sgrh-rajinder-nagar",
+   "role": "Senior Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://sgrh.com/doctor-details/neurology/rajeev-ranjan",
+     "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Rajeev Ranjan as Senior Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "laxmikant-r-tomar-sgrh-rajinder-nagar",
+   "hospitalKey": "sgrh-rajinder-nagar",
+   "role": "Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://sgrh.com/doctor-details/neurology/laxmikant-r-tomar",
+     "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Laxmikant R. Tomar as Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "cs-agarwal-sgrh-rajinder-nagar",
+   "hospitalKey": "sgrh-rajinder-nagar",
+   "role": "Emeritus Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://sgrh.com/doctor-details/neurology/cs-agarwal",
+     "excerpt": "Sir Ganga Ram Hospital profile lists Dr. C.S. Agarwal as Emeritus Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "bharat-rastogi-sgrh-rajinder-nagar",
+   "hospitalKey": "sgrh-rajinder-nagar",
+   "role": "Associate Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://sgrh.com/doctor-details/neurology/bharat-rastogi",
+     "excerpt": "Sir Ganga Ram Hospital profile lists Dr. Bharat Rastogi as Associate Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "khushbu-goel-manipal-dwarka",
+   "hospitalKey": "manipal-dwarka",
+   "role": "Consultant and Head - Stroke Care Program & Neurology",
+   "evidence": [
+    {
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/",
+     "excerpt": "Profile lists location as 'Dwarka - Delhi NCR' (Manipal Hospitals, Dwarka).",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "cs-narayanan-manipal-dwarka",
+   "hospitalKey": "manipal-dwarka",
+   "role": "Chairman, Manipal Institute of Neuro Sciences",
+   "evidence": [
+    {
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/",
+     "excerpt": "Profile lists location as 'Dwarka - Delhi NCR'.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "sweta-singla-manipal-dwarka",
+   "hospitalKey": "manipal-dwarka",
+   "role": "Consultant and Head - Movement Disorder & Neurology",
+   "evidence": [
+    {
+     "url": "https://www.manipalhospitals.com/delhi/doctors/dr-sweta-singla-neurologist/",
+     "excerpt": "Manipal Hospitals Dwarka - Delhi NCR",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "vinit-suri-apollo-sarita-vihar",
+   "hospitalKey": "apollo-sarita-vihar",
+   "role": "Senior Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.etvbharat.com/en/bharat/veteran-bjp-leader-lk-advani-discharged-from-indraprastha-apollo-hospital-after-health-improvement-enn26101905752",
+     "excerpt": "Article reports the patient was discharged from Indraprastha Apollo Hospital in Delhi under a team led by Dr Vinit Suri, senior consultant in neurology.",
+     "kind": "summary",
+     "sourceType": "news",
+     "sourceDate": "2026-10-19",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mukul-verma-apollo-sarita-vihar",
+   "hospitalKey": "apollo-sarita-vihar",
+   "role": "Senior Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.tribuneindia.com/news/advanced-technology/apollo-advances-research-into-non-invasive-treatment-approaches-for-severe-essential-tremor",
+     "excerpt": "Dr. Mukul Verma, Senior Consultant, Neurology, Indraprastha Apollo Hospitals, Delhi",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2026-09-18",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "pushpendra-nath-renjen-apollo-sarita-vihar",
+   "hospitalKey": "apollo-sarita-vihar",
+   "role": "Senior Consultant - Neurology",
+   "evidence": [
+    {
+     "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap",
+     "excerpt": "Hospital press release (advertorial) on the Apollo Stroke Awareness Programme at Indraprastha Apollo Hospitals names him as Senior Consultant - Neurology.",
+     "kind": "summary",
+     "sourceType": "news",
+     "sourceDate": "2025-10-24",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "avinash-goswami-apollo-sarita-vihar",
+   "hospitalKey": "apollo-sarita-vihar",
+   "role": "Attending Consultant - Neurology",
+   "evidence": [
+    {
+     "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap",
+     "excerpt": "Hospital press release (advertorial) on the Apollo Stroke Awareness Programme at Indraprastha Apollo Hospitals names him as Attending Consultant - Neurology.",
+     "kind": "summary",
+     "sourceType": "news",
+     "sourceDate": "2025-10-24",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "ks-rana-venkateshwar-dwarka",
+   "hospitalKey": "venkateshwar-dwarka",
+   "role": "Principal Director, Paediatric Neurology",
+   "evidence": [
+    {
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-brig-k-s-rana",
+     "excerpt": "Profile on official venkateshwar-dwarka site lists designation: Principal Director, Paediatric Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "dinesh-sareen-venkateshwar-dwarka",
+   "hospitalKey": "venkateshwar-dwarka",
+   "role": "Director, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-dinesh-sareen",
+     "excerpt": "Profile on official venkateshwar-dwarka site lists designation: Director, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "harsh-bhardwaj-venkateshwar-dwarka",
+   "hospitalKey": "venkateshwar-dwarka",
+   "role": "Associate Director & Unit Head, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-harsh-bhardwaj",
+     "excerpt": "Profile on official venkateshwar-dwarka site lists designation: Associate Director & Unit Head, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "nirja-pandey-venkateshwar-dwarka",
+   "hospitalKey": "venkateshwar-dwarka",
+   "role": "Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-nirja-pandey",
+     "excerpt": "Profile on official venkateshwar-dwarka site lists designation: Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "saurabh-nandwani-venkateshwar-dwarka",
+   "hospitalKey": "venkateshwar-dwarka",
+   "role": "Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-saurabh-nandwani",
+     "excerpt": "Profile on official venkateshwar-dwarka site lists designation: Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "peeyush-tomar-venkateshwar-dwarka",
+   "hospitalKey": "venkateshwar-dwarka",
+   "role": "Consultant, Neurosurgery & Neurointervention",
+   "evidence": [
+    {
+     "url": "https://www.venkateshwarhospitals.com/doctor-profile/dr-peeyush-tomar",
+     "excerpt": "Profile on official venkateshwar-dwarka site lists designation: Consultant, Neurosurgery & Neurointervention.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "monica-thomas-holy-family-okhla",
+   "hospitalKey": "holy-family-okhla",
+   "role": "Senior Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.hfhdelhi.org/profile/26/Dr.+Monica+Thomas",
+     "excerpt": "Profile on official holy-family-okhla site lists designation: Senior Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "rr-pandey-holy-family-okhla",
+   "hospitalKey": "holy-family-okhla",
+   "role": "Visiting Senior Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.hfhdelhi.org/profile/24/Dr.+R.+R.+Pandey",
+     "excerpt": "Profile on official holy-family-okhla site lists designation: Senior Consultant, Neurology (Visiting Consultant).",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "visiting"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "dhruv-zutshi-holy-family-okhla",
+   "hospitalKey": "holy-family-okhla",
+   "role": "Visiting Senior Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.hfhdelhi.org/profile/27/Dr.+Dhruv+Zutshi",
+     "excerpt": "Profile on official holy-family-okhla site lists designation: Senior Consultant, Neurology (Visiting Consultant).",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "visiting"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kadam-nagpal-holy-family-okhla",
+   "hospitalKey": "holy-family-okhla",
+   "role": "Visiting Sr. Consultant, Neurology & Neuroimmunology",
+   "evidence": [
+    {
+     "url": "https://www.hfhdelhi.org/profile/212/Dr.+Kadam+Nagpal",
+     "excerpt": "Profile on official holy-family-okhla site lists designation: Sr. Consultant – Neurology & Neuroimmunology (Visiting Consultant).",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [
+    "visiting"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "biplab-das-batra-tughlakabad",
+   "hospitalKey": "batra-tughlakabad",
+   "role": "Director, Neurology & Interventional Neuroradiology",
+   "evidence": [
+    {
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-biplab-das",
+     "excerpt": "Profile on official batra-tughlakabad site lists designation: Director Neurology & Interventional Neuroradiology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "rajesh-garg-batra-tughlakabad",
+   "hospitalKey": "batra-tughlakabad",
+   "role": "Senior Director, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-rajesh-garg",
+     "excerpt": "Profile on official batra-tughlakabad site lists designation: Senior Director, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "debasish-hota-batra-tughlakabad",
+   "hospitalKey": "batra-tughlakabad",
+   "role": "Consultant, Neurology & Interventional Neurology",
+   "evidence": [
+    {
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-debasish-hota",
+     "excerpt": "Profile on official batra-tughlakabad site lists designation: Consultant, Neurology & Interventional Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "ankit-gupta-batra-tughlakabad",
+   "hospitalKey": "batra-tughlakabad",
+   "role": "Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-ankit-gupta",
+     "excerpt": "Profile on official batra-tughlakabad site lists designation: Consultant – Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "nikhil-a-kumar-batra-tughlakabad",
+   "hospitalKey": "batra-tughlakabad",
+   "role": "Associate Consultant, Neurology & Stroke Neurointervention",
+   "evidence": [
+    {
+     "url": "https://www.batrahospitaldelhi.org/doctor/dr-nikhil-a-kumar",
+     "excerpt": "Profile on official batra-tughlakabad site lists designation: Associate Consultant, Neurology & Stroke Neurointervention.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "nitin-kumar-sethi-psri-saket",
+   "hospitalKey": "psri-saket",
+   "role": "Chairman, PSRI Institute of Neurosciences",
+   "evidence": [
+    {
+     "url": "https://psrihospital.com/nitin-kumar-sethi/",
+     "excerpt": "Profile on official psri-saket site lists designation: Chairman - PSRI Institute of Neurosciences.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "bhaskar-shukla-psri-saket",
+   "hospitalKey": "psri-saket",
+   "role": "Senior Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://psrihospital.com/dr-bhaskar-shukla/",
+     "excerpt": "Profile on official psri-saket site lists designation: Senior Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "amitabh-gupta-psri-saket",
+   "hospitalKey": "psri-saket",
+   "role": "Director, Neurosurgery",
+   "evidence": [
+    {
+     "url": "https://psrihospital.com/dr-amitabh-gupta/",
+     "excerpt": "Profile on official psri-saket site lists designation: Director (Neurosurgery).",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "madhukar-bhardwaj-aakash-dwarka",
+   "hospitalKey": "aakash-dwarka",
+   "role": "Director & HOD, Neurology",
+   "evidence": [
+    {
+     "url": "https://aakashhealthcare.com/dr-madhukar-bhardwaj",
+     "excerpt": "Profile on official aakash-dwarka site lists designation: Director & HOD, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "rajul-aggarwal-sbami-paschim-vihar",
+   "hospitalKey": "sbami-paschim-vihar",
+   "role": "Director, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.actionhospital.in/doctor/dr-rajul-aggarwal",
+     "excerpt": "Profile on official sbami-paschim-vihar site lists designation: Director, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "sandhya-koche-sbami-paschim-vihar",
+   "hospitalKey": "sbami-paschim-vihar",
+   "role": "Principal Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.actionhospital.in/doctor/dr-sandhya-koche",
+     "excerpt": "Profile on official sbami-paschim-vihar site lists designation: Principal Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "balbir-singh-sodhi-sbami-paschim-vihar",
+   "hospitalKey": "sbami-paschim-vihar",
+   "role": "Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.actionhospital.in/doctor/dr-balbir-singh-sodhi-2",
+     "excerpt": "Profile on official sbami-paschim-vihar site lists designation: Consultant, Neurology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  }
+ ],
+ "procedures": [
+  {
+   "physicianKey": "s-b-gaikwad-aiims-new-delhi",
+   "procedure": "mechanical_thrombectomy",
+   "value": "explicit_claim",
+   "evidence": [
+    {
+     "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty/199-neuro_radiology/12327-dr-s-b-gaikwad,-neuro-_radiology",
+     "excerpt": "Services started at AIIMS: Intra-arterial thrombolysis/mechanical thrombectomy for acute ischaemic stroke.",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": "2022-01-07",
+     "checkedAt": "2026-10-26"
+    }
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  }
+ ],
+ "sourceFailures": [
+  {
+   "url": "https://www.aiims.edu/index.php/en/departments-and-centers/clinical-departments/neurology",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://aiims.edu/index.php/en/contact-us",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://gbpant.delhi.gov.in/",
+   "reason": "Connection refused / timed out (WebFetch and curl)"
+  },
+  {
+   "url": "https://mamc.delhi.gov.in/",
+   "reason": "Connection refused / timed out"
+  },
+  {
+   "url": "https://lnjp.delhi.gov.in/",
+   "reason": "Connection timed out"
+  },
+  {
+   "url": "https://lnh.delhi.gov.in/",
+   "reason": "Connection timed out"
+  },
+  {
+   "url": "https://web.archive.org/web/2025/https://gbpant.delhi.gov.in/",
+   "reason": "Fetch tool cannot access web.archive.org"
+  },
+  {
+   "url": "https://www.maxhealthcare.in/hospital-network/max-super-speciality-hospital-saket",
+   "reason": "HTTP 403 Forbidden (bot block); not bypassed"
+  },
+  {
+   "url": "https://www.maxhealthcare.in/doctor/dr-vipin-walia",
+   "reason": "HTTP 403 Forbidden; all maxhealthcare.in pages appear blocked, so Patparganj/Shalimar Bagh pages and doctor profiles were not attempted further"
+  },
+  {
+   "url": "https://www.blkmaxhospital.com/",
+   "reason": "HTTP 403 Forbidden"
+  },
+  {
+   "url": "https://blkmaxhospital.com/testimonial/thrombectomy-for-brain-stroke-treatment-patient-success-story",
+   "reason": "HTTP 403 Forbidden"
+  },
+  {
+   "url": "news search (timesofindia, hindustantimes, indianexpress, thehindu, ndtv, indiatoday)",
+   "reason": "Domains not accessible to search tool; medicaldialogues/business-standard searches found no campus-specific Max/BLK stroke coverage"
+  },
+  {
+   "url": "https://apollohospitals.com/delhi/team-of-doctors/neurology-and-neurosurgery",
+   "reason": "HTTP 403 (Azure Application Gateway); entire apollohospitals.com domain incl. robots.txt returns 403"
+  },
+  {
+   "url": "https://www.apollohospitals.com/zu/delhi/procedures/thrombectomy",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://mediacdn.apollohospitals.com/delhi/procedures/thrombectomy",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://apollohospitals.com/delhi/doctor/dr-anoop-kohli",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.apollohospitals.com/delhi/doctor/dr-pranav-kumar/",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.apollohospitals.com/region/delhi/?p=4137",
+   "reason": "HTTP 403 (Dr P N Renjen profile)"
+  },
+  {
+   "url": "https://www.fortishealthcare.com/doctors/speciality/hospital/neurology-64/fortis-hospital-shalimar-bagh-new-delhi",
+   "reason": "HTTP 403 Cloudflare bot challenge (not bypassed); applies to whole fortishealthcare.com domain"
+  },
+  {
+   "url": "https://www.fortishealthcare.com/doctors/speciality/hospital/interventional-neurology-138/fortis-hospital-shalimar-bagh-new-delhi",
+   "reason": "HTTP 403 Cloudflare bot challenge"
+  },
+  {
+   "url": "https://workbench.fortishealthcare.com/doctors/hospital/fortis-hospital-shalimar-bagh-new-delhi/neurology-31",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.fortishealthcare.com/doctors/dr-renu-achtani-610",
+   "reason": "HTTP 403 Cloudflare bot challenge"
+  },
+  {
+   "url": "https://www.fortishealthcare.com/news-and-events/fortis-hospital-vasant-kunj-conducts-stroke-awareness-health-talk-safdarjung",
+   "reason": "HTTP 403 Cloudflare bot challenge"
+  },
+  {
+   "url": "https://angels-initiative.com/content/indraprastha-apollo-delhi",
+   "reason": "Page fetched but returned empty content (JS-rendered)"
+  },
+  {
+   "url": "https://cz.angels-initiative.com/content/fortis-shalimarbagh",
+   "reason": "Page fetched but returned empty content (JS-rendered)"
+  },
+  {
+   "url": "https://angels-initiative.com/content/manipal-hospital-dwarka",
+   "reason": "Page fetched but returned empty content (JS-rendered)"
+  },
+  {
+   "url": "https://www.manipalhospitals.com/delhi/doctors-list/neurology/",
+   "reason": "Doctor list is JS-rendered; no names in fetched content (individual profiles fetched instead)"
+  },
+  {
+   "url": "https://www.aninews.in/news/business/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap20251024122242/",
+   "reason": "HTTP 403 (used Tribune copy of same press release instead)"
+  },
+  {
+   "url": "https://www.business-standard.com/india-news/sadhguru-jaggi-vasudev-undergoes-emergency-brain-surgery-at-apollo-in-delhi-124032000835_1.html",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.holyfamilydelhi.org/",
+   "reason": "DNS ENOTFOUND; official site is hfhdelhi.org"
+  },
+  {
+   "url": "https://www.venkateshwarhospitals.com/pdf/doctor-directory.pdf",
+   "reason": "Image-only PDF, no extractable text"
+  },
+  {
+   "url": "https://www.venkateshwarhospitals.com/find-a-doctor.php",
+   "reason": "No doctor list rendered (JS-driven)"
+  },
+  {
+   "url": "https://psrihospital.com/dr-kadam-nagpal/",
+   "reason": "Page rendered without profile content"
+  },
+  {
+   "url": "https://psrihospital.com/bhargavi-ramanujam/",
+   "reason": "Page rendered without profile content"
+  },
+  {
+   "url": "https://psrihospital.com/dr-rahul-chawla/",
+   "reason": "Page rendered without profile content"
+  },
+  {
+   "url": "https://aakashhealthcare.com/dr-nagesh-chandra",
+   "reason": "Profile page blank (no name/qualifications rendered)"
+  },
+  {
+   "url": "https://aakashhealthcare.com/doctors",
+   "reason": "Doctor directory not rendered (JS-driven)"
+  },
+  {
+   "url": "https://www.sribalajiaction.com/",
+   "reason": "DNS ENOTFOUND; official site is actionhospital.in"
+  },
+  {
+   "url": "https://www.sbami.in/",
+   "reason": "DNS ENOTFOUND"
+  }
+ ]
+}

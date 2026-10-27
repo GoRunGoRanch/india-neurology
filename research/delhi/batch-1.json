@@ -1,0 +1,1157 @@
+{
+  "agent": "batch-1",
+  "hospitals": [
+    {
+      "key": "aiims-new-delhi",
+      "name": "All India Institute of Medical Sciences, New Delhi",
+      "chain": null,
+      "campus": "Ansari Nagar",
+      "address": "Ansari Nagar, New Delhi",
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": "110029",
+      "officialWebsite": "https://www.aiims.edu",
+      "officialPhone": "+91-11-26588500 / 26588700",
+      "ownership": null,
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://www.aiims.edu/index.php/en/contact-us-suggestions",
+          "excerpt": "All India Institute of Medical Sciences, Ansari Nagar, New Delhi - 110029",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "phone",
+          "url": "https://www.aiims.edu/index.php/en/contact-us-suggestions",
+          "excerpt": "Board Number: +91-11-26588500 / 26588700",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "services": [
+        {
+          "code": "neuro_icu",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://aiims.edu/index.php/en/neurology_intro",
+              "excerpt": "now there are 75 beds including neurointensive care",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "ct",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.aiims.edu/index.php/en/neurology_radiology_intro",
+              "excerpt": "Neuroimaging & Interventional Neuroradiology department lists a 128-slice CT scanner among its equipment.",
+              "kind": "summary",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "mri",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.aiims.edu/index.php/en/neurology_radiology_intro",
+              "excerpt": "One 1.5T MR system (GE 450w)",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "neurointerventional",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.aiims.edu/index.php/en/neurology_radiology_intro",
+              "excerpt": "Department has two DSA systems with facilities for rotational angiography & 3-D reconstruction, and trains residents in invasive/neuro-interventional procedures.",
+              "kind": "summary",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty/199-neuro_radiology/12327-dr-s-b-gaikwad,-neuro-_radiology",
+              "excerpt": "Intra-arterial thrombolysis/mechanical thrombectomy for acute ischaemic stroke.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": "2022-01-07",
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        }
+      ],
+      "notes": "Ownership left null (no fetched page states it; AIIMS is a central autonomous institute - reviewer to confirm). Thrombectomy evidence is from Dr. Gaikwad's CV page (listed under 'Services started at AIIMS'), last updated 07 Jan 2022 - may be stale; Angels Initiative lists AIIMS as a thrombectomy-performing comprehensive centre (not used as evidence). Neurology intro page says Prof. MV Padma Srivastava took over leadership 1 Feb 2019, but the current faculty list shows Dr Manjari Tripathi as Professor & Head and does not list Padma Srivastava - she was therefore not included. Neuroradiology faculty page may be outdated (Dr. Gaikwad's status should be re-verified). AIIMS Neurosurgery endovascular faculty not researched within time budget."
+    },
+    {
+      "key": "safdarjung-vmmc",
+      "name": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+      "chain": null,
+      "campus": null,
+      "address": "NH 48, near AIIMS Hospital, Ansari Nagar West, New Delhi, Delhi",
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": "110029",
+      "officialWebsite": "https://vmmc-sjh.mohfw.gov.in/",
+      "officialPhone": "+91- 011 2616 5060",
+      "ownership": "government",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://vmmc-sjh.mohfw.gov.in/",
+          "excerpt": "H693+H6W, NH 48, near AIIMS Hospital, Ansari Nagar West, New Delhi, Delhi 110029.",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "phone",
+          "url": "https://vmmc-sjh.mohfw.gov.in/",
+          "excerpt": "+91- 011 2616 5060",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "ownership",
+          "url": "https://vmmc-sjh.mohfw.gov.in/",
+          "excerpt": "Official website is hosted on the Ministry of Health & Family Welfare (mohfw.gov.in) domain.",
+          "kind": "summary",
+          "sourceType": "government",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "services": [
+        {
+          "code": "stroke_unit",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://vmmc-sjh.mohfw.gov.in/neurology",
+              "excerpt": "Neurology department bed list includes 6 Stroke HDU and 2 Stroke ICU beds (47 beds total).",
+              "kind": "summary",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        }
+      ],
+      "notes": "Neurology dept: Super-Specialty Block, Eighth Floor. No official evidence found for thrombolysis/thrombectomy/DSA; Angels Initiative lists it as a primary stroke centre (not used). Neuroradiology/neurosurgery endovascular faculty not researched. Neurology page says 6 faculty; the 21.07.2025 PDF lists 7."
+    },
+    {
+      "key": "gipmer-gb-pant",
+      "name": "Govind Ballabh Pant Institute of Postgraduate Medical Education & Research (GIPMER), erstwhile GB Pant Hospital",
+      "chain": null,
+      "campus": null,
+      "address": null,
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": null,
+      "officialWebsite": "https://gbpant.delhi.gov.in",
+      "officialPhone": null,
+      "ownership": "government",
+      "evidence": [
+        {
+          "field": "ownership",
+          "url": "https://www.amarujala.com/video/delhi/video-neuro-intervention-cath-lab-inaugurated-at-gb-pant-hospital-2026-02-09",
+          "excerpt": "Amar Ujala (Hindi) describes GB Pant Hospital as run by the Delhi government.",
+          "kind": "summary",
+          "sourceType": "news",
+          "sourceDate": "2026-02-09",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "services": [
+        {
+          "code": "neurointerventional",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.amarujala.com/video/delhi/video-neuro-intervention-cath-lab-inaugurated-at-gb-pant-hospital-2026-02-09",
+              "excerpt": "Report (Hindi) of inauguration of a neuro intervention cath lab at GB Pant Hospital for conditions including stroke, aneurysms and tumours.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2026-02-09",
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "code": "ct",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.amarujala.com/video/delhi/video-neuro-intervention-cath-lab-inaugurated-at-gb-pant-hospital-2026-02-09",
+              "excerpt": "Report (Hindi) that a 256-slice CT scanner was started alongside the neuro intervention cath lab.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2026-02-09",
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        }
+      ],
+      "notes": "Official site gbpant.delhi.gov.in unreachable (connection refused/timeout) so address, phone and faculty list not verified from official source. Feb 2026 news also mentions a neuro-surgical ICU (not coded as neuro_icu - reviewer may decide). No source found for thrombectomy being performed. Physicians sourced from ICMR collaborator page (government, undated, (c)2024). Historically MAMC's DM Neurology is housed at GB Pant - not confirmed by a fetched source."
+    },
+    {
+      "key": "rml-abvims",
+      "name": "Atal Bihari Vajpayee Institute of Medical Sciences & Dr. Ram Manohar Lohia Hospital",
+      "chain": null,
+      "campus": null,
+      "address": "Baba Kharak Singh Marg, Near Gurudwara Bangla Sahib, Connaught Place, New Delhi",
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": "110001",
+      "officialWebsite": "https://rmlh.nic.in/",
+      "officialPhone": "91-11-23365525",
+      "ownership": "government",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://rmlh.nic.in/Index1.aspx?lsid=1231&lev=1&lid=236&langid=1",
+          "excerpt": "Baba Kharak Singh Marg, Near Gurudwara Bangla Sahib, Connaught Place, New Delhi, Delhi 110001",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "phone",
+          "url": "https://rmlh.nic.in/Index1.aspx?lsid=1231&lev=1&lid=236&langid=1",
+          "excerpt": "EPBAX(telephone exchange) 91-11-23365525 Telephone operator 91-11-23404040",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "ownership",
+          "url": "https://rmlh.nic.in/Index1.aspx?lsid=1231&lev=1&lid=236&langid=1",
+          "excerpt": "(Formerly Willington Hospital) A Central Government Hospital",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://imsrn.icmr.org.in/dr-jyoti-garg/",
+              "excerpt": "ICMR collaborator profile credits Dr. Jyoti Garg with initiating free thrombolytic therapy for stroke patients at RML Hospital ('last four years'; undated).",
+              "kind": "summary",
+              "sourceType": "government",
+              "sourceDate": null,
+              "checkedAt": "2026-10-26"
+            }
+          ]
+        }
+      ],
+      "notes": "Emergency lines on official contact page: 91-11-23404902/ 23404903. Neurology scope page (updated 18/12/2024) lists a weekly Stroke Clinic for follow-up - not a stroke unit. Thrombolysis evidence is undated and from ICMR page, not the hospital site - reviewer should confirm. ICMR page for ABVIMS names Dr. K S Anand as Professor of Neurology but he is absent from the current official panel (updated 16/10/2025), so not included. Neurosurgery/radiology endovascular not researched."
+    },
+    {
+      "key": "lok-nayak-mamc",
+      "name": "Lok Nayak Hospital (Maulana Azad Medical College)",
+      "chain": null,
+      "campus": null,
+      "address": null,
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": null,
+      "evidence": [],
+      "services": [],
+      "notes": "No usable official or news evidence obtained. Delhi government sites (mamc.delhi.gov.in, lnjp.delhi.gov.in, lnh.delhi.gov.in, health.delhi.gov.in) were unreachable from this environment. No neurology faculty list found. Reviewer should check whether MAMC neurology services are delivered at GB Pant/GIPMER rather than Lok Nayak."
+    }
+  ],
+  "physicians": [
+    {
+      "key": "manjari-tripathi-aiims-new-delhi",
+      "name": "Dr Manjari Tripathi",
+      "titles": null,
+      "designation": "Professor & Head, Department of Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Dr Manjari Tripathi - Professor & Head",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "rohit-bhatia-aiims-new-delhi",
+      "name": "Prof Rohit Bhatia",
+      "titles": null,
+      "designation": "Professor, Department of Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Prof Rohit Bhatia - Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "deepti-vibha-aiims-new-delhi",
+      "name": "Dr Deepti Vibha",
+      "titles": null,
+      "designation": "Professor, Department of Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Dr Deepti Vibha - Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "vishnu-vy-aiims-new-delhi",
+      "name": "Dr. Vishnu V.Y",
+      "titles": null,
+      "designation": "Additional Professor, Department of Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Dr. Vishnu V.Y - Additional Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "awadh-kishor-pandit-aiims-new-delhi",
+      "name": "Dr. Awadh Kishor Pandit",
+      "titles": "MBBS, MD, DM; DBT-INCRE-Fellow, Fellowship Neuroendovascular therapy (Japan)",
+      "designation": "Additional Professor, Department of Neurology",
+      "specialty": "stroke_neurology",
+      "subspecialty": "Stroke; interest in interventional neurology",
+      "profileUrl": "https://www.aiims.edu/images/pdf/Departments_Centers/Neurology/Dr%20Awadh.pdf",
+      "evidence": [
+        {
+          "field": "titles",
+          "url": "https://www.aiims.edu/images/pdf/Departments_Centers/Neurology/Dr%20Awadh.pdf",
+          "excerpt": "MBBS, MD, DM DBT-INCRE-Fellow, Fellowship Neuroendovascular therapy (Japan)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Dr. Awadh Kishor Pandit - Additional Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://www.aiims.edu/images/pdf/Departments_Centers/Neurology/Dr%20Awadh.pdf",
+          "excerpt": "His areas of research are stroke and specially interested in Interventional Neurology.",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": [
+        "designation_conflict"
+      ]
+    },
+    {
+      "key": "s-b-gaikwad-aiims-new-delhi",
+      "name": "Dr. Shailesh B Gaikwad",
+      "titles": "MD, FNAMS, CCST",
+      "designation": "Professor & Head, Department of Neuroimaging & Interventional Neuroradiology",
+      "specialty": "interventional_neuroradiology",
+      "subspecialty": null,
+      "profileUrl": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty/199-neuro_radiology/12327-dr-s-b-gaikwad,-neuro-_radiology",
+      "evidence": [
+        {
+          "field": "titles",
+          "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty/199-neuro_radiology/12327-dr-s-b-gaikwad,-neuro-_radiology",
+          "excerpt": "Dr. Shailesh B Gaikwad, MD, FNAMS, CCST",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2022-01-07",
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+          "excerpt": "Dr. S. B. Gaikwad, Professor & Head",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": [
+        "possibly_stale"
+      ]
+    },
+    {
+      "key": "ajay-garg-aiims-new-delhi",
+      "name": "Dr. Ajay Garg",
+      "titles": null,
+      "designation": "Professor, Department of Neuroimaging & Interventional Neuroradiology",
+      "specialty": "interventional_neuroradiology",
+      "subspecialty": null,
+      "profileUrl": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+          "excerpt": "Dr. Ajay Garg, Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "leve-joseph-devarajan-aiims-new-delhi",
+      "name": "Dr. Leve Joseph Devarajan S.",
+      "titles": null,
+      "designation": "Additional Professor, Department of Neuroimaging & Interventional Neuroradiology",
+      "specialty": "interventional_neuroradiology",
+      "subspecialty": null,
+      "profileUrl": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+          "excerpt": "Dr. Leve Joseph Devarajan S., Additional Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "bk-bajaj-safdarjung-vmmc",
+      "name": "Dr. B.K Bajaj",
+      "titles": "DM(Neurology)",
+      "designation": "Dir. Prof & HoD, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Dr. B.K Bajaj DM(Neurology) Neurology Dir. Prof & HoD",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "sanghamitra-laskar-safdarjung-vmmc",
+      "name": "Dr. Sanghamitra Laskar",
+      "titles": "DM(Neurology)",
+      "designation": "Associate Professor, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Dr. Sanghamitra Laskar DM(Neurology) Neurology Associate Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "shishir-kumar-chandan-safdarjung-vmmc",
+      "name": "Dr. Shishir Kumar Chandan",
+      "titles": "DM(Neurology)",
+      "designation": "CMO (SAG) & Associate Professor, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Dr. Shishir Kumar Chandan DM(Neurology) Neurology CMO (SAG) & Associate Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "atri-chatterjee-safdarjung-vmmc",
+      "name": "Dr. Atri Chatterjee",
+      "titles": "DM(Neurology)",
+      "designation": "Assistant Professor, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Dr. Atri Chatterjee DM(Neurology) Neurology Assistant Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "deepika-saroha-safdarjung-vmmc",
+      "name": "Dr. Deepika Saroha",
+      "titles": "DM(Neurology)",
+      "designation": "Assistant Professor, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Dr. Deepika Saroha DM(Neurology) Neurology Assistant Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "sumirini-puppala-safdarjung-vmmc",
+      "name": "Dr. Sumirini Puppala",
+      "titles": "DM(Neurology)",
+      "designation": "Assistant Professor, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Dr. Sumirini Puppala DM(Neurology) Neurology Assistant Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "amrita-jagdish-gotur-safdarjung-vmmc",
+      "name": "Dr. Amrita Jagdish Gotur",
+      "titles": "DM(Neurology)",
+      "designation": "Assistant Professor, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://vmmc-sjh.mohfw.gov.in/neurology",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Dr. Amrita Jagdish Gotur DM(Neurology) Neurology Assistant Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "jyoti-garg-rml-abvims",
+      "name": "Dr. Jyoti Garg",
+      "titles": "MD DM DNB",
+      "designation": "Professor & HOD, Neurology",
+      "specialty": "neurology",
+      "subspecialty": "Interests include stroke (per ICMR profile)",
+      "profileUrl": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+          "excerpt": "Name of Faculty: Dr. Jyoti Garg Designation: Professor & HOD",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-10-16",
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "titles",
+          "url": "https://imsrn.icmr.org.in/dr-jyoti-garg/",
+          "excerpt": "MD DM DNB",
+          "kind": "verbatim",
+          "sourceType": "government",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "specialty",
+          "url": "https://imsrn.icmr.org.in/dr-jyoti-garg/",
+          "excerpt": "Her area of interest is vast which includes stroke",
+          "kind": "verbatim",
+          "sourceType": "government",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "ashish-kumar-duggal-rml-abvims",
+      "name": "Dr. Ashish Kumar Duggal",
+      "titles": null,
+      "designation": "Professor (Unit Head), Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+          "excerpt": "Name of Unit Head: Dr. Ashish Kumar Duggal Designation: Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-10-16",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "prashant-kumar-thakur-rml-abvims",
+      "name": "Dr Prashant Kumar Thakur",
+      "titles": null,
+      "designation": "Assistant Professor, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+          "excerpt": "Name of Faculty: Dr Prashant Kumar Thakur Designation: Assistant Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-10-16",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "debashish-chowdhury-gipmer-gb-pant",
+      "name": "Dr. Debashish Chowdhury",
+      "titles": "MD, DM",
+      "designation": "Professor and Head",
+      "specialty": "neurology",
+      "subspecialty": "Headaches and neuroimmunology (per ICMR page)",
+      "profileUrl": null,
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+          "excerpt": "Dr. Debashish Chowdhury, MD, DM ... Professor and Head at GIPMER, Delhi; interests headaches and neuroimmunology.",
+          "kind": "summary",
+          "sourceType": "government",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": [
+        "not_official_hospital_source"
+      ]
+    },
+    {
+      "key": "arun-kaul-gipmer-gb-pant",
+      "name": "Dr. Arun Kaul",
+      "titles": "MD, DM",
+      "designation": "Professor",
+      "specialty": "stroke_neurology",
+      "subspecialty": "Stroke and neuroimmunology (per ICMR page)",
+      "profileUrl": null,
+      "evidence": [
+        {
+          "field": "specialty",
+          "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+          "excerpt": "He has a special interest in Stroke and Neuroimmunology.",
+          "kind": "verbatim",
+          "sourceType": "government",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "field": "designation",
+          "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+          "excerpt": "Dr. Arun Kaul, MD, DM, Professor at GIPMER (erstwhile GB Pant Hospital), Delhi.",
+          "kind": "summary",
+          "sourceType": "government",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": [
+        "not_official_hospital_source"
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "physicianKey": "manjari-tripathi-aiims-new-delhi",
+      "hospitalKey": "aiims-new-delhi",
+      "role": "Professor & Head, Neurology",
+      "evidence": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Listed on AIIMS Department of Neurology faculty page as Professor & Head.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "rohit-bhatia-aiims-new-delhi",
+      "hospitalKey": "aiims-new-delhi",
+      "role": "Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Listed on AIIMS Department of Neurology faculty page as Professor.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "deepti-vibha-aiims-new-delhi",
+      "hospitalKey": "aiims-new-delhi",
+      "role": "Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Listed on AIIMS Department of Neurology faculty page as Professor.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "vishnu-vy-aiims-new-delhi",
+      "hospitalKey": "aiims-new-delhi",
+      "role": "Additional Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Listed on AIIMS Department of Neurology faculty page as Additional Professor.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "awadh-kishor-pandit-aiims-new-delhi",
+      "hospitalKey": "aiims-new-delhi",
+      "role": "Additional Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-12-18-11-27-59/neurology_faculty",
+          "excerpt": "Listed on AIIMS Department of Neurology faculty page as Additional Professor.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "s-b-gaikwad-aiims-new-delhi",
+      "hospitalKey": "aiims-new-delhi",
+      "role": "Professor & Head, Neuroimaging & Interventional Neuroradiology",
+      "evidence": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+          "excerpt": "Dr. S. B. Gaikwad, Professor & Head, Room no.11, 6th floor CNC",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "ajay-garg-aiims-new-delhi",
+      "hospitalKey": "aiims-new-delhi",
+      "role": "Professor, Neuroimaging & Interventional Neuroradiology",
+      "evidence": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+          "excerpt": "Dr. Ajay Garg listed as Professor on Neuroimaging & Interventional Neuroradiology faculty page.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "leve-joseph-devarajan-aiims-new-delhi",
+      "hospitalKey": "aiims-new-delhi",
+      "role": "Additional Professor, Neuroimaging & Interventional Neuroradiology",
+      "evidence": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty",
+          "excerpt": "Dr. Leve Joseph Devarajan S. listed as Additional Professor on Neuroimaging & Interventional Neuroradiology faculty page.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "bk-bajaj-safdarjung-vmmc",
+      "hospitalKey": "safdarjung-vmmc",
+      "role": "Dir. Prof & HoD, Neurology",
+      "evidence": [
+        {
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Dir. Prof & HoD, permanent.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "sanghamitra-laskar-safdarjung-vmmc",
+      "hospitalKey": "safdarjung-vmmc",
+      "role": "Associate Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Associate Professor, permanent.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "shishir-kumar-chandan-safdarjung-vmmc",
+      "hospitalKey": "safdarjung-vmmc",
+      "role": "CMO (SAG) & Associate Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as CMO (SAG) & Associate Professor, permanent.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "atri-chatterjee-safdarjung-vmmc",
+      "hospitalKey": "safdarjung-vmmc",
+      "role": "Assistant Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Assistant Professor, permanent.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "deepika-saroha-safdarjung-vmmc",
+      "hospitalKey": "safdarjung-vmmc",
+      "role": "Assistant Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Assistant Professor, permanent.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "sumirini-puppala-safdarjung-vmmc",
+      "hospitalKey": "safdarjung-vmmc",
+      "role": "Assistant Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Assistant Professor, permanent.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "amrita-jagdish-gotur-safdarjung-vmmc",
+      "hospitalKey": "safdarjung-vmmc",
+      "role": "Assistant Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Dated%2021.07.2025%20-%20List%20of%20Faculty%20in%20Department%20of%20Neurology%20as%20per%20format%20prescribed%20under%20Annexure-I%20of%20NMC%20Public%20Notice.pdf",
+          "excerpt": "Listed in VMMC & Safdarjung Hospital Neurology faculty list (Annexure-I, dated 21.07.2025) as Assistant Professor, permanent.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": "2025-07-21",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "jyoti-garg-rml-abvims",
+      "hospitalKey": "rml-abvims",
+      "role": "Professor & HOD, Neurology",
+      "evidence": [
+        {
+          "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+          "excerpt": "Name of Faculty: Dr. Jyoti Garg Designation: Professor & HOD",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-10-16",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "ashish-kumar-duggal-rml-abvims",
+      "hospitalKey": "rml-abvims",
+      "role": "Professor & Unit Head, Neurology",
+      "evidence": [
+        {
+          "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+          "excerpt": "Name of Unit Head: Dr. Ashish Kumar Duggal Designation: Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-10-16",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "prashant-kumar-thakur-rml-abvims",
+      "hospitalKey": "rml-abvims",
+      "role": "Assistant Professor, Neurology",
+      "evidence": [
+        {
+          "url": "https://rmlh.mohfw.gov.in/departments.aspx?lsid=136&lev=1&lid=141&office_id=1&dept_id=27&dept_links_id=6&langid=1",
+          "excerpt": "Name of Faculty: Dr Prashant Kumar Thakur Designation: Assistant Professor",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2025-10-16",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "debashish-chowdhury-gipmer-gb-pant",
+      "hospitalKey": "gipmer-gb-pant",
+      "role": "Professor and Head (department not stated on source)",
+      "evidence": [
+        {
+          "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+          "excerpt": "ICMR collaborator page lists him as Professor and Head at GIPMER (erstwhile GB Pant Hospital), Delhi.",
+          "kind": "summary",
+          "sourceType": "government",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": [
+        "not_official_hospital_source"
+      ]
+    },
+    {
+      "physicianKey": "arun-kaul-gipmer-gb-pant",
+      "hospitalKey": "gipmer-gb-pant",
+      "role": "Professor (department not stated on source)",
+      "evidence": [
+        {
+          "url": "https://imsrn.icmr.org.in/gipmer-delhi/",
+          "excerpt": "Dr. Arun Kaul is a Professor of Govind Ballabh Pant Institute of Post Graduate Institute of Medical Education and Research",
+          "kind": "verbatim",
+          "sourceType": "government",
+          "sourceDate": null,
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "flags": [
+        "not_official_hospital_source"
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "physicianKey": "s-b-gaikwad-aiims-new-delhi",
+      "procedure": "mechanical_thrombectomy",
+      "value": "explicit_claim",
+      "evidence": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-12-19-04-57-07/neurology_radiology_faculty/199-neuro_radiology/12327-dr-s-b-gaikwad,-neuro-_radiology",
+          "excerpt": "Services started at AIIMS: Intra-arterial thrombolysis/mechanical thrombectomy for acute ischaemic stroke.",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": "2022-01-07",
+          "checkedAt": "2026-10-26"
+        }
+      ]
+    }
+  ],
+  "sourceFailures": [
+    {
+      "url": "https://www.aiims.edu/index.php/en/departments-and-centers/clinical-departments/neurology",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://aiims.edu/index.php/en/contact-us",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://gbpant.delhi.gov.in/",
+      "reason": "Connection refused / timed out (WebFetch and curl)"
+    },
+    {
+      "url": "https://mamc.delhi.gov.in/",
+      "reason": "Connection refused / timed out"
+    },
+    {
+      "url": "https://lnjp.delhi.gov.in/",
+      "reason": "Connection timed out"
+    },
+    {
+      "url": "https://lnh.delhi.gov.in/",
+      "reason": "Connection timed out"
+    },
+    {
+      "url": "https://web.archive.org/web/2025/https://gbpant.delhi.gov.in/",
+      "reason": "Fetch tool cannot access web.archive.org"
+    }
+  ]
+}

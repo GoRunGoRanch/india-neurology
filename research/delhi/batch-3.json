@@ -1,0 +1,246 @@
+{
+  "agent": "batch-3",
+  "hospitals": [
+    {
+      "key": "apollo-sarita-vihar",
+      "name": "Indraprastha Apollo Hospitals",
+      "chain": "Apollo Hospitals",
+      "campus": "Sarita Vihar",
+      "address": null,
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": null,
+      "evidence": [
+        {"field": "name", "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap", "excerpt": "Experts at Indraprastha Apollo Hospitals Highlight Urgent Need for Stroke Recognition and Timely Care During Apollo Stroke Awareness Programme (ASAP)", "kind": "verbatim", "sourceType": "news", "sourceDate": "2025-10-24", "checkedAt": "2026-10-26"}
+      ],
+      "services": [
+        {"code": "stroke_rehab", "value": "available", "evidence": [
+          {"url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap", "excerpt": "Robotic Neuro-Rehabilitation Unit, designed to accelerate motor recovery", "kind": "verbatim", "sourceType": "news", "sourceDate": "2025-10-24", "checkedAt": "2026-10-26"}
+        ]},
+        {"code": "ct", "value": "available", "evidence": [
+          {"url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap", "excerpt": "64 slice CT and 3 Tesla MRI", "kind": "verbatim", "sourceType": "news", "sourceDate": "2025-10-24", "checkedAt": "2026-10-26"}
+        ]},
+        {"code": "mri", "value": "available", "evidence": [
+          {"url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap", "excerpt": "64 slice CT and 3 Tesla MRI", "kind": "verbatim", "sourceType": "news", "sourceDate": "2025-10-24", "checkedAt": "2026-10-26"}
+        ]}
+      ],
+      "notes": "Official apollohospitals.com (all subdomains incl. delhi.apollohospitals.com, mediacdn) returned HTTP 403 (Azure gateway) for every page, so no official evidence could be captured. Only evidence is a NewsVoir press release carried by The Tribune with an 'Advertorial Disclaimer' tag (hospital-supplied content). Search snippets (not fetched/verified) indicated: an Apollo Delhi thrombectomy procedure page exists; Angels Initiative lists the hospital as a comprehensive (thrombectomy-performing) centre with 2024 awards; address in snippets 'Mathura Rd, Sarita Vihar, New Delhi 110076'. Reviewer should confirm address/phone/thrombectomy/stroke unit from the official site manually. Unfetched candidate names seen in search snippets of official profiles: Dr Anoop Kohli (founder co-ordinator, cerebrovascular diseases & stroke unit per snippet), Dr Rakesh Agarwal - not recorded as physicians because pages could not be fetched."
+    },
+    {
+      "key": "fortis-shalimar-bagh",
+      "name": "Fortis Hospital, Shalimar Bagh",
+      "chain": "Fortis Healthcare",
+      "campus": "Shalimar Bagh",
+      "address": null,
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": "private",
+      "evidence": [
+        {"field": "name", "url": "https://health.medicaldialogues.in/health/94-year-old-man-walks-again-after-complex-stroke-and-thigh-fracture-surgery-at-fortis-shalimar-bagh-153077", "excerpt": "94-Year-Old Man Walks Again After Complex Stroke and Thigh Fracture Surgery at Fortis Shalimar Bagh", "kind": "verbatim", "sourceType": "news", "sourceDate": "2025-08-07", "checkedAt": "2026-10-26"}
+      ],
+      "services": [
+        {"code": "mri", "value": "available", "evidence": [
+          {"url": "https://health.medicaldialogues.in/health/94-year-old-man-walks-again-after-complex-stroke-and-thigh-fracture-surgery-at-fortis-shalimar-bagh-153077", "excerpt": "a CT scan done immediately could not explain the left side weakness of limbs, so an MRI scan was performed", "kind": "verbatim", "sourceType": "news", "sourceDate": "2025-08-07", "checkedAt": "2026-10-26"}
+        ]},
+        {"code": "ct", "value": "available", "evidence": [
+          {"url": "https://health.medicaldialogues.in/health/94-year-old-man-walks-again-after-complex-stroke-and-thigh-fracture-surgery-at-fortis-shalimar-bagh-153077", "excerpt": "a CT scan done immediately could not explain the left side weakness of limbs, so an MRI scan was performed", "kind": "verbatim", "sourceType": "news", "sourceDate": "2025-08-07", "checkedAt": "2026-10-26"}
+        ]}
+      ],
+      "notes": "fortishealthcare.com (and workbench.fortishealthcare.com) is behind a Cloudflare bot challenge - every page returned 403; not bypassed. Ownership 'private' is general knowledge of Fortis Healthcare (listed company), not from a fetched source - reviewer to confirm. CT/MRI evidence is from a single patient-case news story. Unfetched search snippets suggested: Dr Jaideep Bansal listed on Fortis site as Principal Director & HOD Neurology at this campus; Fortis site has an 'interventional neurology' doctor listing for this campus; Angels Initiative lists it as a comprehensive (thrombectomy) centre. None recorded as claims because pages could not be fetched. Dr Sonal Gupta (HOD Neuro and Spine Surgery) appears in news but is a neurosurgeon - excluded per brief."
+    },
+    {
+      "key": "fortis-vasant-kunj",
+      "name": "Fortis Flt. Lt. Rajan Dhall Hospital, Vasant Kunj",
+      "chain": "Fortis Healthcare",
+      "campus": "Vasant Kunj",
+      "address": null,
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": "private",
+      "evidence": [],
+      "services": [],
+      "notes": "No fetchable evidence: all fortishealthcare.com pages (doctor profiles, news-and-events, specialty listings) returned 403 behind a Cloudflare bot challenge; Angels Initiative page returned empty content. Ownership 'private' is not from a fetched source. Unfetched search snippets (reviewer to verify on official site): Dr Kameshwar Prasad - Principal Director, Neurology; Dr Renu Achtani - Additional Director Neurology (profile reportedly says she offers thrombolysis to eligible stroke patients at this hospital); Dr Dhruv Vikram Zutshi - Additional Director/Senior Consultant Neurology (title inconsistent); Dr Lovelina Singh - Additional Director Neurology (Fortis news item dated 2026-06-27); Dr Madhuri Behari - Neurology (movement disorders). Angels snippet described it as a primary (not comprehensive) stroke centre. Note possible overlap: Dr Dhruv Zutshi also appears in aggregator listings for Fortis Escorts Okhla."
+    },
+    {
+      "key": "manipal-dwarka",
+      "name": "Manipal Hospitals Dwarka",
+      "chain": "Manipal Hospitals",
+      "campus": "Dwarka",
+      "address": "Palam Vihar, Sector 6, Dwarka, New Delhi, Delhi 110075",
+      "city": "New Delhi",
+      "state": "DL",
+      "pincode": "110075",
+      "officialWebsite": "https://www.manipalhospitals.com/delhi/",
+      "officialPhone": "0114 967 4967",
+      "ownership": "trust",
+      "evidence": [
+        {"field": "address", "url": "https://www.manipalhospitals.com/delhi/specialities/neurology/", "excerpt": "Human Care Medical Charitable Trust, Manipal Hospitals, Palam Vihar, Sector 6, Dwarka, New Delhi, Delhi 110075", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"},
+        {"field": "ownership", "url": "https://www.manipalhospitals.com/delhi/specialities/neurology/", "excerpt": "Human Care Medical Charitable Trust, Manipal Hospitals", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"},
+        {"field": "phone", "url": "https://www.manipalhospitals.com/delhi/", "excerpt": "Appointment Helpline: 0114 967 4967", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"},
+        {"field": "website", "url": "https://www.manipalhospitals.com/delhi/", "excerpt": "Delhi campus homepage labelled 'Dwarka - Delhi NCR' on the official Manipal Hospitals site.", "kind": "summary", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+      ],
+      "services": [
+        {"code": "mri", "value": "available", "evidence": [
+          {"url": "https://www.manipalhospitals.com/delhi/specialities/neurology/", "excerpt": "The 3-Tesla MRI is a type of Magnetic Resonance Imaging (MRI).", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+        ]},
+        {"code": "ct", "value": "available", "evidence": [
+          {"url": "https://www.manipalhospitals.com/delhi/specialities/neurology/", "excerpt": "CT Scan diagnoses and treats various diseases and conditions, including Traumatic Brain Injury and Stroke.", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+        ]},
+        {"code": "neuro_icu", "value": "available", "evidence": [
+          {"url": "https://www.manipalhospitals.com/delhi/specialities/neurology/", "excerpt": "Neuro Intensive Care is listed as a facility, for patients with brain trauma or disease requiring round-the-clock monitoring.", "kind": "summary", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+        ]}
+      ],
+      "notes": "Phone: hospital homepage also shows 'Dwarka - Delhi NCR: 011-4040 7070'; neurology list page writes helpline as '011 4967 4967' (same number, different formatting). The neurology page lists 'Acute Management of Stroke' and 'Stroke Management' as facilities but gives no detail on thrombolysis/thrombectomy/stroke unit, so those services are not claimed. Neuro-interventional work appears to sit in the Neurosurgery & Neuro-interventional Surgery department (per search snippet, not verified). Angels Initiative listing (comprehensive/thrombectomy centre per search snippet) could not be fetched. Equipment facility pages on the Delhi site may be shared across Manipal Delhi-NCR content; the footer address is Dwarka."
+    }
+  ],
+  "physicians": [
+    {
+      "key": "khushbu-goel-manipal-dwarka",
+      "name": "Dr. Khushbu Goel",
+      "titles": "MBBS | MD (Internal Medicine) | DM (Neurology)",
+      "designation": "Consultant and Head - Stroke Care Program & Neurology",
+      "specialty": "stroke_neurology",
+      "subspecialty": "Stroke management and rehabilitation, including transcranial doppler",
+      "profileUrl": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/",
+      "evidence": [
+        {"field": "titles", "url": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/", "excerpt": "MBBS | MD (Internal Medicine) | DM (Neurology)", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"},
+        {"field": "designation", "url": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/", "excerpt": "Consultant and Head - Stroke Care Program & Neurology", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"},
+        {"field": "specialty", "url": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/", "excerpt": "Stroke management and rehabilitation, including transcranial doppler", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+      ],
+      "flags": []
+    },
+    {
+      "key": "cs-narayanan-manipal-dwarka",
+      "name": "(Lt Gen) Dr. CS Narayanan, VSM",
+      "titles": "MBBS, MD (Medicine), DM (Neurology)",
+      "designation": "Chairman, Manipal Institute of Neuro Sciences",
+      "specialty": "neurology",
+      "subspecialty": "Stroke (including thrombolysis and mechanical thrombectomy); video EEG",
+      "profileUrl": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/",
+      "evidence": [
+        {"field": "titles", "url": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/", "excerpt": "DM (Neurology) from All India Institute of Medical Sciences (1998)", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"},
+        {"field": "designation", "url": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/", "excerpt": "Chairman, Manipal Institute of Neuro Sciences", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"},
+        {"field": "specialty", "url": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/", "excerpt": "Stroke (including thrombolysis and mechanical thrombectomy)", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+      ],
+      "flags": []
+    },
+    {
+      "key": "sweta-singla-manipal-dwarka",
+      "name": "Dr. Sweta Singla",
+      "titles": "MBBS (UCMS) | MD (PGIMER/ Dr RMLH) | DM (Neurology) (AIIMS)",
+      "designation": "Consultant and Head - Movement Disorder & Neurology",
+      "specialty": "neurology",
+      "subspecialty": "Movement disorders, epilepsy, stroke, electrophysiology",
+      "profileUrl": "https://www.manipalhospitals.com/delhi/doctors/dr-sweta-singla-neurologist/",
+      "evidence": [
+        {"field": "titles", "url": "https://www.manipalhospitals.com/delhi/doctors/dr-sweta-singla-neurologist/", "excerpt": "MBBS (UCMS) | MD (PGIMER/ Dr RMLH) | DM (Neurology) (AIIMS)", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"},
+        {"field": "designation", "url": "https://www.manipalhospitals.com/delhi/doctors/dr-sweta-singla-neurologist/", "excerpt": "Consultant and Head - Movement Disorder & Neurology", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+      ],
+      "flags": []
+    },
+    {
+      "key": "vinit-suri-apollo-sarita-vihar",
+      "name": "Dr Vinit Suri",
+      "titles": null,
+      "designation": "Senior Consultant, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {"field": "designation", "url": "https://www.etvbharat.com/en/bharat/veteran-bjp-leader-lk-advani-discharged-from-indraprastha-apollo-hospital-after-health-improvement-enn26101905752", "excerpt": "led by Dr Vinit Suri, senior consultant in neurology", "kind": "verbatim", "sourceType": "news", "sourceDate": "2026-10-19", "checkedAt": "2026-10-26"}
+      ],
+      "flags": ["news_source_only", "needs_official_verification"]
+    },
+    {
+      "key": "mukul-verma-apollo-sarita-vihar",
+      "name": "Dr. Mukul Verma",
+      "titles": null,
+      "designation": "Senior Consultant, Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {"field": "designation", "url": "https://www.tribuneindia.com/news/advanced-technology/apollo-advances-research-into-non-invasive-treatment-approaches-for-severe-essential-tremor", "excerpt": "Dr. Mukul Verma, Senior Consultant, Neurology, Indraprastha Apollo Hospitals, Delhi", "kind": "verbatim", "sourceType": "news", "sourceDate": "2026-09-18", "checkedAt": "2026-10-26"}
+      ],
+      "flags": ["news_source_only", "needs_official_verification"]
+    },
+    {
+      "key": "pushpendra-nath-renjen-apollo-sarita-vihar",
+      "name": "Dr. Pushpendra Nath Renjen",
+      "titles": null,
+      "designation": "Senior Consultant - Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {"field": "designation", "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap", "excerpt": "Dr. Pushpendra Nath Renjen, Senior Consultant - Neurology", "kind": "verbatim", "sourceType": "news", "sourceDate": "2025-10-24", "checkedAt": "2026-10-26"}
+      ],
+      "flags": ["news_source_only", "needs_official_verification"]
+    },
+    {
+      "key": "avinash-goswami-apollo-sarita-vihar",
+      "name": "Dr. Avinash Goswami",
+      "titles": null,
+      "designation": "Attending Consultant - Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {"field": "designation", "url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap", "excerpt": "Dr. Avinash Goswami, Attending Consultant - Neurology", "kind": "verbatim", "sourceType": "news", "sourceDate": "2025-10-24", "checkedAt": "2026-10-26"}
+      ],
+      "flags": ["news_source_only", "needs_official_verification"]
+    }
+  ],
+  "affiliations": [
+    {"physicianKey": "khushbu-goel-manipal-dwarka", "hospitalKey": "manipal-dwarka", "role": "Consultant and Head - Stroke Care Program & Neurology", "evidence": [
+      {"url": "https://www.manipalhospitals.com/delhi/doctors/dr-khushbu-goel-consultant-neurology/", "excerpt": "Profile lists location as 'Dwarka - Delhi NCR' (Manipal Hospitals, Dwarka).", "kind": "summary", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+    ], "flags": []},
+    {"physicianKey": "cs-narayanan-manipal-dwarka", "hospitalKey": "manipal-dwarka", "role": "Chairman, Manipal Institute of Neuro Sciences", "evidence": [
+      {"url": "https://www.manipalhospitals.com/delhi/doctors/dr-lt-gen-c-s-narayanan-vsm-hod-neurology/", "excerpt": "Profile lists location as 'Dwarka - Delhi NCR'.", "kind": "summary", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+    ], "flags": []},
+    {"physicianKey": "sweta-singla-manipal-dwarka", "hospitalKey": "manipal-dwarka", "role": "Consultant and Head - Movement Disorder & Neurology", "evidence": [
+      {"url": "https://www.manipalhospitals.com/delhi/doctors/dr-sweta-singla-neurologist/", "excerpt": "Manipal Hospitals Dwarka - Delhi NCR", "kind": "verbatim", "sourceType": "official", "sourceDate": null, "checkedAt": "2026-10-26"}
+    ], "flags": []},
+    {"physicianKey": "vinit-suri-apollo-sarita-vihar", "hospitalKey": "apollo-sarita-vihar", "role": "Senior Consultant, Neurology", "evidence": [
+      {"url": "https://www.etvbharat.com/en/bharat/veteran-bjp-leader-lk-advani-discharged-from-indraprastha-apollo-hospital-after-health-improvement-enn26101905752", "excerpt": "Article reports the patient was discharged from Indraprastha Apollo Hospital in Delhi under a team led by Dr Vinit Suri, senior consultant in neurology.", "kind": "summary", "sourceType": "news", "sourceDate": "2026-10-19", "checkedAt": "2026-10-26"}
+    ], "flags": ["news_source_only"]},
+    {"physicianKey": "mukul-verma-apollo-sarita-vihar", "hospitalKey": "apollo-sarita-vihar", "role": "Senior Consultant, Neurology", "evidence": [
+      {"url": "https://www.tribuneindia.com/news/advanced-technology/apollo-advances-research-into-non-invasive-treatment-approaches-for-severe-essential-tremor", "excerpt": "Dr. Mukul Verma, Senior Consultant, Neurology, Indraprastha Apollo Hospitals, Delhi", "kind": "verbatim", "sourceType": "news", "sourceDate": "2026-09-18", "checkedAt": "2026-10-26"}
+    ], "flags": ["news_source_only"]},
+    {"physicianKey": "pushpendra-nath-renjen-apollo-sarita-vihar", "hospitalKey": "apollo-sarita-vihar", "role": "Senior Consultant - Neurology", "evidence": [
+      {"url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap", "excerpt": "Hospital press release (advertorial) on the Apollo Stroke Awareness Programme at Indraprastha Apollo Hospitals names him as Senior Consultant - Neurology.", "kind": "summary", "sourceType": "news", "sourceDate": "2025-10-24", "checkedAt": "2026-10-26"}
+    ], "flags": ["news_source_only"]},
+    {"physicianKey": "avinash-goswami-apollo-sarita-vihar", "hospitalKey": "apollo-sarita-vihar", "role": "Attending Consultant - Neurology", "evidence": [
+      {"url": "https://www.tribuneindia.com/news/advertorial-disclaimer/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap", "excerpt": "Hospital press release (advertorial) on the Apollo Stroke Awareness Programme at Indraprastha Apollo Hospitals names him as Attending Consultant - Neurology.", "kind": "summary", "sourceType": "news", "sourceDate": "2025-10-24", "checkedAt": "2026-10-26"}
+    ], "flags": ["news_source_only"]}
+  ],
+  "procedures": [],
+  "sourceFailures": [
+    {"url": "https://apollohospitals.com/delhi/team-of-doctors/neurology-and-neurosurgery", "reason": "HTTP 403 (Azure Application Gateway); entire apollohospitals.com domain incl. robots.txt returns 403"},
+    {"url": "https://www.apollohospitals.com/zu/delhi/procedures/thrombectomy", "reason": "HTTP 403"},
+    {"url": "https://mediacdn.apollohospitals.com/delhi/procedures/thrombectomy", "reason": "HTTP 403"},
+    {"url": "https://apollohospitals.com/delhi/doctor/dr-anoop-kohli", "reason": "HTTP 403"},
+    {"url": "https://www.apollohospitals.com/delhi/doctor/dr-pranav-kumar/", "reason": "HTTP 403"},
+    {"url": "https://www.apollohospitals.com/region/delhi/?p=4137", "reason": "HTTP 403 (Dr P N Renjen profile)"},
+    {"url": "https://www.fortishealthcare.com/doctors/speciality/hospital/neurology-64/fortis-hospital-shalimar-bagh-new-delhi", "reason": "HTTP 403 Cloudflare bot challenge (not bypassed); applies to whole fortishealthcare.com domain"},
+    {"url": "https://www.fortishealthcare.com/doctors/speciality/hospital/interventional-neurology-138/fortis-hospital-shalimar-bagh-new-delhi", "reason": "HTTP 403 Cloudflare bot challenge"},
+    {"url": "https://workbench.fortishealthcare.com/doctors/hospital/fortis-hospital-shalimar-bagh-new-delhi/neurology-31", "reason": "HTTP 403"},
+    {"url": "https://www.fortishealthcare.com/doctors/dr-renu-achtani-610", "reason": "HTTP 403 Cloudflare bot challenge"},
+    {"url": "https://www.fortishealthcare.com/news-and-events/fortis-hospital-vasant-kunj-conducts-stroke-awareness-health-talk-safdarjung", "reason": "HTTP 403 Cloudflare bot challenge"},
+    {"url": "https://angels-initiative.com/content/indraprastha-apollo-delhi", "reason": "Page fetched but returned empty content (JS-rendered)"},
+    {"url": "https://cz.angels-initiative.com/content/fortis-shalimarbagh", "reason": "Page fetched but returned empty content (JS-rendered)"},
+    {"url": "https://angels-initiative.com/content/manipal-hospital-dwarka", "reason": "Page fetched but returned empty content (JS-rendered)"},
+    {"url": "https://www.manipalhospitals.com/delhi/doctors-list/neurology/", "reason": "Doctor list is JS-rendered; no names in fetched content (individual profiles fetched instead)"},
+    {"url": "https://www.aninews.in/news/business/experts-at-indraprastha-apollo-hospitals-highlight-urgent-need-for-stroke-recognition-and-timely-care-during-apollo-stroke-awareness-programme-asap20251024122242/", "reason": "HTTP 403 (used Tribune copy of same press release instead)"},
+    {"url": "https://www.business-standard.com/india-news/sadhguru-jaggi-vasudev-undergoes-emergency-brain-surgery-at-apollo-in-delhi-124032000835_1.html", "reason": "HTTP 403"}
+  ]
+}

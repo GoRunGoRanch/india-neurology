@@ -1,9 +1,9 @@
 import Link from "next/link";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import type { SearchResult } from "@/lib/data/types";
-import { facilityTypeName, findCity, findState, serviceName } from "@/lib/taxonomy";
+import { facilityTypeName, findCity, findState, serviceName, specialtyName } from "@/lib/taxonomy";
 import { Icon } from "./Icon";
-import { DemoBadge, MissingValue, ReviewedDate, VerificationBadge } from "./Trust";
+import { CandidateBadge, DemoBadge, MissingValue, ReviewedDate, VerificationBadge } from "./Trust";
 
 export function listingHref(lang: Locale, r: SearchResult["listing"]) {
   return `/${lang}/${r.kind === "hospital" ? "hospitals" : "neurologists"}/${r.id}`;
@@ -18,7 +18,12 @@ export function placeName(lang: Locale, stateCode: string, citySlug: string) {
 export function ResultCard({ result, t, lang }: { result: SearchResult; t: Dictionary; lang: Locale }) {
   const l = result.listing;
   const services = l.kind === "hospital" ? l.services.map((s) => s.code) : l.teleconsult ? ["telemedicine"] : [];
-  const subtitle = l.kind === "hospital" ? facilityTypeName(l.type, lang) : t.profile.neurologist;
+  const subtitle =
+    l.kind === "hospital"
+      ? [facilityTypeName(l.type, lang), l.chain].filter(Boolean).join(" · ")
+      : l.isCandidate
+        ? [specialtyName(l.specialty, lang), l.designation].filter(Boolean).join(" · ")
+        : t.profile.neurologist;
 
   return (
     <article className="card flex flex-col gap-3">
@@ -31,6 +36,7 @@ export function ResultCard({ result, t, lang }: { result: SearchResult; t: Dicti
         </div>
         <div className="flex flex-wrap gap-1.5">
           {l.isDemo && <DemoBadge t={t} />}
+          {l.isCandidate && <CandidateBadge t={t} />}
           <VerificationBadge status={l.verificationStatus} t={t} />
         </div>
       </div>

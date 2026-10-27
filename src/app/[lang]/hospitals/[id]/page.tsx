@@ -10,7 +10,7 @@ import { conditionBySlug, facilityTypeName, languageName, serviceName } from "@/
 
 export async function generateMetadata({ params }: { params: { lang: Locale; id: string } }): Promise<Metadata> {
   const f = await repository.facility(params.id);
-  return f ? { title: f.name, robots: f.isDemo ? { index: false } : undefined } : {};
+  return f ? { title: f.name, robots: f.isDemo || f.isCandidate ? { index: false } : undefined } : {};
 }
 
 export default async function HospitalPage({ params }: { params: { lang: Locale; id: string } }) {
@@ -23,6 +23,7 @@ export default async function HospitalPage({ params }: { params: { lang: Locale;
 
   return (
     <ProfileView t={t} lang={lang} id={f.id} name={f.name} kindLabel={facilityTypeName(f.type, lang)} place={placeName(lang, f.stateCode, f.citySlug)} provenance={f}>
+      {f.chain && <Field label={t.pilot.chain}>{f.chain}</Field>}
       <Field label={t.profile.services}>
         <MissingValue value={f.services} t={t}>
           <ul className="space-y-1">

@@ -1,4 +1,6 @@
 import { DEMO_FACILITIES, DEMO_PROVIDERS } from "./demo/records";
+import { showCandidates } from "./mode";
+import { PILOT_FACILITIES, PILOT_PROVIDERS } from "./pilot";
 import { searchListings } from "./search";
 import type { Facility, Listing, Provider, SearchQuery, SearchResult } from "./types";
 
@@ -13,27 +15,35 @@ export interface DirectoryRepository {
   facilitiesByIds(ids: string[]): Promise<Facility[]>;
   providersAtFacility(id: string): Promise<Provider[]>;
   usingDemoData: boolean;
+  usingCandidateData: boolean;
 }
 
-const demoListings: Listing[] = [...DEMO_PROVIDERS, ...DEMO_FACILITIES];
+function inMemoryRepository(providers: Provider[], facilities: Facility[], flags: { demo: boolean; candidate: boolean }): DirectoryRepository {
+  const listings: Listing[] = [...providers, ...facilities];
+  return {
+    usingDemoData: flags.demo,
+    usingCandidateData: flags.candidate,
+    async search(query) {
+      return searchListings(listings, query);
+    },
+    async provider(id) {
+      return providers.find((p) => p.id === id) ?? null;
+    },
+    async facility(id) {
+      return facilities.find((f) => f.id === id) ?? null;
+    },
+    async facilitiesByIds(ids) {
+      return facilities.filter((f) => ids.includes(f.id));
+    },
+    async providersAtFacility(id) {
+      return providers.filter((p) => p.facilityIds.includes(id));
+    },
+  };
+}
 
-export const demoRepository: DirectoryRepository = {
-  usingDemoData: true,
-  async search(query) {
-    return searchListings(demoListings, query);
-  },
-  async provider(id) {
-    return DEMO_PROVIDERS.find((p) => p.id === id) ?? null;
-  },
-  async facility(id) {
-    return DEMO_FACILITIES.find((f) => f.id === id) ?? null;
-  },
-  async facilitiesByIds(ids) {
-    return DEMO_FACILITIES.filter((f) => ids.includes(f.id));
-  },
-  async providersAtFacility(id) {
-    return DEMO_PROVIDERS.filter((p) => p.facilityIds.includes(id));
-  },
-};
+export const demoRepository = inMemoryRepository(DEMO_PROVIDERS, DEMO_FACILITIES, { demo: true, candidate: false });
 
-export const repository: DirectoryRepository = demoRepository;
+/** Real, source-linked pilot records awaiting review. Private builds only (see ./mode). */
+export const pilotRepository = inMemoryRepository(PILOT_PROVIDERS, PILOT_FACILITIES, { demo: false, candidate: true });
+
+export const repository: DirectoryRepository = showCandidates ? pilotRepository : demoRepository;

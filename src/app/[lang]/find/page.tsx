@@ -4,7 +4,7 @@ import { DirectoryMap, type MapPoint } from "@/components/DirectoryMap";
 import { FilterPanel } from "@/components/FilterPanel";
 import { Icon } from "@/components/Icon";
 import { ResultCard, listingHref } from "@/components/ResultCard";
-import { DemoNotice } from "@/components/Trust";
+import { CandidateNotice, DemoNotice } from "@/components/Trust";
 import { repository } from "@/lib/data/repository";
 import { parseSearchParams } from "@/lib/data/search";
 import { getDictionary, type Locale } from "@/lib/i18n";
@@ -37,6 +37,7 @@ export default async function FindPage({ params, searchParams }: { params: { lan
     <div className="container-page py-8">
       <h1 className="text-3xl">{t.find.title}</h1>
       {repository.usingDemoData && <div className="mt-4"><DemoNotice t={t} /></div>}
+        {repository.usingCandidateData && <div className="mt-4"><CandidateNotice t={t} /></div>}
 
       <div className="mt-6 grid gap-6 lg:grid-cols-[300px_1fr]">
         <aside><FilterPanel t={t} lang={lang} query={query} view={view} /></aside>

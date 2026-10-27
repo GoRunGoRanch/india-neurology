@@ -25,6 +25,9 @@ export const CONDITIONS: ConditionDef[] = [
 export const SERVICES: { code: string; name: Label }[] = [
   { code: "thrombolysis", name: { en: "Clot-busting treatment (thrombolysis)", hi: "थ्रोम्बोलिसिस (थक्का घोलने का इलाज)" } },
   { code: "thrombectomy", name: { en: "Clot removal (thrombectomy)", hi: "थ्रोम्बेक्टॉमी" } },
+  { code: "stroke_unit", name: { en: "Stroke unit", hi: "स्ट्रोक यूनिट" } },
+  { code: "stroke_24x7", name: { en: "24×7 stroke team", hi: "24×7 स्ट्रोक टीम" } },
+  { code: "neurointerventional", name: { en: "Neurointervention", hi: "न्यूरो-इंटरवेंशन" } },
   { code: "cerebral_angiography", name: { en: "Cerebral angiography", hi: "सेरेब्रल एंजियोग्राफ़ी" } },
   { code: "aneurysm_treatment", name: { en: "Aneurysm coiling / flow diversion", hi: "एन्यूरिज़्म कॉइलिंग / फ़्लो डायवर्शन" } },
   { code: "carotid_stenting", name: { en: "Carotid / intracranial stenting", hi: "कैरोटिड / इंट्राक्रेनियल स्टेंटिंग" } },
@@ -34,8 +37,19 @@ export const SERVICES: { code: string; name: Label }[] = [
   { code: "emg_ncs", name: { en: "EMG / nerve conduction", hi: "ईएमजी / नर्व कंडक्शन" } },
   { code: "neuro_icu", name: { en: "Neuro ICU", hi: "न्यूरो आईसीयू" } },
   { code: "physiotherapy", name: { en: "Physiotherapy", hi: "फिजियोथेरेपी" } },
+  { code: "stroke_rehab", name: { en: "Stroke rehabilitation", hi: "स्ट्रोक पुनर्वास" } },
   { code: "speech_therapy", name: { en: "Speech therapy", hi: "स्पीच थेरेपी" } },
   { code: "telemedicine", name: { en: "Teleconsultation", hi: "टेली-परामर्श" } },
+];
+
+export const SPECIALTIES: { code: string; name: Label }[] = [
+  { code: "neurology", name: { en: "Neurologist", hi: "न्यूरोलॉजिस्ट" } },
+  { code: "stroke_neurology", name: { en: "Stroke neurologist", hi: "स्ट्रोक न्यूरोलॉजिस्ट" } },
+  { code: "neurointervention", name: { en: "Neurointerventionalist", hi: "न्यूरो-इंटरवेंशनिस्ट" } },
+  { code: "interventional_neuroradiology", name: { en: "Interventional neuroradiologist", hi: "इंटरवेंशनल न्यूरोरेडियोलॉजिस्ट" } },
+  { code: "endovascular_neurosurgery", name: { en: "Endovascular neurosurgeon", hi: "एंडोवैस्कुलर न्यूरोसर्जन" } },
+  { code: "paediatric_neurology", name: { en: "Children's neurologist", hi: "बच्चों के न्यूरोलॉजिस्ट" } },
+  { code: "neurorehabilitation", name: { en: "Neurorehabilitation specialist", hi: "न्यूरो-पुनर्वास विशेषज्ञ" } },
 ];
 
 export const FACILITY_TYPES: { code: string; name: Label }[] = [
@@ -131,6 +145,9 @@ export function conditionBySlug(slug: string) {
 }
 export function serviceName(code: string, locale: Locale) {
   return SERVICES.find((s) => s.code === code)?.name[locale] ?? code;
+}
+export function specialtyName(code: string, locale: Locale) {
+  return SPECIALTIES.find((s) => s.code === code)?.name[locale] ?? code;
 }
 export function facilityTypeName(code: string, locale: Locale) {
   return FACILITY_TYPES.find((s) => s.code === code)?.name[locale] ?? code;

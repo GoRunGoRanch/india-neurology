@@ -4,7 +4,7 @@ import { Icon } from "@/components/Icon";
 import { LocationSearch } from "@/components/LocationSearch";
 import { ResultCard } from "@/components/ResultCard";
 import { StrokeAppCard } from "@/components/StrokeAppCard";
-import { DemoNotice } from "@/components/Trust";
+import { CandidateNotice, DemoNotice } from "@/components/Trust";
 import { YouTubeFeature } from "@/components/YouTubeFeature";
 import { repository } from "@/lib/data/repository";
 import { getDictionary, type Locale } from "@/lib/i18n";
@@ -90,6 +90,7 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
           <Link href={`/${lang}/find`} className="btn-secondary">{t.home.previewCta} →</Link>
         </div>
         {repository.usingDemoData && <div className="mt-6"><DemoNotice t={t} /></div>}
+        {repository.usingCandidateData && <div className="mt-6"><CandidateNotice t={t} /></div>}
         <div className="mt-6 grid gap-4 md:grid-cols-3">
           {preview.map((r) => <ResultCard key={r.listing.id} result={r} t={t} lang={lang} />)}
         </div>

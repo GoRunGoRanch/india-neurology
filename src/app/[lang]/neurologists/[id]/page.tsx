@@ -6,11 +6,11 @@ import { placeName } from "@/components/ResultCard";
 import { MissingValue } from "@/components/Trust";
 import { repository } from "@/lib/data/repository";
 import { getDictionary, type Locale } from "@/lib/i18n";
-import { conditionBySlug, languageName } from "@/lib/taxonomy";
+import { conditionBySlug, languageName, specialtyName } from "@/lib/taxonomy";
 
 export async function generateMetadata({ params }: { params: { lang: Locale; id: string } }): Promise<Metadata> {
   const p = await repository.provider(params.id);
-  return p ? { title: p.name, robots: p.isDemo ? { index: false } : undefined } : {};
+  return p ? { title: p.name, robots: p.isDemo || p.isCandidate ? { index: false } : undefined } : {};
 }
 
 export default async function NeurologistPage({ params }: { params: { lang: Locale; id: string } }) {
@@ -23,7 +23,14 @@ export default async function NeurologistPage({ params }: { params: { lang: Loca
   const registration = verifiedQuals.find((q) => q.registrationNumber);
 
   return (
-    <ProfileView t={t} lang={lang} id={p.id} name={p.name} kindLabel={t.profile.neurologist} place={placeName(lang, p.stateCode, p.citySlug)} provenance={p}>
+    <ProfileView t={t} lang={lang} id={p.id} name={p.name} kindLabel={p.isCandidate ? specialtyName(p.specialty, lang) : t.profile.neurologist} place={placeName(lang, p.stateCode, p.citySlug)} provenance={p} names={Object.fromEntries(facilities.map((f) => [f.id, f.name]))}>
+      {p.designation && <Field label={t.pilot.designation}>{p.designation}</Field>}
+      {p.titles && <Field label={t.pilot.titlesListed}><span>{p.titles}</span> <span className="text-xs italic text-ink-muted">({t.common.notVerified})</span></Field>}
+      {p.isCandidate && (
+        <Field label={t.pilot.operator}>
+          {p.thrombectomyOperator ? <span>{p.thrombectomyOperator === "verified" ? t.pilot.status.verified : t.pilot.operatorClaim}</span> : <span className="italic text-ink-muted">{t.pilot.operatorUnknown}</span>}
+        </Field>
+      )}
       <Field label={t.profile.qualifications}>
         <MissingValue value={verifiedQuals} t={t}>{verifiedQuals.map((q) => q.degree).join(", ")}</MissingValue>
       </Field>
