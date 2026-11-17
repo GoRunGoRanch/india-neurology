@@ -4,6 +4,7 @@ import { Icon } from "@/components/Icon";
 import { ShortsGrid } from "@/components/ShortsGrid";
 import { StrokeAppCard } from "@/components/StrokeAppCard";
 import { BRAIN_HEALTH_SHORTS, STROKE_SHORTS } from "@/lib/content/shorts";
+import { fetchLatestShorts } from "@/lib/content/shorts-feed";
 import { YouTubeFeature } from "@/components/YouTubeFeature";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { site } from "@/lib/site";
@@ -12,8 +13,9 @@ export function generateMetadata({ params }: { params: { lang: Locale } }): Meta
   return { title: getDictionary(params.lang).learn.title };
 }
 
-export default function LearnPage({ params }: { params: { lang: Locale } }) {
+export default async function LearnPage({ params }: { params: { lang: Locale } }) {
   const lang = params.lang;
+  const latest = await fetchLatestShorts(10);
   const t = getDictionary(lang);
   const hrefs = [`/${lang}/stroke`, `/${lang}/emergency`, `/${lang}/conditions`];
   const tones = ["bg-kneetie-500", "bg-alert-500", "bg-go-500"];
@@ -32,6 +34,19 @@ export default function LearnPage({ params }: { params: { lang: Locale } }) {
       <YouTubeFeature t={t} lang={lang} />
 
       <StrokeAppCard t={t} />
+
+      {latest.length > 0 && (
+        <section aria-labelledby="latest-shorts">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <h2 id="latest-shorts" className="text-2xl">{t.learn.latestTitle}</h2>
+              <p className="mt-1 max-w-2xl text-ink-soft">{t.learn.latestBody}</p>
+            </div>
+            <a href={site.youtubeShortsUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary">{t.learn.allShorts} <Icon name="external" className="h-4 w-4" /></a>
+          </div>
+          <ShortsGrid shorts={latest} playLabel={t.learn.play} />
+        </section>
+      )}
 
       <section>
         <div className="mb-6 flex flex-wrap items-end justify-between gap-4">

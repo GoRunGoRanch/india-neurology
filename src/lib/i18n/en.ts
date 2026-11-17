@@ -255,6 +255,8 @@ const en = {
     start: "Start",
     shortsTitle: "Stroke in 60 seconds",
     shortsBody: "Short videos from the KneeTie GoRunGo channel. Watch them in order, from what a stroke is to recovery.",
+    latestTitle: "New on the channel",
+    latestBody: "The newest Shorts from KneeTie GoRunGo, updated automatically every hour.",
     brainHealthTitle: "More brain health Shorts",
     allShorts: "See all Shorts",
     play: "Play",

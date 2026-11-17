@@ -256,6 +256,8 @@ const te: Dictionary = {
     start: "మొదలుపెట్టండి",
     shortsTitle: "60 సెకన్లలో స్ట్రోక్",
     shortsBody: "KneeTie GoRunGo ఛానల్ నుండి చిన్న వీడియోలు. స్ట్రోక్ అంటే ఏమిటి నుండి కోలుకోవడం వరకు, వరుసగా చూడండి.",
+    latestTitle: "ఛానెల్‌లో కొత్తవి",
+    latestBody: "KneeTie GoRunGo కొత్త Shorts, ప్రతి గంటకు ఆటోమేటిక్‌గా అప్‌డేట్ అవుతాయి.",
     brainHealthTitle: "మెదడు ఆరోగ్యంపై మరిన్ని Shorts",
     allShorts: "అన్ని Shorts చూడండి",
     play: "ప్లే చేయండి",

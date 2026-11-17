@@ -256,6 +256,8 @@ const mr: Dictionary = {
     start: "सुरू करा",
     shortsTitle: "60 सेकंदांत स्ट्रोक",
     shortsBody: "KneeTie GoRunGo चॅनेलवरील छोटे व्हिडिओ. स्ट्रोक म्हणजे काय इथपासून बरे होण्यापर्यंत, क्रमाने पाहा.",
+    latestTitle: "चॅनलवर नवीन",
+    latestBody: "KneeTie GoRunGo चे सर्वात नवीन Shorts, दर तासाला आपोआप अपडेट होतात.",
     brainHealthTitle: "मेंदूच्या आरोग्यावर आणखी Shorts",
     allShorts: "सर्व Shorts पाहा",
     play: "चालू करा",

@@ -262,6 +262,8 @@ const kn: Dictionary = {
     start: "ಶುರು ಮಾಡಿ",
     shortsTitle: "60 ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಸ್ಟ್ರೋಕ್",
     shortsBody: "KneeTie GoRunGo ಚಾನೆಲ್‌ನ ಕಿರು ವೀಡಿಯೊಗಳು. ಸ್ಟ್ರೋಕ್ ಎಂದರೇನು ಎಂಬುದರಿಂದ ಚೇತರಿಕೆಯವರೆಗೆ, ಕ್ರಮವಾಗಿ ನೋಡಿ.",
+    latestTitle: "ಚಾನೆಲ್‌ನಲ್ಲಿ ಹೊಸದು",
+    latestBody: "KneeTie GoRunGo ನ ಹೊಸ Shorts, ಪ್ರತಿ ಗಂಟೆಗೆ ತಾನಾಗಿಯೇ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತವೆ.",
     brainHealthTitle: "ಮಿದುಳಿನ ಆರೋಗ್ಯದ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು Shorts",
     allShorts: "ಎಲ್ಲಾ Shorts ನೋಡಿ",
     play: "ಪ್ಲೇ ಮಾಡಿ",

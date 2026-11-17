@@ -256,6 +256,8 @@ const ta: Dictionary = {
     start: "தொடங்குங்கள்",
     shortsTitle: "60 வினாடிகளில் பக்கவாதம்",
     shortsBody: "KneeTie GoRunGo சேனலின் சிறு வீடியோக்கள். பக்கவாதம் என்றால் என்ன என்பதிலிருந்து மீட்சி வரை, வரிசையாகப் பாருங்கள்.",
+    latestTitle: "சேனலில் புதியவை",
+    latestBody: "KneeTie GoRunGo-வின் புதிய Shorts, ஒவ்வொரு மணி நேரமும் தானாகவே புதுப்பிக்கப்படும்.",
     brainHealthTitle: "மூளை ஆரோக்கியம் பற்றி மேலும் Shorts",
     allShorts: "அனைத்து Shorts-ஐயும் பாருங்கள்",
     play: "இயக்கு",

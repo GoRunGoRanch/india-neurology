@@ -11,6 +11,8 @@ export const site = {
   educationPartner: "KneeTie GoRunGo",
   youtubeChannelUrl: "https://www.youtube.com/@kneetiegorungo",
   youtubeShortsUrl: "https://www.youtube.com/@kneetiegorungo/shorts",
+  // The channel's ID, for its public Shorts feed (playlist "UUSH" + the ID without "UC").
+  youtubeChannelId: "UCykhnKilQVya5QDObJ21kaA",
   founder: {
     name: "Dr. Vivek Baluja",
     linkedinUrl: "https://www.linkedin.com/in/viveckbaluja",

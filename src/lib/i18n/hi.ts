@@ -256,6 +256,8 @@ const hi: Dictionary = {
     start: "शुरू करें",
     shortsTitle: "60 सेकंड में स्ट्रोक",
     shortsBody: "KneeTie GoRunGo चैनल के छोटे वीडियो। स्ट्रोक क्या है से लेकर रिकवरी तक, क्रम से देखें।",
+    latestTitle: "चैनल पर नया",
+    latestBody: "KneeTie GoRunGo के सबसे नए Shorts, हर घंटे अपने-आप अपडेट होते हैं।",
     brainHealthTitle: "दिमाग़ की सेहत पर और Shorts",
     allShorts: "सभी Shorts देखें",
     play: "चलाएँ",

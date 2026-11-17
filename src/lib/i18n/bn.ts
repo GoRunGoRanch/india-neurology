@@ -256,6 +256,8 @@ const bn: Dictionary = {
     start: "শুরু করুন",
     shortsTitle: "60 সেকেন্ডে স্ট্রোক",
     shortsBody: "KneeTie GoRunGo চ্যানেলের ছোট ভিডিও। স্ট্রোক কী থেকে শুরু করে সেরে ওঠা পর্যন্ত, ক্রম অনুযায়ী দেখুন।",
+    latestTitle: "চ্যানেলে নতুন",
+    latestBody: "KneeTie GoRunGo-র সবচেয়ে নতুন Shorts, প্রতি ঘণ্টায় নিজে থেকেই আপডেট হয়।",
     brainHealthTitle: "মস্তিষ্কের স্বাস্থ্য নিয়ে আরও Shorts",
     allShorts: "সব Shorts দেখুন",
     play: "চালান",
