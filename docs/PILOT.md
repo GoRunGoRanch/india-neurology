@@ -82,7 +82,7 @@ a hospital or doctor appears once its name is approved, a link once the affiliat
 
    ```sql
    insert into users (id, display_name)
-     select id, 'Dr. Viveck Baluja' from auth.users where email = 'REVIEWER_EMAIL'
+     select id, 'Dr. Vivek Baluja' from auth.users where email = 'REVIEWER_EMAIL'
      on conflict (id) do update set display_name = excluded.display_name;
    insert into user_roles (user_id, role_code)
      select id, 'verifier' from auth.users where email = 'REVIEWER_EMAIL';

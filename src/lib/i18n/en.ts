@@ -277,7 +277,7 @@ const en = {
       "We collect as little personal data as possible. We do not ask for medical histories. Optional accounts require your consent.",
     educationBy: "Education and outreach by KneeTie GoRunGo.",
     founderTitle: "Who built this",
-    founderBody: "Founded and built by Dr. Viveck Baluja, a vascular neurologist and creator of the KneeTie GoRunGo stroke-education channel and the StrokeGuide clinician tool.",
+    founderBody: "Founded and built by Dr. Vivek Baluja, a vascular neurologist and creator of the KneeTie GoRunGo stroke-education channel and the StrokeGuide clinician tool.",
     linkedin: "Connect on LinkedIn",
   },
   providers: {
@@ -354,7 +354,7 @@ const en = {
     clearTitle: "No warning sign found in this test",
     clearBody:
       "A short test can miss a stroke. Call 108 or 112 if you are worried, or if there is sudden loss of vision, loss of balance, severe headache or confusion.",
-    reviewNote: "Clinical wording awaiting review by Dr. Viveck Baluja.",
+    reviewNote: "Clinical wording awaiting review by Dr. Vivek Baluja.",
     homeCta: "Take the stroke test",
   },
   finder: {

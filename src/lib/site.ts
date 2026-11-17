@@ -10,7 +10,7 @@ export const site = {
   youtubeChannelUrl: "https://www.youtube.com/c/kneetiegorungo",
   youtubeShortsUrl: "https://www.youtube.com/c/kneetiegorungo/shorts",
   founder: {
-    name: "Dr. Viveck Baluja",
+    name: "Dr. Vivek Baluja",
     linkedinUrl: "https://www.linkedin.com/in/viveckbaluja",
   },
   // Optional: set a YouTube video ID to embed a featured lesson on Home and Learn.
