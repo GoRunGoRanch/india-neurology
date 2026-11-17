@@ -3,7 +3,7 @@
 Source brief: [brief.pdf](brief.pdf) (six reference screenshots saved as `reference-1.png` … `reference-6.png`).
 
 Working name: **India Neurology Directory**. Education and outreach by **KneeTie GoRunGo**
-(youtube.com/c/kneetiegorungo). The final domain and brand are still to be decided and need a
+(youtube.com/@kneetiegorungo). The final domain and brand are still to be decided and need a
 trademark check (see "Open decisions"). Every user-facing name comes from `src/lib/site.ts`, so a
 rename is a one-file change.
 

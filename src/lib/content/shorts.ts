@@ -1,4 +1,4 @@
-// Curated KneeTie GoRunGo YouTube Shorts (youtube.com/c/kneetiegorungo/shorts).
+// Curated KneeTie GoRunGo YouTube Shorts (youtube.com/@kneetiegorungo/shorts).
 // IDs and titles taken from the channel on 2026-10-24. Order = suggested viewing order.
 
 export interface Short {

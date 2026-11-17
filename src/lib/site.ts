@@ -9,8 +9,8 @@ export const site = {
   shortName: "KneeTie",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   educationPartner: "KneeTie GoRunGo",
-  youtubeChannelUrl: "https://www.youtube.com/c/kneetiegorungo",
-  youtubeShortsUrl: "https://www.youtube.com/c/kneetiegorungo/shorts",
+  youtubeChannelUrl: "https://www.youtube.com/@kneetiegorungo",
+  youtubeShortsUrl: "https://www.youtube.com/@kneetiegorungo/shorts",
   founder: {
     name: "Dr. Vivek Baluja",
     linkedinUrl: "https://www.linkedin.com/in/viveckbaluja",

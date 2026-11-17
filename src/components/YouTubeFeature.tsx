@@ -23,7 +23,7 @@ export function YouTubeFeature({ t, lang }: { t: Dictionary; lang: Locale }) {
                 <Icon name="play" className="ml-1 h-7 w-7" />
               </span>
               <span className="mt-3 block text-lg font-extrabold drop-shadow">KneeTie… Go Run Go!</span>
-              <span className="block text-sm opacity-90">youtube.com/c/kneetiegorungo</span>
+              <span className="block text-sm opacity-90">youtube.com/@kneetiegorungo</span>
             </span>
           </a>
         )}

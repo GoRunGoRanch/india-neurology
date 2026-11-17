@@ -1,7 +1,7 @@
 # India Neurology Directory
 
 A free, India-first neurological care directory and education site, with outreach driven by the
-**KneeTie GoRunGo** YouTube channel (youtube.com/c/kneetiegorungo). It is a separate public site,
+**KneeTie GoRunGo** YouTube channel (youtube.com/@kneetiegorungo). It is a separate public site,
 not a part of TruckYeahTraders.
 
 - Brief and reference screenshots: [`docs/`](docs/)
