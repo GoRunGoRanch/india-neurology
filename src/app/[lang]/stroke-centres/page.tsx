@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { StrokeCentreFinder, type Centre } from "@/components/StrokeCentreFinder";
 import { Icon } from "@/components/Icon";
 import { CandidateNotice } from "@/components/Trust";
+import { confirms, fetchApprovedAttestations, latestByHospital, type PublicAttestation } from "@/lib/attestation";
 import { repository } from "@/lib/data/repository";
 import type { Facility } from "@/lib/data/types";
 import { getDictionary, type Locale } from "@/lib/i18n";
@@ -20,9 +21,16 @@ function cityLabel(stateCode: string, slug: string, lang: Locale) {
   return lang === "hi" ? `${name.hi} (${name.en})` : name.en;
 }
 
-function toCentre(f: Facility): Centre {
-  const status = (code: string) => f.claims?.find((c) => c.field === `service:${code}`)?.status ?? null;
+function toCentre(f: Facility, a: PublicAttestation | undefined): Centre {
+  const researched = (code: string) => f.claims?.find((c) => c.field === `service:${code}`)?.status ?? null;
+  // A reviewed hospital attestation overrides the research: "yes" is verified, "no" removes it.
+  const status = (code: "thrombolysis" | "thrombectomy") => {
+    const said = confirms(a, code);
+    return said === null ? researched(code) : said ? ("verified" as const) : null;
+  };
+  const caps = a?.answers.capabilities;
   return {
+    hospitalConfirmed: a ? { on: a.reviewed_at, imaging: (["ct_noncontrast", "cta_head_neck", "ct_perfusion"] as const).filter((c) => confirms(a, c)), referral: confirms(a, "evt_referral") ? a.answers.transferModes : null } : null,
     id: f.id,
     stateCode: f.stateCode,
     citySlug: f.citySlug,
@@ -32,19 +40,20 @@ function toCentre(f: Facility): Centre {
     pin: f.geo,
     thrombolysis: status("thrombolysis"),
     thrombectomy: status("thrombectomy"),
-    team24x7: Boolean(status("stroke_24x7")) && status("stroke_24x7") !== "disputed",
+    team24x7: caps ? caps.thrombolysis === "yes_24x7" || caps.thrombectomy === "yes_24x7" : Boolean(researched("stroke_24x7")) && researched("stroke_24x7") !== "disputed",
   };
 }
 
 export default async function StrokeCentresPage({ params }: { params: { lang: Locale } }) {
   const lang = params.lang;
   const t = getDictionary(lang);
-  const results = await repository.search({ type: "hospital" });
+  const [results, attestations] = await Promise.all([repository.search({ type: "hospital" }), fetchApprovedAttestations()]);
+  const byHospital = latestByHospital(attestations);
   // Demo listings are never offered as places to take a stroke patient.
   const centres = results
     .map((r) => r.listing)
     .filter((l): l is Facility => l.kind === "hospital" && !l.isDemo)
-    .map(toCentre)
+    .map((f) => toCentre(f, byHospital.get(f.id)))
     .filter((c) => c.thrombolysis || c.thrombectomy);
   const cityOptions = [...new Map(centres.map((c) => [c.citySlug, { slug: c.citySlug, name: cityLabel(c.stateCode, c.citySlug, lang) }])).values()]
     .sort((a, b) => a.name.localeCompare(b.name));

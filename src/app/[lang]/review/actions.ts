@@ -3,6 +3,7 @@
 import { revalidatePath, revalidateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { PILOT_DATASETS, baseClaims, evidenceHash } from "@/lib/data/pilot";
+import { ATTESTATIONS_TAG } from "@/lib/attestation";
 import { REVIEWS_TAG } from "@/lib/data/reviews";
 import { currentReviewer, supabaseServer } from "@/lib/supabase/server";
 
@@ -61,4 +62,28 @@ export async function signOut(form: FormData) {
   await supabaseServer().auth.signOut();
   const lang = String(form.get("lang") ?? "en") === "hi" ? "hi" : "en";
   redirect(`/${lang}/review`);
+}
+
+/**
+ * Approves or rejects a hospital director's stroke-readiness submission. Approving needs a note
+ * saying how the submitter was confirmed (e.g. call-back on the hospital's official number).
+ */
+export async function reviewAttestation(_prev: ReviewState | null, form: FormData): Promise<ReviewState> {
+  const reviewer = await currentReviewer();
+  if (!reviewer?.isReviewer) return { ok: false, message: "Your account does not have reviewer access." };
+  const id = String(form.get("attestationId") ?? "");
+  const decision = String(form.get("decision") ?? "");
+  const note = String(form.get("note") ?? "").trim().slice(0, 2000) || null;
+  if (decision !== "approved" && decision !== "rejected") return { ok: false, message: "Unknown decision." };
+  if (decision === "approved" && (!note || note.length < 15)) {
+    return { ok: false, message: "To approve, note how you confirmed this person speaks for the hospital (who you called, which official number, when)." };
+  }
+  const { error } = await supabaseServer()
+    .from("hospital_attestations")
+    .update({ status: decision, review_note: note, reviewer_id: reviewer.id, reviewer_name: reviewer.name, reviewed_at: new Date().toISOString() })
+    .eq("id", id);
+  if (error) return { ok: false, message: `Not saved: ${error.message}` };
+  revalidateTag(ATTESTATIONS_TAG);
+  revalidatePath("/", "layout");
+  return { ok: true, message: `${decision === "approved" ? "Approved" : "Rejected"} by ${reviewer.name}.` };
 }

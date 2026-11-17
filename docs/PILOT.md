@@ -117,3 +117,28 @@ too long, a claim is "verified" without a reviewer, or a doctor's thrombectomy s
 
 Vercel Hobby/Pro: $0–20/month. Supabase free tier is enough for the pilot (Pro $25/month later).
 Scheduled research re-checks: model usage per city run, roughly tens of dollars, depending on depth.
+
+## Hospital director verification (Verify button)
+
+Every listed hospital has a **Verify** button (hospital page and stroke-centre finder) that opens
+`/[lang]/hospitals/<id>/verify`. A hospital director answers six questions for their campus:
+
+1. CT brain without contrast
+2. CT angiogram (CTA) of head and neck
+3. CT perfusion
+4. Clot-busting medicine (tenecteplase and/or alteplase)
+5. Thrombectomy done on site
+6. Transfer for thrombectomy elsewhere (road ambulance and/or air), with the usual receiving centre
+
+Each is answered "Yes, 24×7", "Yes, but not 24×7" or "No", with name, designation, official email
+and phone (never published).
+
+**Anyone can submit the form**, so nothing is published until a reviewer approves it in
+`/review` → *Hospital verification requests*. Before approving, call the hospital's official
+number and confirm the person and the answers; the approval note (required) records how. Once
+approved, the hospital page shows "Confirmed by the hospital", the finder shows the confirmed
+imaging, and a "No" for clot-busting or thrombectomy removes the hospital from that list.
+
+**One-time setup:** run `supabase/migrations/0003_hospital_attestations.sql` in the Supabase SQL
+editor. Until then the form says verification is not open yet and the review queue shows a
+reminder.

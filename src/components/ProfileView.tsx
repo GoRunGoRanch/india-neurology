@@ -26,10 +26,12 @@ interface Props {
   children: ReactNode;
   /** Facility/provider names for affiliation claims. */
   names?: Record<string, string>;
+  /** Shown between the header and the details, e.g. a hospital's stroke readiness. */
+  lead?: ReactNode;
 }
 
 // Shared shell for neurologist and hospital profiles: identity, provenance, report/claim.
-export function ProfileView({ t, lang, id, name, kindLabel, place, provenance, children, names }: Props) {
+export function ProfileView({ t, lang, id, name, kindLabel, place, provenance, children, names, lead }: Props) {
   const reportHref = `/${lang}/report?ref=${encodeURIComponent(id)}`;
   return (
     <article className="container-page section max-w-4xl space-y-6">
@@ -46,6 +48,8 @@ export function ProfileView({ t, lang, id, name, kindLabel, place, provenance, c
           <ReviewedDate iso={provenance.lastVerifiedAt} lang={lang} t={t} />
         </div>
       </header>
+
+      {lead}
 
       <dl className="card py-2">
         {children}

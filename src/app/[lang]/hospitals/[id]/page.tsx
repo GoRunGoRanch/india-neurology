@@ -3,7 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Field, ProfileView } from "@/components/ProfileView";
 import { placeName } from "@/components/ResultCard";
+import { StrokeReadiness } from "@/components/StrokeReadiness";
 import { MissingValue } from "@/components/Trust";
+import { fetchApprovedAttestations, latestByHospital } from "@/lib/attestation";
 import { repository } from "@/lib/data/repository";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { conditionBySlug, facilityTypeName, languageName, serviceName } from "@/lib/taxonomy";
@@ -19,10 +21,12 @@ export default async function HospitalPage({ params }: { params: { lang: Locale;
   const f = await repository.facility(params.id);
   if (!f) notFound();
   const clinicians = await repository.providersAtFacility(f.id);
+  const attestation = f.isDemo ? undefined : latestByHospital(await fetchApprovedAttestations()).get(f.id);
   const access = Object.entries(f.accessibility).filter(([, v]) => v).map(([k]) => k);
 
   return (
-    <ProfileView t={t} lang={lang} id={f.id} name={f.name} kindLabel={facilityTypeName(f.type, lang)} place={placeName(lang, f.stateCode, f.citySlug)} provenance={f}>
+    <ProfileView t={t} lang={lang} id={f.id} name={f.name} kindLabel={facilityTypeName(f.type, lang)} place={placeName(lang, f.stateCode, f.citySlug)} provenance={f}
+      lead={f.isDemo ? undefined : <StrokeReadiness hospitalId={f.id} attestation={attestation} t={t} lang={lang} />}>
       {f.chain && <Field label={t.pilot.chain}>{f.chain}</Field>}
       <Field label={t.profile.services}>
         <MissingValue value={f.services} t={t}>

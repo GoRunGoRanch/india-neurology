@@ -3,9 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 import { claimLabel } from "@/components/EvidenceList";
+import { AttestationReviewForm } from "@/components/review/AttestationReviewForm";
 import { ClaimReviewForm } from "@/components/review/ClaimReviewForm";
 import { ReviewerSignIn } from "@/components/review/ReviewerSignIn";
 import { ClaimStatusBadge } from "@/components/Trust";
+import { CAPABILITIES, type AttestationAnswers } from "@/lib/attestation";
 import { reviewMaxAgeDays, showCandidates } from "@/lib/data/mode";
 import { PILOT_DATASETS, baseClaims, hospitalId, resolveClaims, type ResolvedClaim, type ReviewDecision } from "@/lib/data/pilot";
 import type { ClaimStatus } from "@/lib/data/pilot/types";
@@ -30,6 +32,20 @@ type View = keyof typeof VIEWS;
 
 interface FullDecision extends ReviewDecision {
   note: string | null;
+}
+interface Attestation {
+  id: string;
+  hospital_id: string;
+  answers: AttestationAnswers;
+  submitter_name: string;
+  submitter_designation: string;
+  submitter_email: string;
+  submitter_phone: string;
+  status: "pending" | "approved" | "rejected";
+  submitted_at: string;
+  reviewer_name: string | null;
+  review_note: string | null;
+  reviewed_at: string | null;
 }
 interface ReviewEvent {
   id: number;
@@ -80,14 +96,19 @@ export default async function ReviewPage({ params, searchParams }: { params: { l
 
   let decisions: FullDecision[] = [];
   let events: ReviewEvent[] = [];
+  let attestations: Attestation[] = [];
+  let attestationsError: string | null = null;
   if (canAct) {
     const sb = supabaseServer();
-    const [d, e] = await Promise.all([
+    const [d, e, a] = await Promise.all([
       sb.from("claim_reviews").select("*"),
       sb.from("claim_review_events").select("*").order("created_at", { ascending: false }).limit(15),
+      sb.from("hospital_attestations").select("*").order("submitted_at", { ascending: false }).limit(50),
     ]);
     decisions = (d.data ?? []) as FullDecision[];
     events = (e.data ?? []) as ReviewEvent[];
+    attestations = (a.data ?? []) as Attestation[];
+    attestationsError = a.error ? a.error.message : null;
   }
   const notes = new Map(decisions.map((d) => [d.claim_id, d.note]));
 
@@ -112,6 +133,39 @@ export default async function ReviewPage({ params, searchParams }: { params: { l
         <p className="rounded-xl bg-go-50 p-3 text-sm text-go-700">
           Read-only: Supabase is not connected yet, so decisions can&apos;t be saved. Follow the setup steps in docs/PILOT.md.
         </p>
+      )}
+
+      {canAct && (
+        <section className="card space-y-3" aria-labelledby="attestations">
+          <h2 id="attestations" className="text-xl">Hospital verification requests ({attestations.filter((a) => a.status === "pending").length} waiting)</h2>
+          <p className="text-sm text-ink-soft">
+            Sent from the public Verify form, so anyone could have sent them. Before approving, call the hospital&apos;s official number and confirm this person and their answers. Approved answers show publicly as confirmed by the hospital; contact details never do.
+          </p>
+          {attestationsError && <p className="text-sm text-alert-700">Could not load requests: {attestationsError}. Has supabase/migrations/0003_hospital_attestations.sql been run?</p>}
+          {attestations.length === 0 && !attestationsError && <p className="text-sm text-ink-muted">No requests yet.</p>}
+          <ul className="divide-y divide-slate-100">
+            {attestations.map((a) => {
+              const hospitalName = PILOT_DATASETS.flatMap((ds) => ds.hospitals).find((h) => hospitalId(h.key) === a.hospital_id)?.name ?? a.hospital_id;
+              return (
+                <li key={a.id} className="grid gap-3 py-3 md:grid-cols-[1fr_minmax(0,320px)]">
+                  <div className="space-y-2 text-sm">
+                    <p className="font-semibold">
+                      {hospitalName} <span className="font-normal text-ink-muted">· {a.status} · sent {new Date(a.submitted_at).toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}</span>
+                    </p>
+                    <p>{a.submitter_name}, {a.submitter_designation} · <a className="text-go-700 underline" href={`mailto:${a.submitter_email}`}>{a.submitter_email}</a> · <a className="text-go-700 underline" href={`tel:${a.submitter_phone}`}>{a.submitter_phone}</a></p>
+                    <ul className="grid gap-x-4 sm:grid-cols-2">
+                      {CAPABILITIES.map((c) => <li key={c}>{t.verify.capabilities[c]}: <strong>{t.verify.answers[a.answers.capabilities[c]]}</strong></li>)}
+                    </ul>
+                    {a.answers.agents.length > 0 && <p>Medicine: {a.answers.agents.join(", ")}</p>}
+                    {(a.answers.transferModes.length > 0 || a.answers.referralCentre) && <p>Transfer: {a.answers.transferModes.join(", ")}{a.answers.referralCentre && ` → ${a.answers.referralCentre}`}</p>}
+                    {a.reviewer_name && <p className="text-xs text-ink-muted">Decided by {a.reviewer_name}{a.review_note && ` · Note: ${a.review_note}`}</p>}
+                  </div>
+                  {a.status === "pending" && <AttestationReviewForm id={a.id} />}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
       )}
 
       <dl className="flex flex-wrap gap-3 text-sm">

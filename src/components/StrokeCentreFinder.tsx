@@ -19,6 +19,8 @@ export interface Centre {
   thrombolysis: ClaimStatus | null;
   thrombectomy: ClaimStatus | null;
   team24x7: boolean;
+  /** Set when a hospital director's answers were confirmed by a KneeTie reviewer. */
+  hospitalConfirmed: { on: string; imaging: ("ct_noncontrast" | "cta_head_neck" | "ct_perfusion")[]; referral: ("road" | "air")[] | null } | null;
 }
 
 type Located = { state: "idle" | "locating" | "denied" } | { state: "ok"; lat: number; lng: number };
@@ -48,6 +50,15 @@ function CentreCard({ c, status, t, lang, km }: { c: Centre; status: ClaimStatus
         {c.pin && !c.pin.verified && <span>{t.finder.pinUnverified}</span>}
         {c.team24x7 && <span>{t.finder.team24x7}</span>}
       </p>
+      {c.hospitalConfirmed && (
+        <p className="flex flex-wrap items-center gap-1.5 text-xs">
+          <span className="font-semibold text-run-700">{t.verify.confirmedBy}:</span>
+          {c.hospitalConfirmed.imaging.map((i) => <span key={i} className="rounded-full bg-run-100 px-2 py-0.5 font-semibold text-run-700">{t.verify.chips[i]}</span>)}
+          {c.hospitalConfirmed.referral && c.hospitalConfirmed.referral.length > 0 && (
+            <span className="rounded-full bg-go-50 px-2 py-0.5 text-go-700">{t.verify.capabilities.evt_referral}: {c.hospitalConfirmed.referral.map((m) => t.verify.transfer[m]).join(", ")}</span>
+          )}
+        </p>
+      )}
       <div className="flex flex-wrap gap-2">
         <a href={navigateHref(c)} target="_blank" rel="noopener noreferrer" className="btn-primary">
           <Icon name="pin" className="h-4 w-4" /> {t.finder.navigate}
@@ -60,6 +71,9 @@ function CentreCard({ c, status, t, lang, km }: { c: Centre; status: ClaimStatus
           <span className="self-center text-sm italic text-ink-muted">{t.finder.noPhone}</span>
         )}
         <Link href={`/${lang}/hospitals/${c.id}`} className="self-center text-sm font-semibold text-go-700 hover:underline">{t.finder.profile} →</Link>
+        {!c.hospitalConfirmed && (
+          <Link href={`/${lang}/hospitals/${c.id}/verify`} className="self-center text-xs text-ink-muted underline hover:text-go-700">{t.verify.button}</Link>
+        )}
       </div>
     </li>
   );
