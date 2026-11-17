@@ -10,7 +10,7 @@ export interface Evidence {
   url: string;
   excerpt: string;
   kind: "verbatim" | "summary";
-  sourceType: "official" | "government" | "news";
+  sourceType: "official" | "government" | "news" | "map";
   sourceDate: string | null;
   checkedAt: string; // ISO date the source was read
 }
@@ -68,6 +68,14 @@ export interface PilotProcedure extends Review {
   evidence: Evidence[];
 }
 
+/** Candidate map pin for a hospital, from a geocoder; a reviewer must confirm it. */
+export interface PilotGeo {
+  lat: number;
+  lng: number;
+  flags: string[];
+  evidence: Evidence;
+}
+
 export interface PilotDataset {
   pilot: string;
   generatedAt: string;
@@ -76,4 +84,6 @@ export interface PilotDataset {
   affiliations: PilotAffiliation[];
   procedures: PilotProcedure[];
   sourceFailures: { url: string; reason: string }[];
+  /** Hospital key -> candidate pin. */
+  geo?: Record<string, PilotGeo>;
 }

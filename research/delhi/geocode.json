@@ -1,0 +1,154 @@
+{
+ "source": "OpenStreetMap Nominatim (ODbL)",
+ "checkedAt": "2026-11-16",
+ "results": {
+  "aiims-new-delhi": {
+   "method": "name_only",
+   "query": "All India Institute of Medical Sciences, New Delhi, Delhi",
+   "lat": 28.5645425,
+   "lng": 77.2099653,
+   "display_name": "All India Institute of Medical Sciences, Kidwai Nagar, New Delhi, Delhi, India",
+   "osm": "https://www.openstreetmap.org/way/1413244686",
+   "category": "landuse/education"
+  },
+  "safdarjung-vmmc": {
+   "method": "name_variant",
+   "query": "Safdarjung Hospital, Delhi",
+   "lat": 28.5673381,
+   "lng": 77.2049728,
+   "display_name": "Safdarjung Hospital, Aurobindo Marg, Kidwai Nagar, New Delhi, Delhi, 110029, India",
+   "osm": "https://www.openstreetmap.org/way/454523330",
+   "category": "amenity/hospital"
+  },
+  "gipmer-gb-pant": {
+   "method": "name_variant",
+   "query": "Govind Ballabh Pant Hospital, Delhi",
+   "lat": 28.638898,
+   "lng": 77.2344516,
+   "display_name": "Govind Ballabh Pant Hospital, City & Sadar, Delhi, Old Delhi, Delhi, 110002, India",
+   "osm": "https://www.openstreetmap.org/way/289405076",
+   "category": "landuse/hospital"
+  },
+  "rml-abvims": {
+   "method": "name_variant",
+   "query": "Ram Manohar Lohia Hospital, Delhi",
+   "lat": 28.6259241,
+   "lng": 77.2008646,
+   "display_name": "Dr. Ram Manohar Lohia Hospital, Bangabandhu Sheikh Mujib Road, Raisina Hill, New Delhi, Delhi, 110001, India",
+   "osm": "https://www.openstreetmap.org/way/34404757",
+   "category": "amenity/hospital"
+  },
+  "lok-nayak-mamc": {
+   "method": "name_variant",
+   "query": "Lok Nayak Hospital, Delhi",
+   "lat": 28.6388085,
+   "lng": 77.2386726,
+   "display_name": "Lok Nayak Hospital, Jawaharlal Nehru Marg, Sadar Bazar, Old Delhi, City & Sadar, Delhi, Old Delhi, Delhi, 110002, India",
+   "osm": "https://www.openstreetmap.org/way/289405081",
+   "category": "healthcare/hospital"
+  },
+  "max-saket": null,
+  "max-patparganj": null,
+  "max-shalimar-bagh": {
+   "method": "name_variant",
+   "query": "Max Hospital Shalimar Bagh",
+   "lat": 28.7277683,
+   "lng": 77.1526392,
+   "display_name": "Max Healthcare, Sheesh Mahal Apartments, Sheesh Mahal Apartments (DA Block), Shalimar Bagh, Keshavpuram, Delhi, Central North Delhi, Delhi, 110088, India",
+   "osm": "https://www.openstreetmap.org/way/278201043",
+   "category": "amenity/hospital"
+  },
+  "blk-max-pusa-road": {
+   "method": "name_variant",
+   "query": "BLK Super Speciality Hospital, Delhi",
+   "lat": 28.6432466,
+   "lng": 77.1798605,
+   "display_name": "Doctor B.L. Kapoor Memorial Hospital, Pusa Road, East Patel Nagar, Patel Nagar, Karol Bagh, Delhi, Central Delhi, Delhi, 110005, India",
+   "osm": "https://www.openstreetmap.org/way/206564482",
+   "category": "amenity/hospital"
+  },
+  "sgrh-rajinder-nagar": {
+   "method": "name_only",
+   "query": "Sir Ganga Ram Hospital, Delhi",
+   "lat": 28.6385276,
+   "lng": 77.189693,
+   "display_name": "Sir Ganga Ram Hospital, Sir Ganga Ram Hospital Marg, Karol Bagh, Delhi, Central Delhi, Delhi, 110060, India",
+   "osm": "https://www.openstreetmap.org/way/158038115",
+   "category": "amenity/hospital"
+  },
+  "apollo-sarita-vihar": {
+   "method": "name_only",
+   "query": "Indraprastha Apollo Hospitals, Delhi",
+   "lat": 28.5408159,
+   "lng": 77.2835195,
+   "display_name": "Indraprastha Apollo Hospital, Mathura Road, Pocket B, Govindpuri, Okhla, Central, Delhi, South East Delhi, Delhi, 110076, India",
+   "osm": "https://www.openstreetmap.org/node/9295424879",
+   "category": "amenity/hospital"
+  },
+  "fortis-shalimar-bagh": {
+   "method": "name_only",
+   "query": "Fortis Hospital, Shalimar Bagh, Delhi",
+   "lat": 28.7092575,
+   "lng": 77.1702596,
+   "display_name": "Fortis Hospital, Shahid Udham Singh Marg, Ashok Vihar, Shalimar Bagh, Keshavpuram, Delhi, Central North Delhi, Delhi, 110088, India",
+   "osm": "https://www.openstreetmap.org/way/351583520",
+   "category": "amenity/hospital"
+  },
+  "fortis-vasant-kunj": null,
+  "manipal-dwarka": {
+   "method": "name_only",
+   "query": "Manipal Hospitals Dwarka, Delhi",
+   "lat": 28.5947266,
+   "lng": 77.0695192,
+   "display_name": "Manipal Hospitals, Najafgarh, Delhi, South West Delhi, Delhi, India",
+   "osm": "https://www.openstreetmap.org/way/1292111947",
+   "category": "landuse/hospital"
+  },
+  "venkateshwar-dwarka": null,
+  "holy-family-okhla": {
+   "method": "name_only",
+   "query": "Holy Family Hospital, Delhi",
+   "lat": 28.5617613,
+   "lng": 77.2758258,
+   "display_name": "Holy Family Hospital, Maulana Mohamed Ali Jauhar Marg, Okhla, Central, Delhi, South East Delhi, Delhi, 110025, India",
+   "osm": "https://www.openstreetmap.org/way/80508236",
+   "category": "amenity/hospital"
+  },
+  "batra-tughlakabad": {
+   "method": "name_variant",
+   "query": "Batra Hospital, Delhi",
+   "lat": 28.5136019,
+   "lng": 77.2456182,
+   "display_name": "Batra Hospital, Mehrauli Badarpur Road, Tigri, Tughlakabad, Central, Delhi, South East Delhi, Delhi, 110062, India",
+   "osm": "https://www.openstreetmap.org/way/63522273",
+   "category": "amenity/hospital"
+  },
+  "psri-saket": {
+   "method": "name_variant",
+   "query": "Pushpawati Singhania Hospital, Delhi",
+   "lat": 28.53312,
+   "lng": 77.2254277,
+   "display_name": "Pushpawati Singhania Hospital and Research Institute, Pandit Trilok Chandra Sharma Marg, Savitri Nagar, South, Delhi, South Delhi, Delhi, 110017, India",
+   "osm": "https://www.openstreetmap.org/node/4328150391",
+   "category": "amenity/hospital"
+  },
+  "aakash-dwarka": {
+   "method": "name_only",
+   "query": "Aakash Healthcare Super Speciality Hospital, Delhi",
+   "lat": 28.6054061,
+   "lng": 77.0535572,
+   "display_name": "Aakash Healthcare Super Speciality Hospital, Vishwas Park Main Road, Najafgarh, Delhi, West Delhi, Delhi, 110075, India",
+   "osm": "https://www.openstreetmap.org/node/7543715668",
+   "category": "amenity/hospital"
+  },
+  "sbami-paschim-vihar": {
+   "method": "name_variant",
+   "query": "Action Balaji Hospital, Paschim Vihar",
+   "lat": 28.6739686,
+   "lng": 77.1105383,
+   "display_name": "Shree Balaji Action Medical Hospital, Baba Ramdev Road, Paschim Vihar, West, Delhi, West Delhi, Delhi, 110063, India",
+   "osm": "https://www.openstreetmap.org/way/154198334",
+   "category": "amenity/hospital"
+  }
+ }
+}

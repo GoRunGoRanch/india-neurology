@@ -1,9 +1,10 @@
 // Every brand, domain and outreach link lives here so a rename is a one-file change.
-// Domain and trademark are still to be chosen (docs/ARCHITECTURE.md, "Open decisions").
+// KneeTie India (kneetie.in) is the India stroke-centre finder and neurology directory inside the
+// KneeTie framework, alongside StrokeGuide (kneetie.mobi) and the @kneetiegorungo channel.
 
 export const site = {
-  name: { en: "India Neurology Directory", hi: "इंडिया न्यूरोलॉजी डायरेक्टरी" },
-  shortName: "IND",
+  name: { en: "KneeTie India", hi: "KneeTie इंडिया" },
+  shortName: "KneeTie",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   educationPartner: "KneeTie GoRunGo",
   youtubeChannelUrl: "https://www.youtube.com/c/kneetiegorungo",

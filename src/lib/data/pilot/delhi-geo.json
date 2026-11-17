@@ -1,0 +1,259 @@
+{
+ "aiims-new-delhi": {
+  "lat": 28.564543,
+  "lng": 77.209965,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/1413244686",
+   "excerpt": "OpenStreetMap match: All India Institute of Medical Sciences, Kidwai Nagar, New Delhi, Delhi, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "safdarjung-vmmc": {
+  "lat": 28.567338,
+  "lng": 77.204973,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/454523330",
+   "excerpt": "OpenStreetMap match: Safdarjung Hospital, Aurobindo Marg, Kidwai Nagar, New Delhi, Delhi, 110029, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "gipmer-gb-pant": {
+  "lat": 28.638898,
+  "lng": 77.234452,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/289405076",
+   "excerpt": "OpenStreetMap match: Govind Ballabh Pant Hospital, City & Sadar, Delhi, Old Delhi, Delhi, 110002, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "rml-abvims": {
+  "lat": 28.625924,
+  "lng": 77.200865,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/34404757",
+   "excerpt": "OpenStreetMap match: Dr. Ram Manohar Lohia Hospital, Bangabandhu Sheikh Mujib Road, Raisina Hill, New Delhi, Delhi, 110001, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "lok-nayak-mamc": {
+  "lat": 28.638808,
+  "lng": 77.238673,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/289405081",
+   "excerpt": "OpenStreetMap match: Lok Nayak Hospital, Jawaharlal Nehru Marg, Sadar Bazar, Old Delhi, City & Sadar, Delhi, Old Delhi, Delhi, 110002, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "max-shalimar-bagh": {
+  "lat": 28.727768,
+  "lng": 77.152639,
+  "flags": [
+   "check_pin_osm_entry_is_not_a_hospital_building",
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/278201043",
+   "excerpt": "OpenStreetMap match: Max Healthcare, Sheesh Mahal Apartments, Sheesh Mahal Apartments (DA Block), Shalimar Bagh, Keshavpuram, Delhi, Central North Delhi, Delhi, 110088, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "blk-max-pusa-road": {
+  "lat": 28.643247,
+  "lng": 77.179861,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/206564482",
+   "excerpt": "OpenStreetMap match: Doctor B.L. Kapoor Memorial Hospital, Pusa Road, East Patel Nagar, Patel Nagar, Karol Bagh, Delhi, Central Delhi, Delhi, 110005, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "sgrh-rajinder-nagar": {
+  "lat": 28.638528,
+  "lng": 77.189693,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/158038115",
+   "excerpt": "OpenStreetMap match: Sir Ganga Ram Hospital, Sir Ganga Ram Hospital Marg, Karol Bagh, Delhi, Central Delhi, Delhi, 110060, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "apollo-sarita-vihar": {
+  "lat": 28.540816,
+  "lng": 77.283519,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/9295424879",
+   "excerpt": "OpenStreetMap match: Indraprastha Apollo Hospital, Mathura Road, Pocket B, Govindpuri, Okhla, Central, Delhi, South East Delhi, Delhi, 110076, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "fortis-shalimar-bagh": {
+  "lat": 28.709257,
+  "lng": 77.17026,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/351583520",
+   "excerpt": "OpenStreetMap match: Fortis Hospital, Shahid Udham Singh Marg, Ashok Vihar, Shalimar Bagh, Keshavpuram, Delhi, Central North Delhi, Delhi, 110088, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "manipal-dwarka": {
+  "lat": 28.594727,
+  "lng": 77.069519,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/1292111947",
+   "excerpt": "OpenStreetMap match: Manipal Hospitals, Najafgarh, Delhi, South West Delhi, Delhi, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "holy-family-okhla": {
+  "lat": 28.561761,
+  "lng": 77.275826,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/80508236",
+   "excerpt": "OpenStreetMap match: Holy Family Hospital, Maulana Mohamed Ali Jauhar Marg, Okhla, Central, Delhi, South East Delhi, Delhi, 110025, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "batra-tughlakabad": {
+  "lat": 28.513602,
+  "lng": 77.245618,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/63522273",
+   "excerpt": "OpenStreetMap match: Batra Hospital, Mehrauli Badarpur Road, Tigri, Tughlakabad, Central, Delhi, South East Delhi, Delhi, 110062, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "psri-saket": {
+  "lat": 28.53312,
+  "lng": 77.225428,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/4328150391",
+   "excerpt": "OpenStreetMap match: Pushpawati Singhania Hospital and Research Institute, Pandit Trilok Chandra Sharma Marg, Savitri Nagar, South, Delhi, South Delhi, Delhi, 110017, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "aakash-dwarka": {
+  "lat": 28.605406,
+  "lng": 77.053557,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/7543715668",
+   "excerpt": "OpenStreetMap match: Aakash Healthcare Super Speciality Hospital, Vishwas Park Main Road, Najafgarh, Delhi, West Delhi, Delhi, 110075, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "sbami-paschim-vihar": {
+  "lat": 28.673969,
+  "lng": 77.110538,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/154198334",
+   "excerpt": "OpenStreetMap match: Shree Balaji Action Medical Hospital, Baba Ramdev Road, Paschim Vihar, West, Delhi, West Delhi, Delhi, 110063, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ }
+}

@@ -8,7 +8,7 @@ export function SiteFooter({ t, lang }: { t: Dictionary; lang: Locale }) {
     <footer className="mt-16 border-t border-slate-200 bg-white">
       <div className="container-page grid gap-8 py-10 sm:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-3 lg:col-span-2">
-          <Logo lang={lang} />
+          <Logo lang={lang} tagline={t.nav.tagline} />
           <p className="max-w-md text-sm text-ink-muted">{t.footer.tagline}</p>
           <p className="max-w-md rounded-xl bg-alert-50 p-3 text-xs text-alert-700">{t.emergency.notDispatch}</p>
         </div>

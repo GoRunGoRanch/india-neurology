@@ -1,8 +1,9 @@
 import type { ClaimView, Facility, Provider } from "../types";
+import delhiGeo from "./delhi-geo.json";
 import delhi from "./delhi.json";
-import type { ClaimStatus, Evidence, PilotDataset } from "./types";
+import type { ClaimStatus, Evidence, PilotDataset, PilotGeo } from "./types";
 
-export const PILOT_DATASETS: PilotDataset[] = [delhi as PilotDataset];
+export const PILOT_DATASETS: PilotDataset[] = [{ ...(delhi as PilotDataset), geo: delhiGeo as Record<string, PilotGeo> }];
 
 // Research service codes → directory SERVICES codes.
 const SERVICE_CODE: Record<string, string> = {
@@ -77,6 +78,11 @@ export function baseClaims(ds: PilotDataset): BaseClaim[] {
     for (const [field, value] of fields) {
       if (value) out.push({ ...rec, id: id(`h:${h.key}:${field}`), field, value, status: h.review.status, evidence: fieldEvidence(field), flags: [] });
     }
+    const pin = ds.geo?.[h.key];
+    if (pin) {
+      // Geocoder output is always a fresh draft: a reviewer must confirm the pin.
+      out.push({ ...rec, id: id(`h:${h.key}:location`), field: "location", value: `${pin.lat}, ${pin.lng}`, status: "draft", evidence: [pin.evidence], flags: pin.flags });
+    }
     for (const s of h.services) {
       const code = SERVICE_CODE[s.code];
       if (code) out.push({ ...rec, id: id(`h:${h.key}:service:${code}`), field: `service:${code}`, value: "available", status: s.status, evidence: s.evidence, flags: [] });
@@ -129,6 +135,12 @@ export function resolveClaims(claims: BaseClaim[], decisions: ReviewDecision[], 
   });
 }
 
+function parsePin(c: ResolvedClaim | undefined) {
+  if (!c) return null;
+  const [lat, lng] = c.value.split(",").map(Number);
+  return Number.isFinite(lat) && Number.isFinite(lng) ? { lat, lng, verified: c.status === "verified" } : null;
+}
+
 function toListingStatus(s: ClaimStatus | undefined): Facility["verificationStatus"] {
   if (s === "verified") return "verified";
   if (s === "pending_review") return "pending";
@@ -172,7 +184,7 @@ export function buildListings(ds: PilotDataset, resolved: ResolvedClaim[], visib
       stateCode: h.state,
       citySlug: STATE_CITY[h.state] ?? h.state.toLowerCase(),
       address: get(claims, "address")?.value ?? null,
-      geo: null,
+      geo: parsePin(get(claims, "location")),
       phone: get(claims, "phone")?.value ?? null,
       website: get(claims, "website")?.value ?? null,
       services: services.map((code) => ({ code, available24x7: null, verified: claims.some((c) => c.field === `service:${code}` && c.status === "verified") })),

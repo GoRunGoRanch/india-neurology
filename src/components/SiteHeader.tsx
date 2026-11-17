@@ -6,6 +6,7 @@ import { LanguageToggle } from "./LanguageToggle";
 
 export function navItems(t: Dictionary, lang: Locale) {
   return [
+    { href: `/${lang}/stroke-centres`, label: t.nav.strokeCentres },
     { href: `/${lang}/find?type=neurologist`, label: t.nav.findNeurologist },
     { href: `/${lang}/find?type=hospital`, label: t.nav.findHospital },
     { href: `/${lang}/conditions`, label: t.nav.conditions },
@@ -15,7 +16,7 @@ export function navItems(t: Dictionary, lang: Locale) {
   ];
 }
 
-export function Logo({ lang }: { lang: Locale }) {
+export function Logo({ lang, tagline }: { lang: Locale; tagline: string }) {
   return (
     <Link href={`/${lang}`} className="flex items-center gap-2">
       <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-kneetie-500 to-alert-500 text-white">
@@ -23,7 +24,7 @@ export function Logo({ lang }: { lang: Locale }) {
       </span>
       <span className="leading-tight">
         <span className="block text-sm font-bold text-ink sm:text-base">{site.name[lang]}</span>
-        <span className="block text-[11px] font-medium text-kneetie-600">with {site.educationPartner}</span>
+        <span className="block text-[11px] font-medium text-kneetie-600">{tagline}</span>
       </span>
     </Link>
   );
@@ -34,7 +35,7 @@ export function SiteHeader({ t, lang }: { t: Dictionary; lang: Locale }) {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
       <div className="container-page flex items-center justify-between gap-4 py-3">
-        <Logo lang={lang} />
+        <Logo lang={lang} tagline={t.nav.tagline} />
         <nav aria-label="Main" className="hidden items-center gap-1 xl:flex">
           {items.map((i) => (
             <Link key={i.href} href={i.href} className="whitespace-nowrap rounded-lg px-2.5 py-2 text-sm font-medium text-ink-soft hover:bg-slate-100 hover:text-ink">
