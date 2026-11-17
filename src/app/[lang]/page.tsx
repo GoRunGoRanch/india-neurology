@@ -53,6 +53,7 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
             <a href={`tel:${site.emergency.national}`} className="btn bg-white text-alert-700 hover:bg-alert-50">
               <Icon name="phone" className="h-4 w-4" /> {t.emergencyBar.call}
             </a>
+            <Link href={`/${lang}/stroke-test`} className="btn border border-white/60 text-white hover:bg-white/10">{t.strokeTest.homeCta}</Link>
             <Link href={`/${lang}/stroke-centres`} className="btn border border-white/60 text-white hover:bg-white/10">{t.finder.title}</Link>
             <Link href={`/${lang}/stroke`} className="btn border border-white/60 text-white hover:bg-white/10">{t.home.emergencyCta}</Link>
           </div>

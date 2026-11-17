@@ -35,6 +35,9 @@ export default function StrokePage({ params }: { params: { lang: Locale } }) {
             <p className="flex items-center gap-2 font-semibold text-alert-700"><Icon name="alert" className="h-5 w-5 shrink-0" />{s.anyFailure}</p>
             <a href={`tel:${site.emergency.national}`} className="btn-alert shrink-0"><Icon name="phone" className="h-4 w-4" />{s.callNow}</a>
           </div>
+          <div className="mt-4">
+            <Link href={`/${lang}/stroke-test`} className="btn-primary">{t.strokeTest.homeCta}</Link>
+          </div>
         </div>
       </section>
 

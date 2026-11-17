@@ -18,12 +18,26 @@ const SERVICE_CODE: Record<string, string> = {
   "24x7_stroke": "stroke_24x7",
 };
 const STROKE_SERVICES = ["stroke_unit", "thrombolysis", "thrombectomy", "stroke_24x7"];
-const STATE_CITY: Record<string, string> = { DL: "new-delhi" };
+/** City each pilot dataset covers, and the key prefix its research agents used ("" = Delhi, unprefixed). */
+export const PILOT_CITIES: Record<string, { citySlug: string; prefix: string }> = {
+  delhi: { citySlug: "new-delhi", prefix: "" },
+  mumbai: { citySlug: "mumbai", prefix: "mum" },
+  bengaluru: { citySlug: "bengaluru", prefix: "blr" },
+  chennai: { citySlug: "chennai", prefix: "chn" },
+  kolkata: { citySlug: "kolkata", prefix: "kol" },
+  hyderabad: { citySlug: "hyderabad", prefix: "hyd" },
+};
+const PREFIXED = new RegExp(`^(${Object.values(PILOT_CITIES).map((c) => c.prefix).filter(Boolean).join("|")})-(.+)$`);
+const cityOf = (ds: PilotDataset) => PILOT_CITIES[ds.pilot]?.citySlug ?? ds.pilot;
 const SOURCE_TITLE = "Public source — awaiting clinician review";
 const VERIFIED_SOURCE_TITLE = "Public source, reviewed by a clinician";
 
-export const hospitalId = (key: string) => `dl-${key}`;
-export const physicianId = (key: string) => `dl-dr-${key}`;
+// Listing ids. Delhi keys are unprefixed (dl-…); metro keys already carry their city prefix.
+export const hospitalId = (key: string) => (PREFIXED.test(key) ? key : `dl-${key}`);
+export const physicianId = (key: string) => {
+  const m = key.match(PREFIXED);
+  return m ? `${m[1]}-dr-${m[2]}` : `dl-dr-${key}`;
+};
 
 /** A reviewer decision as stored in Supabase `public_claim_reviews`. */
 export interface ReviewDecision {
@@ -182,7 +196,7 @@ export function buildListings(ds: PilotDataset, resolved: ResolvedClaim[], visib
       chain: h.chain,
       type: "hospital",
       stateCode: h.state,
-      citySlug: STATE_CITY[h.state] ?? h.state.toLowerCase(),
+      citySlug: cityOf(ds),
       address: get(claims, "address")?.value ?? null,
       geo: parsePin(get(claims, "location")),
       phone: get(claims, "phone")?.value ?? null,
@@ -220,7 +234,7 @@ export function buildListings(ds: PilotDataset, resolved: ResolvedClaim[], visib
       designation: get(claims, "designation")?.value ?? null,
       titles: visibility === "all" ? p.titles : null,
       stateCode: state,
-      citySlug: STATE_CITY[state] ?? state.toLowerCase(),
+      citySlug: cityOf(ds),
       facilityIds: links.map((c) => c.otherRecordId as string),
       // Degrees are shown only once verified; the candidate titles live in `titles` + claims.
       qualifications: [],

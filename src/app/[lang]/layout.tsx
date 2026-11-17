@@ -3,10 +3,12 @@ import type { Metadata, Viewport } from "next";
 import { Noto_Sans, Noto_Sans_Devanagari } from "next/font/google";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
+import { BilingualCaptions } from "@/components/BilingualCaptions";
 import { EmergencyBar } from "@/components/EmergencyBar";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getDictionary, isLocale, locales } from "@/lib/i18n";
+import { hindiToEnglish } from "@/lib/i18n/bilingual";
 import { site } from "@/lib/site";
 
 const latin = Noto_Sans({ subsets: ["latin"], variable: "--font-latin", display: "swap" });
@@ -45,6 +47,7 @@ export default function LangLayout({ children, params }: { children: ReactNode; 
         <SiteHeader t={t} lang={lang} />
         <main id="main">{children}</main>
         <SiteFooter t={t} lang={lang} />
+        {lang === "hi" && <BilingualCaptions pairs={hindiToEnglish()} />}
       </body>
     </html>
   );

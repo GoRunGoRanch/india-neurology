@@ -20,3 +20,18 @@
   .field { @apply min-h-[44px] w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm text-ink; }
   .section { @apply py-12 sm:py-16; }
 }
+
+/* Hindi pages: English caption under each Hindi line (set by BilingualCaptions). The second
+   `content` hides the duplicate from screen readers where supported; the page itself is lang="hi". */
+html[lang="hi"] [data-en]::after {
+  content: attr(data-en);
+  content: attr(data-en) / "";
+  display: block;
+  margin-top: 0.1em;
+  font-size: 0.78em;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: 0;
+  text-transform: none;
+  opacity: 0.72;
+}

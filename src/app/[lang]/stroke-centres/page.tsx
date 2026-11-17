@@ -6,6 +6,7 @@ import { repository } from "@/lib/data/repository";
 import type { Facility } from "@/lib/data/types";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { site } from "@/lib/site";
+import { findCity } from "@/lib/taxonomy";
 
 export async function generateMetadata({ params }: { params: { lang: Locale } }): Promise<Metadata> {
   const t = getDictionary(params.lang);
@@ -16,6 +17,8 @@ function toCentre(f: Facility): Centre {
   const status = (code: string) => f.claims?.find((c) => c.field === `service:${code}`)?.status ?? null;
   return {
     id: f.id,
+    stateCode: f.stateCode,
+    citySlug: f.citySlug,
     name: f.name,
     address: f.address,
     phone: f.phone,
@@ -36,6 +39,9 @@ export default async function StrokeCentresPage({ params }: { params: { lang: Lo
     .filter((l): l is Facility => l.kind === "hospital" && !l.isDemo)
     .map(toCentre)
     .filter((c) => c.thrombolysis || c.thrombectomy);
+  const cityOptions = [...new Map(centres.map((c) => [c.citySlug, { slug: c.citySlug, name: findCity(c.stateCode, c.citySlug)?.name[lang] ?? c.citySlug }])).values()]
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const cities = cityOptions.map((c) => c.name);
 
   return (
     <div className="container-page section max-w-5xl space-y-6">
@@ -55,10 +61,12 @@ export default async function StrokeCentresPage({ params }: { params: { lang: Lo
 
       {repository.usingCandidateData && <CandidateNotice t={t} />}
       <p className="rounded-2xl bg-go-50 p-4 text-sm text-go-700">
-        {t.finder.availability} {t.finder.liveStatus} {t.finder.coverage}
+        {t.finder.availability} {t.finder.liveStatus}{" "}
+        {cities.length > 0 && <>{t.finder.coverage} {cities.join(", ")}. </>}
+        {t.finder.moreCities}
       </p>
 
-      <StrokeCentreFinder centres={centres} t={t} lang={lang} />
+      <StrokeCentreFinder centres={centres} cities={cityOptions} t={t} lang={lang} />
     </div>
   );
 }

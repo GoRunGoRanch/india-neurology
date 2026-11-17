@@ -87,50 +87,133 @@ export interface StateDef {
   cities: CityDef[];
 }
 
-// Starter list. City coordinates are approximate city centres, used only to place
-// demo markers; real records carry their own geocoded coordinates.
+// All 28 states and 8 union territories. Each lists its capital (and, for some, major cities).
+// City coordinates are approximate city centres, used only to place demo markers; real records
+// carry their own reviewer-confirmed pins.
 export const STATES: StateDef[] = [
+  { code: "AN", name: { en: "Andaman and Nicobar Islands", hi: "अंडमान और निकोबार द्वीपसमूह" }, cities: [
+    { slug: "sri-vijaya-puram", name: { en: "Sri Vijaya Puram (Port Blair)", hi: "श्री विजयपुरम (पोर्ट ब्लेयर)" }, lat: 11.62, lng: 92.73 },
+  ] },
+  { code: "AP", name: { en: "Andhra Pradesh", hi: "आंध्र प्रदेश" }, cities: [
+    { slug: "amaravati", name: { en: "Amaravati", hi: "अमरावती" }, lat: 16.51, lng: 80.52 },
+    { slug: "vijayawada", name: { en: "Vijayawada", hi: "विजयवाड़ा" }, lat: 16.51, lng: 80.65 },
+    { slug: "visakhapatnam", name: { en: "Visakhapatnam", hi: "विशाखापत्तनम" }, lat: 17.69, lng: 83.22 },
+  ] },
+  { code: "AR", name: { en: "Arunachal Pradesh", hi: "अरुणाचल प्रदेश" }, cities: [
+    { slug: "itanagar", name: { en: "Itanagar", hi: "ईटानगर" }, lat: 27.08, lng: 93.61 },
+  ] },
+  { code: "AS", name: { en: "Assam", hi: "असम" }, cities: [
+    { slug: "guwahati", name: { en: "Guwahati", hi: "गुवाहाटी" }, lat: 26.14, lng: 91.74 },
+  ] },
+  { code: "BR", name: { en: "Bihar", hi: "बिहार" }, cities: [
+    { slug: "patna", name: { en: "Patna", hi: "पटना" }, lat: 25.59, lng: 85.14 },
+  ] },
+  { code: "CH", name: { en: "Chandigarh", hi: "चंडीगढ़" }, cities: [
+    { slug: "chandigarh", name: { en: "Chandigarh", hi: "चंडीगढ़" }, lat: 30.73, lng: 76.78 },
+  ] },
+  { code: "CG", name: { en: "Chhattisgarh", hi: "छत्तीसगढ़" }, cities: [
+    { slug: "raipur", name: { en: "Raipur", hi: "रायपुर" }, lat: 21.25, lng: 81.63 },
+  ] },
+  { code: "DH", name: { en: "Dadra and Nagar Haveli and Daman and Diu", hi: "दादरा और नगर हवेली और दमन और दीव" }, cities: [
+    { slug: "daman", name: { en: "Daman", hi: "दमन" }, lat: 20.40, lng: 72.83 },
+  ] },
   { code: "DL", name: { en: "Delhi", hi: "दिल्ली" }, cities: [
     { slug: "new-delhi", name: { en: "New Delhi", hi: "नई दिल्ली" }, lat: 28.61, lng: 77.21 },
+  ] },
+  { code: "GA", name: { en: "Goa", hi: "गोवा" }, cities: [
+    { slug: "panaji", name: { en: "Panaji", hi: "पणजी" }, lat: 15.49, lng: 73.83 },
+  ] },
+  { code: "GJ", name: { en: "Gujarat", hi: "गुजरात" }, cities: [
+    { slug: "ahmedabad", name: { en: "Ahmedabad", hi: "अहमदाबाद" }, lat: 23.02, lng: 72.57 },
+    { slug: "gandhinagar", name: { en: "Gandhinagar", hi: "गांधीनगर" }, lat: 23.22, lng: 72.65 },
+    { slug: "surat", name: { en: "Surat", hi: "सूरत" }, lat: 21.17, lng: 72.83 },
+  ] },
+  { code: "HR", name: { en: "Haryana", hi: "हरियाणा" }, cities: [
+    { slug: "gurugram", name: { en: "Gurugram", hi: "गुरुग्राम" }, lat: 28.46, lng: 77.03 },
+    { slug: "faridabad", name: { en: "Faridabad", hi: "फ़रीदाबाद" }, lat: 28.41, lng: 77.32 },
+  ] },
+  { code: "HP", name: { en: "Himachal Pradesh", hi: "हिमाचल प्रदेश" }, cities: [
+    { slug: "shimla", name: { en: "Shimla", hi: "शिमला" }, lat: 31.10, lng: 77.17 },
+  ] },
+  { code: "JK", name: { en: "Jammu and Kashmir", hi: "जम्मू और कश्मीर" }, cities: [
+    { slug: "srinagar", name: { en: "Srinagar", hi: "श्रीनगर" }, lat: 34.08, lng: 74.80 },
+    { slug: "jammu", name: { en: "Jammu", hi: "जम्मू" }, lat: 32.73, lng: 74.86 },
+  ] },
+  { code: "JH", name: { en: "Jharkhand", hi: "झारखंड" }, cities: [
+    { slug: "ranchi", name: { en: "Ranchi", hi: "रांची" }, lat: 23.34, lng: 85.31 },
+  ] },
+  { code: "KA", name: { en: "Karnataka", hi: "कर्नाटक" }, cities: [
+    { slug: "bengaluru", name: { en: "Bengaluru", hi: "बेंगलुरु" }, lat: 12.97, lng: 77.59 },
+    { slug: "mysuru", name: { en: "Mysuru", hi: "मैसूरु" }, lat: 12.30, lng: 76.64 },
+  ] },
+  { code: "KL", name: { en: "Kerala", hi: "केरल" }, cities: [
+    { slug: "thiruvananthapuram", name: { en: "Thiruvananthapuram", hi: "तिरुवनंतपुरम" }, lat: 8.52, lng: 76.94 },
+    { slug: "kochi", name: { en: "Kochi", hi: "कोच्चि" }, lat: 9.93, lng: 76.27 },
+  ] },
+  { code: "LA", name: { en: "Ladakh", hi: "लद्दाख" }, cities: [
+    { slug: "leh", name: { en: "Leh", hi: "लेह" }, lat: 34.15, lng: 77.58 },
+  ] },
+  { code: "LD", name: { en: "Lakshadweep", hi: "लक्षद्वीप" }, cities: [
+    { slug: "kavaratti", name: { en: "Kavaratti", hi: "कवरत्ती" }, lat: 10.57, lng: 72.64 },
+  ] },
+  { code: "MP", name: { en: "Madhya Pradesh", hi: "मध्य प्रदेश" }, cities: [
+    { slug: "bhopal", name: { en: "Bhopal", hi: "भोपाल" }, lat: 23.26, lng: 77.41 },
+    { slug: "indore", name: { en: "Indore", hi: "इंदौर" }, lat: 22.72, lng: 75.86 },
   ] },
   { code: "MH", name: { en: "Maharashtra", hi: "महाराष्ट्र" }, cities: [
     { slug: "mumbai", name: { en: "Mumbai", hi: "मुंबई" }, lat: 19.08, lng: 72.88 },
     { slug: "pune", name: { en: "Pune", hi: "पुणे" }, lat: 18.52, lng: 73.86 },
     { slug: "nagpur", name: { en: "Nagpur", hi: "नागपुर" }, lat: 21.15, lng: 79.09 },
   ] },
-  { code: "KA", name: { en: "Karnataka", hi: "कर्नाटक" }, cities: [
-    { slug: "bengaluru", name: { en: "Bengaluru", hi: "बेंगलुरु" }, lat: 12.97, lng: 77.59 },
-    { slug: "mysuru", name: { en: "Mysuru", hi: "मैसूरु" }, lat: 12.30, lng: 76.64 },
+  { code: "MN", name: { en: "Manipur", hi: "मणिपुर" }, cities: [
+    { slug: "imphal", name: { en: "Imphal", hi: "इंफाल" }, lat: 24.82, lng: 93.94 },
+  ] },
+  { code: "ML", name: { en: "Meghalaya", hi: "मेघालय" }, cities: [
+    { slug: "shillong", name: { en: "Shillong", hi: "शिलांग" }, lat: 25.58, lng: 91.89 },
+  ] },
+  { code: "MZ", name: { en: "Mizoram", hi: "मिज़ोरम" }, cities: [
+    { slug: "aizawl", name: { en: "Aizawl", hi: "आइज़ोल" }, lat: 23.73, lng: 92.72 },
+  ] },
+  { code: "NL", name: { en: "Nagaland", hi: "नागालैंड" }, cities: [
+    { slug: "kohima", name: { en: "Kohima", hi: "कोहिमा" }, lat: 25.67, lng: 94.11 },
+  ] },
+  { code: "OD", name: { en: "Odisha", hi: "ओडिशा" }, cities: [
+    { slug: "bhubaneswar", name: { en: "Bhubaneswar", hi: "भुवनेश्वर" }, lat: 20.30, lng: 85.82 },
+  ] },
+  { code: "PY", name: { en: "Puducherry", hi: "पुडुचेरी" }, cities: [
+    { slug: "puducherry", name: { en: "Puducherry", hi: "पुडुचेरी" }, lat: 11.94, lng: 79.81 },
+  ] },
+  { code: "PB", name: { en: "Punjab", hi: "पंजाब" }, cities: [
+    { slug: "ludhiana", name: { en: "Ludhiana", hi: "लुधियाना" }, lat: 30.90, lng: 75.86 },
+    { slug: "amritsar", name: { en: "Amritsar", hi: "अमृतसर" }, lat: 31.63, lng: 74.87 },
+  ] },
+  { code: "RJ", name: { en: "Rajasthan", hi: "राजस्थान" }, cities: [
+    { slug: "jaipur", name: { en: "Jaipur", hi: "जयपुर" }, lat: 26.91, lng: 75.79 },
+  ] },
+  { code: "SK", name: { en: "Sikkim", hi: "सिक्किम" }, cities: [
+    { slug: "gangtok", name: { en: "Gangtok", hi: "गंगटोक" }, lat: 27.33, lng: 88.61 },
   ] },
   { code: "TN", name: { en: "Tamil Nadu", hi: "तमिलनाडु" }, cities: [
     { slug: "chennai", name: { en: "Chennai", hi: "चेन्नई" }, lat: 13.08, lng: 80.27 },
     { slug: "coimbatore", name: { en: "Coimbatore", hi: "कोयंबटूर" }, lat: 11.02, lng: 76.96 },
   ] },
-  { code: "KL", name: { en: "Kerala", hi: "केरल" }, cities: [
-    { slug: "kochi", name: { en: "Kochi", hi: "कोच्चि" }, lat: 9.93, lng: 76.27 },
-    { slug: "thiruvananthapuram", name: { en: "Thiruvananthapuram", hi: "तिरुवनंतपुरम" }, lat: 8.52, lng: 76.94 },
-  ] },
-  { code: "WB", name: { en: "West Bengal", hi: "पश्चिम बंगाल" }, cities: [
-    { slug: "kolkata", name: { en: "Kolkata", hi: "कोलकाता" }, lat: 22.57, lng: 88.36 },
-  ] },
   { code: "TG", name: { en: "Telangana", hi: "तेलंगाना" }, cities: [
     { slug: "hyderabad", name: { en: "Hyderabad", hi: "हैदराबाद" }, lat: 17.39, lng: 78.49 },
   ] },
-  { code: "GJ", name: { en: "Gujarat", hi: "गुजरात" }, cities: [
-    { slug: "ahmedabad", name: { en: "Ahmedabad", hi: "अहमदाबाद" }, lat: 23.02, lng: 72.57 },
+  { code: "TR", name: { en: "Tripura", hi: "त्रिपुरा" }, cities: [
+    { slug: "agartala", name: { en: "Agartala", hi: "अगरतला" }, lat: 23.83, lng: 91.29 },
   ] },
   { code: "UP", name: { en: "Uttar Pradesh", hi: "उत्तर प्रदेश" }, cities: [
     { slug: "lucknow", name: { en: "Lucknow", hi: "लखनऊ" }, lat: 26.85, lng: 80.95 },
     { slug: "varanasi", name: { en: "Varanasi", hi: "वाराणसी" }, lat: 25.32, lng: 82.97 },
+    { slug: "noida", name: { en: "Noida", hi: "नोएडा" }, lat: 28.54, lng: 77.39 },
+    { slug: "kanpur", name: { en: "Kanpur", hi: "कानपुर" }, lat: 26.45, lng: 80.33 },
   ] },
-  { code: "RJ", name: { en: "Rajasthan", hi: "राजस्थान" }, cities: [
-    { slug: "jaipur", name: { en: "Jaipur", hi: "जयपुर" }, lat: 26.91, lng: 75.79 },
+  { code: "UK", name: { en: "Uttarakhand", hi: "उत्तराखंड" }, cities: [
+    { slug: "dehradun", name: { en: "Dehradun", hi: "देहरादून" }, lat: 30.32, lng: 78.03 },
   ] },
-  { code: "PB", name: { en: "Punjab", hi: "पंजाब" }, cities: [
-    { slug: "ludhiana", name: { en: "Ludhiana", hi: "लुधियाना" }, lat: 30.90, lng: 75.86 },
-  ] },
-  { code: "OD", name: { en: "Odisha", hi: "ओडिशा" }, cities: [
-    { slug: "bhubaneswar", name: { en: "Bhubaneswar", hi: "भुवनेश्वर" }, lat: 20.30, lng: 85.82 },
+  { code: "WB", name: { en: "West Bengal", hi: "पश्चिम बंगाल" }, cities: [
+    { slug: "kolkata", name: { en: "Kolkata", hi: "कोलकाता" }, lat: 22.57, lng: 88.36 },
   ] },
 ];
 

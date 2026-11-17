@@ -9,6 +9,8 @@ import { Icon } from "./Icon";
 
 export interface Centre {
   id: string;
+  stateCode: string;
+  citySlug: string;
   name: string;
   address: string | null;
   phone: string | null;
@@ -63,8 +65,9 @@ function CentreCard({ c, status, t, lang, km }: { c: Centre; status: ClaimStatus
   );
 }
 
-export function StrokeCentreFinder({ centres, t, lang }: { centres: Centre[]; t: Dictionary; lang: Locale }) {
+export function StrokeCentreFinder({ centres, cities, t, lang }: { centres: Centre[]; cities: { slug: string; name: string }[]; t: Dictionary; lang: Locale }) {
   const [loc, setLoc] = useState<Located>({ state: "idle" });
+  const [city, setCity] = useState("");
 
   function locate() {
     if (!navigator.geolocation) return setLoc({ state: "denied" });
@@ -88,7 +91,7 @@ export function StrokeCentreFinder({ centres, t, lang }: { centres: Centre[]; t:
     });
   // Verified centres first, then unverified; disputed claims never appear.
   const section = (key: "thrombectomy" | "thrombolysis") => {
-    const list = centres.filter((c) => c[key] && c[key] !== "disputed");
+    const list = centres.filter((c) => c[key] && c[key] !== "disputed" && (!city || c.citySlug === city));
     return [...sorted(list.filter((c) => c[key] === "verified")), ...sorted(list.filter((c) => c[key] !== "verified"))];
   };
 
@@ -100,6 +103,15 @@ export function StrokeCentreFinder({ centres, t, lang }: { centres: Centre[]; t:
   return (
     <div className="space-y-8">
       <div className="flex flex-wrap items-center gap-3">
+        {cities.length > 1 && (
+          <label className="flex items-center gap-2 text-sm font-medium">
+            {t.finder.cityLabel}
+            <select value={city} onChange={(e) => setCity(e.target.value)} className="rounded-xl border border-slate-300 bg-white px-3 py-2">
+              <option value="">{t.finder.allCities}</option>
+              {cities.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}
+            </select>
+          </label>
+        )}
         <button type="button" onClick={locate} disabled={loc.state === "locating"} className="btn-secondary">
           <Icon name="pin" className="h-4 w-4" /> {loc.state === "locating" ? t.finder.locating : t.finder.useLocation}
         </button>

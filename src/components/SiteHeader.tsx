@@ -6,11 +6,11 @@ import { LanguageToggle } from "./LanguageToggle";
 
 export function navItems(t: Dictionary, lang: Locale) {
   return [
+    { href: `/${lang}/stroke-test`, label: t.strokeTest.nav },
     { href: `/${lang}/stroke-centres`, label: t.nav.strokeCentres },
     { href: `/${lang}/find?type=neurologist`, label: t.nav.findNeurologist },
     { href: `/${lang}/find?type=hospital`, label: t.nav.findHospital },
     { href: `/${lang}/conditions`, label: t.nav.conditions },
-    { href: `/${lang}/stroke`, label: t.nav.strokeFast },
     { href: `/${lang}/learn`, label: t.nav.learn },
     { href: `/${lang}/for-providers`, label: t.nav.forProviders },
   ];
