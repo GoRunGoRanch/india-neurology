@@ -32,8 +32,9 @@ export function StrokeTest({ t, lang }: { t: Dictionary; lang: Locale }) {
     if (step + 1 < steps.length) setStep(step + 1);
     else setResult("clear");
   };
+  // Digits and am/pm in Latin script, so the time reads the same in every language and its caption.
   const recordTime = () =>
-    setNoted(new Date().toLocaleTimeString(lang === "hi" ? "hi-IN" : "en-IN", { hour: "numeric", minute: "2-digit" }));
+    setNoted(new Date().toLocaleTimeString("en-IN", { hour: "numeric", minute: "2-digit" }));
 
   if (result === "alert") {
     return (

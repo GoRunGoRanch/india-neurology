@@ -4,6 +4,7 @@ import { revalidatePath, revalidateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { PILOT_DATASETS, baseClaims, evidenceHash } from "@/lib/data/pilot";
 import { ATTESTATIONS_TAG } from "@/lib/attestation";
+import { isLocale } from "@/lib/i18n/config";
 import { REVIEWS_TAG } from "@/lib/data/reviews";
 import { currentReviewer, supabaseServer } from "@/lib/supabase/server";
 
@@ -60,7 +61,8 @@ export async function reviewClaim(_prev: ReviewState | null, form: FormData): Pr
 
 export async function signOut(form: FormData) {
   await supabaseServer().auth.signOut();
-  const lang = String(form.get("lang") ?? "en") === "hi" ? "hi" : "en";
+  const raw = String(form.get("lang") ?? "en");
+  const lang = isLocale(raw) ? raw : "en";
   redirect(`/${lang}/review`);
 }
 

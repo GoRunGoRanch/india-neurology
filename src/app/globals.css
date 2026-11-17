@@ -21,9 +21,9 @@
   .section { @apply py-12 sm:py-16; }
 }
 
-/* Hindi pages: English caption under each Hindi line (set by BilingualCaptions). The second
-   `content` hides the duplicate from screen readers where supported; the page itself is lang="hi". */
-html[lang="hi"] [data-en]::after {
+/* Non-English pages: English caption under each translated line (set by BilingualCaptions). The second
+   `content` hides the duplicate from screen readers where supported; the page itself is in the translated language. */
+html:not([lang="en"]) [data-en]::after {
   content: attr(data-en);
   content: attr(data-en) / "";
   display: block;

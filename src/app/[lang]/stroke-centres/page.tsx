@@ -14,11 +14,11 @@ export async function generateMetadata({ params }: { params: { lang: Locale } })
   return { title: t.finder.title, description: t.finder.subtitle, robots: repository.usingCandidateData ? { index: false } : undefined };
 }
 
-/** Dropdown options cannot carry the English caption line, so Hindi options include the English name. */
+/** Dropdown options cannot carry the English caption line, so non-English options include the English name. */
 function cityLabel(stateCode: string, slug: string, lang: Locale) {
   const name = findCity(stateCode, slug)?.name;
   if (!name) return slug;
-  return lang === "hi" ? `${name.hi} (${name.en})` : name.en;
+  return lang === "en" ? name.en : `${name[lang]} (${name.en})`;
 }
 
 function toCentre(f: Facility, a: PublicAttestation | undefined): Centre {

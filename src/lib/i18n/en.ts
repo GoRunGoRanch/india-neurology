@@ -45,10 +45,10 @@ const en = {
     kmAway: "km away",
     notMedicalAdvice:
       "This website gives general health education and a directory. It is not medical advice, diagnosis, or an emergency service.",
-    translationPending: "Hindi translation of this section is pending review. Showing English.",
+    translationPending: "The translation of this section is pending review. Showing English.",
   },
   home: {
-    eyebrow: "Free • Verified-first • English & Hindi",
+    eyebrow: "Free • Verified-first • English and 6 Indian languages",
     title: "Find Neurological Care Across India",
     subtitle:
       "Search neurologists, hospitals and rehabilitation centres by state and city, and learn the warning signs of stroke and other brain and nerve conditions.",

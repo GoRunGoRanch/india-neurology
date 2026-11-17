@@ -1,6 +1,7 @@
 import type { Locale } from "./i18n/config";
+import { localise, type BaseLabel, type Label } from "./i18n/labels";
 
-type Label = Record<Locale, string>;
+export type { Label };
 
 export interface ConditionDef {
   slug: string;
@@ -9,7 +10,7 @@ export interface ConditionDef {
 }
 
 // MVP condition list from the brief, in the brief's order.
-export const CONDITIONS: ConditionDef[] = [
+const RAW_CONDITIONS: Raw<ConditionDef>[] = [
   { slug: "stroke", name: { en: "Stroke", hi: "स्ट्रोक (लकवा)" }, icd10: "I60–I69" },
   { slug: "epilepsy", name: { en: "Epilepsy & seizures", hi: "मिर्गी और दौरे" }, icd10: "G40–G41" },
   { slug: "headache-migraine", name: { en: "Headache & migraine", hi: "सिरदर्द और माइग्रेन" }, icd10: "G43–G44" },
@@ -22,7 +23,7 @@ export const CONDITIONS: ConditionDef[] = [
   { slug: "neurorehabilitation", name: { en: "Neurorehabilitation", hi: "न्यूरो-पुनर्वास" }, icd10: "—" },
 ];
 
-export const SERVICES: { code: string; name: Label }[] = [
+const RAW_SERVICES: { code: string; name: BaseLabel }[] = [
   { code: "thrombolysis", name: { en: "Clot-busting treatment (thrombolysis)", hi: "थ्रोम्बोलिसिस (थक्का घोलने का इलाज)" } },
   { code: "thrombectomy", name: { en: "Clot removal (thrombectomy)", hi: "थ्रोम्बेक्टॉमी" } },
   { code: "stroke_unit", name: { en: "Stroke unit", hi: "स्ट्रोक यूनिट" } },
@@ -42,7 +43,7 @@ export const SERVICES: { code: string; name: Label }[] = [
   { code: "telemedicine", name: { en: "Teleconsultation", hi: "टेली-परामर्श" } },
 ];
 
-export const SPECIALTIES: { code: string; name: Label }[] = [
+const RAW_SPECIALTIES: { code: string; name: BaseLabel }[] = [
   { code: "neurology", name: { en: "Neurologist", hi: "न्यूरोलॉजिस्ट" } },
   { code: "stroke_neurology", name: { en: "Stroke neurologist", hi: "स्ट्रोक न्यूरोलॉजिस्ट" } },
   { code: "neurointervention", name: { en: "Neurointerventionalist", hi: "न्यूरो-इंटरवेंशनिस्ट" } },
@@ -52,7 +53,7 @@ export const SPECIALTIES: { code: string; name: Label }[] = [
   { code: "neurorehabilitation", name: { en: "Neurorehabilitation specialist", hi: "न्यूरो-पुनर्वास विशेषज्ञ" } },
 ];
 
-export const FACILITY_TYPES: { code: string; name: Label }[] = [
+const RAW_FACILITY_TYPES: { code: string; name: BaseLabel }[] = [
   { code: "hospital", name: { en: "Hospital", hi: "अस्पताल" } },
   { code: "clinic", name: { en: "Clinic", hi: "क्लिनिक" } },
   { code: "stroke_centre", name: { en: "Stroke centre", hi: "स्ट्रोक सेंटर" } },
@@ -81,6 +82,9 @@ export interface CityDef {
   lat: number;
   lng: number;
 }
+type Raw<T> = Omit<T, "name"> & { name: BaseLabel };
+type RawState = Omit<StateDef, "name" | "cities"> & { name: BaseLabel; cities: Raw<CityDef>[] };
+
 export interface StateDef {
   code: string;
   name: Label;
@@ -90,7 +94,7 @@ export interface StateDef {
 // All 28 states and 8 union territories. Each lists its capital (and, for some, major cities).
 // City coordinates are approximate city centres, used only to place demo markers; real records
 // carry their own reviewer-confirmed pins.
-export const STATES: StateDef[] = [
+const RAW_STATES: RawState[] = [
   { code: "AN", name: { en: "Andaman and Nicobar Islands", hi: "अंडमान और निकोबार द्वीपसमूह" }, cities: [
     { slug: "sri-vijaya-puram", name: { en: "Sri Vijaya Puram (Port Blair)", hi: "श्री विजयपुरम (पोर्ट ब्लेयर)" }, lat: 11.62, lng: 92.73 },
   ] },
@@ -216,6 +220,14 @@ export const STATES: StateDef[] = [
     { slug: "kolkata", name: { en: "Kolkata", hi: "कोलकाता" }, lat: 22.57, lng: 88.36 },
   ] },
 ];
+
+const named = <T extends { name: BaseLabel }>(x: T) => ({ ...x, name: localise(x.name) });
+
+export const CONDITIONS: ConditionDef[] = RAW_CONDITIONS.map(named);
+export const SERVICES: { code: string; name: Label }[] = RAW_SERVICES.map(named);
+export const SPECIALTIES: { code: string; name: Label }[] = RAW_SPECIALTIES.map(named);
+export const FACILITY_TYPES: { code: string; name: Label }[] = RAW_FACILITY_TYPES.map(named);
+export const STATES: StateDef[] = RAW_STATES.map((s) => ({ ...named(s), cities: s.cities.map(named) }));
 
 export function findState(code: string | undefined) {
   return STATES.find((s) => s.code === code);

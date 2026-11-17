@@ -121,7 +121,7 @@ export function StrokeCentreFinder({ centres, cities, t, lang }: { centres: Cent
           <label className="flex items-center gap-2 text-sm font-medium">
             {t.finder.cityLabel}
             <select value={city} onChange={(e) => setCity(e.target.value)} className="rounded-xl border border-slate-300 bg-white px-3 py-2">
-              <option value="">{lang === "hi" ? `${t.finder.allCities} (All cities)` : t.finder.allCities}</option>
+              <option value="">{lang !== "en" ? `${t.finder.allCities} (All cities)` : t.finder.allCities}</option>
               {cities.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}
             </select>
           </label>

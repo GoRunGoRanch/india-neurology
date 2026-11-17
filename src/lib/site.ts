@@ -2,8 +2,10 @@
 // KneeTie India (kneetie.in) is the India stroke-centre finder and neurology directory inside the
 // KneeTie framework, alongside StrokeGuide (kneetie.mobi) and the @kneetiegorungo channel.
 
+import { localise } from "./i18n/labels";
+
 export const site = {
-  name: { en: "KneeTie India", hi: "KneeTie इंडिया" },
+  name: localise({ en: "KneeTie India", hi: "KneeTie इंडिया" }),
   shortName: "KneeTie",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   educationPartner: "KneeTie GoRunGo",

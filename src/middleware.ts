@@ -22,7 +22,7 @@ async function refreshSession(req: NextRequest, res: NextResponse) {
   return res;
 }
 
-// Redirects locale-less paths to /en or /hi, using a saved choice or Accept-Language.
+// Redirects locale-less paths to a language, using a saved choice or the browser's Accept-Language order.
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
   const first = pathname.split("/")[1] ?? "";
@@ -33,7 +33,9 @@ export async function middleware(req: NextRequest) {
 
   const saved = req.cookies.get("locale")?.value;
   const accept = req.headers.get("accept-language") ?? "";
-  const locale = saved && isLocale(saved) ? saved : /^hi\b/i.test(accept) ? "hi" : defaultLocale;
+  const preferred = accept.split(",").map((part) => part.split(";")[0].trim().slice(0, 2).toLowerCase());
+  // The first language in the browser's order that the site offers (e.g. "ta-IN, en" -> ta).
+  const locale = saved && isLocale(saved) ? saved : (preferred.find(isLocale) ?? defaultLocale);
 
   const url = req.nextUrl.clone();
   url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
