@@ -1,9 +1,28 @@
 import type { ClaimView, Facility, Provider } from "../types";
+import bengaluruGeo from "./bengaluru-geo.json";
+import bengaluru from "./bengaluru.json";
+import chennaiGeo from "./chennai-geo.json";
+import chennai from "./chennai.json";
+import hyderabadGeo from "./hyderabad-geo.json";
+import hyderabad from "./hyderabad.json";
 import delhiGeo from "./delhi-geo.json";
 import delhi from "./delhi.json";
+import kolkataGeo from "./kolkata-geo.json";
+import kolkata from "./kolkata.json";
+import mumbaiGeo from "./mumbai-geo.json";
+import mumbai from "./mumbai.json";
 import type { ClaimStatus, Evidence, PilotDataset, PilotGeo } from "./types";
 
-export const PILOT_DATASETS: PilotDataset[] = [{ ...(delhi as PilotDataset), geo: delhiGeo as Record<string, PilotGeo> }];
+const withGeo = (ds: unknown, geo: unknown): PilotDataset => ({ ...(ds as PilotDataset), geo: geo as Record<string, PilotGeo> });
+
+export const PILOT_DATASETS: PilotDataset[] = [
+  withGeo(delhi, delhiGeo),
+  withGeo(mumbai, mumbaiGeo),
+  withGeo(bengaluru, bengaluruGeo),
+  withGeo(chennai, chennaiGeo),
+  withGeo(kolkata, kolkataGeo),
+  withGeo(hyderabad, hyderabadGeo),
+];
 
 // Research service codes → directory SERVICES codes.
 const SERVICE_CODE: Record<string, string> = {

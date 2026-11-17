@@ -1,0 +1,1053 @@
+{
+ "agent": "chennai",
+ "hospitals": [
+  {
+   "key": "chn-rgggh",
+   "name": "Rajiv Gandhi Government General Hospital (Institute of Neurology, Madras Medical College)",
+   "chain": null,
+   "campus": "Park Town",
+   "address": "Adjacent to MMC Campus, E.V.R. Periyar Salai, Park Town, Chennai – 600003, Tamil Nadu",
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": "600003",
+   "officialWebsite": "https://mmc.xenovex.com/en/education/madras-medical-college/department/super-speciality/neurology",
+   "officialPhone": "044-25305112",
+   "ownership": "government",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://mmc.xenovex.com/en/aboutus/citizen-charter",
+     "excerpt": "Adjacent to MMC Campus, E.V.R. Periyar Salai, Park Town, Chennai – 600003, Tamil Nadu",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://mmc.xenovex.com/en/aboutus/citizen-charter",
+     "excerpt": "Phone: 044-25305112",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://mmc.xenovex.com/en/aboutus/citizen-charter",
+     "excerpt": "Citizen charter lists the same phone 044-25305112 for both Madras Medical College and RGGGH; no separate emergency number given.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://mmc.xenovex.com/en/education/madras-medical-college/department/super-speciality/neurology",
+       "excerpt": "IV Thrombolysis for Ischemic Stroke",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "stroke_unit",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://mmc.xenovex.com/en/education/madras-medical-college/department/super-speciality/neurology",
+       "excerpt": "In 2012, the Stroke Ward was inaugurated.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://mmc.xenovex.com/en/education/madras-medical-college/department/super-speciality/neurology",
+       "excerpt": "Separate ICUs for Stroke, General Neurology, and Neuro-respiratory disorders.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://mmc.xenovex.com/en/education/madras-medical-college/department/super-speciality/neurology",
+       "excerpt": "In 1980, the CT Scan was commissioned.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    }
+   ],
+   "notes": "Official MMC content is hosted at mmc.xenovex.com (footer: content owned by Madras Medical College; developed by Xenovex); the government domain mmcrgggh.tn.gov.in refused connection. Department page lists 6 stroke ICU beds, 37 stroke ward beds, 33 thrombolyses in 2024, and '24 hours neurophysician services' (not a stated 24x7 stroke team, so 24x7_stroke not recorded). Thrombectomy NOT evidenced: a 2019-20 TN GO (pndschemes.tn.gov.in) sanctioned a biplane DSA and thrombectomy kits for the Institute of Neurology, but completion was not verified. Phone is a shared MMC/RGGGH line, not a stroke/emergency line."
+  },
+  {
+   "key": "chn-tngmssh-omandurar",
+   "name": "Tamil Nadu Government Multi Super Speciality Hospital",
+   "chain": null,
+   "campus": "Omandurar Government Estate",
+   "address": null,
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": "government",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://www.dtnext.in/amp/story/news/tamilnadu/emergency-cathlab-procedure-saves-life-of-36-year-old-stroke-patient",
+     "excerpt": "Tamil Nadu Government Multi Super Speciality Hospital",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2023-03-07",
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.dtnext.in/amp/story/news/tamilnadu/emergency-cathlab-procedure-saves-life-of-36-year-old-stroke-patient",
+       "excerpt": "he was to emergency for mechanical thrombectomy procedure",
+       "kind": "verbatim",
+       "sourceType": "news",
+       "sourceDate": "2023-03-07",
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.dtnext.in/news/tamilnadu/emergency-cathlab-procedure-saves-life-of-36-year-old-stroke-patient",
+       "excerpt": "The biplane cathlab was set up at the cost of Rs 5 crore at the hospital",
+       "kind": "verbatim",
+       "sourceType": "news",
+       "sourceDate": "2023-03-07",
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    }
+   ],
+   "notes": "Only evidence is a single 2023 DTNext case report; current 24x7 availability unknown. No official hospital site found (gmcomu.ac.in is the attached medical college; its contact section shows placeholder numbers). Address/phone seen only on aggregators (044-25666000), not recorded. 'Omandurar' location is from general knowledge, not the article."
+  },
+  {
+   "key": "chn-stanley",
+   "name": "Government Stanley Medical College Hospital",
+   "chain": null,
+   "campus": "Royapuram",
+   "address": null,
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": null,
+   "officialWebsite": "https://www.stanleymedicalcollege.in/super-specialities-neurology",
+   "officialPhone": null,
+   "ownership": "government",
+   "evidence": [],
+   "services": [],
+   "notes": "Official neurology page (search snippet: 'Services Offered: ... Stroke Thrombolysis') returned 404 on fetch, so thrombolysis is NOT recorded. Reviewer should verify thrombolysis directly; address/phone not obtained from an official page."
+  },
+  {
+   "key": "chn-miot",
+   "name": "MIOT International",
+   "chain": null,
+   "campus": "Manapakkam",
+   "address": "4/112, Mount Poonamallee Road, Manapakkam, Chennai - 600 089, Tamil Nadu, India",
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": "600089",
+   "officialWebsite": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+   "officialPhone": "+91 44 42002288",
+   "ownership": "private",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+     "excerpt": "4/112, Mount Poonamallee Road, Manapakkam, Chennai - 600 089",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+     "excerpt": "+91 44 42002288",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+       "excerpt": "Recombinant tissue plasminogen activator (rtPA) is used for patients who have ischemic strokes.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+       "excerpt": "our specialists intervene to remove the clot through a Mechanical Thrombectomy",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+       "excerpt": "Our expert Neuro Endovascular specialist performs the procedure in the state-of-the-art NeuroCath Lab",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+       "excerpt": "a 6-bedded, fully equipped, acute stroke / neuro medical ICU with a dedicated round-the-clock stroke team",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "stroke_unit",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+       "excerpt": "a 6-bedded, fully equipped, acute stroke / neuro medical ICU",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+       "excerpt": "a 6-bedded, fully equipped, acute stroke / neuro medical ICU",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+       "excerpt": "emergency imaging such as CT scan of the brain or an MRI diffusion study or a CT angiography is done",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.miotinternational.com/key-specialities/neurology-and-neurosciences/",
+       "excerpt": "emergency imaging such as CT scan of the brain or an MRI diffusion study or a CT angiography is done",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    }
+   ],
+   "notes": "Page also lists a Stroke Restore Center emergency number '105710' (unusual short code; not used as officialPhone - reviewer to verify). Page names no individual physicians. Stroke-unit claim rests on the combined 'acute stroke / neuro medical ICU' wording."
+  },
+  {
+   "key": "chn-apollo-greams",
+   "name": "Apollo Hospitals, Greams Road",
+   "chain": "Apollo Hospitals",
+   "campus": "Greams Road",
+   "address": null,
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": "private",
+   "evidence": [],
+   "services": [],
+   "notes": "All apollohospitals.com pages returned HTTP 403, so nothing recorded. Search snippets (not fetched) indicate Greams Road launched a 'Comprehensive Stroke Center' / Apollo Stroke Net and name Dr. Srinivasan Paramasivam as head of neuro-endovascular surgery; a reviewer should verify by browser. Chennai's flagship private campus - high priority for manual verification."
+  },
+  {
+   "key": "chn-kauvery-alwarpet",
+   "name": "Kauvery Hospital, Alwarpet",
+   "chain": "Kauvery Hospital",
+   "campus": "Alwarpet",
+   "address": null,
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": null,
+   "officialWebsite": "https://www.kauveryhospital.com/stroke/",
+   "officialPhone": "+91 44- 4000 6000",
+   "ownership": "private",
+   "evidence": [
+    {
+     "field": "phone",
+     "url": "https://www.kauveryhospital.com/contact-us/",
+     "excerpt": "Chennai - Alwarpet ... Doctor Appointments / Emergency +91 44- 4000 6000",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kauveryhospital.com/stroke/",
+       "excerpt": "Clot Buster treatment on CT table to prevent treatment delay in eligible patients.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kauveryhospital.com/stroke/",
+       "excerpt": "Mechanical thrombectomy for large clots to restore blood flow to brain",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kauveryhospital.com/stroke/",
+       "excerpt": "24×7 Thrombectomy and Thrombolysis",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.kauveryhospital.com/News-Events/November-HASU",
+       "excerpt": "24X7 cover by Stroke specialist, Interventional Radiologist and Neurosurgeon",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "stroke_unit",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kauveryhospital.com/stroke/",
+       "excerpt": "Our dedicated Hyper Acute Stroke Unit(HASU) can handle any type of Stroke emergency",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kauveryhospital.com/stroke/",
+       "excerpt": "Clot Buster treatment on CT table to prevent treatment delay in eligible patients.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    }
+   ],
+   "notes": "AMBIGUOUS CAMPUS: Kauvery's Chennai stroke page does not say which Chennai campus (Alwarpet, Radial Road, Vadapalani) hosts the HASU/thrombectomy service; attached to Alwarpet (main campus) provisionally. Same page lists 04440006000 as emergency for both Alwarpet and Vadapalani. Street address seen only on aggregators (81, TTK Road, 600018) - not recorded."
+  },
+  {
+   "key": "chn-sims-vadapalani",
+   "name": "SIMS Hospital (SRM Institutes for Medical Science)",
+   "chain": null,
+   "campus": "Vadapalani",
+   "address": "No.1, Jawaharlal Nehru Salai (100 Feet Road), Vadapalani, Chennai – 600 026, Tamil Nadu, India",
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": "600026",
+   "officialWebsite": "https://www.simshospitals.com/",
+   "officialPhone": "+(91) 44 2000 2020",
+   "ownership": "private",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.simshospitals.com/",
+     "excerpt": "No.1, Jawaharlal Nehru Salai (100 Feet Road), Vadapalani, Chennai – 600 026",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.simshospitals.com/",
+     "excerpt": "Emergency: +(91) 44 2000 2020",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [],
+   "notes": "No acceptable evidence of stroke services found: official site pages fetched contain no stroke content; thrombectomy indicated only by Angels Initiative listing (registry/aggregator) and a blog. A Nov 2025 afternoonnews.in report names interventional neurologists Dr. Rithesh R. Nair and Dr. S. Selvin but does not mention thrombolysis/thrombectomy. Reviewer to verify."
+  },
+  {
+   "key": "chn-mgm-aminjikarai",
+   "name": "MGM Healthcare",
+   "chain": "MGM Healthcare",
+   "campus": "Aminjikarai",
+   "address": "New No 72, Old No 54, Nelson Manickam Road, Aminjikarai, Chennai - 600029",
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": "600029",
+   "officialWebsite": "https://mgmhealthcare.in/",
+   "officialPhone": "+91 44 4200 4200",
+   "ownership": "private",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://mgmhealthcare.in/contact-us/",
+     "excerpt": "New No 72, Old No 54, Nelson Manickam Road, Aminjikarai, Chennai - 600029",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://mgmhealthcare.in/contact-us/",
+     "excerpt": "Medical Emergency: +91 44 4200 4200",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://mgmhealthcare.in/emergencynamgm/neuro-emergency.html",
+       "excerpt": "Biplane catheterization laboratory for neurointerventional emergencies, where a stroke can be treated within 30 minutes.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://mgmhealthcare.in/emergencynamgm/neuro-emergency.html",
+       "excerpt": "State-of-the-art CT and MRI technology.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://mgmhealthcare.in/emergencynamgm/neuro-emergency.html",
+       "excerpt": "3 Tesla MRI capable of 3D mapping in neuro emergencies",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    }
+   ],
+   "notes": "Neuro-emergency page does not name the campus (contact page lists only Aminjikarai as hospital) and lists a different emergency number (044 4524 2444). Page does not use the words thrombolysis or thrombectomy; it says '24/7 availability of experienced neurologists and neurosurgeons' - not recorded as 24x7 stroke team. Do NOT confuse with MGM University (mgumst.org), which is Navi Mumbai."
+  },
+  {
+   "key": "chn-mgm-malar",
+   "name": "MGM Healthcare – Malar",
+   "chain": "MGM Healthcare",
+   "campus": "Adyar (Malar)",
+   "address": null,
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": "private",
+   "evidence": [
+    {
+     "field": "name",
+     "url": "https://health.medicaldialogues.in/health/chennais-stroke-care-revolution-advanced-neuro-cath-lab-at-mgm-malar-156941",
+     "excerpt": "MGM Healthcare – Malar",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-15",
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://health.medicaldialogues.in/health/chennais-stroke-care-revolution-advanced-neuro-cath-lab-at-mgm-malar-156941",
+       "excerpt": "Article describes an advanced Neuro-Cath Lab and Rapid Stroke Response Team at MGM Malar for minimally invasive treatment of brain vascular conditions.",
+       "kind": "summary",
+       "sourceType": "news",
+       "sourceDate": "2025-10-15",
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    }
+   ],
+   "notes": "Formerly Fortis Malar (Adyar) - reviewer confirm. Article does not mention thrombolysis, thrombectomy or 24x7. Campus 'Adyar' from search snippets, not fetched text. No official address/phone obtained."
+  },
+  {
+   "key": "chn-srmc-porur",
+   "name": "Sri Ramachandra Medical Centre",
+   "chain": null,
+   "campus": "Porur",
+   "address": "Sri Ramachandra Medical Centre, No.1 Ramachandra Nagar, Porur, Chennai – 600 116, Tamil Nadu, India",
+   "city": "Chennai",
+   "state": "TN",
+   "pincode": "600116",
+   "officialWebsite": "https://srmc.sriramachandra.edu/",
+   "officialPhone": "044-400 12345 / 98409 99809",
+   "ownership": "private",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://srmc.sriramachandra.edu/contact-us/",
+     "excerpt": "No.1 Ramachandra Nagar, Porur, Chennai – 600 116",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://srmc.sriramachandra.edu/contact-us/",
+     "excerpt": "Emergency phone: 044-400 12345 / 98409 99809; main line 044-400 12323",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+       "excerpt": "We perform various endovascular neuro and vascular interventional procedures.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+       "excerpt": "We also provide interventional stroke therapy.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://sriramachandra.edu/author/16072/",
+       "excerpt": "Consultant interventional neuroradiologist profile lists 'acute ischemic stroke thrombectomy' among clinical expertise.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+       "excerpt": "Our neurocath lab staff, neuro ICU staff and ward nurses work around the clock",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+       "excerpt": "One 64 Slice Multidetector CT",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+       "excerpt": "One 3 Tesla MRI, PET CT",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ]
+    }
+   ],
+   "notes": "Thrombectomy recorded from 'interventional stroke therapy' wording plus a staff profile - reviewer confirm this is acceptable. Thrombolysis not found on fetched pages (old sriramachandra.edu.in neurology page is a moved/bot-blocked stub). Some aggregators list the address under Tiruvallur district; check it is within the Chennai municipal area for the finder."
+  }
+ ],
+ "physicians": [
+  {
+   "key": "chn-s-s-sabarish",
+   "name": "Dr. S. S. Sabarish",
+   "titles": "MBBS | B.E. | M.D | DNB | D.M",
+   "designation": "Consultant Interventional Neuroradiologist; Associate Professor",
+   "specialty": "interventional_neuroradiology",
+   "subspecialty": "Neurovascular intervention",
+   "profileUrl": "https://sriramachandra.edu/author/16072/",
+   "evidence": [
+    {
+     "field": "titles",
+     "url": "https://sriramachandra.edu/author/16072/",
+     "excerpt": "MBBS | B.E. | M.D | DNB | D.M",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "designation",
+     "url": "https://sriramachandra.edu/author/16072/",
+     "excerpt": "Consultant Interventional Neuroradiologist",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "key": "chn-karthik-k",
+   "name": "Dr. Karthik K",
+   "titles": null,
+   "designation": "Consultant & HOCS",
+   "specialty": "interventional_neuroradiology",
+   "subspecialty": "Interventional Radiology and Neuroradiology",
+   "profileUrl": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+     "excerpt": "Consultant & HOCS",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "specialty",
+     "url": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+     "excerpt": "Interventional Radiology and Neuroradiology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "key": "chn-k-mugundhan",
+   "name": "Prof. Dr. K. Mugundhan",
+   "titles": null,
+   "designation": "Director, Institute of Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://mmc.xenovex.com/en/education/madras-medical-college/department/super-speciality/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://mmc.xenovex.com/en/education/madras-medical-college/department/super-speciality/neurology",
+     "excerpt": "Department page lists Prof. Dr. K. Mugundhan as Director from 2025 to date.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "needs_review"
+   ]
+  },
+  {
+   "key": "chn-karthikeyan-s",
+   "name": "Dr. Karthikeyan S",
+   "titles": null,
+   "designation": "Senior Consultant, Interventional Neurology",
+   "specialty": "neurointervention",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://health.medicaldialogues.in/health/chennais-stroke-care-revolution-advanced-neuro-cath-lab-at-mgm-malar-156941",
+     "excerpt": "Senior Consultant, Interventional Neurology, MGM Malar",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-15",
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ]
+  },
+  {
+   "key": "chn-sai-prashanth-pr",
+   "name": "Dr. Sai Prashanth PR",
+   "titles": null,
+   "designation": "Consultant Interventional Neurology",
+   "specialty": "neurointervention",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://health.medicaldialogues.in/health/chennais-stroke-care-revolution-advanced-neuro-cath-lab-at-mgm-malar-156941",
+     "excerpt": "Consultant Interventional Neurology, MGM Malar",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-15",
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ]
+  },
+  {
+   "key": "chn-aravinth-kumar-a",
+   "name": "Dr. Aravinth Kumar A",
+   "titles": null,
+   "designation": "Consultant, Neurosurgery and Endovascular Neurointerventions",
+   "specialty": "endovascular_neurosurgery",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://health.medicaldialogues.in/health/chennais-stroke-care-revolution-advanced-neuro-cath-lab-at-mgm-malar-156941",
+     "excerpt": "Consultant, Neurosurgery and Endovascular Neurointerventions, MGM Malar",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-15",
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ]
+  }
+ ],
+ "affiliations": [
+  {
+   "physicianKey": "chn-s-s-sabarish",
+   "hospitalKey": "chn-srmc-porur",
+   "role": "Consultant, Neuro Radiology",
+   "evidence": [
+    {
+     "url": "https://sriramachandra.edu/author/16072/",
+     "excerpt": "Sri Ramachandra Medical College, Chennai",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "url": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+     "excerpt": "Neuro-radiology department page lists Dr. Sabarish S S as Consultant, Interventional Neuroradiology.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "physicianKey": "chn-karthik-k",
+   "hospitalKey": "chn-srmc-porur",
+   "role": "Consultant & HOCS, Neuro Radiology",
+   "evidence": [
+    {
+     "url": "https://srmc.sriramachandra.edu/specialities/neuro-radiology/",
+     "excerpt": "Consultant & HOCS",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "physicianKey": "chn-k-mugundhan",
+   "hospitalKey": "chn-rgggh",
+   "role": "Director, Institute of Neurology",
+   "evidence": [
+    {
+     "url": "https://mmc.xenovex.com/en/education/madras-medical-college/department/super-speciality/neurology",
+     "excerpt": "Department page lists Prof. Dr. K. Mugundhan as Director from 2025 to date; history text elsewhere still names Prof. Dr. S. Balasubramanian as head.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "needs_review"
+   ]
+  },
+  {
+   "physicianKey": "chn-karthikeyan-s",
+   "hospitalKey": "chn-mgm-malar",
+   "role": "Senior Consultant, Interventional Neurology",
+   "evidence": [
+    {
+     "url": "https://health.medicaldialogues.in/health/chennais-stroke-care-revolution-advanced-neuro-cath-lab-at-mgm-malar-156941",
+     "excerpt": "Senior Consultant, Interventional Neurology, MGM Malar",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-15",
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ]
+  },
+  {
+   "physicianKey": "chn-sai-prashanth-pr",
+   "hospitalKey": "chn-mgm-malar",
+   "role": "Consultant Interventional Neurology",
+   "evidence": [
+    {
+     "url": "https://health.medicaldialogues.in/health/chennais-stroke-care-revolution-advanced-neuro-cath-lab-at-mgm-malar-156941",
+     "excerpt": "Consultant Interventional Neurology, MGM Malar",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-15",
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ]
+  },
+  {
+   "physicianKey": "chn-aravinth-kumar-a",
+   "hospitalKey": "chn-mgm-malar",
+   "role": "Consultant, Neurosurgery and Endovascular Neurointerventions",
+   "evidence": [
+    {
+     "url": "https://health.medicaldialogues.in/health/chennais-stroke-care-revolution-advanced-neuro-cath-lab-at-mgm-malar-156941",
+     "excerpt": "Consultant, Neurosurgery and Endovascular Neurointerventions, MGM Malar",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-10-15",
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "news_source_only"
+   ]
+  }
+ ],
+ "procedures": [
+  {
+   "physicianKey": "chn-s-s-sabarish",
+   "procedure": "mechanical_thrombectomy",
+   "value": "explicit_claim",
+   "evidence": [
+    {
+     "url": "https://sriramachandra.edu/author/16072/",
+     "excerpt": "acute ischemic stroke thrombectomy",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ]
+  }
+ ],
+ "sourceFailures": [
+  {
+   "url": "https://mmcrgggh.tn.gov.in/ords/r/wsmmc/mmc120/rgggh",
+   "reason": "ECONNREFUSED"
+  },
+  {
+   "url": "https://www.mmc.ac.in/",
+   "reason": "DNS not found"
+  },
+  {
+   "url": "https://www.stanleymedicalcollege.in/super-specialities-neurology",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://apollohospitals.com/chennai/apollo-hospitals-greams-road-chennai-launches-apollo-stroke-net-a-first-of-its-kind-multi-city",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://apollohospitals.com/chennai/apollo-hospitals-chennai-has-launched-the-apollo-stroke-network-for-timely-intervention-in-stroke-cases",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.apollohospitals.com/region/chennai/hospitals/teynampet/",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.apollohospitals.com/chennai/procedures/thrombectomy",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://mediacdn.apollohospitals.com/health-library/saving-the-brain-from-strokes-why-every-minute-counts",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://sriramachandra.edu.in/university/clinical.php?did=55",
+   "reason": "moved notice / bot detected"
+  },
+  {
+   "url": "https://www.miotinternational.com/wp-content/uploads/2015/11/MIOT-Stroke-Restore-Center-Brochure.pdf",
+   "reason": "PDF text not extractable"
+  },
+  {
+   "url": "https://neurology.gmcomu.ac.in/",
+   "reason": "DNS not found"
+  },
+  {
+   "url": "https://mgmhealthcare.in/neuro-emergencies-our-motto-is-integrated-neuro-care-at-mgm/",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://www.webjosh.com/article/neuro-icu-established-at-a-cost-of-%E2%82%B960-lakh-at-govt-hospital-1645803859-49457",
+   "reason": "site under maintenance"
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "blr-nimhans": {
+  "lat": 12.938632,
+  "lng": 77.59441,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/6938777910",
+   "excerpt": "OpenStreetMap match: National Institute of Mental Health and Neuro Sciences, NIMHANS Quarters, BHEL Ward, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "blr-victoria": {
+  "lat": 12.963503,
+  "lng": 77.573711,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/150350476",
+   "excerpt": "OpenStreetMap match: Victoria Hospital, BGS Flyover, K.R Market, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560018, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "blr-ramaiah-memorial": {
+  "lat": 13.02822,
+  "lng": 77.569732,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/148032600",
+   "excerpt": "OpenStreetMap match: Ramaiah Memorial Hospital, MSR College Road, Jaladarshini Layout, Aramane Nagara, Bengaluru West City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560054, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "blr-sakra-world": {
+  "lat": 12.932285,
+  "lng": 77.685329,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/348080153",
+   "excerpt": "OpenStreetMap match: Sakra World Hospital, 52/2, 52/3, Kariammana Agrahara Road, Bellanduru, Bellandur, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560103, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "blr-aster-rv": {
+  "lat": 12.911417,
+  "lng": 77.585027,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/32258435",
+   "excerpt": "OpenStreetMap match: Aster RV Hospital, CA-37, 5th Cross Road, LIC Colony, JP Nagar 1st Phase, JP Nagar, Bengaluru South City Corporation, Bengaluru, Bangalore South,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "blr-manipal-yelahanka": {
+  "lat": 13.05097,
+  "lng": 77.593865,
+  "flags": [
+   "matched_by_name_not_official_address",
+   "check_pin_matches_campus"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/160906231",
+   "excerpt": "OpenStreetMap match: Manipal Hospital, Bellary Road, Amruthnagar, Byatarayanapura, Bengaluru North City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560024, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "blr-fortis-bannerghatta": {
+  "lat": 12.894751,
+  "lng": 77.598676,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/44091443",
+   "excerpt": "OpenStreetMap match: Fortis Hospitals, Bannerghatta Road, Bannerghatta Road, Panduranga Nagar, Arekere, Doresanipalya, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560076, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "blr-apollo-bannerghatta": {
+  "lat": 12.896298,
+  "lng": 77.598285,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/44091445",
+   "excerpt": "OpenStreetMap match: Apollo Hospital, Bannerghatta Road, Panduranga Nagar, Arekere, Doresanipalya, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560076, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ }
+}

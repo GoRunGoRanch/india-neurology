@@ -1,0 +1,1491 @@
+{
+ "pilot": "kolkata",
+ "generatedAt": "2026-11-16",
+ "hospitals": [
+  {
+   "key": "kol-ink",
+   "name": "The Institute of Neurosciences Kolkata",
+   "chain": null,
+   "campus": "A.J.C. Bose Road (main hospital)",
+   "address": "185/1 A.J.C. Bose Road, Kolkata 700 017",
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": "700017",
+   "officialWebsite": null,
+   "officialPhone": "+91 33 6657 9999",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.neurokolkata.org/",
+     "excerpt": "185/1 A.J.C. Bose Road, Kolkata 700 017",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.neurokolkata.org/",
+     "excerpt": "+91 33 6657 9999 ... 24/7 Helpline ... For stroke emergencies and critical neurological conditions",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.neurokolkata.org/departments/stroke-unit",
+       "excerpt": "Intravenous Thrombolysis (Clot-Busting Therapy)",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.neurokolkata.org/departments/neurology",
+       "excerpt": "Latest treatment facilities like thrombolysis for stroke patients",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.neurokolkata.org/departments/stroke-unit",
+       "excerpt": "Mechanical Thrombectomy for Acute Ischemic Stroke",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.neurokolkata.org/stroke-care",
+       "excerpt": "Endovascular thrombectomy and thrombolysis by experienced interventional neuroradiologists.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.neurokolkata.org/departments/stroke-unit",
+       "excerpt": "24×7 Emergency Stroke Response Team",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.neurokolkata.org/stroke-care",
+       "excerpt": "Round-the-clock emergency stroke team with rapid triage and treatment initiation within minutes of arrival.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_unit",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.neurokolkata.org/departments/stroke-unit",
+       "excerpt": "Our Stroke Unit is dedicated to providing rapid diagnosis, advanced treatment",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.neurokolkata.org/departments/stroke-unit",
+       "excerpt": "Dedicated Stroke ICU & Neurocritical Care",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.neurokolkata.org/departments/stroke-unit",
+       "excerpt": "Advanced Neurointerventional Procedures",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.neurokolkata.org/stroke-care",
+       "excerpt": "Complete diagnostic workup including CT, MRI, CT angiography, and perfusion imaging for accurate stroke assessment.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.neurokolkata.org/stroke-care",
+       "excerpt": "Complete diagnostic workup including CT, MRI, CT angiography, and perfusion imaging for accurate stroke assessment.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_rehab",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.neurokolkata.org/",
+       "excerpt": "Rehab, Research & Psychiatric Centre at 10 West Range, Kolkata - 700017",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Ownership type (private vs trust/society) not confirmed on fetched pages. Same +91 33 6657 9999 number shown as both 24x7 switchboard and stroke helpline. Separate OPD building at 6B A.J.C. Bose Road. Stroke rehab evidence is only a listed rehab centre (summary) — reviewer may drop.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-bin-sskm",
+   "name": "Bangur Institute of Neurosciences (Annex-1, IPGME&R - SSKM Hospital)",
+   "chain": "IPGME&R / SSKM Hospital (Govt. of West Bengal)",
+   "campus": "Bangur Institute of Neurosciences, Sambhunath Pandit Street",
+   "address": "52/1A, Sambhunath Pandit Street, Kolkata -700 025",
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": "700025",
+   "officialWebsite": null,
+   "officialPhone": "033 - 22237726",
+   "ownership": "government",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://ipgmer.gov.in/annex_1",
+     "excerpt": "52/1A, Sambhunath Pandit Street, Kolkata -700 025",
+     "kind": "verbatim",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://ipgmer.gov.in/annex_1",
+     "excerpt": "Phone No.(24X7 hrs) 033 - 22237726",
+     "kind": "verbatim",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "ownership",
+     "url": "https://ipgmer.gov.in/pdf/departments/Neurology.pdf",
+     "excerpt": "Government of West Bengal / Institute of Postgraduate Medical Education & Research ... Bangur Institute of Neurosciences",
+     "kind": "verbatim",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ipgmer.gov.in/pdf/departments/Neurology.pdf",
+       "excerpt": "Tele-Neuromedicine under Swasthya Ingit – BIN, IPGME&R, SSKM working with 39 spokes for acute ischemic stroke; over 250 patients thrombolysed so far (hub-and-spoke telestroke; not explicit that thrombolysis is given …",
+       "kind": "summary",
+       "sourceType": "government",
+       "sourceDate": "c. 2022",
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ipgmer.gov.in/annex_1",
+       "excerpt": "Neuro ICU-8",
+       "kind": "verbatim",
+       "sourceType": "government",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ipgmer.gov.in/annex_1",
+       "excerpt": "CT scan",
+       "kind": "verbatim",
+       "sourceType": "government",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ipgmer.gov.in/annex_1",
+       "excerpt": "MRI-Spandan (PPP)",
+       "kind": "verbatim",
+       "sourceType": "government",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Thrombectomy NOT recorded: only source was an Angels Initiative network listing ('Comprehensive centre (Performs Thrombectomy)'), which is an industry network directory, not official/government/news. The official annex page lists a 'DSA Cath Lab' but does not say it is used for stroke thrombectomy — reviewer could confirm. Thrombolysis evidence is from a c.2022 departmental report describing the telestroke hub programme (summary). Millennium Post (23 Jun 2023) mentions a hyper acute stroke unit inaugurated, but the hospital context was unclear so not recorded. Parent IPGME&R address: 244, A.J.C. Bose Road, Kolkata 700 020; EPABX 22041 100 (ipgmer.gov.in/contact). MRI is via PPP.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-nrs",
+   "name": "Nil Ratan Sircar Medical College & Hospital",
+   "chain": null,
+   "campus": null,
+   "address": "138, A.J.C Bose Road, Kolkata - 700014",
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": "700014",
+   "officialWebsite": null,
+   "officialPhone": "033 2286 0033 / 033 2286 0195",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://nrsmc.edu.in/department/neurology",
+     "excerpt": "138, A.J.C Bose Road, Kolkata - 700014",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://nrsmc.edu.in/department/neurology",
+     "excerpt": "033 2286 0033 / 033 2286 0195",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://nrsmc.edu.in/department/neurology",
+       "excerpt": "Acute stroke thrombolysis",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://nrsmc.edu.in/department/neurology",
+       "excerpt": "Neurology ITU and HDU care",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Government medical college (ownership from general knowledge of the institution; the fetched page did not state ownership explicitly — reviewer confirm). Phone is the college's general number; Neurology department phone field blank. Page also lists 'Selective cases of DSA' (diagnostic) — not recorded as neurointervention. No evidence of 24x7 thrombolysis or thrombectomy.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-cmri",
+   "name": "CMRI Hospital (Calcutta Medical Research Institute), CK Birla Hospitals",
+   "chain": "CK Birla Hospitals",
+   "campus": "CMRI, New Alipore",
+   "address": "7/2 Diamond Harbour Rd, New Alipore, Kolkata, WB 700027",
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": "700027",
+   "officialWebsite": null,
+   "officialPhone": "08062136598",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://ckbirlahospitals.com/cmri/department-of-neuro-sciences/subspeciality/stroke",
+     "excerpt": "CMRI Hospital, 7/2 Diamond Harbour Rd, New Alipore, Kolkata, WB 700027",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://ckbirlahospitals.com/cmri/treatment/brain-stroke-treatment-in-kolkata",
+     "excerpt": "Emergency: 08062136598 (listed as Available 24*7)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ckbirlahospitals.com/cmri/department-of-neuro-sciences/subspeciality/stroke",
+       "excerpt": "Intravenous and Intra-arterial thrombolysis to dissolve clots in ischemic strokes.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ckbirlahospitals.com/cmri/department-of-neuro-sciences/subspeciality/stroke",
+       "excerpt": "Mechanical Thrombectomy to open up large blood vessel blocks",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://northeastherald.in/health/kolkatas-cmri-participates-in-multicentric-trial-of-supernova-stent-retriever-aims-to-reduce-stroke-therapy-cost",
+       "excerpt": "CMRI participated in India's first multicentric trial of the Supernova stent retriever; 'only hospital from Eastern India to participate in the trial.'",
+       "kind": "summary",
+       "sourceType": "news",
+       "sourceDate": "2025-09-04",
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ckbirlahospitals.com/cmri/department-of-neuro-sciences/subspeciality/stroke",
+       "excerpt": "Imaging tests (CT and MRI Scans) to identify the nature of the stroke and identify the vessel involved.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ckbirlahospitals.com/cmri/department-of-neuro-sciences/subspeciality/stroke",
+       "excerpt": "Imaging tests (CT and MRI Scans) to identify the nature of the stroke and identify the vessel involved.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Page claims 'First QAI-accredited stroke center in Eastern India' and 'equipped to treat late stroke arrivals till 24 hours'. 24x7 stroke team not explicitly stated (only 24x7 phone lines and '24x7 Emergency Care' in a page title), so 24x7_stroke not recorded. Ownership 'private' inferred from CK Birla group — reviewer confirm.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-bm-birla",
+   "name": "BM Birla Heart Hospital, CK Birla Hospitals",
+   "chain": "CK Birla Hospitals",
+   "campus": "Alipore",
+   "address": "National Library Ave, Alipore, Kolkata, WB 700027",
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": "700027",
+   "officialWebsite": null,
+   "officialPhone": "08062136599",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://ckbirlahospitals.com/bmb/treatment/thrombectomy-treatment-in-kolkata",
+     "excerpt": "BM Birla Heart Hospital, National Library Ave, Alipore, Kolkata, WB 700027",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://ckbirlahospitals.com/bmb/treatment/thrombectomy-treatment-in-kolkata",
+     "excerpt": "Emergencies: 08062136599 (listed as available 24*7)",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ckbirlahospitals.com/bmb/treatment/thrombectomy-treatment-in-kolkata",
+       "excerpt": "Our state-of-the-art cath labs support complex mechanical thrombectomy procedures with precision and safety.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ckbirlahospitals.com/bmb/treatment/thrombectomy-treatment-in-kolkata",
+       "excerpt": "We have a dedicated stroke unit ready round-the-clock, ensuring rapid evaluation and treatment",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_unit",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ckbirlahospitals.com/bmb/treatment/thrombectomy-treatment-in-kolkata",
+       "excerpt": "We have a dedicated stroke unit ready round-the-clock, ensuring rapid evaluation and treatment",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Primarily a cardiac hospital; the thrombectomy page is a generic marketing page that may also cover non-stroke (peripheral/coronary) thrombectomy. Reviewer should confirm BM Birla actually runs acute stroke thrombectomy rather than referring to sister campus CMRI (same street block, same group). Thrombolysis not stated as offered.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-manipal-mukundapur",
+   "name": "Manipal Hospitals Mukundapur",
+   "chain": "Manipal Hospitals",
+   "campus": "Mukundapur",
+   "address": "223 & 230, Barakhola Lane, Purba Jadavpur, Mukundapur, Kolkata 700 099",
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": "700099",
+   "officialWebsite": null,
+   "officialPhone": "033 2222 1111",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.manipalhospitals.com/mukundapur/specialities/neurointervention-endovascular-surgery/",
+     "excerpt": "223 & 230, Barakhola Lane, Purba Jadavpur, Mukundapur, Kolkata 700 099",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.manipalhospitals.com/mukundapur/specialities/neurointervention-endovascular-surgery/",
+     "excerpt": "Mukundapur - Kolkata main line 033 2222 1111; doctor enquiry 033 6907 0001",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/mukundapur/specialities/neurointervention-endovascular-surgery/",
+       "excerpt": "Mechanical thrombectomy for acute ischemic stroke",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/mukundapur/specialities/neurointervention-endovascular-surgery/",
+       "excerpt": "24×7 emergency stroke care",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/mukundapur/specialities/neurointervention-endovascular-surgery/",
+       "excerpt": "cutting-edge technology AI powered Neuro Interventional Cathlab Biplane",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/mukundapur/specialities/neurointervention-endovascular-surgery/",
+       "excerpt": "dedicated neuro ICU facilities, advanced imaging infrastructure, minimally invasive surgical techniques",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Formerly AMRI Mukundapur (not verified on fetched pages). 033 2222 1111 appears to be a shared Manipal Kolkata line used across campuses. Thrombolysis not stated on the Mukundapur pages fetched (the Kolkata-wide stroke clinic page mentions tPA but is not campus-specific and contains Bengaluru text). Distinct from Manipal EM Bypass (also Mukundapur, 700099).",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-manipal-dhakuria",
+   "name": "Manipal Hospitals Dhakuria",
+   "chain": "Manipal Hospitals",
+   "campus": "Dhakuria",
+   "address": "P-4 & 5, C.I.T Scheme-LXXII, Block A Gariahat Road, Dhakuria, Kolkata 700 029",
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": "700029",
+   "officialWebsite": null,
+   "officialPhone": "033 2222 1111",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.manipalhospitals.com/dhakuria/specialities/neurology/stroke-management/",
+     "excerpt": "P-4 & 5, C.I.T Scheme-LXXII, Block A Gariahat Road, Dhakuria, Kolkata 700 029",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.manipalhospitals.com/dhakuria/doctors/dr-biswajit-paul-neurologist/",
+     "excerpt": "Header lists 033 2222 1111 for Dhakuria; doctor enquiry 033 6907 0001",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/dhakuria/specialities/neurology/stroke-management/",
+       "excerpt": "The standard battery of tests will include MRIs, CT scans, Ultrasound, blood draws, angiograms and echocardiograms.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/dhakuria/specialities/neurology/stroke-management/",
+       "excerpt": "The standard battery of tests will include MRIs, CT scans, Ultrasound, blood draws, angiograms and echocardiograms.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Hospital-level thrombolysis/thrombectomy not stated on fetched campus pages. A Dhakuria-listed interventional neurologist (Dr. Biswajit Paul) profile states proficiency in mechanical thrombectomy, which suggests but does not establish a campus thrombectomy service. Third-party (aggregator) claim of a stroke unit set up by Dr. Jayanta Roy not used.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-manipal-em-bypass",
+   "name": "Manipal Hospital EM Bypass",
+   "chain": "Manipal Hospitals",
+   "campus": "EM Bypass",
+   "address": "127, Mukundapur, E.M. Bypass, Kolkata 700099, West Bengal",
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": "700099",
+   "officialWebsite": null,
+   "officialPhone": "033-22221111",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.manipalhospitals.com/em-bypass/specialities/neurology/acute-management-of-stroke/",
+     "excerpt": "127, Mukundapur, E.M. Bypass, Kolkata 700099, West Bengal",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.manipalhospitals.com/em-bypass/specialities/neurology/acute-management-of-stroke/",
+     "excerpt": "EM Bypass - Kolkata 033-22221111",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/em-bypass/specialities/neurology/neuro-intensive-care/",
+       "excerpt": "Patients suffering from brain trauma or disease that requires round-the-clock monitoring and care",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/em-bypass/specialities/neurology/stroke-management/",
+       "excerpt": "The standard battery of tests will include MRIs, CT scans, Ultrasounds, blood draws, angiograms and echocardiograms.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.manipalhospitals.com/em-bypass/specialities/neurology/acute-management-of-stroke/",
+       "excerpt": "An MRI is the best way to determine when the ischemic stroke started",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Formerly Medica Superspecialty Hospital (not verified on fetched pages). A search snippet of an EM Bypass patient-story page said the campus has a stroke pathway, thrombolytic therapy and mechanical thrombectomy, but the page 404'd on fetch, so not recorded. Worth a re-check.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-narayana-rtiics",
+   "name": "Rabindranath Tagore International Institute of Cardiac Sciences (Narayana Health)",
+   "chain": "Narayana Health",
+   "campus": "Mukundapur (RTIICS)",
+   "address": null,
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [],
+   "services": [
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://narayanahealth.org/kolkata/neuro-sciences",
+       "excerpt": "Radiology: 3.0 Tesla MRI, CT Scan, Colour Doppler, SPECT-CT",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://narayanahealth.org/kolkata/neuro-sciences",
+       "excerpt": "Radiology: 3.0 Tesla MRI, CT Scan, Colour Doppler, SPECT-CT",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Address and campus phone not on fetched official pages (only national number 18003090309). Neuro page lists 'Neurocritical care' and '4 Cath Labs (including FD 20 ... dedicated for Interventional Radiology Procedures)' but no stroke thrombolysis/thrombectomy statement. Lists an interventional neurologist (Dr. Kaushik Sundar). Stroke-unit claim only in an old third-party brochure PDF — not used.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-apollo",
+   "name": "Apollo Multispeciality Hospitals, Kolkata",
+   "chain": "Apollo Hospitals",
+   "campus": "Canal Circular Road (Kankurgachi)",
+   "address": null,
+   "city": "Kolkata",
+   "state": "WB",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": null,
+   "ownership": null,
+   "evidence": [],
+   "services": [],
+   "notes": "All apollohospitals.com Kolkata pages returned HTTP 403 to the fetcher, so nothing recorded. Search snippets (not fetched) indicate the Apollo Institute of Neurosciences page lists mechanical thrombectomy and thrombolysis, and address 58 Canal Circular Road, Kadapara, Phoolbagan, Kankurgachi, Kolkata 700054. Needs manual verification — likely a major thrombectomy centre.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  }
+ ],
+ "physicians": [
+  {
+   "key": "kol-apratim-chatterjee",
+   "name": "Dr. Apratim Chatterjee",
+   "titles": "MD, DM & FINR",
+   "designation": "Director, Stroke Unit & Intervention Neurology",
+   "specialty": "stroke_neurology",
+   "subspecialty": "Interventional neurology / stroke",
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.neurokolkata.org/departments/stroke-unit",
+     "excerpt": "Dr. Apratim Chatterjee: MD, DM & FINR — Director, Stroke Unit & Intervention Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "possible_duplicate",
+    "ambiguous_campus"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-hrishikesh-kumar",
+   "name": "Prof. Hrishikesh Kumar",
+   "titles": "MD (Medicine), DM (Neurology), DCN (London, UK), Fellow, Movement Disorders (UWO, Canada)",
+   "designation": "Vice Chairman, Director of Research, HOD Neurology",
+   "specialty": "neurology",
+   "subspecialty": "Movement disorders",
+   "profileUrl": "https://www.neurokolkata.org/doctors/dr-hrishikesh-kumar",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.neurokolkata.org/doctors/dr-hrishikesh-kumar",
+     "excerpt": "Vice Chairman, Director of Research, HOD Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-arijit-pal",
+   "name": "Dr. Arijit Pal",
+   "titles": "MD, DM",
+   "designation": "Consultant Neurologist (Special Interest in Stroke Medicine)",
+   "specialty": "stroke_neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.neurokolkata.org/departments/stroke-unit",
+     "excerpt": "Dr. Arijit Pal: MD, DM — Consultant Neurologist (Special Interest in Stroke Medicine)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-gautam-gangopadhyay",
+   "name": "Prof. Gautam Gangopadhay",
+   "titles": null,
+   "designation": "HoD, Neuromedicine",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://ipgmer.gov.in/annex_1",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://ipgmer.gov.in/annex_1",
+     "excerpt": "Prof. Gautam Gangopadhay, HoD, Neuromedicine",
+     "kind": "verbatim",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-kartik-chandra-ghosh",
+   "name": "Prof. (Dr) Kartik Chandra Ghosh",
+   "titles": "MBBS, MD, DM (Neurology)",
+   "designation": "Prof & HOD, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": "https://nrsmc.edu.in/department/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://nrsmc.edu.in/department/neurology",
+     "excerpt": "Prof. (Dr) Kartik Chandra Ghosh (MBBS, MD, DM (Neurology)) Prof & HOD",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-deep-das",
+   "name": "Dr. Deep Das",
+   "titles": "MBBS; MD - General Medicine; DM - Neurology",
+   "designation": "Consultant - Neurology",
+   "specialty": "neurointervention",
+   "subspecialty": "Stroke, neurointervention",
+   "profileUrl": "https://ckbirlahospitals.com/cmri/doctor/dr-deep-das",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://ckbirlahospitals.com/cmri/doctor/dr-deep-das",
+     "excerpt": "Consultant - Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "specialty",
+     "url": "https://ckbirlahospitals.com/cmri/doctor/dr-deep-das",
+     "excerpt": "Intra Arterial and Intra Venous Thrombolysis in Ischemic strokes",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "designation",
+     "url": "https://northeastherald.in/health/kolkatas-cmri-participates-in-multicentric-trial-of-supernova-stent-retriever-aims-to-reduce-stroke-therapy-cost",
+     "excerpt": "Dr Deep Das, Professor of Neurology and Consultant Neurointerventionalist, CMRI, Kolkata",
+     "kind": "verbatim",
+     "sourceType": "news",
+     "sourceDate": "2025-09-04",
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-sukalyan-purkayastha",
+   "name": "Dr. Sukalyan Purkayastha",
+   "titles": "MD (Radiodiagnosis) | DNB (Radiodiagnosis) | DM (Diagnostic & Interventional Neuroradiology); CCST (Clinical Radiology-UK)",
+   "designation": "Director – Neurointervention & Endovascular Surgery, Imaging Sciences & Interventional Radiology",
+   "specialty": "interventional_neuroradiology",
+   "subspecialty": null,
+   "profileUrl": "https://www.manipalhospitals.com/mukundapur/doctors/dr-sukalyan-purkayastha-neurointervention-and-endovascular-specialist/",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.manipalhospitals.com/mukundapur/doctors/dr-sukalyan-purkayastha-neurointervention-and-endovascular-specialist/",
+     "excerpt": "Director – Neurointervention & Endovascular Surgery, Imaging Sciences & Interventional Radiology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "ambiguous_campus"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-biswajit-paul",
+   "name": "Dr. Biswajit Paul",
+   "titles": "MBBS | MD (General Medicine) | DM (Neurology)",
+   "designation": "Consultant Interventional Neurologist",
+   "specialty": "neurointervention",
+   "subspecialty": null,
+   "profileUrl": "https://www.manipalhospitals.com/dhakuria/doctors/dr-biswajit-paul-neurologist/",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.manipalhospitals.com/dhakuria/doctors/dr-biswajit-paul-neurologist/",
+     "excerpt": "Consultant Interventional Neurologist",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "kol-kaushik-sundar",
+   "name": "Dr. Kaushik Sundar",
+   "titles": "MBBS, MD (General Medicine), DM (Neurology), Fellowship (Stroke & Neurointervention)",
+   "designation": "Consultant, Neurology, Interventional Neurology",
+   "specialty": "neurointervention",
+   "subspecialty": "Interventional Neurology | Stroke Neurology",
+   "profileUrl": "https://www.narayanahealth.org/ocaapp/doctors/kolkata/neurology",
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.narayanahealth.org/ocaapp/doctors/kolkata/neurology",
+     "excerpt": "Consultant, Neurology, Interventional Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  }
+ ],
+ "affiliations": [
+  {
+   "physicianKey": "kol-apratim-chatterjee",
+   "hospitalKey": "kol-ink",
+   "role": "Director, Stroke Unit & Intervention Neurology",
+   "evidence": [
+    {
+     "url": "https://www.neurokolkata.org/departments/stroke-unit",
+     "excerpt": "Dr. Apratim Chatterjee ... Director, Stroke Unit & Intervention Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "ambiguous_campus"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kol-hrishikesh-kumar",
+   "hospitalKey": "kol-ink",
+   "role": "HOD Neurology",
+   "evidence": [
+    {
+     "url": "https://www.neurokolkata.org/doctors/dr-hrishikesh-kumar",
+     "excerpt": "Vice Chairman, Director of Research, HOD Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kol-arijit-pal",
+   "hospitalKey": "kol-ink",
+   "role": "Consultant Neurologist",
+   "evidence": [
+    {
+     "url": "https://www.neurokolkata.org/departments/stroke-unit",
+     "excerpt": "Dr. Arijit Pal ... Consultant Neurologist (Special Interest in Stroke Medicine)",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kol-gautam-gangopadhyay",
+   "hospitalKey": "kol-bin-sskm",
+   "role": "HoD, Neuromedicine",
+   "evidence": [
+    {
+     "url": "https://ipgmer.gov.in/annex_1",
+     "excerpt": "Prof. Gautam Gangopadhay, HoD, Neuromedicine",
+     "kind": "verbatim",
+     "sourceType": "government",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kol-kartik-chandra-ghosh",
+   "hospitalKey": "kol-nrs",
+   "role": "Professor & HOD, Neurology",
+   "evidence": [
+    {
+     "url": "https://nrsmc.edu.in/department/neurology",
+     "excerpt": "Prof. (Dr) Kartik Chandra Ghosh (MBBS, MD, DM (Neurology)) Prof & HOD",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kol-deep-das",
+   "hospitalKey": "kol-cmri",
+   "role": "Consultant - Neurology",
+   "evidence": [
+    {
+     "url": "https://ckbirlahospitals.com/cmri/doctor/dr-deep-das",
+     "excerpt": "CMRI Hospital, 7/2 Diamond Harbour Rd, New Alipore, Kolkata",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kol-sukalyan-purkayastha",
+   "hospitalKey": "kol-manipal-mukundapur",
+   "role": "Director – Neurointervention & Endovascular Surgery",
+   "evidence": [
+    {
+     "url": "https://www.manipalhospitals.com/mukundapur/doctors/dr-sukalyan-purkayastha-neurointervention-and-endovascular-specialist/",
+     "excerpt": "Practises primarily at Mukundapur - Kolkata; also available at EM Bypass, Dhakuria, Salt Lake and Broadway.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "ambiguous_campus"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kol-biswajit-paul",
+   "hospitalKey": "kol-manipal-dhakuria",
+   "role": "Consultant Interventional Neurologist",
+   "evidence": [
+    {
+     "url": "https://www.manipalhospitals.com/dhakuria/doctors/dr-biswajit-paul-neurologist/",
+     "excerpt": "Profile lists him at Dhakuria - Kolkata.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kol-kaushik-sundar",
+   "hospitalKey": "kol-narayana-rtiics",
+   "role": "Consultant, Interventional Neurology",
+   "evidence": [
+    {
+     "url": "https://www.narayanahealth.org/ocaapp/doctors/kolkata/neurology",
+     "excerpt": "Listed under Rabindranath Tagore International Institute of Cardiac Sciences, Kolkata.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  }
+ ],
+ "procedures": [
+  {
+   "physicianKey": "kol-sukalyan-purkayastha",
+   "procedure": "mechanical_thrombectomy",
+   "value": "explicit_claim",
+   "evidence": [
+    {
+     "url": "https://www.manipalhospitals.com/mukundapur/doctors/dr-sukalyan-purkayastha-neurointervention-and-endovascular-specialist/",
+     "excerpt": "He is highly skilled in acute stroke care, including life-saving procedures like mechanical thrombectomy",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "kol-biswajit-paul",
+   "procedure": "mechanical_thrombectomy",
+   "value": "explicit_claim",
+   "evidence": [
+    {
+     "url": "https://www.manipalhospitals.com/dhakuria/doctors/dr-biswajit-paul-neurologist/",
+     "excerpt": "Proficient in Mechanical Thrombectomy for acute ischemic stroke",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  }
+ ],
+ "sourceFailures": [
+  {
+   "url": "https://www.apollohospitals.com/kolkata/neurology",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.apollohospitals.com/kolkata/procedures/thrombectomy",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://admin-drupal.apollohospitals.com/kolkata/neurology",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://mediacdn.apollohospitals.com/kolkata/neurology",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.apollohospitals.com/apollo-in-the-news/the-24x7-emergency-service-of-apollo-gleneagles-hospitals-kolkata-saves-a-58-year-old-stroke-victim/",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.ipgmer.gov.in/",
+   "reason": "TLS certificate hostname mismatch (used ipgmer.gov.in instead)"
+  },
+  {
+   "url": "https://www.webjosh.com/article/29-more-hospitals-come-up-in-wb-for-stroke-treatment-using-telemedicine-1651902718-7137",
+   "reason": "Site down for maintenance"
+  },
+  {
+   "url": "https://www.manipalhospitals.com/em-bypass/doctor-video/patient-s-journey-of-stroke-recovery-at-75-dr-amlan-mandal-manipal-hospital-em-bypass/",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://www.narayanahealth.org/hospitals/kolkata/rabindranath-tagore-international-institute-of-cardiac-sciences",
+   "reason": "HTTP 404"
+  }
+ ]
+}

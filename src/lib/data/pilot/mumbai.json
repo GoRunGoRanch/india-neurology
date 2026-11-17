@@ -1,0 +1,1648 @@
+{
+ "pilot": "mumbai",
+ "generatedAt": "2026-11-16",
+ "hospitals": [
+  {
+   "key": "mum-kem",
+   "name": "Seth G.S. Medical College & K.E.M. Hospital",
+   "chain": null,
+   "campus": "Parel",
+   "address": "Acharya Donde Marg, Parel, Mumbai – 400012",
+   "city": "Mumbai",
+   "state": "MH",
+   "pincode": "400012",
+   "officialWebsite": null,
+   "officialPhone": "91-22-2410 7000",
+   "ownership": "government",
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.kem.edu/contact-us",
+     "excerpt": "Acharya Donde Marg, Parel, Mumbai – 400012. India",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.kem.edu/contact-us",
+     "excerpt": "Phone 91-22-2410 7000",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "ownership",
+     "url": "https://www.kem.edu/neurology",
+     "excerpt": "1st Govt Municipal Hospital in Maharashtra to start a stroke unit",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kem.edu/neurology",
+       "excerpt": "facility available for Thrombolysis (on emergency basis in EMS dept)",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.kem.edu/neurology",
+       "excerpt": "Total 425 patient's thrombolysed till date",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kem.edu/neurology",
+       "excerpt": "upto 24 hours facility available for Endovascular Thrombectomy",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.kem.edu/neurology",
+       "excerpt": "20 mechanical thrombectomy done in 2025",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.kem.edu/radiology",
+       "excerpt": "Endovascular management of Acute stroke Therapy - mechanical Thrombectomy",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kem.edu/radiology",
+       "excerpt": "Biplane Digital Subtraction Angiography System",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.kem.edu/neurology",
+       "excerpt": "There is coordination with Department of Neurosurgery and Interventional Neuroradiology.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_unit",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kem.edu/neurology",
+       "excerpt": "1st Govt Municipal Hospital in Maharashtra to start a stroke unit",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.kem.edu/neurology",
+       "excerpt": "Neurology page lists a 5-bed Medical Stroke Intensive Care Unit in Ward No. 22; stroke unit inaugurated October 2022.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kem.edu/neurology",
+       "excerpt": "Neurology page lists a 5-bed Medical Stroke Intensive Care Unit (Ward 22) and post-operative Neuro ICU care.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kem.edu/radiology",
+       "excerpt": "The machine is functional 24 x 7 on all days.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kem.edu/radiology",
+       "excerpt": "The machine is functional 24 x 7 from Monday to Saturday.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "BMC municipal teaching hospital. Strongest govt evidence in Mumbai: IVT in EMS, EVT up to 24 h, biplane DSA, 20 MTs in 2025. No explicit '24x7 stroke team' statement; CT 24x7 all days, MRI 24x7 Mon-Sat only. Excerpts are as rendered by fetch tool; reviewer should re-check wording. 2020 news (The Week) said door-to-needle was 4-5 h then; likely outdated.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-ltmgh-sion",
+   "name": "Lokmanya Tilak Municipal General Hospital & Medical College (Sion Hospital)",
+   "chain": null,
+   "campus": "Sion",
+   "address": "Dr. Babasaheb Ambedkar Road, Sion (West), Mumbai - 400022",
+   "city": "Mumbai",
+   "state": "MH",
+   "pincode": "400022",
+   "officialWebsite": null,
+   "officialPhone": "2407 6381 / 2406 3000 / 2409 2020 / 2408 2504",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://ltmgh.com/?p=1903",
+     "excerpt": "Dr. Babasaheb Ambedkar Road, Sion (West), Mumbai - 400022",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://ltmgh.com/?p=1903",
+     "excerpt": "2407 6381 / 2406 3000 / 2409 2020 / 2408 2504",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://ltmgh.com/?p=1903",
+       "excerpt": "We continue to provide OPD, IPD and referral neurology services including stroke thrombolysis, Botulinum toxin therapy.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "BMC municipal medical college. Thrombolysis only evidenced; no thrombectomy/neurointervention evidence found on neurology page. Phone numbers lack 022 STD code as shown on site. Page undated.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-kokilaben-andheri",
+   "name": "Kokilaben Dhirubhai Ambani Hospital",
+   "chain": "Reliance / Kokilaben",
+   "campus": "Andheri West",
+   "address": "Rao Saheb Achutrao Patwardhan Marg, Four Bunglows, Andheri (W) Mumbai - 400053",
+   "city": "Mumbai",
+   "state": "MH",
+   "pincode": "400053",
+   "officialWebsite": null,
+   "officialPhone": "Emergency: +91-22-4269-9999 / 7192-0400; 24 HRS: +91-22-4269-6969 / 7192-0000",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.kokilabenhospital.com/contacts/mapsanddirection.html",
+     "excerpt": "Rao Saheb Achutrao Patwardhan Marg, Four Bunglows, Andheri (W) Mumbai - 400053",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.kokilabenhospital.com/departments/centresofexcellence/centrefor_neurosciences/stroke.html",
+     "excerpt": "Page lists Emergency +91-22-4269-9999 / 7192-0400 and 24 HRS +91-22-4269-6969 / 7192-0000.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kokilabenhospital.com/departments/centresofexcellence/centrefor_neurosciences/stroke.html",
+       "excerpt": "intravenous stroke thrombolysis for patients presenting in 4.5 hours of onset",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kokilabenhospital.com/departments/centresofexcellence/centrefor_neurosciences/stroke.html",
+       "excerpt": "mechanical clot withdrawal (Penumbra Device) for those coming within 8 hours of the onset of stroke",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://www.kokilabenhospital.com/professionals/breakthroughcases/drshirishhastak_brainattackorstrokethenewhope_neurology.html",
+       "excerpt": "Our Centre has the maximum experience in India in removal of clots from inside the brain.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kokilabenhospital.com/professionals/breakthroughcases/drshirishhastak_brainattackorstrokethenewhope_neurology.html",
+       "excerpt": "a complete Stroke Team and a Stroke Unit available round the clock",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_unit",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kokilabenhospital.com/departments/centresofexcellence/centrefor_neurosciences/stroke.html",
+       "excerpt": "A dedicated stroke unit has been set up under guidance of a stroke neurologist.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kokilabenhospital.com/departments/centresofexcellence/centrefor_neurosciences/stroke.html",
+       "excerpt": "Code Stroke Plan lists neuro-imaging and a neurological intensive care unit.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kokilabenhospital.com/departments/centresofexcellence/centrefor_neurosciences/stroke.html",
+       "excerpt": "CT Scan/MRI reveals the reason and your doctor will tell you exactly what has happened.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.kokilabenhospital.com/departments/centresofexcellence/centrefor_neurosciences/stroke.html",
+       "excerpt": "CT Scan/MRI reveals the reason and your doctor will tell you exactly what has happened.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Stroke page appears old (8-h Penumbra window, no 24-h window) — capability likely current but page text dated; undated pages. 24x7 claim from undated case page. Separate Navi Mumbai campus exists (not included, outside city).",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-lilavati-bandra",
+   "name": "Lilavati Hospital and Research Centre",
+   "chain": null,
+   "campus": "Bandra West",
+   "address": "A-791, Bandra Reclamation, Bandra (W), Mumbai - 400 050",
+   "city": "Mumbai",
+   "state": "MH",
+   "pincode": "400050",
+   "officialWebsite": null,
+   "officialPhone": "+91 22-6931 8000 / +91 22-5059 8000; Emergency 86579 07754 / 022 69318063 / 64",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+     "excerpt": "A-791, Bandra Reclamation, Bandra (W), Mumbai - 400 050.",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+     "excerpt": "Tel.: +91 22-6931 8000 / +91 22-5059 8000",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+     "excerpt": "For any Emergency, 86579 07754 / 022 69318063 / 64",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+       "excerpt": "Clot bursting injection given within thrombolyisis window period upto 4.5 hrs of onset of acute stroke",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+       "excerpt": "Mechanical Thrombectomy: Removal of large vessel clots using minimally invasive catheters—up to 24 hours from symptom onset",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+       "excerpt": "24/7 Acute Stroke Response Team",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+       "excerpt": "Our Neuro-interventional Radiology Suite is equipped for:",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neuro_icu",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+       "excerpt": "Dedicated Neuro ICU with continuous brain monitoring",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+       "excerpt": "CT Brain & CT Angiography: For swift identification of ischemic and hemorrhagic strokes",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+       "excerpt": "MRI with Diffusion: Weighted Imaging (DWI) for early detection of infarcts",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "stroke_rehab",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.lilavatihospital.com//uploads/source/media/Stroke_Brochure_5k4x.pdf",
+       "excerpt": "We offer a full spectrum of post-stroke rehabilitation services under one roof",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Evidence from official stroke brochure PDF (undated). Ownership 'trust' is from general knowledge (Lilavati Kirtilal Mehta Medical Trust) and is NOT evidenced here — verify.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-rfh-girgaon",
+   "name": "Sir H. N. Reliance Foundation Hospital and Research Centre",
+   "chain": "Reliance Foundation",
+   "campus": "Girgaon",
+   "address": "Raja Rammohan Roy Road, Prarthana Samaj, Girgaon, Mumbai – 400004",
+   "city": "Mumbai",
+   "state": "MH",
+   "pincode": "400004",
+   "officialWebsite": null,
+   "officialPhone": "Emergency: 022-61305005",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.rfhospital.org/contact-us",
+     "excerpt": "Raja Rammohan Roy Road, Prarthana Samaj, Girgaon, Mumbai – 400004",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.rfhospital.org/contact-us",
+     "excerpt": "Emergency: 022-61305005",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.rfhospital.org/care-centres/neuro-sciences/neurointerventional-surgery",
+       "excerpt": "Neurointerventional surgery page lists mechanical thrombectomy for acute ischaemic stroke among department procedures.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.rfhospital.org/care-centres/neuro-sciences/neurointerventional-surgery",
+       "excerpt": "fast-track stroke response (24/7 availability)",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.rfhospital.org/care-centres/neuro-sciences/neurointerventional-surgery",
+       "excerpt": "fast-track stroke response (24/7 availability)",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "No official page fetched stating IV thrombolysis (World Stroke Day page returned 404; search snippet claimed DTN 45-60 min and 24X7 EVT angio suite — unverified). Thrombolysis almost certainly offered but not evidenced here.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-gleneagles-parel",
+   "name": "Gleneagles Hospital, Parel",
+   "chain": "Gleneagles Hospitals",
+   "campus": "Parel",
+   "address": null,
+   "city": "Mumbai",
+   "state": "MH",
+   "pincode": null,
+   "officialWebsite": null,
+   "officialPhone": "Emergency: 022 6767 0202",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "phone",
+     "url": "https://www.gleneagleshospitals.co.in/mumbai/parel",
+     "excerpt": "Emergency: 022 6767 0202",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.gleneagleshospitals.co.in/mumbai/speciality/interventional-neurology",
+       "excerpt": "Our specialists perform the standard thrombectomy procedure in Mumbai to take out clots from arteries",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.gleneagleshospitals.co.in/mumbai/speciality/interventional-neurology",
+       "excerpt": "Acute stroke is managed through rapid diagnosis, emergency imaging, clot retrieval procedures, thrombolysis",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "24x7_stroke",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.gleneagleshospitals.co.in/mumbai/speciality/interventional-neurology",
+       "excerpt": "A 24/7 stroke emergency hospital, Mumbai, because we know stroke doesn't see timing.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "neurointerventional",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.gleneagleshospitals.co.in/mumbai/speciality/interventional-neurology",
+       "excerpt": "biplane cath labs for high-resolution diagnosis and imaging-guided treatment",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.gleneagleshospitals.co.in/mumbai/speciality/interventional-neurology",
+       "excerpt": "CT Scan: For identifying acute strokes and vascular occlusion.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.gleneagleshospitals.co.in/mumbai/speciality/interventional-neurology",
+       "excerpt": "MRI: For assessing exquisite details of brain tissue and stroke detection zones.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Street address not on fetched official pages; search tools attribute '35, Dr Ernest Borges Rd, opp. Shirodkar High School, Parel East, Mumbai 400012' to official site — unverified, left null. Parel page states NABH/WSO Advanced Stroke Centre accreditation (summary only, not captured verbatim). Formerly Global Hospital Parel.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-bombay-hospital",
+   "name": "Bombay Hospital & Medical Research Centre",
+   "chain": null,
+   "campus": "Marine Lines",
+   "address": "12, Vitthaldas Thackersey Marg, near Liberty cinema, New Marine Lines, Marine Lines, Mumbai, Maharashtra 400020",
+   "city": "Mumbai",
+   "state": "MH",
+   "pincode": "400020",
+   "officialWebsite": null,
+   "officialPhone": "+91-22-22067676 / +91-22-40511111",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.bombayhospital.com/services/stroke-treatment-mumbai",
+     "excerpt": "Bombay Hospital, 12, Vitthaldas Thackersey Marg, near Liberty cinema, New Marine Lines",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.bombayhospital.com/services/stroke-treatment-mumbai",
+     "excerpt": "+91-22-22067676",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "thrombolysis",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.bombayhospital.com/services/stroke-treatment-mumbai",
+       "excerpt": "This involves the use of medication to break down the clot causing the stroke.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "thrombectomy",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://www.bombayhospital.com/services/stroke-treatment-mumbai",
+       "excerpt": "A procedure to physically remove the clot from the blocked artery.",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": null,
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Evidence is an SEO-style 'stroke treatment Mumbai' service page listing treatments generically; weaker than a capability statement. Lists one neurointerventional consultant (Dr. Rakesh Singh). No 24x7 statement. Phone numbers not labelled emergency.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-jaslok",
+   "name": "Jaslok Hospital & Research Centre",
+   "chain": null,
+   "campus": "Pedder Road",
+   "address": "15, Dr. G. Deshmukh Marg, Mumbai - 400026",
+   "city": "Mumbai",
+   "state": "MH",
+   "pincode": "400026",
+   "officialWebsite": null,
+   "officialPhone": "Emergency No.: 08062344444; Boardline 02240173333, 02266573333",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://jaslokhospital.net/home/procedure/acute-stroke-pathway",
+     "excerpt": "15, Dr. G. Deshmukh Marg, Mumbai - 400026",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://jaslokhospital.net/home/procedure/acute-stroke-pathway",
+     "excerpt": "Emergency No.: 08062344444",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [
+    {
+     "code": "ct",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://jaslokhospital.net/blogs/stroke-warning-signs-the-golden-window-and-how-to-prevent-a-brain-attack-dr-azad-irani-jaslok-hospital",
+       "excerpt": "Having all of this under one roof — as is the case at Jaslok Hospital",
+       "kind": "verbatim",
+       "sourceType": "official",
+       "sourceDate": "2026-07-09",
+       "checkedAt": "2026-11-16"
+      },
+      {
+       "url": "https://jaslokhospital.net/blogs/stroke-warning-signs-the-golden-window-and-how-to-prevent-a-brain-attack-dr-azad-irani-jaslok-hospital",
+       "excerpt": "Blog lists 24/7 stroke-literate doctor, CT/MRI access and cath lab for clot removal as what Jaslok has under one roof.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": "2026-07-09",
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    },
+    {
+     "code": "mri",
+     "value": "available",
+     "evidence": [
+      {
+       "url": "https://jaslokhospital.net/blogs/stroke-warning-signs-the-golden-window-and-how-to-prevent-a-brain-attack-dr-azad-irani-jaslok-hospital",
+       "excerpt": "Blog lists 24/7 stroke-literate doctor, CT/MRI access and cath lab for clot removal as what Jaslok has under one roof.",
+       "kind": "summary",
+       "sourceType": "official",
+       "sourceDate": "2026-07-09",
+       "checkedAt": "2026-11-16"
+      }
+     ],
+     "status": "draft",
+     "reviewer": null,
+     "reviewedAt": null
+    }
+   ],
+   "notes": "Acute-stroke-pathway page is educational (names alteplase/tenecteplase, thrombectomy, HASU generically) and does not clearly claim Jaslok offers them; July 2026 blog implies cath-lab clot removal and 24/7 stroke doctor 'under one roof'. Thrombolysis/thrombectomy NOT recorded — reviewer may upgrade after confirming.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-hinduja-mahim",
+   "name": "P. D. Hinduja Hospital & Medical Research Centre",
+   "chain": "Hinduja",
+   "campus": "Mahim",
+   "address": "SVS Rd, Mahim West, Shivaji Park, Mumbai, Maharashtra 400016",
+   "city": "Mumbai",
+   "state": "MH",
+   "pincode": "400016",
+   "officialWebsite": null,
+   "officialPhone": "Emergency No.: 022 24452575 / 09820885000",
+   "ownership": null,
+   "evidence": [
+    {
+     "field": "address",
+     "url": "https://www.hindujahospital.com/locate-us/",
+     "excerpt": "SVS Rd, Mahim West, Shivaji Park, Mumbai, Maharashtra 400016",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    },
+    {
+     "field": "phone",
+     "url": "https://www.hindujahospital.com/locate-us/",
+     "excerpt": "Emergency No.: 022 24452575 / 09820885000",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "services": [],
+   "notes": "Major tertiary centre but no stroke-service evidence found on official neurology page (only 'Stroke (Brain Attack)' in key diseases). All services unknown.",
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  }
+ ],
+ "physicians": [
+  {
+   "key": "mum-neeraj-jain",
+   "name": "Dr. Neeraj Jain",
+   "titles": null,
+   "designation": "Professor and Head of Department, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.kem.edu/neurology",
+     "excerpt": "Neurology faculty list: Dr. Neeraj Jain, Professor and Head of Department.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-rashmi-saraf",
+   "name": "Dr. Rashmi Saraf",
+   "titles": null,
+   "designation": "Associate Professor (Neurointervention section, Radiology)",
+   "specialty": "interventional_neuroradiology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.kem.edu/radiology",
+     "excerpt": "Radiology page Neurointervention section lists Dr. Rashmi Saraf, Associate Professor.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-anil-venkitachalam",
+   "name": "Dr. Anil Venkitachalam",
+   "titles": null,
+   "designation": "Senior consultant in neurology and head of department",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://ltmgh.com/?p=1903",
+     "excerpt": "Neurology page: Dr. Anil Venkitachalam, senior consultant in neurology since March 2021, heads the department.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-shirish-hastak",
+   "name": "Dr. Shirish M. Hastak",
+   "titles": null,
+   "designation": "Consultant Neurologist (in charge of stroke services per case page)",
+   "specialty": "stroke_neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.kokilabenhospital.com/professionals/breakthroughcases/drshirishhastak_brainattackorstrokethenewhope_neurology.html",
+     "excerpt": "Dr. Shirish M.Hastak, Consultant Neurologist",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "possible_duplicate",
+    "ambiguous_campus"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-vipul-gupta",
+   "name": "Dr. Vipul Gupta",
+   "titles": null,
+   "designation": "Director, Neurointerventional Surgery",
+   "specialty": "neurointervention",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.rfhospital.org/care-centres/neuro-sciences/neurointerventional-surgery",
+     "excerpt": "Neurointerventional surgery page lists Vipul Gupta, Director.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "possible_duplicate"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-dhaval-thakkar",
+   "name": "Dr. Dhaval Thakkar",
+   "titles": null,
+   "designation": "Additional Director, Neurointerventional Surgery",
+   "specialty": "neurointervention",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.rfhospital.org/care-centres/neuro-sciences/neurointerventional-surgery",
+     "excerpt": "Neurointerventional surgery page lists Dhaval Thakkar, Additional Director.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-anil-karapurkar",
+   "name": "Dr. Anil Karapurkar",
+   "titles": null,
+   "designation": "Consultant, Neurointerventional Surgery",
+   "specialty": "neurointervention",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.rfhospital.org/care-centres/neuro-sciences/neurointerventional-surgery",
+     "excerpt": "Neurointerventional surgery page lists Anil Karapurkar, Consultant.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "possible_duplicate"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-nitin-dange",
+   "name": "Dr. Nitin Dange",
+   "titles": null,
+   "designation": "Director Neurointervention Neurosurgery",
+   "specialty": "endovascular_neurosurgery",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.gleneagleshospitals.co.in/mumbai/speciality/interventional-neurology",
+     "excerpt": "Dr Nitin Dange: Director Neurointervention Neurosurgery",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "possible_duplicate"
+   ],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-rakesh-singh",
+   "name": "Dr. Rakesh Singh",
+   "titles": "DM / MD NeuroInterventional",
+   "designation": "Neurologist (listed under stroke treatment consultants)",
+   "specialty": "neurointervention",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.bombayhospital.com/services/stroke-treatment-mumbai",
+     "excerpt": "DM / MD NeuroInterventional",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-joy-desai",
+   "name": "Dr. Joy Desai",
+   "titles": null,
+   "designation": "Director, Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.jaslokhospital.net/speciality-details/86",
+     "excerpt": "Dr. Joy Desai: Director, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-azad-irani",
+   "name": "Dr. Azad Marazban Irani",
+   "titles": null,
+   "designation": "Consultant, Neurology",
+   "specialty": "stroke_neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://jaslokhospital.net/blogs/stroke-warning-signs-the-golden-window-and-how-to-prevent-a-brain-attack-dr-azad-irani-jaslok-hospital",
+     "excerpt": "a renowned neurologist at Jaslok Hospital with specialized expertise in stroke management",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  },
+  {
+   "key": "mum-roop-gursahani",
+   "name": "Dr. Roop Gursahani",
+   "titles": null,
+   "designation": "Section Head - Neurology, Consultant - Neurology",
+   "specialty": "neurology",
+   "subspecialty": null,
+   "profileUrl": null,
+   "evidence": [
+    {
+     "field": "designation",
+     "url": "https://www.hindujahospital.com/speciality/centre-neuro-care/neurology/",
+     "excerpt": "Section Head - Neurology, Consultant - Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewedAt": null
+   }
+  }
+ ],
+ "affiliations": [
+  {
+   "physicianKey": "mum-neeraj-jain",
+   "hospitalKey": "mum-kem",
+   "role": "Professor and Head, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.kem.edu/neurology",
+     "excerpt": "Neurology faculty list: Dr. Neeraj Jain, Professor and Head of Department.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-rashmi-saraf",
+   "hospitalKey": "mum-kem",
+   "role": "Associate Professor, Neurointervention",
+   "evidence": [
+    {
+     "url": "https://www.kem.edu/radiology",
+     "excerpt": "Radiology page Neurointervention section lists Dr. Rashmi Saraf, Associate Professor.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-anil-venkitachalam",
+   "hospitalKey": "mum-ltmgh-sion",
+   "role": "Head, Neurology",
+   "evidence": [
+    {
+     "url": "https://ltmgh.com/?p=1903",
+     "excerpt": "Neurology page: Dr. Anil Venkitachalam, senior consultant in neurology since March 2021, heads the department.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-shirish-hastak",
+   "hospitalKey": "mum-kokilaben-andheri",
+   "role": "Consultant Neurologist",
+   "evidence": [
+    {
+     "url": "https://www.kokilabenhospital.com/professionals/breakthroughcases/drshirishhastak_brainattackorstrokethenewhope_neurology.html",
+     "excerpt": "Dr. Shirish M.Hastak, Consultant Neurologist",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "possible_duplicate",
+    "ambiguous_campus"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-vipul-gupta",
+   "hospitalKey": "mum-rfh-girgaon",
+   "role": "Director",
+   "evidence": [
+    {
+     "url": "https://www.rfhospital.org/care-centres/neuro-sciences/neurointerventional-surgery",
+     "excerpt": "Neurointerventional surgery page lists Vipul Gupta, Director.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "possible_duplicate"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-dhaval-thakkar",
+   "hospitalKey": "mum-rfh-girgaon",
+   "role": "Additional Director",
+   "evidence": [
+    {
+     "url": "https://www.rfhospital.org/care-centres/neuro-sciences/neurointerventional-surgery",
+     "excerpt": "Neurointerventional surgery page lists Dhaval Thakkar, Additional Director.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-anil-karapurkar",
+   "hospitalKey": "mum-rfh-girgaon",
+   "role": "Consultant",
+   "evidence": [
+    {
+     "url": "https://www.rfhospital.org/care-centres/neuro-sciences/neurointerventional-surgery",
+     "excerpt": "Neurointerventional surgery page lists Anil Karapurkar, Consultant.",
+     "kind": "summary",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "possible_duplicate"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-nitin-dange",
+   "hospitalKey": "mum-gleneagles-parel",
+   "role": "Director, Neurointervention",
+   "evidence": [
+    {
+     "url": "https://www.gleneagleshospitals.co.in/mumbai/speciality/interventional-neurology",
+     "excerpt": "Dr Nitin Dange: Director Neurointervention Neurosurgery",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [
+    "possible_duplicate"
+   ],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-rakesh-singh",
+   "hospitalKey": "mum-bombay-hospital",
+   "role": "Consultant",
+   "evidence": [
+    {
+     "url": "https://www.bombayhospital.com/services/stroke-treatment-mumbai",
+     "excerpt": "DM / MD NeuroInterventional",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-joy-desai",
+   "hospitalKey": "mum-jaslok",
+   "role": "Director, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.jaslokhospital.net/speciality-details/86",
+     "excerpt": "Dr. Joy Desai: Director, Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-azad-irani",
+   "hospitalKey": "mum-jaslok",
+   "role": "Consultant, Neurology",
+   "evidence": [
+    {
+     "url": "https://jaslokhospital.net/blogs/stroke-warning-signs-the-golden-window-and-how-to-prevent-a-brain-attack-dr-azad-irani-jaslok-hospital",
+     "excerpt": "a renowned neurologist at Jaslok Hospital with specialized expertise in stroke management",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  },
+  {
+   "physicianKey": "mum-roop-gursahani",
+   "hospitalKey": "mum-hinduja-mahim",
+   "role": "Section Head, Neurology",
+   "evidence": [
+    {
+     "url": "https://www.hindujahospital.com/speciality/centre-neuro-care/neurology/",
+     "excerpt": "Section Head - Neurology, Consultant - Neurology",
+     "kind": "verbatim",
+     "sourceType": "official",
+     "sourceDate": null,
+     "checkedAt": "2026-11-16"
+    }
+   ],
+   "flags": [],
+   "status": "draft",
+   "reviewer": null,
+   "reviewedAt": null
+  }
+ ],
+ "procedures": [],
+ "sourceFailures": [
+  {
+   "url": "https://www.nanavatimaxhospital.org/our-specialities/stroke-unit",
+   "reason": "HTTP 403; Nanavati Max (Vile Parle) excluded for lack of fetchable evidence (search snippet describes 'code white' pathway to thrombolysis/thrombectomy)"
+  },
+  {
+   "url": "https://www.nanavatimaxhospital.org/our-specialities/centre-for-neurosciences/conditions-treatments/brain-stroke",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://rfhospital.org/events-and-updates/world-stroke-day",
+   "reason": "HTTP 404 (also www. variant)"
+  },
+  {
+   "url": "https://www.pressreader.com/india/hindustan-times-st-mumbai/20181011/281565176718865",
+   "reason": "HTTP 403 (2018 HT article on KEM stroke clinic / biplane DSA)"
+  },
+  {
+   "url": "https://www.fortishealthcare.com/specialities/neurointerventional-radiology-37?hospital=3528",
+   "reason": "HTTP 403; Fortis Mulund excluded for lack of fetchable evidence"
+  },
+  {
+   "url": "https://www.fortishealthcare.com/doctors/hospital/speciality/fortis-hospital-mulund-mumbai/neurointerventional-radiology-2",
+   "reason": "HTTP 403"
+  },
+  {
+   "url": "https://www.gleneagleshospitals.co.in/mumbai/contact-us",
+   "reason": "HTTP 404; Parel street address not obtained"
+  },
+  {
+   "url": "https://kokilabenhospital.com/departments/clinicsatkh/strokeclinic.html",
+   "reason": "No stroke service content"
+  }
+ ]
+}

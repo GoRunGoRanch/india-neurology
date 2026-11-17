@@ -13,6 +13,13 @@ export async function generateMetadata({ params }: { params: { lang: Locale } })
   return { title: t.finder.title, description: t.finder.subtitle, robots: repository.usingCandidateData ? { index: false } : undefined };
 }
 
+/** Dropdown options cannot carry the English caption line, so Hindi options include the English name. */
+function cityLabel(stateCode: string, slug: string, lang: Locale) {
+  const name = findCity(stateCode, slug)?.name;
+  if (!name) return slug;
+  return lang === "hi" ? `${name.hi} (${name.en})` : name.en;
+}
+
 function toCentre(f: Facility): Centre {
   const status = (code: string) => f.claims?.find((c) => c.field === `service:${code}`)?.status ?? null;
   return {
@@ -39,7 +46,7 @@ export default async function StrokeCentresPage({ params }: { params: { lang: Lo
     .filter((l): l is Facility => l.kind === "hospital" && !l.isDemo)
     .map(toCentre)
     .filter((c) => c.thrombolysis || c.thrombectomy);
-  const cityOptions = [...new Map(centres.map((c) => [c.citySlug, { slug: c.citySlug, name: findCity(c.stateCode, c.citySlug)?.name[lang] ?? c.citySlug }])).values()]
+  const cityOptions = [...new Map(centres.map((c) => [c.citySlug, { slug: c.citySlug, name: cityLabel(c.stateCode, c.citySlug, lang) }])).values()]
     .sort((a, b) => a.name.localeCompare(b.name));
   const cities = cityOptions.map((c) => c.name);
 

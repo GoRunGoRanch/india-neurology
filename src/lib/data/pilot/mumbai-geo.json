@@ -1,0 +1,98 @@
+{
+ "mum-ltmgh-sion": {
+  "lat": 19.036381,
+  "lng": 72.859866,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/7664032232",
+   "excerpt": "OpenStreetMap match: Sion Hospital, Laxmibai Kelkar Marg, Agarwada Colony, Guru Tegh Bahadur Nagar, F/N Ward, Mumbai Zone 2, Mumbai City District, Maharashtra, 400022, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "mum-kokilaben-andheri": {
+  "lat": 19.131256,
+  "lng": 72.824675,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/150491109",
+   "excerpt": "OpenStreetMap match: Kokilaben Dhirubhai Ambani Hospital, Jai Prakash Road, Seven Bungalows, Versova, K/W Ward, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 400053, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "mum-lilavati-bandra": {
+  "lat": 19.050936,
+  "lng": 72.829166,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/31144296",
+   "excerpt": "OpenStreetMap match: Lilavati Hospital and Research Centre, KC Marg, Vaidya Nagar, H/W Ward, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 400050, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "mum-rfh-girgaon": {
+  "lat": 18.958765,
+  "lng": 72.820205,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/288446227",
+   "excerpt": "OpenStreetMap match: Sir H. N. Hospital & Research Centre;Sir H.N Reliance foundation hospital, Raja Ram Mohan Roy Road (Charni Road), Girgaon, D Ward, Mumbai",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "mum-gleneagles-parel": {
+  "lat": 18.999443,
+  "lng": 72.840501,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/5099872961",
+   "excerpt": "OpenStreetMap match: Gleneagles Hospital Super Speciality and Transplant Center, Dr Ernest Borges Marg, Railway Colony, Lal Baug, F/S Ward, Mumbai Zone 2, Mumbai, Mumbai",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "mum-bombay-hospital": {
+  "lat": 18.940767,
+  "lng": 72.828243,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/46715024",
+   "excerpt": "OpenStreetMap match: Bombay Hospital, Vithaldas Thackersey Marg, Narayanpada, Fort, A Ward, Mumbai Zone 1, Mumbai City District, Maharashtra, 400020, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ }
+}

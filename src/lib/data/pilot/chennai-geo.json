@@ -1,0 +1,98 @@
+{
+ "chn-rgggh": {
+  "lat": 13.080608,
+  "lng": 80.277331,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/27618339",
+   "excerpt": "OpenStreetMap match: Rajiv Gandhi Government General Hospital, Stanley Viaduct, Evening Bazaar, Ward 59, Zone 5 Royapuram, Chennai, Chennai Metropolitan Area, Chennai District, Tamil Nadu,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "chn-tngmssh-omandurar": {
+  "lat": 13.069459,
+  "lng": 80.273745,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/217960574",
+   "excerpt": "OpenStreetMap match: Tamil Nadu Government Multi Super Speciality Hospital, Chennai Port–Maduravoyal Expressway, Government Estate, Ward 59, Zone 5 Royapuram, Chennai, Chennai Metropolitan Area, Mylapore,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "chn-miot": {
+  "lat": 13.021181,
+  "lng": 80.185841,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/364650995",
+   "excerpt": "OpenStreetMap match: MIOT International, Miot International Hospital road, Ward 157, Zone 12 Alandur, Chennai, Chennai Metropolitan Area, Alandur, Chennai District, Tamil Nadu, 600089, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "chn-kauvery-alwarpet": {
+  "lat": 13.03817,
+  "lng": 80.257301,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/3118864398",
+   "excerpt": "OpenStreetMap match: Kauvery Hospital, #199, Luz Church Road, East Abhiramapuram, Ward 123, Zone 9 Teynampet, Chennai, Chennai Metropolitan Area, Mylapore, Chennai District, Tamil Nadu,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "chn-sims-vadapalani": {
+  "lat": 13.051596,
+  "lng": 80.21143,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/4488082604",
+   "excerpt": "OpenStreetMap match: SRM Institutes For Medical Science, No. 1, Jawaharlal Nehru Road (100 Feet Road), Ward 130, Zone 10 Kodambakkam, Chennai, Chennai Metropolitan Area,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "chn-mgm-aminjikarai": {
+  "lat": 13.070952,
+  "lng": 80.221728,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/354814219",
+   "excerpt": "OpenStreetMap match: MGM Healthcare, Nelson Manickam Road, Mehta Nagar, Ward 106, Zone 8 Anna Nagar, Chennai, Chennai Metropolitan Area, Chennai District, Tamil Nadu, 600029,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ }
+}

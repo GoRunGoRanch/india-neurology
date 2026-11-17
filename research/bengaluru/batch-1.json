@@ -1,0 +1,943 @@
+{
+  "agent": "bengaluru",
+  "hospitals": [
+    {
+      "key": "blr-nimhans",
+      "name": "National Institute of Mental Health and Neuro Sciences (NIMHANS)",
+      "chain": null,
+      "campus": null,
+      "address": "Hosur Road/Marigowda Road (Lakkasandra, Wilson Garden), Bengaluru 560029",
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": "560029",
+      "officialWebsite": "https://nimhans.ac.in/",
+      "officialPhone": "080 - 26995000",
+      "ownership": null,
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://nimhans.ac.in/contact-us/",
+          "excerpt": "Hosur Road/Marigowda Road (Lakkasandra, Wilson Garden), Bengaluru 560029",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://nimhans.ac.in/contact-us/",
+          "excerpt": "Exchange Numbers ... 080 - 26995000 / 5100 / 5200 / 5300 / 5400",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.digitalhealthnews.com/karnataka-govt-nimhans-launch-hub-and-spoke-stroke-network-to-improve-access-to-thrombectomy-care",
+              "excerpt": "currently provides emergency thrombolysis, round-the-clock mechanical thrombectomy services, stroke ICU care",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2026-05-15",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.digitalhealthnews.com/karnataka-govt-nimhans-launch-hub-and-spoke-stroke-network-to-improve-access-to-thrombectomy-care",
+              "excerpt": "currently provides emergency thrombolysis, round-the-clock mechanical thrombectomy services, stroke ICU care",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2026-05-15",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "24x7_stroke",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.digitalhealthnews.com/karnataka-govt-nimhans-launch-hub-and-spoke-stroke-network-to-improve-access-to-thrombectomy-care",
+              "excerpt": "currently provides emergency thrombolysis, round-the-clock mechanical thrombectomy services, stroke ICU care",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2026-05-15",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "stroke_unit",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.digitalhealthnews.com/karnataka-govt-nimhans-launch-hub-and-spoke-stroke-network-to-improve-access-to-thrombectomy-care",
+              "excerpt": "currently provides emergency thrombolysis, round-the-clock mechanical thrombectomy services, stroke ICU care",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2026-05-15",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Service evidence is a news report (Digital Health News, last updated 15 May 2026); no official nimhans.ac.in stroke page was found. Same report (and a Hindu reprint on boolokam.com, not fetched: certificate error) calls NIMHANS the only 24x7 government-sector thrombectomy centre in Karnataka. Ownership left null: fetched official pages do not state government status (it is a central government institute; reviewer to confirm). 'stroke_unit' is from 'stroke ICU care'. Physicians skipped: no official faculty page found (nimhans.ac.in/neurology/ 404). Phone is the main exchange, not a stroke line."
+    },
+    {
+      "key": "blr-victoria",
+      "name": "Victoria Hospital (Bangalore Medical College and Research Institute)",
+      "chain": null,
+      "campus": null,
+      "address": null,
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": null,
+      "evidence": [],
+      "services": [],
+      "notes": "Included as the second government / medical-college candidate; NO acute-stroke service could be evidenced. bmcri.org now redirects to an unrelated site; bmcribengaluru.karnataka.gov.in refused connection. Only stroke mention found is a 2015 Deccan Chronicle article stating Victoria Hospital 'sees 1-2 such patients every day' (ischemic stroke) - not evidence of thrombolysis. An Angels Initiative (industry programme) listing reportedly marks it as a stroke-network hospital - not an acceptable source, not fetched (503 on related page). Reviewer: obtain official address/phone (Fort / K.R. Road, 560002 per third-party directories, unverified)."
+    },
+    {
+      "key": "blr-ramaiah-memorial",
+      "name": "Ramaiah Memorial Hospital",
+      "chain": "Ramaiah",
+      "campus": "New BEL Road",
+      "address": "New BEL Rd, M S Ramaiah Nagar, MSRIT Post, Bengaluru, Karnataka 560054",
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": "560054",
+      "officialWebsite": "https://msrmh.com/",
+      "officialPhone": "+91 80 6215 3300",
+      "ownership": null,
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://msrmh.com/contact-us/",
+          "excerpt": "New BEL Rd, M S Ramaiah Nagar, MSRIT Post, Bengaluru, Karnataka 560054",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://msrmh.com/contact-us/",
+          "excerpt": "Call Us: +91 80 6215 3300; Emergency: 1800 123 1133",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "24x7_stroke",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://biospectrumindia.com/news/101/25317/ramaiah-memorial-hospital-announces-launch-of-comprehensive-state-of-the-art-stroke-centre.html",
+              "excerpt": "24/7 stroke management unit ... Stroke Code protocol",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2024-11-04",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "stroke_unit",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://biospectrumindia.com/news/101/25317/ramaiah-memorial-hospital-announces-launch-of-comprehensive-state-of-the-art-stroke-centre.html",
+              "excerpt": "dedicated 6-bed Stroke ICU",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2024-11-04",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neuro_icu",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://biospectrumindia.com/news/101/25317/ramaiah-memorial-hospital-announces-launch-of-comprehensive-state-of-the-art-stroke-centre.html",
+              "excerpt": "Stroke ICU is set up within the Neuro ICU",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2024-11-04",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Emergency number on official contact page: 1800 123 1133. Ramaiah Stroke Centre launched Nov 2024 (BioSpectrum). Thrombolysis/thrombectomy NOT recorded: launch article does not mention them; hospital blog (msrmh.com/blog/be-fast-time-is-brain/, Dec 2021, Dr Sunil V Furtado, Neurosurgery) calls it 'a stroke ready hospital' and describes mechanical thrombectomy generically - reviewer may judge it sufficient. Ownership not evidenced."
+    },
+    {
+      "key": "blr-sakra-world",
+      "name": "Sakra World Hospital",
+      "chain": null,
+      "campus": "Bellandur (Devarabeesanahalli)",
+      "address": "SY NO 52/2 & 52/3, Devarabeesanahalli, Varthur Hobli, Bangalore - 560 103",
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": "560103",
+      "officialWebsite": "https://www.sakraworldhospital.com/centres-and-specialities/neurosciences/stroke/58",
+      "officialPhone": "080 4969 4969",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://www.sakraworldhospital.com/centres-and-specialities/neurosciences/stroke/58",
+          "excerpt": "SY NO 52/2 & 52/3, Devarabeesanahalli, Varthur Hobli, Bangalore - 560 103",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://www.sakraworldhospital.com/centres-and-specialities/neurosciences/stroke/58",
+          "excerpt": "Appointments: 080 4969 4969; Emergency: 080 4962 4962",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.sakraworldhospital.com/centres-and-specialities/neurosciences/stroke/58",
+              "excerpt": "our stroke specialists administer tissue plasminogen activator (tPA)",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.sakraworldhospital.com/centres-and-specialities/neurosciences/stroke/58",
+              "excerpt": "mechanical thrombectomy – a minimally invasive procedure to extract clots",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "24x7_stroke",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.sakraworldhospital.com/centres-and-specialities/neurosciences/stroke/58",
+              "excerpt": "Round-the-clock stroke team ensuring seamless care from admission to recovery.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "stroke_unit",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.sakraworldhospital.com/centres-and-specialities/neurosciences/stroke/58",
+              "excerpt": "the Stroke Care Unit is dedicated to delivering fast, expert-led treatment",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "ct",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.sakraworldhospital.com/centres-and-specialities/neurosciences/stroke/58",
+              "excerpt": "high-resolution 3T MRI, CT angiography",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "mri",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.sakraworldhospital.com/centres-and-specialities/neurosciences/stroke/58",
+              "excerpt": "high-resolution 3T MRI, CT angiography",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Emergency line on official page: 080 4962 4962 (consider for Call-ahead). Ownership 'private' is not stated on page - reviewer confirm. Doctor list on page has no designations; physicians skipped."
+    },
+    {
+      "key": "blr-aster-rv",
+      "name": "Aster RV Hospital",
+      "chain": "Aster DM Healthcare",
+      "campus": "J.P. Nagar",
+      "address": "CA-37, 24th Main, 1st Phase, J.P.Nagar, Karnataka, 560078",
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": "560078",
+      "officialWebsite": "https://www.asterhospitals.in/hospitals/aster-rv-bangalore",
+      "officialPhone": "080 66040400",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://www.asterhospitals.in/hospitals/aster-rv-bangalore",
+          "excerpt": "CA-37, 24th Main, 1st Phase, J.P.Nagar, Karnataka, 560078",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://www.asterhospitals.in/hospitals/aster-rv-bangalore",
+          "excerpt": "Helpline: 080 66040400; Emergency: 080 46414641",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.asterhospitals.in/hospitals/aster-rv-bangalore/specialities/neurology/services/mechanical-thrombectomy-acute-stroke",
+              "excerpt": "mechanical thrombectomy wherein the blood clot in the brain is removed either by suction or by stentriever",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "mri",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.asterhospitals.in/hospitals/aster-rv-bangalore/specialities/neurology/services/mechanical-thrombectomy-acute-stroke",
+              "excerpt": "these patients are immediately taken for MRI scanning",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Emergency 080 46414641. Thrombectomy evidence is a campus-scoped service page but descriptive; no 24x7 claim found. Aster CMI Hebbal was checked and dropped (no stroke-service evidence on its neurology page)."
+    },
+    {
+      "key": "blr-narayana-health-city",
+      "name": "Mazumdar Shaw Medical Centre (Narayana Health City)",
+      "chain": "Narayana Health",
+      "campus": "Narayana Health City, Bommasandra",
+      "address": null,
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": null,
+      "officialWebsite": "https://www.narayanahealth.org/bangalore/neuro-sciences",
+      "officialPhone": "18003090309",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "phone",
+          "url": "https://www.narayanahealth.org/c/bangalore/interventional-neurology/dr-vikram-huded",
+          "excerpt": "18003090309 (general number in site header)",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.tribuneindia.com/news/business/narayana-health-city-marks-landmark-achievement-with-over-1-lakh-neurology-procedures",
+              "excerpt": "Dr Vikram Huded (Director, Interventional Neurology Program, Narayana Health) said treatments such as mechanical thrombectomy are available; article datelined Narayana Health City, Bengaluru.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2025-09-24",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Located in Bommasandra Industrial Area, Anekal Taluk - likely OUTSIDE BBMP municipal limits; included as a major Bengaluru stroke/interventional-neurology centre - reviewer decide. Address 258/A Bommasandra Industrial Area, Hosur Road 560099 appears only on aggregators - not recorded. Phone is the group-wide number from narayanahealth.org header, not campus-specific. Tribune piece is a press release. No 24x7 or thrombolysis evidence specific to this campus."
+    },
+    {
+      "key": "blr-manipal-kanakapura-road",
+      "name": "Manipal Hospital Kanakapura Road",
+      "chain": "Manipal Hospitals",
+      "campus": "Kanakapura Road",
+      "address": "No.241/359/358/314/13/3, Konanakunte Village, Ward No.197, Vasanthapura, Uttarahalli Hobli, Kanakapura Road, Bengaluru, Karnataka 560062",
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": "560062",
+      "officialWebsite": "https://www.manipalhospitals.com/kanakapuraroad/",
+      "officialPhone": "080-22221111",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://www.manipalhospitals.com/kanakapuraroad/specialities/interventional-neuroradiology/mechanical-thrombectomy/",
+          "excerpt": "Konanakunte Village, Ward No.197, Vasanthapura, Uttarahalli Hobli, Kanakapura Road, Bengaluru, Karnataka 560062",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://www.manipalhospitals.com/kanakapuraroad/specialities/interventional-neuroradiology/mechanical-thrombectomy/",
+          "excerpt": "080-22221111 (Kanakapura Road header listing)",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/kanakapuraroad/doctors/dr-sharath-kumar-g-g-radiologist/",
+              "excerpt": "He independently performs mechanical thrombectomy procedures, ensuring timely care for acute stroke patients.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "24x7_stroke",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/kanakapuraroad/specialities/interventional-neuroradiology/mechanical-thrombectomy/",
+              "excerpt": "24/7 stroke response teams trained for rapid assessment and intervention",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neurointerventional",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/kanakapuraroad/specialities/interventional-neuroradiology/mechanical-thrombectomy/",
+              "excerpt": "Fully equipped neurointerventional labs for catheter-based stroke procedures",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "stroke_unit",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/kanakapuraroad/specialities/interventional-neuroradiology/mechanical-thrombectomy/",
+              "excerpt": "Specialised stroke care units for post-procedure observation",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "ct",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/kanakapuraroad/specialities/interventional-neuroradiology/mechanical-thrombectomy/",
+              "excerpt": "CT angiography shows whether there is a large vessel occlusion",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "080-22221111 is Manipal's shared Bengaluru number shown for several campuses - reviewer confirm a campus emergency line. Service page text is partly generic chain copy but sits under the campus URL."
+    },
+    {
+      "key": "blr-manipal-yelahanka",
+      "name": "Manipal Hospital Yelahanka",
+      "chain": "Manipal Hospitals",
+      "campus": "Yelahanka",
+      "address": "Sy No. 23/3, Next to Brigade Honda Showroom, Venkatala Village, Yelahanka Hobli, Bangalore North Taluk., Bangalore 560064",
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": "560064",
+      "officialWebsite": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+      "officialPhone": "080-22221111",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+          "excerpt": "Sy No. 23/3, Next to Brigade Honda Showroom, Venkatala Village, Yelahanka Hobli, Bangalore North Taluk., Bangalore 560064",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+          "excerpt": "080-22221111 (listed under the Yelahanka location)",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+              "excerpt": "Intravenous thrombolysis for eligible ischaemic strokes with protocolised monitoring",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+              "excerpt": "Mechanical thrombectomy and endovascular clot retrieval in large vessel occlusion",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "24x7_stroke",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+              "excerpt": "24/7 dedicated stroke response",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "stroke_unit",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+              "excerpt": "Dedicated stroke unit beds with continuous monitoring and stroke-trained nursing staff",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "ct",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+              "excerpt": "24/7 CT with CT angiography and rapid image reporting for fast treatment decisions",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "mri",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+              "excerpt": "MRI with diffusion sequences",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neuro_icu",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+              "excerpt": "Neurocritical care unit with ventilatory support and invasive monitoring capability",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neurointerventional",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.manipalhospitals.com/yelahanka/specialities/stroke-care/",
+              "excerpt": "Neurointervention suite for endovascular thrombectomy and vessel stenting procedures",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Phone is Manipal's shared Bengaluru number. Manipal Old Airport Road (flagship) was checked but its fetched pages contained no stroke-service text, so it was not included; Manipal Electronic City has strong pages (biplane neuro cath lab, 24/7 stroke) but may lie outside BBMP limits - reviewer may add."
+    },
+    {
+      "key": "blr-fortis-bannerghatta",
+      "name": "Fortis Hospital, Bannerghatta Road",
+      "chain": "Fortis Healthcare",
+      "campus": "Bannerghatta Road",
+      "address": null,
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": "private",
+      "evidence": [],
+      "services": [],
+      "notes": "Official fortishealthcare.com pages returned 403/522, so nothing recorded. Search snippets indicate a blog by Dr Guruprasad Hosurkar (Senior Consultant Neurologist, BG Road) describing the hospital as 'Stroke Ready' with round-the-clock expertise and discussing thrombolysis/thrombectomy - unverified; reviewer re-fetch."
+    },
+    {
+      "key": "blr-apollo-bannerghatta",
+      "name": "Apollo Hospitals, Bannerghatta Road",
+      "chain": "Apollo Hospitals",
+      "campus": "Bannerghatta Road",
+      "address": null,
+      "city": "Bengaluru",
+      "state": "KA",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": "private",
+      "evidence": [],
+      "services": [],
+      "notes": "All apollohospitals.com Bangalore pages returned 403 (neuro-imaging-intervention, thrombectomy procedure, neuroscience overview). Snippets suggest a Bangalore neurointervention/thrombectomy page exists but campus not confirmed. Nothing recorded."
+    }
+  ],
+  "physicians": [
+    {
+      "key": "blr-vikram-huded",
+      "name": "Dr. Vikram Huded",
+      "titles": "MBBS; MD (General Medicine); DM (Neurology); Fellowship (Interventional Neuroradiology); Fellowship (Interventional Neurology)",
+      "designation": "Senior Consultant, Director, Interventional Neurology",
+      "specialty": "neurointervention",
+      "subspecialty": "Interventional Neurology | Stroke Neurology",
+      "profileUrl": "https://www.narayanahealth.org/c/bangalore/interventional-neurology/dr-vikram-huded",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://www.narayanahealth.org/c/bangalore/interventional-neurology/dr-vikram-huded",
+          "excerpt": "Dr. Vikram Huded",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "titles",
+          "url": "https://www.narayanahealth.org/c/bangalore/interventional-neurology/dr-vikram-huded",
+          "excerpt": "MBBS; MD (General Medicine); DM (Neurology); Fellowship (Interventional Neuroradiology); Fellowship (Interventional Neurology)",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "designation",
+          "url": "https://www.narayanahealth.org/ocaapp/doctors/bangalore/interventional-neurology",
+          "excerpt": "Senior Consultant, Director, Interventional Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "specialty",
+          "url": "https://www.narayanahealth.org/c/bangalore/interventional-neurology/dr-vikram-huded",
+          "excerpt": "Interventional Neurology | Stroke Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "blr-akash-j",
+      "name": "Dr. Akash J",
+      "titles": null,
+      "designation": "Junior Consultant, Interventional Neurology",
+      "specialty": "neurointervention",
+      "subspecialty": null,
+      "profileUrl": "https://www.narayanahealth.org/c/bangalore/interventional-neurology/dr-akash-j",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://www.narayanahealth.org/ocaapp/doctors/bangalore/interventional-neurology",
+          "excerpt": "Dr. Akash J ... Junior Consultant, Interventional Neurology",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "blr-sharath-kumar-g-g",
+      "name": "Dr. Sharath Kumar G G",
+      "titles": "MBBS | MD | DM (Neuroradiology)",
+      "designation": "Consultant – Radiology and Interventional Neuroradiology",
+      "specialty": "interventional_neuroradiology",
+      "subspecialty": "Stroke Care",
+      "profileUrl": "https://www.manipalhospitals.com/kanakapuraroad/doctors/dr-sharath-kumar-g-g-radiologist/",
+      "evidence": [
+        {
+          "field": "name",
+          "url": "https://www.manipalhospitals.com/kanakapuraroad/doctors/dr-sharath-kumar-g-g-radiologist/",
+          "excerpt": "Dr. Sharath Kumar G G",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "titles",
+          "url": "https://www.manipalhospitals.com/kanakapuraroad/doctors/dr-sharath-kumar-g-g-radiologist/",
+          "excerpt": "MBBS | MD | DM (Neuroradiology)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "designation",
+          "url": "https://www.manipalhospitals.com/kanakapuraroad/doctors/dr-sharath-kumar-g-g-radiologist/",
+          "excerpt": "Consultant – Radiology and Interventional Neuroradiology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "affiliations": [
+    {
+      "physicianKey": "blr-vikram-huded",
+      "hospitalKey": "blr-narayana-health-city",
+      "role": "Senior Consultant, Director, Interventional Neurology",
+      "evidence": [
+        {
+          "url": "https://www.narayanahealth.org/c/bangalore/interventional-neurology/dr-vikram-huded",
+          "excerpt": "Mazumdar Shaw Medical Centre, Bangalore",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "blr-akash-j",
+      "hospitalKey": "blr-narayana-health-city",
+      "role": "Junior Consultant, Interventional Neurology",
+      "evidence": [
+        {
+          "url": "https://www.narayanahealth.org/ocaapp/doctors/bangalore/interventional-neurology",
+          "excerpt": "Mazumdar Shaw Medical Centre, Bangalore; Narayana Clinic, Chandapura +1",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "ambiguous_campus"
+      ]
+    },
+    {
+      "physicianKey": "blr-sharath-kumar-g-g",
+      "hospitalKey": "blr-manipal-kanakapura-road",
+      "role": "Consultant – Radiology and Interventional Neuroradiology",
+      "evidence": [
+        {
+          "url": "https://www.manipalhospitals.com/kanakapuraroad/doctors/dr-sharath-kumar-g-g-radiologist/",
+          "excerpt": "Kanakapura Road - Bengaluru",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "procedures": [
+    {
+      "physicianKey": "blr-sharath-kumar-g-g",
+      "procedure": "mechanical_thrombectomy",
+      "value": "explicit_claim",
+      "evidence": [
+        {
+          "url": "https://www.manipalhospitals.com/kanakapuraroad/doctors/dr-sharath-kumar-g-g-radiologist/",
+          "excerpt": "He independently performs mechanical thrombectomy procedures, ensuring timely care for acute stroke patients.",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    }
+  ],
+  "sourceFailures": [
+    {
+      "url": "https://boolokam.com/article/The%20Hindu/NIMHANS%20doctors%20say%20%E2%80%98every%20second%20counts%E2%80%99%20in%20stroke%20treatment",
+      "reason": "TLS certificate error; also a reprint site. thehindu.com not accessible to fetcher."
+    },
+    {
+      "url": "https://nimhans.ac.in/neurology/",
+      "reason": "404"
+    },
+    {
+      "url": "https://bwhealthcareworld.com/article/ramaiah-memorial-hospital-inaugurates-advanced-stroke-centre-in-bengaluru-538064",
+      "reason": "empty page content"
+    },
+    {
+      "url": "https://bmcri.org/",
+      "reason": "redirects to unrelated site (facupfootball.co.uk) - not followed"
+    },
+    {
+      "url": "https://bmcribengaluru.karnataka.gov.in/english",
+      "reason": "connection refused"
+    },
+    {
+      "url": "https://ua.angels-initiative.com/content/st-johns-medical-college-hospitals",
+      "reason": "503; also industry programme, not acceptable evidence"
+    },
+    {
+      "url": "https://www.fortishealthcare.com/blogs/ischemic-stroke-and-importance-thrombolysis-treatment-dr-guruprasad",
+      "reason": "403"
+    },
+    {
+      "url": "https://fortishealthcare.com/specialities/hospital/neurology-31/fortis-hospital-bg-road-bangalore",
+      "reason": "522"
+    },
+    {
+      "url": "https://fortishealthcare.com/node/16548",
+      "reason": "522"
+    },
+    {
+      "url": "https://apollohospitals.com/bangalore/departments/neuroscience/neuro-imaging-intervention",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.apollohospitals.com/bangalore/procedures/thrombectomy",
+      "reason": "403"
+    },
+    {
+      "url": "https://mediacdn.apollohospitals.com/bangalore/departments/neuroscience/overview",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.asterhospitals.in/hospitals/aster-cmi-bangalore/specialities/neurology/services/mechanical-thrombectomy-acute-stroke",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.narayanahealth.org/hospitals/bangalore/narayana-health-city-bangalore",
+      "reason": "404 (guessed URL)"
+    },
+    {
+      "url": "https://www.narayanahealth.org/blog/six-yr-old-survives-stroke-as-doctors-remove-clot",
+      "reason": "page body not rendered (navigation only)"
+    }
+  ]
+}

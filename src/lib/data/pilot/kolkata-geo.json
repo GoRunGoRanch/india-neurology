@@ -1,0 +1,50 @@
+{
+ "kol-bin-sskm": {
+  "lat": 22.538017,
+  "lng": 88.34033,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/122756318",
+   "excerpt": "OpenStreetMap match: Bangur Institute Of Neurosciences, 52/1a, Sambhunath Pandit Street, Bhowanipore, Kolkata, Greater Kolkata, Kolkata, West Bengal, 700020, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "kol-bm-birla": {
+  "lat": 22.532786,
+  "lng": 88.328326,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/143600750",
+   "excerpt": "OpenStreetMap match: BM Birla Heart Research Centre, Sterndale Road, Alipore, Kolkata, Greater Kolkata, Kolkata, West Bengal, 700027, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "kol-narayana-rtiics": {
+  "lat": 22.491327,
+  "lng": 88.402145,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/599375917",
+   "excerpt": "OpenStreetMap match: Rabindranath Tagore International Institute of Cardiac Sciences, Budherhat Main Road, Mukundapur, Kolkata, Greater Kolkata, Kolkata, West Bengal, 700099, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ }
+}

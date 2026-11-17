@@ -1,0 +1,1250 @@
+{
+  "agent": "hyderabad",
+  "hospitals": [
+    {
+      "key": "hyd-nims",
+      "name": "Nizam's Institute of Medical Sciences (NIMS)",
+      "chain": null,
+      "campus": "Punjagutta",
+      "address": null,
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": "government",
+      "evidence": [
+        {
+          "field": "ownership",
+          "url": "https://www.deccanchronicle.com/southern-states/telangana/thrombolysis-betters-rescue-rate-of-stroke-patients-1913264",
+          "excerpt": "government-run Gandhi Hospital and Nizam's Institute of Medical Sciences (Nims)",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2025-10-29",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/southern-states/telangana/thrombolysis-betters-rescue-rate-of-stroke-patients-1913264",
+              "excerpt": "At Nims, doctors highlighted advanced treatments available under Aarogyasri.",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2025-10-29",
+              "checkedAt": "2026-11-16"
+            },
+            {
+              "url": "https://www.deccanchronicle.com/southern-states/telangana/thrombolysis-betters-rescue-rate-of-stroke-patients-1913264",
+              "excerpt": "Article states NIMS treatments under Aarogyasri include thrombolysis, mechanical thrombectomy and sovateltide; thrombolysis if patient reaches within four hours.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2025-10-29",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/southern-states/telangana/thrombolysis-betters-rescue-rate-of-stroke-patients-1913264",
+              "excerpt": "Article lists mechanical thrombectomy among advanced treatments available at Nims under Aarogyasri; within 24 hours for selected cases.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2025-10-29",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Official site nims.edu.in refused connection (ECONNREFUSED) so address/phone not taken from an official source; directories give Punjagutta, Hyderabad 500082 and 040-23489000 - reviewer to confirm from nims.edu.in. Services evidenced only by one news article (no named NIMS doctor). Listed as 'Comprehensive/stroke network' on Angels Initiative (industry site, not used as evidence). No 24x7 stroke statement found."
+    },
+    {
+      "key": "hyd-osmania",
+      "name": "Osmania General Hospital",
+      "chain": null,
+      "campus": "Afzalgunj",
+      "address": null,
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": "government",
+      "evidence": [],
+      "services": [],
+      "notes": "Government teaching hospital (Osmania Medical College). No official website or news evidence found for thrombolysis, thrombectomy, stroke unit or 24x7 stroke service. osmaniageneralhospital.com did not resolve. Angels Initiative lists it as 'Part of the official stroke network' (industry site, not used as evidence). Hospital is relocating to a new Goshamahal complex (news 2025-2026) - address may change. All services unknown; reviewer should check directly."
+    },
+    {
+      "key": "hyd-gandhi",
+      "name": "Gandhi Hospital (Gandhi Medical College)",
+      "chain": null,
+      "campus": "Musheerabad, Secunderabad",
+      "address": null,
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": "government",
+      "evidence": [
+        {
+          "field": "ownership",
+          "url": "https://www.deccanchronicle.com/southern-states/telangana/thrombolysis-betters-rescue-rate-of-stroke-patients-1913264",
+          "excerpt": "government-run Gandhi Hospital and Nizam's Institute of Medical Sciences (Nims)",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2025-10-29",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/southern-states/telangana/thrombolysis-betters-rescue-rate-of-stroke-patients-1913264",
+              "excerpt": "We treat cases using thrombolysis procedures.",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2025-10-29",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Quote is from Dr R Ramesh, head of neurology, Gandhi Hospital; he reports 5-6 emergency stroke cases daily treated within a 4.5-hour window. Official site gandhihospital.telangana.gov.in refused connection; directories give Musheerabad/Padmarao Nagar, Secunderabad 500003 and 040-27505566 (unverified). No thrombectomy evidence found. A 2018 Gandhi Medical College thrombolysis study exists (WHO IMSEAR) but the host was unreachable."
+    },
+    {
+      "key": "hyd-apollo-jubilee-hills",
+      "name": "Apollo Hospitals",
+      "chain": "Apollo Hospitals",
+      "campus": "Jubilee Hills",
+      "address": null,
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": null,
+      "officialWebsite": null,
+      "officialPhone": null,
+      "ownership": "private",
+      "evidence": [],
+      "services": [
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://newsmeter.in/science-health/hyderabad-apollo-performs-advanced-mechanical-thrombectomy-on-4-brain-stroke-patients-in-24-hours-733497",
+              "excerpt": "Apollo Hospitals Hyderabad reported performing mechanical thrombectomy on four stroke patients within 24 hours; team led by interventional radiologist Dr Suresh Giragani.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2024-08-02",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.digitalhealthnews.com/apollo-hospitals-launches-ai-assisted-stroke-care-",
+              "excerpt": "Apollo Hyderabad AI-assisted stroke care programme (World Stroke Day) describes thrombolysis and mechanical thrombectomy for eligible patients; stroke emergency helpline 1066.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2026-10-30",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neurointerventional",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.digitalhealthnews.com/apollo-hospitals-launches-ai-assisted-stroke-care-",
+              "excerpt": "Dr. Suresh Girgani, Consultant Neurointerventional Radiologist, Apollo Hospitals",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2026-10-30",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "ambiguous_campus: all apollohospitals.com pages returned HTTP 403, so evidence is news-only and none of it names the campus; attributed to the Jubilee Hills flagship (Apollo Health City) by assumption - reviewer must confirm (Apollo also has Secunderabad, Hyderguda, Financial District campuses in Hyderabad). Search snippets of the official Jubilee Hills stroke clinic page mention interventional radiologists available 24/7 for mechanical thrombectomy, but the page could not be fetched so 24x7 is not recorded. Stroke helpline 1066 (news) is a chain helpline, not recorded as campus phone."
+    },
+    {
+      "key": "hyd-yashoda-secunderabad",
+      "name": "Yashoda Hospitals",
+      "chain": "Yashoda Hospitals",
+      "campus": "Secunderabad",
+      "address": "Alexander Rd, Kummari Guda, Shivaji Nagar, Secunderabad, Telangana 500003",
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": "500003",
+      "officialWebsite": "https://www.yashodahospitals.com/locations/secunderabad/",
+      "officialPhone": "040 6723 2348",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://www.yashodahospitals.com/locations/secunderabad/",
+          "excerpt": "Alexander Rd, Kummari Guda, Shivaji Nagar, Secunderabad, Telangana 500003",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://www.yashodahospitals.com/locations/secunderabad/",
+          "excerpt": "Campus page lists Appointments: 040 6723 2348 and medical enquiries 08065906165.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.yashodahospitals.com/testimonials/mr-shaik-khayamuddin/",
+              "excerpt": "referred to Yashoda Hospitals Secunderabad for thrombosis",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            },
+            {
+              "url": "https://www.yashodahospitals.com/testimonials/mr-shaik-khayamuddin/",
+              "excerpt": "Page heading reads 'Patient Testimonial for Mechanical thrombectomy' for this Secunderabad patient.",
+              "kind": "summary",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neurointerventional",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://telanganatoday.com/hi-end-neuro-cath-lab-launched-at-yashoda-hospitals-secunderabad",
+              "excerpt": "Bi-plane Neuro Cath Lab inaugurated at Yashoda Hospitals, Secunderabad, for brain stroke patients.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2021-10-29",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.yashodahospitals.com/news/yashoda-hospitals-launches-stroke-care-on-wheels",
+              "excerpt": "The CT scan would be done at the nearest medical facility and thrombolysis to dissolve clots",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Thrombectomy evidence is a patient testimonial (official site) - no date. Thrombolysis evidence is from the 2019-era 'Stroke Care on Wheels' launch at Secunderabad (pre-hospital/ambulance service), so in-hospital thrombolysis is implied but not explicitly stated - reviewer check. Chain thrombectomy page lists a '24/7 Rapid Response Team' but is not campus-specific; 24x7 not recorded."
+    },
+    {
+      "key": "hyd-kims-secunderabad",
+      "name": "KIMS Hospitals",
+      "chain": "KIMS Hospitals",
+      "campus": "Secunderabad",
+      "address": "1-8-31/1, Minister Rd., Krishna Nagar Colony, Begumpet, Secunderabad - 500003, Telangana, India",
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": "500003",
+      "officialWebsite": "https://www.kimshospitals.com/secunderabad/",
+      "officialPhone": "040-46324365",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://www.kimshospitals.com/secunderabad/",
+          "excerpt": "1-8-31/1, Minister Rd., Krishna Nagar Colony, Begumpet, Secunderabad - 500003, Telangana, India",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://www.kimshospitals.com/secunderabad/",
+          "excerpt": "Campus page lists Emergency 040-46324365 and Appointments 040-44885000.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "24x7_stroke",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/lifestyle/health-and-well-being/kims-secunderabad-launches-247-stroke-lifeline-with-advanced-thrombolysis-thrombectomy-1913078",
+              "excerpt": "KIMS Secunderabad launched a 24/7 stroke lifeline with an emergency stroke response team available at all hours.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/lifestyle/health-and-well-being/kims-secunderabad-launches-247-stroke-lifeline-with-advanced-thrombolysis-thrombectomy-1913078",
+              "excerpt": "Programme includes IV tPA clot-dissolving medication for eligible ischemic stroke patients.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/lifestyle/health-and-well-being/kims-secunderabad-launches-247-stroke-lifeline-with-advanced-thrombolysis-thrombectomy-1913078",
+              "excerpt": "Programme includes mechanical thrombectomy to remove large-vessel blockages.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "stroke_unit",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/lifestyle/health-and-well-being/kims-secunderabad-launches-247-stroke-lifeline-with-advanced-thrombolysis-thrombectomy-1913078",
+              "excerpt": "Article describes dedicated stroke intensive care and monitoring units.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neuro_icu",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.kimshospitals.com/secunderabad/speciality/neurology/",
+              "excerpt": "state of art neurocritical care unit catering to the management of acute Neurological care and emergencies",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neurointerventional",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.kimshospitals.com/secunderabad/speciality/interventional-neurology-centre/",
+              "excerpt": "Secunderabad Interventional Neurology Centre page describes a cerebrovascular team using clot-retrieval devices; lists HOD Neuro and Interventional Radiologist.",
+              "kind": "summary",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Deccan Chronicle article (URL id 1913078, ~late Oct 2025 by URL sequence; date not captured) is the main source for 24x7/thrombolysis/thrombectomy. Official interventional neurology page cites the old MERCI device - may be stale. Phone recorded is the campus emergency line."
+    },
+    {
+      "key": "hyd-care-banjara-hills",
+      "name": "CARE Hospitals",
+      "chain": "CARE Hospitals",
+      "campus": "Banjara Hills",
+      "address": "Road No.1, Banjara Hills, Hyderabad, Telangana - 500034",
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": "500034",
+      "officialWebsite": "https://www.carehospitals.com/contact-us/care-hospital-banjara-hills",
+      "officialPhone": "040 6165 6565",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://www.carehospitals.com/contact-us/care-hospital-banjara-hills",
+          "excerpt": "Road No.1, Banjara Hills, Hyderabad, Telangana - 500034",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://www.carehospitals.com/doctor-speak/stroke-emergencies-care-hospitals-banjara-hills-is-always-ready-dr-s-p-manik-prabhu",
+          "excerpt": "Banjara Hills stroke page gives 040 61 656565 as the stroke emergency number.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "24x7_stroke",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.carehospitals.com/doctor-speak/stroke-emergencies-care-hospitals-banjara-hills-is-always-ready-dr-s-p-manik-prabhu",
+              "excerpt": "our advanced stroke unit is equipped to handle all types of stroke emergencies 24x7",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "stroke_unit",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.carehospitals.com/doctor-speak/stroke-emergencies-care-hospitals-banjara-hills-is-always-ready-dr-s-p-manik-prabhu",
+              "excerpt": "our advanced stroke unit is equipped to handle all types of stroke emergencies 24x7",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.carehospitals.com/doctor-speak/stroke-emergencies-care-hospitals-banjara-hills-is-always-ready-dr-s-p-manik-prabhu",
+              "excerpt": "immediate interventions like mechanical thrombectomy",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            },
+            {
+              "url": "https://www.carehospitals.com/emergency-care/stroke",
+              "excerpt": "Mechanical thrombectomy is available with an interventional neuroradiology team on call around the clock.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.carehospitals.com/emergency-care/stroke",
+              "excerpt": "IV thrombolytic dissolves the blocking clot and must be given within 4.5 hours of onset.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            },
+            {
+              "url": "https://www.carehospitals.com/doctor-speak/stroke-emergencies-care-hospitals-banjara-hills-is-always-ready-dr-s-p-manik-prabhu",
+              "excerpt": "intra-arterial thrombolysis within the critical window period",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "ct",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.carehospitals.com/emergency-care/stroke",
+              "excerpt": "CT is performed within minutes",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "mri",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.carehospitals.com/emergency-care/stroke",
+              "excerpt": "CARE stroke page describes MRI brain as more sensitive than CT for early ischaemic changes.",
+              "kind": "summary",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Banjara Hills-specific evidence is a doctor-speak video page (Dr S. P. Manik Prabhu, undated; uses 'Code White' activation). CT/MRI/IV thrombolysis evidence is from the chain-level stroke page (no campus named). Multiple phone numbers on official site (+91-40-68106529 main, +91-4068106587 emergency header, 040 6165 6565)."
+    },
+    {
+      "key": "hyd-aig-gachibowli",
+      "name": "AIG Hospitals",
+      "chain": "AIG Hospitals",
+      "campus": "Gachibowli",
+      "address": "1-66/AIG/2 to 5, Mindspace Road, Gachibowli, Hyderabad, Telangana 500032",
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": "500032",
+      "officialWebsite": "https://www.aighospitals.com/contact",
+      "officialPhone": "04042444222",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://www.aighospitals.com/contact",
+          "excerpt": "1-66/AIG/2 to 5, Mindspace Road, Gachibowli, Hyderabad, Telangana 500032",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://www.aighospitals.com/contact",
+          "excerpt": "Contact page lists main phone 04042444222 and ambulance +91 40 4244 4244.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-aigs-neurocath-lab-set-to-improve-stroke-care-1855459",
+              "excerpt": "NeuroCath Lab enables mechanical thrombectomy, \"a groundbreaking procedure for removing blood clots in ischemic stroke patients.\"",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2025-01-20",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neurointerventional",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-aigs-neurocath-lab-set-to-improve-stroke-care-1855459",
+              "excerpt": "AIG Hospitals unveiled a NeuroCath Lab with a Philips Azurion 2.2 Biplane system.",
+              "kind": "summary",
+              "sourceType": "news",
+              "sourceDate": "2025-01-20",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "neuro_icu",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-aigs-neurocath-lab-set-to-improve-stroke-care-1855459",
+              "excerpt": "dedicated NeuroICU",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2025-01-20",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "24x7_stroke",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-aigs-neurocath-lab-set-to-improve-stroke-care-1855459",
+              "excerpt": "round-the-clock stroke specialists",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2025-01-20",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://newsmeter.in/top-stories/aig-hyderabad-unveils-emergency-stroke-command-centre-to-provide-care-before-reaching-hospital-760852",
+              "excerpt": "rapid triaging of patients for thrombolysis or thrombectomy",
+              "kind": "verbatim",
+              "sourceType": "news",
+              "sourceDate": "2026-01-04",
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "News articles say 'AIG Hospitals' without naming the campus; attributed to Gachibowli (main hospital) - flag ambiguous_campus. AIG also has Banjara Hills and Somajiguda sites. Official neurology page had no stroke content; doctor profile URL 404."
+    },
+    {
+      "key": "hyd-star-banjara-hills",
+      "name": "Star Hospitals",
+      "chain": "Star Hospitals",
+      "campus": "Banjara Hills",
+      "address": "Road No. 10, Gaffar Khan Colony, Banjara Hills, Hyderabad, Telangana 500034",
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": "500034",
+      "officialWebsite": "https://starhospitals.in/locations/banjara-hills",
+      "officialPhone": "9100 911 911",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://starhospitals.in/locations/banjara-hills",
+          "excerpt": "Road No. 10, Gaffar Khan Colony, Banjara Hills, Hyderabad, Telangana 500034",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://starhospitals.in/locations/banjara-hills",
+          "excerpt": "Banjara Hills 24/7 ambulance 9100 911 911; main line 1800 102 7827.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "thrombolysis",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://starhospitals.in/site/department/neurologicalsciences/70",
+              "excerpt": "we perform IV Thrombolysis or Intra-arterial Thrombolysis",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "thrombectomy",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://starhospitals.in/site/department/neurologicalsciences/70",
+              "excerpt": "Within 24 hours, our Interventional Radiologists can perform mechanical thrombectomy.",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "ct",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://starhospitals.in/site/department/neurologicalsciences/70",
+              "excerpt": "Neurosciences page lists MRI and CT among diagnostic tools.",
+              "kind": "summary",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "mri",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://starhospitals.in/site/department/neurologicalsciences/70",
+              "excerpt": "Neurosciences page lists MRI and CT among diagnostic tools.",
+              "kind": "summary",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "ambiguous_campus: Neurosciences department page covers both Banjara Hills and Nanakramguda; attributed to Banjara Hills (flagship). Angels Initiative lists Star Banjara Hills as 'Comprehensive centre (Performs Thrombectomy)' (industry site, not used as evidence). Recorded phone is the campus 24/7 ambulance line."
+    },
+    {
+      "key": "hyd-continental-gachibowli",
+      "name": "Continental Hospitals",
+      "chain": null,
+      "campus": "Gachibowli (Financial District)",
+      "address": "Plot No 3, Road No. 2, Financial District, Gachibowli, Nanakaramguda, Hyderabad, TS 500032",
+      "city": "Hyderabad",
+      "state": "TG",
+      "pincode": "500032",
+      "officialWebsite": "https://continentalhospitals.com/treatments/stroke-treatment",
+      "officialPhone": "040 6700 0111",
+      "ownership": "private",
+      "evidence": [
+        {
+          "field": "address",
+          "url": "https://continentalhospitals.com/treatments/stroke-treatment",
+          "excerpt": "Plot No 3, Road No. 2, Financial District, Gachibowli, Nanakaramguda, Hyderabad, TS 500032",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "phone",
+          "url": "https://continentalhospitals.com/treatments/stroke-treatment",
+          "excerpt": "Stroke page lists main 040 6700 0000 and emergency 040 6700 0111.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "services": [
+        {
+          "code": "ct",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://continentalhospitals.com/treatments/stroke-treatment",
+              "excerpt": "imaging tests (such as CT scan or MRI)",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "code": "mri",
+          "value": "available",
+          "evidence": [
+            {
+              "url": "https://continentalhospitals.com/treatments/stroke-treatment",
+              "excerpt": "imaging tests (such as CT scan or MRI)",
+              "kind": "verbatim",
+              "sourceType": "official",
+              "sourceDate": null,
+              "checkedAt": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "notes": "Official stroke page describes tPA and 'mechanical thrombectomy may be performed' only in generic educational terms, so thrombolysis/thrombectomy NOT recorded - reviewer may upgrade if a campus-specific source is found. Single-campus hospital."
+    }
+  ],
+  "physicians": [
+    {
+      "key": "hyd-s-k-jaiswal",
+      "name": "Dr. S K Jaiswal",
+      "titles": "MBBS, MD, DM Neurology",
+      "designation": "Clinical Director and HOD - Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://www.carehospitals.com/doctor/hyderabad/banjara-hills/s-k-jaiswal-neurologist",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://www.carehospitals.com/doctor/hyderabad/banjara-hills/s-k-jaiswal-neurologist",
+          "excerpt": "Clinical Director and HOD - Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "titles",
+          "url": "https://www.carehospitals.com/doctor/hyderabad/banjara-hills/s-k-jaiswal-neurologist",
+          "excerpt": "MBBS, MD, DM Neurology",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "hyd-shashank-jaiswal",
+      "name": "Dr. Shashank Jaiswal",
+      "titles": "MBBS, DM (Neurology), PDF (Stroke Intervention), PDF (Epilepsy)",
+      "designation": "Consultant",
+      "specialty": "stroke_neurology",
+      "subspecialty": "Stroke intervention",
+      "profileUrl": "https://www.carehospitals.com/doctor/hyderabad/banjara-hills/shashank-jaiswal-neurologist",
+      "evidence": [
+        {
+          "field": "titles",
+          "url": "https://www.carehospitals.com/doctor/hyderabad/banjara-hills/shashank-jaiswal-neurologist",
+          "excerpt": "MBBS, DM (Neurology), PDF (Stroke Intervention), PDF (Epilepsy)",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "field": "specialty",
+          "url": "https://www.carehospitals.com/doctor/hyderabad/banjara-hills/shashank-jaiswal-neurologist",
+          "excerpt": "specialises in acute stroke management, mechanical thrombectomy, carotid stenting",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "hyd-s-mohandas",
+      "name": "Dr. S. Mohandas",
+      "titles": null,
+      "designation": "Chief Neurologist and Head of Department",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": "https://www.kimshospitals.com/secunderabad/speciality/neurology/",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://www.kimshospitals.com/secunderabad/speciality/neurology/",
+          "excerpt": "Secunderabad neurology page names Dr S. Mohandas (also 'Dr. S. Mohan Das') as Chief Neurologist and head of department.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "hyd-g-ananta-ram",
+      "name": "Dr. G. Ananta Ram",
+      "titles": null,
+      "designation": "HOD & Senior Consultant, Neuro and Interventional Radiologist",
+      "specialty": "interventional_neuroradiology",
+      "subspecialty": null,
+      "profileUrl": "https://www.kimshospitals.com/secunderabad/speciality/interventional-neurology-centre/",
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://www.kimshospitals.com/secunderabad/speciality/interventional-neurology-centre/",
+          "excerpt": "HOD & Senior Consultant, Neuro and Interventional Radiologist",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "hyd-chaitanya-koduri",
+      "name": "Dr Chaitanya Koduri",
+      "titles": null,
+      "designation": "Clinical Lead, Stroke and Neurointerventions",
+      "specialty": "neurointervention",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://newsmeter.in/top-stories/aig-hyderabad-unveils-emergency-stroke-command-centre-to-provide-care-before-reaching-hospital-760852",
+          "excerpt": "Dr Chaitanya Koduri, Clinical Lead, Stroke and Neurointerventions, AIG Hospitals",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2026-01-04",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "ambiguous_campus"
+      ]
+    },
+    {
+      "key": "hyd-suresh-giragani-apollo",
+      "name": "Dr. Suresh Girgani",
+      "titles": null,
+      "designation": "Consultant Neurointerventional Radiologist",
+      "specialty": "interventional_neuroradiology",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://www.digitalhealthnews.com/apollo-hospitals-launches-ai-assisted-stroke-care-",
+          "excerpt": "Dr. Suresh Girgani, Consultant Neurointerventional Radiologist, Apollo Hospitals",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2026-10-30",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "possible_duplicate",
+        "ambiguous_campus"
+      ]
+    },
+    {
+      "key": "hyd-sandeep-nayani",
+      "name": "Dr. Sandeep Nayani",
+      "titles": null,
+      "designation": "Consultant Neurologist",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://www.digitalhealthnews.com/apollo-hospitals-launches-ai-assisted-stroke-care-",
+          "excerpt": "Dr. Sandeep Nayani, Consultant Neurologist, Apollo Hospitals",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2026-10-30",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "ambiguous_campus"
+      ]
+    },
+    {
+      "key": "hyd-suresh-giragani-yashoda",
+      "name": "Dr. Suresh Giragani",
+      "titles": null,
+      "designation": "Consultant Interventional Radiologist",
+      "specialty": "interventional_neuroradiology",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://www.yashodahospitals.com/testimonials/mr-shaik-khayamuddin/",
+          "excerpt": "Dr. Suresh Giragani, Consultant Interventional Radiologist",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "key": "hyd-r-n-komal-kumar",
+      "name": "Dr R N Komal Kumar",
+      "titles": null,
+      "designation": "Senior neurologist and stroke specialist",
+      "specialty": "stroke_neurology",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://www.yashodahospitals.com/news/yashoda-hospitals-launches-stroke-care-on-wheels",
+          "excerpt": "Dr R N Komal Kumar, senior neurologist and stroke specialist, Yashoda Hospitals",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "key": "hyd-r-ramesh",
+      "name": "Dr R Ramesh",
+      "titles": null,
+      "designation": "Head of Neurology",
+      "specialty": "neurology",
+      "subspecialty": null,
+      "profileUrl": null,
+      "evidence": [
+        {
+          "field": "designation",
+          "url": "https://www.deccanchronicle.com/southern-states/telangana/thrombolysis-betters-rescue-rate-of-stroke-patients-1913264",
+          "excerpt": "Dr R Ramesh, head of neurology at Gandhi Hospital",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2025-10-29",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "affiliations": [
+    {
+      "physicianKey": "hyd-s-k-jaiswal",
+      "hospitalKey": "hyd-care-banjara-hills",
+      "role": "Clinical Director and HOD - Neurology",
+      "evidence": [
+        {
+          "url": "https://www.carehospitals.com/doctor/hyderabad/banjara-hills/s-k-jaiswal-neurologist",
+          "excerpt": "CARE Hospitals, Banjara Hills, Hyderabad",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "hyd-shashank-jaiswal",
+      "hospitalKey": "hyd-care-banjara-hills",
+      "role": "Consultant, Neurology",
+      "evidence": [
+        {
+          "url": "https://www.carehospitals.com/doctor/hyderabad/banjara-hills/shashank-jaiswal-neurologist",
+          "excerpt": "CARE Hospitals, Banjara Hills, Hyderabad",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "hyd-s-mohandas",
+      "hospitalKey": "hyd-kims-secunderabad",
+      "role": "Chief Neurologist and HOD",
+      "evidence": [
+        {
+          "url": "https://www.kimshospitals.com/secunderabad/speciality/neurology/",
+          "excerpt": "Listed on KIMS Secunderabad neurology page as Chief Neurologist/head of department.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "hyd-g-ananta-ram",
+      "hospitalKey": "hyd-kims-secunderabad",
+      "role": "HOD & Senior Consultant, Neuro and Interventional Radiology",
+      "evidence": [
+        {
+          "url": "https://www.kimshospitals.com/secunderabad/speciality/interventional-neurology-centre/",
+          "excerpt": "Listed on the KIMS Secunderabad Interventional Neurology Centre page.",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "physicianKey": "hyd-chaitanya-koduri",
+      "hospitalKey": "hyd-aig-gachibowli",
+      "role": "Clinical Lead, Stroke and Neurointerventions",
+      "evidence": [
+        {
+          "url": "https://newsmeter.in/top-stories/aig-hyderabad-unveils-emergency-stroke-command-centre-to-provide-care-before-reaching-hospital-760852",
+          "excerpt": "Clinical Lead, Stroke and Neurointerventions, AIG Hospitals",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2026-01-04",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "ambiguous_campus"
+      ]
+    },
+    {
+      "physicianKey": "hyd-suresh-giragani-apollo",
+      "hospitalKey": "hyd-apollo-jubilee-hills",
+      "role": "Consultant Neurointerventional Radiologist",
+      "evidence": [
+        {
+          "url": "https://www.digitalhealthnews.com/apollo-hospitals-launches-ai-assisted-stroke-care-",
+          "excerpt": "Consultant Neurointerventional Radiologist, Apollo Hospitals",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2026-10-30",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "ambiguous_campus"
+      ]
+    },
+    {
+      "physicianKey": "hyd-sandeep-nayani",
+      "hospitalKey": "hyd-apollo-jubilee-hills",
+      "role": "Consultant Neurologist",
+      "evidence": [
+        {
+          "url": "https://www.digitalhealthnews.com/apollo-hospitals-launches-ai-assisted-stroke-care-",
+          "excerpt": "Consultant Neurologist, Apollo Hospitals",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2026-10-30",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "ambiguous_campus"
+      ]
+    },
+    {
+      "physicianKey": "hyd-suresh-giragani-yashoda",
+      "hospitalKey": "hyd-yashoda-secunderabad",
+      "role": "Consultant Interventional Radiologist",
+      "evidence": [
+        {
+          "url": "https://www.yashodahospitals.com/testimonials/mr-shaik-khayamuddin/",
+          "excerpt": "successfully treated under Dr. Suresh Giragani, Consultant Interventional Radiologist",
+          "kind": "verbatim",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "physicianKey": "hyd-r-n-komal-kumar",
+      "hospitalKey": "hyd-yashoda-secunderabad",
+      "role": "Senior Neurologist",
+      "evidence": [
+        {
+          "url": "https://www.yashodahospitals.com/news/yashoda-hospitals-launches-stroke-care-on-wheels",
+          "excerpt": "Named at the Yashoda Hospitals Secunderabad Stroke Care on Wheels launch (c. 2019).",
+          "kind": "summary",
+          "sourceType": "official",
+          "sourceDate": null,
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": [
+        "ambiguous_campus"
+      ]
+    },
+    {
+      "physicianKey": "hyd-r-ramesh",
+      "hospitalKey": "hyd-gandhi",
+      "role": "Head of Neurology",
+      "evidence": [
+        {
+          "url": "https://www.deccanchronicle.com/southern-states/telangana/thrombolysis-betters-rescue-rate-of-stroke-patients-1913264",
+          "excerpt": "head of neurology at Gandhi Hospital",
+          "kind": "verbatim",
+          "sourceType": "news",
+          "sourceDate": "2025-10-29",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "procedures": [],
+  "sourceFailures": [
+    {
+      "url": "https://www.nims.edu.in/",
+      "reason": "ECONNREFUSED"
+    },
+    {
+      "url": "https://www.gandhihospital.telangana.gov.in/",
+      "reason": "ECONNREFUSED"
+    },
+    {
+      "url": "http://www.osmaniageneralhospital.com/",
+      "reason": "DNS ENOTFOUND"
+    },
+    {
+      "url": "https://apollohospitals.com/hyderabad/hospitals/jubilee-hills/clinical-program/stroke-management-clinic",
+      "reason": "HTTP 403"
+    },
+    {
+      "url": "https://www.apollohospitals.com/hyderabad/clinical-program/stroke-management-clinic",
+      "reason": "HTTP 403"
+    },
+    {
+      "url": "https://apollohospitals.com/hyderabad/apollo-in-the-news/life-saving-breakthrough-apollo-hospitals-successfully-performs-advanced-mechanical-thrombectomy-procedure-on-4-brain-stroke-patients-in-a-span-of-24-hours",
+      "reason": "HTTP 403"
+    },
+    {
+      "url": "https://www.apollohospitals.com/hospitals/apollo-health-city-jubilee-hills",
+      "reason": "HTTP 403"
+    },
+    {
+      "url": "https://mediacdn.apollohospitals.com/hyderabad/procedures/thrombectomy",
+      "reason": "HTTP 403"
+    },
+    {
+      "url": "https://www.aighospitals.com/doctor/dr-venkata-krishna-chaitanya-koduri",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://imsear.searo.who.int/items/4dc37fee-b603-464f-adde-19c33810b24e/full",
+      "reason": "DNS ENOTFOUND"
+    },
+    {
+      "url": "https://lb.yashodahospitals.com/testimonials/mr-shaik-khayamuddin",
+      "reason": "ECONNREFUSED (used www. copy instead)"
+    },
+    {
+      "url": "https://www.carehospitals.com/hospital/banjara-hills",
+      "reason": "HTTP 404"
+    }
+  ]
+}

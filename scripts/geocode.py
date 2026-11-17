@@ -7,6 +7,7 @@ Only results OpenStreetMap tags as hospitals are kept. Every pin becomes a draft
 reviewer must confirm; unmatched hospitals stay "not yet on the map" rather than guessed.
 """
 import json
+import re
 import subprocess
 import sys
 import time
@@ -23,6 +24,22 @@ def search(q):
     return json.loads(out)
 
 
+SUFFIXES = re.compile(r"\s*(&|and)\s*(medical\s+)?(research\s+centre|medical\s+college|research\s+institute).*$", re.I)
+
+
+def short_names(name):
+    """Shorter forms OpenStreetMap is more likely to carry, e.g. 'Jaslok Hospital & Research Centre' -> 'Jaslok Hospital'."""
+    out = []
+    paren = re.findall(r"\(([^)]+)\)", name)
+    base = re.sub(r"\s*\([^)]*\)", "", name).split(",")[0].strip()
+    parts = [x.strip() for x in re.split(r"\s+(?:&|and)\s+", base) if "hospital" in x.lower()]
+    for n in [*paren, *parts, SUFFIXES.sub("", base), base]:
+        n = n.strip()
+        if n and n != name and n not in out:
+            out.append(n)
+    return out
+
+
 def main():
     dataset, city, out_path = sys.argv[1:]
     ds = json.load(open(dataset))
@@ -32,6 +49,11 @@ def main():
         queries += [("name_only", f"{h['name']}, {city}")]
         if h.get("campus"):
             queries += [("name_and_campus", f"{h['name']}, {h['campus']}, {city}")]
+        for n in short_names(h["name"]):
+            if h.get("campus"):
+                queries += [("short_name_and_campus", f"{n}, {h['campus']}, {city}")]
+            queries += [("short_name", f"{n}, {city}")]
+        queries += [(m, q) for m, q in h.get("geocodeHints", [])]
         for method, q in queries:
             hits = [r for r in search(q) if f"{r.get('category')}/{r.get('type')}" in HOSPITAL and city.split()[0] in r["display_name"]]
             if hits:

@@ -1,0 +1,114 @@
+{
+ "hyd-nims": {
+  "lat": 17.422175,
+  "lng": 78.451821,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/237976870",
+   "excerpt": "OpenStreetMap match: Nizam's Institute Of Medical Sciences, Punjagutta Flyover, Nagarjuna Hills, Banjara Hills, Ward 91 Khairatabad, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Khairatabad",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "hyd-osmania": {
+  "lat": 17.372954,
+  "lng": 78.47427,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/238302531",
+   "excerpt": "OpenStreetMap match: Osmania General Hospital, Churi Bazaar Road, Feelkhana, Begum Bazaar, Ward 50 Begum Bazar, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Nampally mandal,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "hyd-gandhi": {
+  "lat": 17.423123,
+  "lng": 78.503454,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/319567708",
+   "excerpt": "OpenStreetMap match: Gandhi Hospital, Boyiguda Road, Musheerabad, Zamistanpur, Marredpally mandal, Greater Hyderabad Municipal Corporation North Zone, Hyderabad, Musheerabad mandal, Hyderabad, Telangana, 500003, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "hyd-apollo-jubilee-hills": {
+  "lat": 17.414936,
+  "lng": 78.413178,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/860344899",
+   "excerpt": "OpenStreetMap match: Apollo Hospitals, Road Number 5, Film Nagar, Navirman Nagar, Ward 95 Jubilee Hills, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Shaikpet mandal,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "hyd-care-banjara-hills": {
+  "lat": 17.420657,
+  "lng": 78.448162,
+  "flags": [
+   "check_pin_matches_campus"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/node/1883475928",
+   "excerpt": "OpenStreetMap match: Care Clinic, Road No 1, Vimal Nagar, Banjara Hills, Ward 92 Venkateshwara Colony, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Shaikpet mandal,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "hyd-aig-gachibowli": {
+  "lat": 17.443179,
+  "lng": 78.366008,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/relation/11902466",
+   "excerpt": "OpenStreetMap match: AIG HOSPITALS, Mindspace road, Kothaguda, Ward 104 Kondapur, Greater Hyderabad Municipal Corporation West Zone, Hyderabad, Serilingampalle mandal, Ranga Reddy, Telangana, 500032, India",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ },
+ "hyd-continental-gachibowli": {
+  "lat": 17.417665,
+  "lng": 78.339131,
+  "flags": [
+   "matched_by_name_not_official_address"
+  ],
+  "evidence": {
+   "field": "location",
+   "url": "https://www.openstreetmap.org/way/254295845",
+   "excerpt": "OpenStreetMap match: Continental Hospitals, Road No. 1, Nanakramguda, Ward 105 Gachibowli, Greater Hyderabad Municipal Corporation West Zone, Hyderabad, Serilingampalle mandal, Ranga Reddy, Telangana, 500032,",
+   "kind": "summary",
+   "sourceType": "map",
+   "sourceDate": null,
+   "checkedAt": "2026-11-16"
+  }
+ }
+}
